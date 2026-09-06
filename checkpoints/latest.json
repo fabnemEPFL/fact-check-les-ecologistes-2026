@@ -1,6 +1,6 @@
 {
   "schema": "fact-check-les-ecologistes-2026/latest/v1",
-  "timestamp_utc": "2026-09-06T19:28:46Z",
+  "timestamp_utc": "2026-09-06T19:50:59Z",
   "phase": "fact-checking systématique — sources, verdicts et justifications",
   "source_pdf_pages": 208,
   "chapters_covered": 66,
@@ -8,21 +8,21 @@
     "automatic_candidates_extracted": 1466,
     "unique_claims_consolidated": 564,
     "occurrences": 568,
-    "claims_sourced": 57,
-    "claims_verified": 57,
+    "claims_sourced": 62,
+    "claims_verified": 62,
     "claims_adversarially_audited": 0
   },
   "resume": {
-    "first_unfinished_identifier": "C01-002",
+    "first_unfinished_identifier": "C01-015",
     "audit_phase_started": false
   },
   "authoritative_recovery_source": {
-    "name": "latest_2026-09-06_primary_10claims.json.xz",
-    "version": "post-recovery-primary-10",
-    "created_at_utc": "2026-09-06T19:28:46Z",
-    "size_bytes": 176836,
-    "sha256": "48e103ea8b89140a7e5511be389227c6e38e41079bd229572eb767b0b697a0b1",
-    "uncompressed_sha256": "450385482867019caa7dac229629a19eb63527208eb9f526a31e84a67870bdcb"
+    "name": "latest_2026-09-06_primary_15claims.json.xz",
+    "version": "post-recovery-primary-15",
+    "created_at_utc": "2026-09-06T19:50:59Z",
+    "size_bytes": 178688,
+    "sha256": "767b4e6ea7bc280f1dfb139deb3b392e1b640a2b810fef8d136629b7149219f1",
+    "uncompressed_sha256": "f3f2fc4cadae850d1449e951966949ddb998430a456631c8efb72fccefa02271"
   },
   "critical_files": [
     {"path": "checkpoints/registre_revue_factuelle_checkpoint_recupere_v8.json.xz", "size_bytes": 172068, "sha256": "bb5e2e3ad951919e670f55edadb1e7cf657c117402a0bf9e96460cdcd26c0c23", "uncompressed_sha256": "8ea6ccb1d71c155650fd1e61b0f18643accf95ffc6f1cdf68999a7e2d5b5bf14"},
