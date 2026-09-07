@@ -1,6 +1,6 @@
 {
   "schema": "fact-check-les-ecologistes-2026/latest/v1",
-  "timestamp_utc": "2026-09-07T20:50:00Z",
+  "timestamp_utc": "2026-09-07T21:20:00Z",
   "phase": "fact-checking systématique — sources, verdicts et justifications",
   "source_pdf_pages": 208,
   "chapters_covered": 66,
@@ -8,28 +8,37 @@
     "automatic_candidates_extracted": 1466,
     "unique_claims_consolidated": 564,
     "occurrences": 568,
-    "claims_sourced": 310,
-    "claims_verified": 310,
+    "claims_sourced": 315,
+    "claims_verified": 315,
     "claims_adversarially_audited": 0
   },
   "resume": {
-    "first_unfinished_identifier": "C30-002",
+    "first_unfinished_identifier": "C30-007",
     "audit_phase_started": false
   },
   "authoritative_recovery_source": {
-    "name": "latest_2026-09-07_primary_310claims.json.xz",
-    "version": "primary-310",
-    "created_at_utc": "2026-09-07T20:50:00Z",
-    "size_bytes": 224768,
-    "sha256": "a392e97734b592dc55109139173b813e61f243ae3a5a5588948d5bdce51337b0",
-    "uncompressed_sha256": "e5edc68ad295137457757c6c4590215d18d6d4dd0252decd2c78cbc834e55ff1"
+    "name": "latest_2026-09-07_primary_315claims.json.xz.b64",
+    "version": "primary-315",
+    "created_at_utc": "2026-09-07T21:20:00Z",
+    "size_bytes": 302600,
+    "sha256": "89670728b6e21b5bc18515dc92c165cd14dc7777edcd17932352f8629bbebf49",
+    "uncompressed_sha256": "91dc34cb1453a0076b31fa1ce408d3cea415cd6e0c2ff66365b51178e7857371",
+    "storage_encoding": "base64 text; decode before xz -dc"
   },
   "critical_files": [
     {
-      "path": "checkpoints/latest_2026-09-07_primary_310claims.json.xz",
-      "size_bytes": 224768,
-      "sha256": "a392e97734b592dc55109139173b813e61f243ae3a5a5588948d5bdce51337b0",
-      "uncompressed_sha256": "e5edc68ad295137457757c6c4590215d18d6d4dd0252decd2c78cbc834e55ff1"
+      "path": "checkpoints/latest_2026-09-07_primary_315claims.json.xz.b64",
+      "stored_encoding": "base64 text representing an XZ byte stream",
+      "decoded_size_bytes": 226948,
+      "decoded_sha256": "89670728b6e21b5bc18515dc92c165cd14dc7777edcd17932352f8629bbebf49",
+      "uncompressed_sha256": "91dc34cb1453a0076b31fa1ce408d3cea415cd6e0c2ff66365b51178e7857371"
+    },
+    {
+      "path": "data/ledger_restored_current_primary_315claims.json.xz.b64",
+      "stored_encoding": "base64 text representing the same full XZ checkpoint",
+      "decoded_size_bytes": 226948,
+      "decoded_sha256": "89670728b6e21b5bc18515dc92c165cd14dc7777edcd17932352f8629bbebf49",
+      "uncompressed_sha256": "91dc34cb1453a0076b31fa1ce408d3cea415cd6e0c2ff66365b51178e7857371"
     }
   ],
   "known_losses_or_unrestored_items": [
