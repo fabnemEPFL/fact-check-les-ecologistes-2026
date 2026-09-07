@@ -23,6 +23,13 @@ jobs:
       - name: Generate report
         run: python3 scripts/generate_interim_report_pdf.py
 
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: interim-report-415
+          path: reports/interim_415/revue_factuelle_ecologistes_2026_415_affirmations.pdf
+          if-no-files-found: error
+
       - name: Commit report and recovery chunks
         run: |
           git config user.name "github-actions[bot]"
