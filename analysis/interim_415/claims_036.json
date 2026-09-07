@@ -1,0 +1,651 @@
+[
+  {
+    "id": "C36-004",
+    "chapter": 36,
+    "chapter_title": "Protéger le très grand âge",
+    "pdf_pages": [
+      127
+    ],
+    "document_pages": [
+      127
+    ],
+    "candidate_ids": [
+      "K0994"
+    ],
+    "quote": "Pire, le taux de vacance de postes d’aides-soignant·es et d’infirmier·es dépasse 10 % dans le secteur.",
+    "occurrences": [
+      {
+        "candidate_id": "K0994",
+        "pdf_page": 127,
+        "quote": "Pire, le taux de vacance de postes d’aides-soignant·es et d’infirmier·es dépasse 10 % dans le secteur."
+      }
+    ],
+    "normalized_claim": "Le taux de postes vacants d'aides-soignants et d'infirmiers dépasse 10 % dans le secteur du grand âge.",
+    "claim_type": "chiffre d'emploi",
+    "argumentative_role": "Justifier une revalorisation et des recrutements.",
+    "policies": [
+      "Renforcer les effectifs du grand âge"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-DREES-RECRUT-EHPAD",
+        "title": "Près d'un Ehpad sur deux confronté à des difficultés de recrutement",
+        "publisher": "DREES",
+        "url": "https://drees.solidarites-sante.gouv.fr/communique-de-presse/pres-dun-ehpad-sur-deux-confronte-des-difficultes-de-recrutement",
+        "publication_date": "2018-06-14",
+        "accessed_on": "2026-09-07",
+        "source_type": "statistiques publiques",
+        "quality_grade": "A",
+        "notes": "Enquête 2015: postes d'aides-soignants souvent vacants; 9% des Ehpad avec poste non pourvu durablement."
+      }
+    ],
+    "verdict": "Invérifiable ou insuffisamment étayé",
+    "justification": "Les difficultés de recrutement sont bien documentées, mais la source publique repérée ne confirme pas un taux supérieur à 10% pour les deux professions dans l'ensemble du secteur. Elle évoque 9% des Ehpad pour les aides-soignants et un indicateur différent pour les médecins coordonnateurs.",
+    "consensus_or_controversy": "Pénurie établie; valeur chiffrée et périmètre du programme non confirmés.",
+    "source_quality": "DREES, grade A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Chiffre précis non corroboré et définition du taux de vacance absente."
+  },
+  {
+    "id": "C36-005",
+    "chapter": 36,
+    "chapter_title": "Protéger le très grand âge",
+    "pdf_pages": [
+      127
+    ],
+    "document_pages": [
+      127
+    ],
+    "candidate_ids": [
+      "K0997"
+    ],
+    "quote": "Trop souvent, nos aîné·es doivent faire face à la solitude, à la précarité ou à un accès limité aux services publics.",
+    "occurrences": [
+      {
+        "candidate_id": "K0997",
+        "pdf_page": 127,
+        "quote": "Trop souvent, nos aîné·es doivent faire face à la solitude, à la précarité ou à un accès limité aux services publics."
+      }
+    ],
+    "normalized_claim": "Les personnes âgées sont davantage exposées à l'isolement et rencontrent dans certains territoires un accès limité aux services publics.",
+    "claim_type": "comparaison sociale",
+    "argumentative_role": "Justifier le repérage de l'isolement et des services de proximité.",
+    "policies": [
+      "Prévenir l'isolement des personnes âgées"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-WHO-LONELY",
+        "title": "Social isolation and loneliness",
+        "publisher": "OMS",
+        "url": "https://www.who.int/teams/social-determinants-of-health/demographic-change-and-healthy-ageing/social-isolation-and-loneliness",
+        "publication_date": null,
+        "accessed_on": "2026-09-07",
+        "source_type": "organisation internationale",
+        "quality_grade": "A",
+        "notes": "Isolement et solitude sont des déterminants sociaux de santé, y compris chez les aînés."
+      },
+      {
+        "id": "S-IRDES-MEDICOSOC",
+        "title": "Inégalités territoriales de financement et d'accessibilité des soins médico-sociaux",
+        "publisher": "Irdes",
+        "url": "https://www.irdes.fr/recherche/questions-d-economie-de-la-sante/279-les-inegalites-territoriales-de-financement-et-daccessibilite-des-soins-medico-sociaux.pdf",
+        "publication_date": "2023",
+        "accessed_on": "2026-09-07",
+        "source_type": "recherche publique",
+        "quality_grade": "A",
+        "notes": "L'offre médico-sociale varie fortement selon territoires."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les personnes âgées peuvent être exposées à l'isolement et l'accessibilité médico-sociale varie selon les territoires. Les termes « trop souvent » et « précarité » restent non quantifiés et la comparaison avec d'autres âges doit être explicitée.",
+    "consensus_or_controversy": "Constat robuste, intensité variable.",
+    "source_quality": "OMS et Irdes, grades A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C36-007",
+    "chapter": 36,
+    "chapter_title": "Protéger le très grand âge",
+    "pdf_pages": [
+      127
+    ],
+    "document_pages": [
+      127
+    ],
+    "candidate_ids": [
+      "K0998"
+    ],
+    "quote": "Trop souvent les familles doivent trouver des solutions en urgence alors que le problème est connu depuis des années.",
+    "occurrences": [
+      {
+        "candidate_id": "K0998",
+        "pdf_page": 127,
+        "quote": "Trop souvent les familles doivent trouver des solutions en urgence alors que le problème est connu depuis des années."
+      }
+    ],
+    "normalized_claim": "Les familles doivent fréquemment organiser en urgence une prise en charge de dépendance faute d'anticipation ou d'offre disponible.",
+    "claim_type": "fait social",
+    "argumentative_role": "Justifier un parcours public anticipé de la dépendance.",
+    "policies": [
+      "Créer un service public de la dépendance"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-DREES-LIVIA",
+        "title": "Projection de personnes âgées dépendantes par lieu de vie",
+        "publisher": "DREES",
+        "url": "https://drees.solidarites-sante.gouv.fr/definitions-ressources-et-methodes/projection-de-personnes-agees-dependantes-par-lieu-de-vie-le",
+        "publication_date": "2025-12-09",
+        "accessed_on": "2026-09-07",
+        "source_type": "modèle de projection",
+        "quality_grade": "A",
+        "notes": "Montre l'enjeu d'anticipation des besoins."
+      },
+      {
+        "id": "S-DREES-AUTONOMIE2026",
+        "title": "Soutien à l'autonomie des personnes âgées",
+        "publisher": "DREES",
+        "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260205-soutien-autonomie-personnes-agees",
+        "publication_date": "2026-02-05",
+        "accessed_on": "2026-09-07",
+        "source_type": "projection publique",
+        "quality_grade": "A",
+        "notes": "Chiffre les besoins futurs de places et de personnel."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "La dépendance est largement prévisible au niveau des tendances démographiques et les familles peuvent rencontrer des situations d'urgence. Mais aucune source examinée ne permet d'établir la fréquence de ces urgences ni de les attribuer principalement à un défaut d'anticipation ou d'offre.",
+    "consensus_or_controversy": "Problème de planification établi, fréquence des situations familiales non mesurée ici.",
+    "source_quality": "DREES, grades A.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Généralisation empirique sans indicateur de fréquence."
+  },
+  {
+    "id": "C36-006",
+    "chapter": 36,
+    "chapter_title": "Protéger le très grand âge",
+    "pdf_pages": [
+      127
+    ],
+    "document_pages": [
+      127
+    ],
+    "candidate_ids": [
+      "K1000"
+    ],
+    "quote": "Nous devons donc à la fois agir en prévention par le maintien à domicile et investir dans un service public de la dépendance qui ne réserve pas les établissements médicalisés à celles et ceux qui en ont les moyens.",
+    "occurrences": [
+      {
+        "candidate_id": "K1000",
+        "pdf_page": 127,
+        "quote": "Nous devons donc à la fois agir en prévention par le maintien à domicile et investir dans un service public de la dépendance qui ne réserve pas les établissements médicalisés à celles et ceux qui en ont les moyens."
+      }
+    ],
+    "normalized_claim": "Des politiques de prévention et de maintien à domicile peuvent retarder ou éviter certaines entrées en établissement médicalisé.",
+    "claim_type": "causalité / effet de politique",
+    "argumentative_role": "Justifier l'investissement dans le maintien à domicile.",
+    "policies": [
+      "Développer le maintien à domicile"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-DREES-AUTONOMIE2026",
+        "title": "Soutien à l'autonomie des personnes âgées",
+        "publisher": "DREES",
+        "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260205-soutien-autonomie-personnes-agees",
+        "publication_date": "2026-02-05",
+        "accessed_on": "2026-09-07",
+        "source_type": "projection publique",
+        "quality_grade": "A",
+        "notes": "Compare les besoins d'établissements selon les pratiques d'entrée et les solutions alternatives."
+      },
+      {
+        "id": "S-DREES-LIVIA",
+        "title": "Projection de personnes âgées dépendantes par lieu de vie",
+        "publisher": "DREES",
+        "url": "https://drees.solidarites-sante.gouv.fr/definitions-ressources-et-methodes/projection-de-personnes-agees-dependantes-par-lieu-de-vie-le",
+        "publication_date": "2025-12-09",
+        "accessed_on": "2026-09-07",
+        "source_type": "modèle de projection",
+        "quality_grade": "A",
+        "notes": "Projette répartition par lieu de vie."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Des politiques de prévention, d'adaptation du domicile et d'aide à domicile peuvent retarder ou éviter certaines entrées en institution. Elles ne sont cependant ni appropriées ni suffisantes pour toutes les situations de perte d'autonomie sévère.",
+    "consensus_or_controversy": "Effet plausible et cohérent avec les projections, dépendant des besoins et de l'offre.",
+    "source_quality": "Deux sources DREES, grades A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C37-001",
+    "chapter": 37,
+    "chapter_title": "Être solidaires face au deuil",
+    "pdf_pages": [
+      129
+    ],
+    "document_pages": [
+      129
+    ],
+    "candidate_ids": [
+      "K1009"
+    ],
+    "quote": "Le nombre de décès va augmenter de 150 000 par an d’ici 2040 mais ce n’est pas le seul problème que nous allons affronter.",
+    "occurrences": [
+      {
+        "candidate_id": "K1009",
+        "pdf_page": 129,
+        "quote": "Le nombre de décès va augmenter de 150 000 par an d’ici 2040 mais ce n’est pas le seul problème que nous allons affronter."
+      }
+    ],
+    "normalized_claim": "Le nombre annuel de décès en France augmenterait d'environ 150 000 d'ici 2040.",
+    "claim_type": "projection démographique",
+    "argumentative_role": "Justifier l'anticipation des besoins funéraires et de soins palliatifs.",
+    "policies": [
+      "Planifier l'accompagnement de la fin de vie"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-INSEE-MORT2026",
+        "title": "Hypothèses de mortalité jusqu'en 2125",
+        "publisher": "Insee",
+        "url": "https://www.insee.fr/fr/statistiques/8990899?sommaire=8991068",
+        "publication_date": "2026-06-08",
+        "accessed_on": "2026-09-07",
+        "source_type": "projections démographiques",
+        "quality_grade": "A",
+        "notes": "Résultats détaillés des projections de population et mortalité."
+      },
+      {
+        "id": "S-INSEE-POP2026",
+        "title": "Une population plus âgée qu'en 2026",
+        "publisher": "Insee",
+        "url": "https://www.insee.fr/fr/statistiques/9004289",
+        "publication_date": "2026",
+        "accessed_on": "2026-09-07",
+        "source_type": "projections démographiques",
+        "quality_grade": "A",
+        "notes": "Projette une population vieillissante selon un scénario central."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Le vieillissement conduit à une hausse attendue du nombre de décès. Le chiffre de 150 000 supplémentaires d'ici 2040 doit toutefois être relié à une année de départ et à un scénario Insee précis; la formulation ne les donne pas.",
+    "consensus_or_controversy": "Tendance démographique solide, niveau exact scénarisé.",
+    "source_quality": "Deux sources Insee, grades A.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Projection chiffrée sans scénario ou base de comparaison explicites."
+  },
+  {
+    "id": "C37-002",
+    "chapter": 37,
+    "chapter_title": "Être solidaires face au deuil",
+    "pdf_pages": [
+      129
+    ],
+    "document_pages": [
+      129
+    ],
+    "candidate_ids": [
+      "K1010"
+    ],
+    "quote": "Les inégalités se prolongent jusqu’après la mort, où l’accès à un accompagnement digne, à des soins adaptés et à des obsèques décentes dépend encore trop souvent des ressources ou du lieu d’habitation.",
+    "occurrences": [
+      {
+        "candidate_id": "K1010",
+        "pdf_page": 129,
+        "quote": "Les inégalités se prolongent jusqu’après la mort, où l’accès à un accompagnement digne, à des soins adaptés et à des obsèques décentes dépend encore trop souvent des ressources ou du lieu d’habitation."
+      }
+    ],
+    "normalized_claim": "L'accès aux soins palliatifs, à l'accompagnement et à des obsèques dignes varie selon les ressources et le territoire.",
+    "claim_type": "comparaison sociale et territoriale",
+    "argumentative_role": "Justifier une couverture universelle de la fin de vie.",
+    "policies": [
+      "Universaliser les soins palliatifs",
+      "Soutenir les frais funéraires"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-DREES-PALLIATIF",
+        "title": "Rapport sur l'état des lieux du dispositif de soins palliatifs",
+        "publisher": "DREES",
+        "url": "https://www.drees.solidarites-sante.gouv.fr/publications/documents-de-travail-1998-2019/rapport-sur-letat-des-lieux-du-dispositif-de-soins",
+        "publication_date": null,
+        "accessed_on": "2026-09-07",
+        "source_type": "rapport public",
+        "quality_grade": "A",
+        "notes": "Analyse forces, faiblesses et disparités du dispositif."
+      },
+      {
+        "id": "S-IRDES-MEDICOSOC",
+        "title": "Inégalités territoriales de financement et d'accessibilité des soins médico-sociaux",
+        "publisher": "Irdes",
+        "url": "https://www.irdes.fr/recherche/questions-d-economie-de-la-sante/279-les-inegalites-territoriales-de-financement-et-daccessibilite-des-soins-medico-sociaux.pdf",
+        "publication_date": "2023",
+        "accessed_on": "2026-09-07",
+        "source_type": "recherche publique",
+        "quality_grade": "A",
+        "notes": "Documente les différences territoriales d'offre médico-sociale."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "L'accès aux soins palliatifs et à l'accompagnement varie territorialement et socialement. Le lien aux ressources pour des « obsèques dignes » est plausible au regard des coûts, mais le programme ne le mesure pas; les trois dimensions doivent être distinguées.",
+    "consensus_or_controversy": "Inégalités d'accès aux soins établies; mesure des obsèques digne moins standardisée.",
+    "source_quality": "DREES et Irdes, grades A.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Agrège soins palliatifs, accompagnement et coût funéraire."
+  },
+  {
+    "id": "C37-003",
+    "chapter": 37,
+    "chapter_title": "Être solidaires face au deuil",
+    "pdf_pages": [
+      130
+    ],
+    "document_pages": [
+      130
+    ],
+    "candidate_ids": [
+      "K1017"
+    ],
+    "quote": "Définir les conditions dans lesquelles ces formes d’enterrement peuvent se développer afin de diminuer la pollution liée aux produits funéraires et de réduire les coûts.",
+    "occurrences": [
+      {
+        "candidate_id": "K1017",
+        "pdf_page": 130,
+        "quote": "Définir les conditions dans lesquelles ces formes d’enterrement peuvent se développer afin de diminuer la pollution liée aux produits funéraires et de réduire les coûts."
+      }
+    ],
+    "normalized_claim": "Certaines techniques de terramation ou d'humusation pourraient réduire l'empreinte environnementale et parfois les coûts par rapport à l'inhumation ou à la crémation conventionnelles.",
+    "claim_type": "comparaison de cycle de vie",
+    "argumentative_role": "Justifier l'autorisation encadrée de nouvelles pratiques funéraires.",
+    "policies": [
+      "Autoriser l'humusation"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-SENAT-HUMUS2026",
+        "title": "Avancée des travaux sur la terramation ou humusation",
+        "publisher": "Sénat / Gouvernement",
+        "url": "https://www.senat.fr/questions/base/2026/qSEQ260207821.html",
+        "publication_date": "2026-02-26",
+        "accessed_on": "2026-09-07",
+        "source_type": "document parlementaire",
+        "quality_grade": "A",
+        "notes": "L'humusation est interdite en France; inhumation et crémation restent les deux modes admis."
+      }
+    ],
+    "verdict": "Invérifiable ou insuffisamment étayé",
+    "justification": "La terramation ou humusation n'est pas autorisée en France. Les affirmations comparatives sur pollution et coûts sont possibles en théorie mais ne sont pas étayées par une analyse de cycle de vie française ni par une structure de prix opérationnelle; elles ne peuvent être confirmées ici.",
+    "consensus_or_controversy": "Évaluations environnementales et économiques très dépendantes du procédé et du cadre réglementaire.",
+    "source_quality": "Source juridique de grade A, insuffisante pour les comparaisons d'impact.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Absence de filière française autorisée et d'ACV comparative robuste."
+  },
+  {
+    "id": "C37-004",
+    "chapter": 37,
+    "chapter_title": "Être solidaires face au deuil",
+    "pdf_pages": [
+      130
+    ],
+    "document_pages": [
+      130
+    ],
+    "candidate_ids": [
+      "K1018"
+    ],
+    "quote": "Ces coopératives peuvent prendre en charge les frais funéraires et administratifs pour éviter que le décès ne génère des dettes ou des inégalités.",
+    "occurrences": [
+      {
+        "candidate_id": "K1018",
+        "pdf_page": 130,
+        "quote": "Ces coopératives peuvent prendre en charge les frais funéraires et administratifs pour éviter que le décès ne génère des dettes ou des inégalités."
+      }
+    ],
+    "normalized_claim": "Des coopératives funéraires ou mécanismes mutualisés peuvent éviter que certains ménages s'endettent pour des obsèques.",
+    "claim_type": "causalité / effet de politique",
+    "argumentative_role": "Justifier leur soutien et la prise en charge de frais.",
+    "policies": [
+      "Soutenir les coopératives funéraires"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-SP-OBSEQUES",
+        "title": "Qui doit payer les frais d'obsèques?",
+        "publisher": "Service-Public.fr",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17059",
+        "publication_date": null,
+        "accessed_on": "2026-09-07",
+        "source_type": "information juridique publique",
+        "quality_grade": "A",
+        "notes": "Les frais sont prélevés sur succession; à défaut les héritiers peuvent être tenus de payer."
+      },
+      {
+        "id": "S-COOP-COUT2025",
+        "title": "Comment maîtriser le coût des obsèques",
+        "publisher": "Coopérative funéraire",
+        "url": "https://www.cooperative-funeraire.coop/actualites/quelques-elements-sur-le-cout-des-obseques",
+        "publication_date": "2025-04-03",
+        "accessed_on": "2026-09-07",
+        "source_type": "opérateur coopératif",
+        "quality_grade": "C",
+        "notes": "Indique une fourchette usuelle de coût des obsèques."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Des mécanismes mutualisés ou des aides peuvent réduire le reste à charge des ménages, qui peuvent autrement devoir payer si la succession est insuffisante. Mais une coopérative ne garantit pas par elle-même la prise en charge intégrale, l'absence de dette ou l'égalité d'accès.",
+    "consensus_or_controversy": "Besoin de protection financière réel, effets dépendants du financement et de l'éligibilité.",
+    "source_quality": "Service-Public A; source coopérative C pour le contexte de coût.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Effet de politique sans modèle de financement précisé."
+  },
+  {
+    "id": "C38-001",
+    "chapter": 38,
+    "chapter_title": "Éradiquer les violences sexistes et sexuelles",
+    "pdf_pages": [
+      133
+    ],
+    "document_pages": [
+      133
+    ],
+    "candidate_ids": [
+      "K1037"
+    ],
+    "quote": "Elles ne relèvent ni de faits isolés ni de comportements individuels, mais d’un système de domination qui touche les femmes et les enfants dans tous les espaces de la vie : la famille, les centres de loisirs, le travail, les lieux publics et les espaces numériques.",
+    "occurrences": [
+      {
+        "candidate_id": "K1037",
+        "pdf_page": 133,
+        "quote": "Elles ne relèvent ni de faits isolés ni de comportements individuels, mais d’un système de domination qui touche les femmes et les enfants dans tous les espaces de la vie : la famille, les centres de loisirs, le travail, les lieux publics et les espaces numériques."
+      }
+    ],
+    "normalized_claim": "Les violences sexistes et sexuelles sont structurelles, touchent particulièrement femmes et enfants et se produisent dans les sphères familiale, professionnelle, publique et numérique.",
+    "claim_type": "fait social",
+    "argumentative_role": "Justifier une loi intégrale et une réponse multisectorielle.",
+    "policies": [
+      "Adopter une loi intégrale contre les VSS"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-MI-VIOL2024",
+        "title": "Les victimes de violences physiques ou sexuelles enregistrées en 2024",
+        "publisher": "Ministère de l'Intérieur / SSMSI",
+        "url": "https://www.interieur.gouv.fr/Interstats/Actualites/Info-rapide-n-47-Les-victimes-de-violences-physiques-ou-sexuelles-enregistrees-par-les-services-de-securite-en-2024",
+        "publication_date": "2025-02-27",
+        "accessed_on": "2026-09-07",
+        "source_type": "statistiques publiques",
+        "quality_grade": "A",
+        "notes": "122 600 victimes de violences sexuelles enregistrées, dont 58% mineures."
+      },
+      {
+        "id": "S-HCE-VSS2025",
+        "title": "Mettre fin au déni et à l'impunité face aux viols et agressions sexuelles",
+        "publisher": "Haut Conseil à l'Égalité",
+        "url": "https://www.haut-conseil-egalite.gouv.fr/rapport-mettre-fin-au-deni-et-limpunite-face-aux-viols-et-agressions-sexuelles",
+        "publication_date": "2025-09-25",
+        "accessed_on": "2026-09-07",
+        "source_type": "rapport public",
+        "quality_grade": "A",
+        "notes": "Femmes et filles majoritaires parmi les victimes; hommes et garçons très majoritaires parmi les mis en cause."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les données administratives et les enquêtes confirment que les violences sexistes et sexuelles touchent surtout femmes et filles, dans des sphères diverses dont la famille et le travail. Qualifier l'ensemble de « système de domination » relève toutefois d'un cadre d'interprétation sociologique plutôt que d'un indicateur directement mesuré.",
+    "consensus_or_controversy": "Ampleur et distribution sexée établies; cadre explicatif débattu.",
+    "source_quality": "Deux sources publiques, grades A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C38-002",
+    "chapter": 38,
+    "chapter_title": "Éradiquer les violences sexistes et sexuelles",
+    "pdf_pages": [
+      133
+    ],
+    "document_pages": [
+      133
+    ],
+    "candidate_ids": [
+      "K1038"
+    ],
+    "quote": "En France, une femme sur trois déclare avoir subi au moins une forme de violence sexuelle au cours de sa vie.",
+    "occurrences": [
+      {
+        "candidate_id": "K1038",
+        "pdf_page": 133,
+        "quote": "En France, une femme sur trois déclare avoir subi au moins une forme de violence sexuelle au cours de sa vie."
+      }
+    ],
+    "normalized_claim": "En France, une femme sur trois déclare avoir subi au moins une forme de violence sexuelle au cours de sa vie.",
+    "claim_type": "chiffre d'enquête",
+    "argumentative_role": "Quantifier la prévalence des violences sexuelles.",
+    "policies": [
+      "Adopter une loi intégrale contre les VSS"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-SPF-VIOLSEX",
+        "title": "Quelles données sur les violences sexuelles en France?",
+        "publisher": "Santé publique France",
+        "url": "https://www.santepubliquefrance.fr/sante-sexuelle/article/quelles-donnees-sur-les-violences-sexuelles-en-france-et-quelle-lecture-en-faire",
+        "publication_date": "2019-07-08",
+        "accessed_on": "2026-09-07",
+        "source_type": "institution publique",
+        "quality_grade": "A",
+        "notes": "Enquête Virage: 14,5% des femmes déclarent des violences sexuelles au cours de la vie."
+      },
+      {
+        "id": "S-FRA-2024",
+        "title": "Une femme sur trois dans l'UE a subi des violences",
+        "publisher": "Agence des droits fondamentaux de l'UE",
+        "url": "https://fra.europa.eu/fr/news/2024/une-femme-sur-trois-dans-lue-subi-des-violences",
+        "publication_date": "2024-11-25",
+        "accessed_on": "2026-09-07",
+        "source_type": "agence européenne",
+        "quality_grade": "A",
+        "notes": "Un tiers concerne violences physiques, sexuelles ou menaces combinées, pas les seules violences sexuelles."
+      }
+    ],
+    "verdict": "Trompeur",
+    "justification": "Les violences sexuelles sont massives et sous-déclarées, mais l'enquête française Virage donne 14,5% des femmes pour les violences sexuelles au cours de la vie. Le chiffre d'un tiers correspond à un indicateur européen plus large combinant violences physiques, sexuelles ou menaces; l'attribuer aux seules violences sexuelles en France change matériellement le constat.",
+    "consensus_or_controversy": "Prévalence élevée mais fortement dépendante de la définition et de l'enquête.",
+    "source_quality": "Santé publique France et FRA, grades A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Comparer strictement définitions françaises et européennes."
+  }
+]

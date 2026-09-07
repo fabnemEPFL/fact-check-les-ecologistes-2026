@@ -1,0 +1,398 @@
+{
+  "duplicate_ids": [],
+  "malformed_verified_rows": [
+    {
+      "id": "C38-003",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C38-004",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C38-005",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C39-001",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C39-002",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C39-003",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C39-004",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C40-001",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C40-002",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C40-003",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C40-004",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C40-005",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C40-006",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C41-001",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C41-002",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C41-003",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C41-004",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C42-001",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C42-002",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C42-003",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C42-004",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C42-005",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C42-006",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C43-001",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C43-002",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C43-003",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C43-004",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C43-005",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C43-006",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C44-001",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C44-002",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C44-003",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C44-004",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C44-005",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C45-001",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C45-002",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C45-003",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C45-004",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C46-001",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C46-002",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C46-003",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C46-004",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C46-005",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C46-006",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C46-007",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C47-002",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C47-001",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C47-003",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C47-004",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C47-005",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C47-006",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C48-001",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C48-002",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C48-003",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    },
+    {
+      "id": "C48-004",
+      "missing_or_invalid": [
+        "consensus_or_controversy",
+        "source_quality"
+      ]
+    }
+  ],
+  "latest_counter_verified": 415,
+  "actual_verified": 415,
+  "latest_counter_unique": 564,
+  "actual_unique": 564,
+  "latest_counter_occurrences": 568,
+  "actual_occurrences": 568,
+  "counter_consistent": true,
+  "report_ready_subset": false
+}

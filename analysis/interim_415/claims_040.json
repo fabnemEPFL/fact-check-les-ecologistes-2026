@@ -1,0 +1,512 @@
+[
+  {
+    "id": "C44-002",
+    "chapter": 44,
+    "chapter_title": "Réaliser l’égalité dans les quartiers populaires",
+    "pdf_pages": [
+      148
+    ],
+    "document_pages": [
+      148
+    ],
+    "candidate_ids": [
+      "K1115"
+    ],
+    "quote": "À cela s’ajoute le mépris territorial ou encore des rapports à la police qui abîment la confiance entre les citoyen·nes et les institutions.",
+    "occurrences": [
+      {
+        "candidate_id": "K1115",
+        "pdf_page": 148,
+        "quote": "À cela s’ajoute le mépris territorial ou encore des rapports à la police qui abîment la confiance entre les citoyen·nes et les institutions."
+      }
+    ],
+    "normalized_claim": "Les contrôles policiers discriminatoires et des relations dégradées avec la police réduisent la confiance envers les institutions.",
+    "claim_type": "causalité institutionnelle",
+    "argumentative_role": "Justifier une doctrine de contrôle non discriminatoire.",
+    "policies": [
+      "Réformer les contrôles d'identité"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.defenseurdesdroits.fr/sites/default/files/2020-06/rapport-enquete-relations-police-population-2020.pdf",
+        "title": "Défenseur des droits — relations police-population",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les expériences de contrôles discriminatoires et les interactions dégradées avec la police sont associées à une moindre confiance envers les institutions. L'intensité du lien varie selon les expériences et les groupes.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C44-003",
+    "chapter": 44,
+    "chapter_title": "Réaliser l’égalité dans les quartiers populaires",
+    "pdf_pages": [
+      148
+    ],
+    "document_pages": [
+      148
+    ],
+    "candidate_ids": [
+      "K1118"
+    ],
+    "quote": "Sans service public, le contrat social s’effrite.",
+    "occurrences": [
+      {
+        "candidate_id": "K1118",
+        "pdf_page": 148,
+        "quote": "Sans service public, le contrat social s’effrite."
+      }
+    ],
+    "normalized_claim": "La réduction ou l'éloignement des services publics peut affaiblir la confiance institutionnelle et la cohésion sociale.",
+    "claim_type": "causalité sociale",
+    "argumentative_role": "Justifier le maintien de services publics de proximité.",
+    "policies": [
+      "Renforcer les services publics dans les quartiers"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.insee.fr/fr/statistiques/5040016?sommaire=5040030",
+        "title": "Insee — La France et ses territoires",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "L'éloignement ou la réduction des services publics peut accroître les obstacles d'accès et alimenter un sentiment d'abandon territorial, mais la confiance et la cohésion dépendent aussi d'autres facteurs sociaux et politiques.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C44-004",
+    "chapter": 44,
+    "chapter_title": "Réaliser l’égalité dans les quartiers populaires",
+    "pdf_pages": [
+      149
+    ],
+    "document_pages": [
+      149
+    ],
+    "candidate_ids": [
+      "K1124"
+    ],
+    "quote": "Accélérer la rénovation du parc des logements sociaux (qualité du bâti, isolation thermique, etc.) et diminuer les charges locatives par un dispositif financier complémentaire à MaPrimeRénov.",
+    "occurrences": [
+      {
+        "candidate_id": "K1124",
+        "pdf_page": 149,
+        "quote": "Accélérer la rénovation du parc des logements sociaux (qualité du bâti, isolation thermique, etc.) et diminuer les charges locatives par un dispositif financier complémentaire à MaPrimeRénov."
+      }
+    ],
+    "normalized_claim": "La rénovation énergétique du parc social peut réduire les consommations et les charges locatives lorsque les gains ne sont pas absorbés par d'autres coûts.",
+    "claim_type": "causalité / effet de politique",
+    "argumentative_role": "Justifier un financement complémentaire à MaPrimeRénov'.",
+    "policies": [
+      "Accélérer la rénovation du logement social"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.ecologie.gouv.fr/politiques-publiques/renovation-energetique-logements",
+        "title": "Ministère de la Transition écologique — rénovation énergétique",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "La rénovation énergétique peut réduire les consommations et les dépenses énergétiques des ménages du parc social. Les gains nets dépendent toutefois de la qualité des travaux, des usages et de l'évolution des autres charges.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C44-005",
+    "chapter": 44,
+    "chapter_title": "Réaliser l’égalité dans les quartiers populaires",
+    "pdf_pages": [
+      149
+    ],
+    "document_pages": [
+      149
+    ],
+    "candidate_ids": [
+      "K1126"
+    ],
+    "quote": "Publier chaque année une évaluation comparative de l’offre de transports publics dans les agglomérations pour empêcher toute discrimination dans l’organisation des transports locaux.",
+    "occurrences": [
+      {
+        "candidate_id": "K1126",
+        "pdf_page": 149,
+        "quote": "Publier chaque année une évaluation comparative de l’offre de transports publics dans les agglomérations pour empêcher toute discrimination dans l’organisation des transports locaux."
+      }
+    ],
+    "normalized_claim": "À caractéristiques urbaines comparables, l'offre de transports publics peut varier entre quartiers et contribuer à des inégalités d'accès à l'emploi et aux services.",
+    "claim_type": "comparaison territoriale",
+    "argumentative_role": "Justifier une évaluation comparative annuelle des réseaux.",
+    "policies": [
+      "Évaluer l'équité de l'offre de transport"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.insee.fr/fr/statistiques/6009583",
+        "title": "Insee — quartiers prioritaires",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "L'offre de transports collectifs varie spatialement, y compris entre quartiers comparables, et conditionne l'accès aux emplois et services. L'ampleur de la contribution aux inégalités dépend du réseau et des alternatives de mobilité.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C45-001",
+    "chapter": 45,
+    "chapter_title": "Atteindre l’égalité entre les villes et les ruralités",
+    "pdf_pages": [
+      150
+    ],
+    "document_pages": [
+      150
+    ],
+    "candidate_ids": [
+      "K1128"
+    ],
+    "quote": "Mais la concentration toujours plus forte du pouvoir économique et politique dans les villes couplée au saccage des services publics a creusé les écarts et nourri un sentiment de mépris territorial.",
+    "occurrences": [
+      {
+        "candidate_id": "K1128",
+        "pdf_page": 150,
+        "quote": "Mais la concentration toujours plus forte du pouvoir économique et politique dans les villes couplée au saccage des services publics a creusé les écarts et nourri un sentiment de mépris territorial."
+      }
+    ],
+    "normalized_claim": "La concentration des emplois et décisions dans les grandes villes ainsi que le recul de certains services publics ont accru des écarts d'accès entre territoires.",
+    "claim_type": "causalité territoriale",
+    "argumentative_role": "Justifier un rééquilibrage des services et investissements.",
+    "policies": [
+      "Rééquilibrer les territoires"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.insee.fr/fr/statistiques/5040016?sommaire=5040030",
+        "title": "Insee — La France et ses territoires",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Les écarts d'accès aux emplois, services et centres de décision entre territoires sont documentés. Les attribuer principalement à la concentration métropolitaine et au recul des services publics simplifie des dynamiques aussi démographiques, économiques et numériques.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C45-002",
+    "chapter": 45,
+    "chapter_title": "Atteindre l’égalité entre les villes et les ruralités",
+    "pdf_pages": [
+      150
+    ],
+    "document_pages": [
+      150
+    ],
+    "candidate_ids": [
+      "K1129"
+    ],
+    "quote": "Trop de citoyen·nes doivent parcourir des kilomètres pour trouver une infirmière, un emploi, une école, pratiquer un sport ou accéder à un service public.",
+    "occurrences": [
+      {
+        "candidate_id": "K1129",
+        "pdf_page": 150,
+        "quote": "Trop de citoyen·nes doivent parcourir des kilomètres pour trouver une infirmière, un emploi, une école, pratiquer un sport ou accéder à un service public."
+      }
+    ],
+    "normalized_claim": "Dans de nombreux territoires ruraux, les habitants parcourent des distances plus longues pour accéder aux soins, à l'école, à l'emploi ou à des services administratifs.",
+    "claim_type": "comparaison territoriale",
+    "argumentative_role": "Justifier des services accessibles en quinze minutes.",
+    "policies": [
+      "Créer des services publics de proximité"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.insee.fr/fr/statistiques/5040016?sommaire=5040030",
+        "title": "Insee — La France et ses territoires",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les habitants de territoires ruraux peu denses parcourent généralement des distances plus importantes pour de nombreux services ; cette réalité varie selon les bassins de vie et les services considérés.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C45-003",
+    "chapter": 45,
+    "chapter_title": "Atteindre l’égalité entre les villes et les ruralités",
+    "pdf_pages": [
+      150
+    ],
+    "document_pages": [
+      150
+    ],
+    "candidate_ids": [
+      "K1133"
+    ],
+    "quote": "Créer 500 nouvelles MFS et des unités mobiles pour aller vers les usager·es pour l’ouverture des droits, les soins de santé et la justice.",
+    "occurrences": [
+      {
+        "candidate_id": "K1133",
+        "pdf_page": 150,
+        "quote": "Créer 500 nouvelles MFS et des unités mobiles pour aller vers les usager·es pour l’ouverture des droits, les soins de santé et la justice."
+      }
+    ],
+    "normalized_claim": "Des maisons France Services et unités mobiles peuvent réduire les distances et obstacles administratifs pour une partie des usagers ruraux.",
+    "claim_type": "évaluation de politique",
+    "argumentative_role": "Justifier la création de 500 structures et d'unités mobiles.",
+    "policies": [
+      "Développer les maisons France Services"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.france-services.gouv.fr/",
+        "title": "France Services — réseau et missions",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les espaces France Services et les dispositifs itinérants visent à rapprocher l'accompagnement administratif des usagers. Ils réduisent une partie des obstacles, sans résoudre tous les besoins de mobilité, de connectivité ou de compétence numérique.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C45-004",
+    "chapter": 45,
+    "chapter_title": "Atteindre l’égalité entre les villes et les ruralités",
+    "pdf_pages": [
+      151
+    ],
+    "document_pages": [
+      151
+    ],
+    "candidate_ids": [
+      "K1134"
+    ],
+    "quote": "Garantir aux parents des solutions collectives de transport pour que les enfants aient moins de 30 minutes de trajet de leur école et de leur collège.",
+    "occurrences": [
+      {
+        "candidate_id": "K1134",
+        "pdf_page": 151,
+        "quote": "Garantir aux parents des solutions collectives de transport pour que les enfants aient moins de 30 minutes de trajet de leur école et de leur collège."
+      }
+    ],
+    "normalized_claim": "Des transports scolaires collectifs adaptés peuvent réduire les temps de trajet excessifs des enfants ruraux.",
+    "claim_type": "causalité / effet de politique",
+    "argumentative_role": "Justifier un objectif de moins de trente minutes de trajet.",
+    "policies": [
+      "Renforcer le transport scolaire rural"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.education.gouv.fr/les-transports-scolaires-11570",
+        "title": "Ministère de l'Éducation nationale — transports scolaires",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "L'organisation de transports scolaires collectifs peut limiter les temps de trajet très longs dans les zones rurales, sous réserve d'un maillage, d'horaires et de capacités adaptés.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C46-001",
+    "chapter": 46,
+    "chapter_title": "Accomplir l’égalité avec tous les territoires dits d’Outre-mer",
+    "pdf_pages": [
+      152
+    ],
+    "document_pages": [
+      152
+    ],
+    "candidate_ids": [
+      "K1135"
+    ],
+    "quote": "On regroupe abusivement les Départements et les territoires éloignés de l’hexagone sous l’appellation « d’Outre-Mer ».",
+    "occurrences": [
+      {
+        "candidate_id": "K1135",
+        "pdf_page": 152,
+        "quote": "On regroupe abusivement les Départements et les territoires éloignés de l’hexagone sous l’appellation « d’Outre-Mer »."
+      }
+    ],
+    "normalized_claim": "Les territoires regroupés sous l'étiquette « outre-mer » présentent des situations géographiques, institutionnelles, démographiques et économiques très différentes.",
+    "claim_type": "comparaison territoriale",
+    "argumentative_role": "Justifier des réponses différenciées plutôt qu'une politique uniforme.",
+    "policies": [
+      "Adapter les politiques à chaque territoire"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.insee.fr/fr/statistiques/4238405",
+        "title": "Insee — L'outre-mer français",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "Les collectivités ultramarines relèvent de géographies, statuts institutionnels, trajectoires démographiques et structures économiques très variés ; l'étiquette « outre-mer » ne désigne donc pas une situation homogène.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C46-002",
+    "chapter": 46,
+    "chapter_title": "Accomplir l’égalité avec tous les territoires dits d’Outre-mer",
+    "pdf_pages": [
+      152
+    ],
+    "document_pages": [
+      152
+    ],
+    "candidate_ids": [
+      "K1136"
+    ],
+    "quote": "Pourtant, ils n’ont bien souvent de commun que leur relation inégalitaire avec la métropole, qui se perpétue et prolonge des logiques coloniales.",
+    "occurrences": [
+      {
+        "candidate_id": "K1136",
+        "pdf_page": 152,
+        "quote": "Pourtant, ils n’ont bien souvent de commun que leur relation inégalitaire avec la métropole, qui se perpétue et prolonge des logiques coloniales."
+      }
+    ],
+    "normalized_claim": "Plusieurs inégalités économiques et institutionnelles entre les outre-mer et l'Hexagone prolongent des structures issues de l'histoire coloniale.",
+    "claim_type": "causalité historique",
+    "argumentative_role": "Justifier des politiques d'égalité et d'autonomie.",
+    "policies": [
+      "Réduire les inégalités outre-mer"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.insee.fr/fr/statistiques/4238405",
+        "title": "Insee — L'outre-mer français",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Des écarts économiques et de services entre outre-mer et Hexagone sont documentés, et l'histoire coloniale est essentielle pour comprendre nombre de structures. La formulation causale générale doit néanmoins être précisée territoire par territoire.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": null
+  }
+]

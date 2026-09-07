@@ -1,0 +1,553 @@
+[
+  {
+    "id": "C18-007",
+    "chapter": 18,
+    "chapter_title": "Mettre la finance au service de l’économie réelle",
+    "pdf_pages": [
+      71
+    ],
+    "document_pages": [
+      71
+    ],
+    "candidate_ids": [
+      "K0586"
+    ],
+    "quote": "Encourager le développement d’initiatives bancaires souveraines à l’échelle européenne sur le modèle du réseau CB en France ou Wero/ EuroPA en Europe pour ne pas dépendre des systèmes américains Visa et Mastercard.",
+    "occurrences": [
+      {
+        "candidate_id": "K0586",
+        "pdf_page": 71,
+        "quote": "Encourager le développement d’initiatives bancaires souveraines à l’échelle européenne sur le modèle du réseau CB en France ou Wero/ EuroPA en Europe pour ne pas dépendre des systèmes américains Visa et Mastercard."
+      }
+    ],
+    "normalized_claim": "Des réseaux de paiement européens comme CB ou Wero réduisent la dépendance envers Visa et Mastercard.",
+    "claim_type": "causalité / autonomie stratégique",
+    "argumentative_role": "Justifier le développement de moyens de paiement européens.",
+    "policies": [
+      "Soutenir des réseaux de paiement européens"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-ECB-PAYMENT-AUTONOMY",
+        "title": "European payments initiative",
+        "publisher": "Banque centrale européenne",
+        "url": "https://www.ecb.europa.eu/paym/intro/mip-online/html/index.en.html",
+        "accessed_on": "2026-09-07",
+        "source_type": "banque centrale",
+        "quality_grade": "A",
+        "notes": "Wero/EPI cherchent à fournir une solution européenne et réduire dépendance aux schémas internationaux."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Des réseaux européens tels que CB et l'initiative EPI/Wero peuvent réduire une partie de la dépendance à Visa/Mastercard, sans l'éliminer entièrement et selon les usages transfrontaliers.",
+    "consensus_or_controversy": "Élevé.",
+    "source_quality": "A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C18-008",
+    "chapter": 18,
+    "chapter_title": "Mettre la finance au service de l’économie réelle",
+    "pdf_pages": [
+      71
+    ],
+    "document_pages": [
+      71
+    ],
+    "candidate_ids": [
+      "K0587"
+    ],
+    "quote": "Obliger les émetteurs de stablecoins ou d’autres monnaies à détenir la majorité des actifs sous-jacents en dépôt auprès de la BCE et/ou en actifs liquides de haute qualité et limiter les avoirs à 20 000€.",
+    "occurrences": [
+      {
+        "candidate_id": "K0587",
+        "pdf_page": 71,
+        "quote": "Obliger les émetteurs de stablecoins ou d’autres monnaies à détenir la majorité des actifs sous-jacents en dépôt auprès de la BCE et/ou en actifs liquides de haute qualité et limiter les avoirs à 20 000€."
+      }
+    ],
+    "normalized_claim": "Exiger des réserves liquides de haute qualité pour les stablecoins réduit les risques de liquidité et de remboursement.",
+    "claim_type": "causalité prudentielle",
+    "argumentative_role": "Justifier des réserves majoritairement sûres et liquides.",
+    "policies": [
+      "Encadrer les stablecoins"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-EBA-MICA-STABLECOINS",
+        "title": "MiCA and asset-referenced tokens",
+        "publisher": "Autorité bancaire européenne",
+        "url": "https://www.eba.europa.eu/activities/single-rulebook/regulation-markets-crypto-assets-mica",
+        "accessed_on": "2026-09-07",
+        "source_type": "régulation européenne",
+        "quality_grade": "A",
+        "notes": "Réserves liquides/actifs sûrs réduisent risque de liquidité, mais ne suppriment pas tous risques."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Des réserves de haute qualité et liquides améliorent la capacité de remboursement et réduisent le risque de liquidité; elles ne suppriment pas risque opérationnel, de marché ou de ruée.",
+    "consensus_or_controversy": "Élevé.",
+    "source_quality": "A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C19-001",
+    "chapter": 19,
+    "chapter_title": "Prioriser l’économie circulaire",
+    "pdf_pages": [
+      72
+    ],
+    "document_pages": [
+      72
+    ],
+    "candidate_ids": [
+      "K0590"
+    ],
+    "quote": "Ce modèle n’est pas durable – il fragilise notre autonomie, dégrade les écosystèmes et la santé – en Europe et dans les pays les plus pauvres.",
+    "occurrences": [
+      {
+        "candidate_id": "K0590",
+        "pdf_page": 72,
+        "quote": "Ce modèle n’est pas durable – il fragilise notre autonomie, dégrade les écosystèmes et la santé – en Europe et dans les pays les plus pauvres."
+      }
+    ],
+    "normalized_claim": "La surexploitation des ressources fragilise l'autonomie économique et dégrade des écosystèmes et la santé, avec des effets aussi dans les pays à faible revenu.",
+    "claim_type": "causalité environnementale",
+    "argumentative_role": "Justifier une stratégie d'économie circulaire et de sobriété matérielle.",
+    "policies": [
+      "Prioriser l'économie circulaire"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-UNEP-GEO-2024",
+        "title": "Global Resources Outlook 2024",
+        "publisher": "PNUE International Resource Panel",
+        "url": "https://www.resourcepanel.org/reports/global-resources-outlook-2024",
+        "accessed_on": "2026-09-07",
+        "source_type": "évaluation scientifique institutionnelle",
+        "quality_grade": "A-",
+        "notes": "Extraction et consommation ont effets environnementaux/sanitaires et distributifs."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "La surexploitation de ressources peut dégrader écosystèmes, santé et sécurité économique, avec effets mondiaux y compris dans pays à faible revenu.",
+    "consensus_or_controversy": "Élevé.",
+    "source_quality": "A-.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C19-006",
+    "chapter": 19,
+    "chapter_title": "Prioriser l’économie circulaire",
+    "pdf_pages": [
+      72
+    ],
+    "document_pages": [
+      72
+    ],
+    "candidate_ids": [
+      "K0593"
+    ],
+    "quote": "L’empreinte matière française se situe à un niveau stable depuis dix ans avec 13,5 tonnes par habitant.",
+    "occurrences": [
+      {
+        "candidate_id": "K0593",
+        "pdf_page": 72,
+        "quote": "L’empreinte matière française se situe à un niveau stable depuis dix ans avec 13,5 tonnes par habitant."
+      }
+    ],
+    "normalized_claim": "L'empreinte matières française est restée proche de 13,5 tonnes par habitant pendant environ dix ans.",
+    "claim_type": "tendance quantitative",
+    "argumentative_role": "Montrer l'absence de baisse de la consommation matérielle.",
+    "policies": [
+      "Adopter une stratégie basse empreinte matières"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-SDES-EMPREINTE-MATIERES",
+        "title": "Empreinte matières de la France",
+        "publisher": "Service des données et études statistiques",
+        "url": "https://www.statistiques.developpement-durable.gouv.fr/",
+        "accessed_on": "2026-09-07",
+        "source_type": "statistique publique",
+        "quality_grade": "A",
+        "notes": "L'indicateur varie légèrement selon année et méthode; ordre de grandeur voisin de 13,5 t/hab."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les séries françaises situent l'empreinte matières autour de 13–14 tonnes par habitant sur plusieurs années; « environ dix ans » requiert une fenêtre précise mais l'ordre de grandeur est fidèle.",
+    "consensus_or_controversy": "Établi.",
+    "source_quality": "A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C19-007",
+    "chapter": 19,
+    "chapter_title": "Prioriser l’économie circulaire",
+    "pdf_pages": [
+      72
+    ],
+    "document_pages": [
+      72
+    ],
+    "candidate_ids": [
+      "K0595"
+    ],
+    "quote": "Le recyclage concentre l’essentiel des efforts au détriment des leviers agissant à l’amont comme l’écoconception, la sobriété, le réemploi et l’allongement de la durée de vie.",
+    "occurrences": [
+      {
+        "candidate_id": "K0595",
+        "pdf_page": 72,
+        "quote": "Le recyclage concentre l’essentiel des efforts au détriment des leviers agissant à l’amont comme l’écoconception, la sobriété, le réemploi et l’allongement de la durée de vie."
+      }
+    ],
+    "normalized_claim": "La politique française d'économie circulaire concentre davantage ses efforts sur le recyclage que sur la sobriété, le réemploi et l'allongement de la durée de vie.",
+    "claim_type": "comparaison de politiques",
+    "argumentative_role": "Justifier une priorité accrue à la prévention et au réemploi.",
+    "policies": [
+      "Développer l'écoconception et le réemploi"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-ADEME-ECONOMIE-CIRCULAIRE",
+        "title": "Économie circulaire",
+        "publisher": "ADEME",
+        "url": "https://librairie.ademe.fr/economie-circulaire-et-dechets",
+        "accessed_on": "2026-09-07",
+        "source_type": "agence publique",
+        "quality_grade": "A-",
+        "notes": "Les politiques comportent recyclage et prévention/réemploi; pondération comparative nécessite analyse budgétaire/réglementaire."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Le recyclage a longtemps occupé une place centrale, mais les politiques françaises incluent aussi prévention, réparation et réemploi. Dire qu'elles se concentrent davantage sur le recyclage nécessite une mesure explicite des moyens ou obligations.",
+    "consensus_or_controversy": "Hiérarchie déchets reconnue; bilan de priorités empirique non démontré.",
+    "source_quality": "A-.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Comparaison de priorités de politique sans indicateur."
+  },
+  {
+    "id": "C19-002",
+    "chapter": 19,
+    "chapter_title": "Prioriser l’économie circulaire",
+    "pdf_pages": [
+      72
+    ],
+    "document_pages": [
+      72
+    ],
+    "candidate_ids": [
+      "K0597"
+    ],
+    "quote": "La fabrication d’un produit électrique ou électronique est responsable de 78 % de son empreinte carbone.",
+    "occurrences": [
+      {
+        "candidate_id": "K0597",
+        "pdf_page": 72,
+        "quote": "La fabrication d’un produit électrique ou électronique est responsable de 78 % de son empreinte carbone."
+      }
+    ],
+    "normalized_claim": "La fabrication représenterait 78 % de l'empreinte carbone moyenne d'un produit électrique ou électronique.",
+    "claim_type": "chiffre de cycle de vie",
+    "argumentative_role": "Justifier l'allongement de la durée d'usage plutôt qu'un remplacement rapide.",
+    "policies": [
+      "Écoconception",
+      "Réparabilité"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-ADEME-NUMERIQUE-2022",
+        "title": "Évaluation de l'impact environnemental du numérique en France",
+        "publisher": "ADEME / Arcep",
+        "url": "https://www.arcep.fr/cartes-et-donnees/nos-publications-chiffrees/empreinte-environnementale-du-numerique.html",
+        "accessed_on": "2026-09-07",
+        "source_type": "étude publique",
+        "quality_grade": "A",
+        "notes": "Part fabrication varie très fortement par type de produit, durée d'usage et périmètre carbone."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "La fabrication domine souvent l'empreinte des équipements électroniques, mais 78 % ne peut être généralisé à un « produit électrique ou électronique » moyen sans définir le panier, l'usage et la durée de vie.",
+    "consensus_or_controversy": "Prépondérance fréquente de fabrication établie; chiffre non universel.",
+    "source_quality": "A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Moyenne de produits et périmètre ACV non définis."
+  },
+  {
+    "id": "C19-003",
+    "chapter": 19,
+    "chapter_title": "Prioriser l’économie circulaire",
+    "pdf_pages": [
+      72
+    ],
+    "document_pages": [
+      72
+    ],
+    "candidate_ids": [
+      "K0598"
+    ],
+    "quote": "39 % des aspirateurs, 48 % des télévisions et 71 % des smartphones sont renouvelés alors qu’ils sont encore fonctionnels.",
+    "occurrences": [
+      {
+        "candidate_id": "K0598",
+        "pdf_page": 72,
+        "quote": "39 % des aspirateurs, 48 % des télévisions et 71 % des smartphones sont renouvelés alors qu’ils sont encore fonctionnels."
+      }
+    ],
+    "normalized_claim": "Trente-neuf pour cent des aspirateurs seraient remplacés alors qu'ils fonctionnent encore.",
+    "claim_type": "chiffre d'enquête",
+    "argumentative_role": "Illustrer le remplacement prématuré des appareils.",
+    "policies": [
+      "Allonger la durée de vie des produits"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "C19-remplacement",
+    "sources": [
+      {
+        "id": "S-ADEME-OBSOLESCENCE",
+        "title": "Étude sur la durée d'usage des équipements électriques et électroniques",
+        "publisher": "ADEME",
+        "url": "https://librairie.ademe.fr/consommer-autrement/",
+        "accessed_on": "2026-09-07",
+        "source_type": "étude publique",
+        "quality_grade": "A-",
+        "notes": "Motifs de remplacement issus d'enquêtes, sensibles aux catégories et au déclaratif."
+      }
+    ],
+    "verdict": "Invérifiable ou insuffisamment étayé",
+    "justification": "Le taux de 39 % requiert l'étude, l'année, l'échantillon et la définition de fonctionnement; le programme ne les indique pas. Les enquêtes confirment des remplacements d'appareils fonctionnels, sans permettre de valider ce taux isolé.",
+    "consensus_or_controversy": "Phénomène reconnu; chiffre non traçable.",
+    "source_quality": "A-.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Chiffre d'enquête sans référence ni définition."
+  },
+  {
+    "id": "C19-004",
+    "chapter": 19,
+    "chapter_title": "Prioriser l’économie circulaire",
+    "pdf_pages": [
+      72
+    ],
+    "document_pages": [
+      72
+    ],
+    "candidate_ids": [
+      "K0598"
+    ],
+    "quote": "39 % des aspirateurs, 48 % des télévisions et 71 % des smartphones sont renouvelés alors qu’ils sont encore fonctionnels.",
+    "occurrences": [
+      {
+        "candidate_id": "K0598",
+        "pdf_page": 72,
+        "quote": "39 % des aspirateurs, 48 % des télévisions et 71 % des smartphones sont renouvelés alors qu’ils sont encore fonctionnels."
+      }
+    ],
+    "normalized_claim": "Quarante-huit pour cent des téléviseurs seraient remplacés alors qu'ils fonctionnent encore.",
+    "claim_type": "chiffre d'enquête",
+    "argumentative_role": "Illustrer le remplacement prématuré des appareils.",
+    "policies": [
+      "Allonger la durée de vie des produits"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "C19-remplacement",
+    "sources": [
+      {
+        "id": "S-ADEME-OBSOLESCENCE",
+        "title": "Étude sur la durée d'usage des équipements électriques et électroniques",
+        "publisher": "ADEME",
+        "url": "https://librairie.ademe.fr/consommer-autrement/",
+        "accessed_on": "2026-09-07",
+        "source_type": "étude publique",
+        "quality_grade": "A-",
+        "notes": "Les motifs de renouvellement varient entre appareils."
+      }
+    ],
+    "verdict": "Invérifiable ou insuffisamment étayé",
+    "justification": "Même limite : le taux de 48 % n'est pas vérifiable sans référence exacte, année et définition de fonctionnement.",
+    "consensus_or_controversy": "Phénomène reconnu.",
+    "source_quality": "A-.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Chiffre d'enquête sans périmètre."
+  },
+  {
+    "id": "C19-005",
+    "chapter": 19,
+    "chapter_title": "Prioriser l’économie circulaire",
+    "pdf_pages": [
+      72
+    ],
+    "document_pages": [
+      72
+    ],
+    "candidate_ids": [
+      "K0598"
+    ],
+    "quote": "39 % des aspirateurs, 48 % des télévisions et 71 % des smartphones sont renouvelés alors qu’ils sont encore fonctionnels.",
+    "occurrences": [
+      {
+        "candidate_id": "K0598",
+        "pdf_page": 72,
+        "quote": "39 % des aspirateurs, 48 % des télévisions et 71 % des smartphones sont renouvelés alors qu’ils sont encore fonctionnels."
+      }
+    ],
+    "normalized_claim": "Soixante-et-onze pour cent des smartphones seraient remplacés alors qu'ils fonctionnent encore.",
+    "claim_type": "chiffre d'enquête",
+    "argumentative_role": "Illustrer le remplacement prématuré des appareils.",
+    "policies": [
+      "Allonger la durée de vie des produits"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "C19-remplacement",
+    "sources": [
+      {
+        "id": "S-ADEME-OBSOLESCENCE",
+        "title": "Étude sur la durée d'usage des équipements électriques et électroniques",
+        "publisher": "ADEME",
+        "url": "https://librairie.ademe.fr/consommer-autrement/",
+        "accessed_on": "2026-09-07",
+        "source_type": "étude publique",
+        "quality_grade": "A-",
+        "notes": "Les smartphones peuvent être remplacés avant panne; taux dépend de la question et année."
+      }
+    ],
+    "verdict": "Invérifiable ou insuffisamment étayé",
+    "justification": "Le taux de 71 % nécessite une source exacte et une définition de téléphone fonctionnel; le programme ne les fournit pas.",
+    "consensus_or_controversy": "Renouvellement avant panne reconnu.",
+    "source_quality": "A-.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Chiffre précis non sourcé."
+  },
+  {
+    "id": "C19-009",
+    "chapter": 19,
+    "chapter_title": "Prioriser l’économie circulaire",
+    "pdf_pages": [
+      73
+    ],
+    "document_pages": [
+      73
+    ],
+    "candidate_ids": [
+      "K0602"
+    ],
+    "quote": "Réglementer l’écoconception pour allonger la durée des objets et permettre des usages successifs.",
+    "occurrences": [
+      {
+        "candidate_id": "K0602",
+        "pdf_page": 73,
+        "quote": "Réglementer l’écoconception pour allonger la durée des objets et permettre des usages successifs."
+      }
+    ],
+    "normalized_claim": "L'écoconception peut allonger la durée de vie des objets et faciliter des usages successifs.",
+    "claim_type": "causalité / effet de politique",
+    "argumentative_role": "Justifier des obligations d'écoconception.",
+    "policies": [
+      "Réglementer l'écoconception"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-ADEME-ECOCONCEPTION",
+        "title": "Écoconception",
+        "publisher": "ADEME",
+        "url": "https://agirpourlatransition.ademe.fr/entreprises/ecoconception",
+        "accessed_on": "2026-09-07",
+        "source_type": "agence publique",
+        "quality_grade": "A-",
+        "notes": "Conception pour réparabilité, modularité et durabilité favorise durée/usage successif."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "L'écoconception peut intégrer durabilité, réparabilité et réemploi, et donc allonger la durée de vie et favoriser des usages successifs.",
+    "consensus_or_controversy": "Très élevé.",
+    "source_quality": "A-.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  }
+]

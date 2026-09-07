@@ -1,0 +1,660 @@
+[
+  {
+    "id": "PT-001",
+    "chapter": null,
+    "chapter_title": "Introduction de la partie I",
+    "pdf_pages": [
+      14
+    ],
+    "document_pages": [
+      14
+    ],
+    "candidate_ids": [
+      "K0122"
+    ],
+    "quote": "Deux des grandes menaces sur l’habitabilité sont le réchauffement climatique et la disparition de la biodiversité.Le respect de la trajectoire des accords de Paris suppose d’abord de refonder notre politique énergétique autour de la sobriété, de l’efficacité et des énergies renouvelables (chapitre 1).",
+    "occurrences": [
+      {
+        "candidate_id": "K0122",
+        "pdf_page": 14,
+        "quote": "Deux des grandes menaces sur l’habitabilité sont le réchauffement climatique et la disparition de la biodiversité.Le respect de la trajectoire des accords de Paris suppose d’abord de refonder notre politique énergétique autour de la sobriété, de l’efficacité et des énergies renouvelables (chapitre 1)."
+      }
+    ],
+    "normalized_claim": "Le réchauffement climatique compte parmi les grandes menaces pour l'habitabilité humaine.",
+    "claim_type": "évaluation de risque climatique",
+    "argumentative_role": "Fonder la politique climatique de la première partie.",
+    "policies": [
+      "Gagner la bataille du climat"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "PT-menaces-habitabilite",
+    "sources": [
+      {
+        "id": "S-IPCC-AR6-WGII-SPM-2022",
+        "title": "Climate Change 2022 — Impacts, Adaptation and Vulnerability, Summary for Policymakers",
+        "publisher": "GIEC",
+        "url": "https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_SummaryForPolicymakers.pdf",
+        "publication_date": "2022-02-28",
+        "accessed_on": "2026-09-06",
+        "source_type": "évaluation scientifique intergouvernementale",
+        "quality_grade": "A",
+        "notes": "Le résumé qualifie le changement climatique de menace pour le bien-être humain et la santé planétaire."
+      },
+      {
+        "id": "S-IPCC-AR6-SYR-2023",
+        "title": "Climate Change 2023: Synthesis Report — Summary for Policymakers",
+        "publisher": "GIEC",
+        "url": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf",
+        "publication_date": "2023-03-20",
+        "accessed_on": "2026-09-06",
+        "source_type": "évaluation scientifique intergouvernementale",
+        "quality_grade": "A",
+        "notes": "Conclut que les risques et pertes augmentent à chaque incrément de réchauffement."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "Le GIEC conclut avec un niveau de confiance très élevé que le changement climatique a déjà causé des effets néfastes généralisés et des pertes et dommages, et que tout réchauffement additionnel accroît les aléas et risques. Dire qu'il fait partie des grandes menaces pour l'habitabilité est une synthèse fidèle, sans prétendre à un rang quantifié exclusif.",
+    "consensus_or_controversy": "Consensus scientifique très élevé sur la gravité des risques pour les systèmes humains et naturels; l'ampleur locale dépend du niveau de réchauffement, de l'exposition et de l'adaptation.",
+    "source_quality": "A — synthèses d'évaluation du GIEC, fondées sur une littérature évaluée par les pairs et approuvées par les États.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Scission documentée de PT-001: proposition climatique évaluée séparément conformément à la règle des propositions indépendantes. Sources et verdict ajoutés lors de la reprise du 6 septembre 2026.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "PT-002",
+    "chapter": null,
+    "chapter_title": "Introduction de la partie I",
+    "pdf_pages": [
+      14
+    ],
+    "document_pages": [
+      14
+    ],
+    "candidate_ids": [
+      "K0122"
+    ],
+    "quote": "Deux des grandes menaces sur l’habitabilité sont le réchauffement climatique et la disparition de la biodiversité.Le respect de la trajectoire des accords de Paris suppose d’abord de refonder notre politique énergétique autour de la sobriété, de l’efficacité et des énergies renouvelables (chapitre 1).",
+    "occurrences": [
+      {
+        "candidate_id": "K0122",
+        "pdf_page": 14,
+        "quote": "Deux des grandes menaces sur l’habitabilité sont le réchauffement climatique et la disparition de la biodiversité.Le respect de la trajectoire des accords de Paris suppose d’abord de refonder notre politique énergétique autour de la sobriété, de l’efficacité et des énergies renouvelables (chapitre 1)."
+      }
+    ],
+    "normalized_claim": "Une trajectoire française compatible avec l'Accord de Paris exige une politique énergétique combinant sobriété, efficacité et déploiement d'énergies bas-carbone renouvelables.",
+    "claim_type": "condition de faisabilité / projection",
+    "argumentative_role": "Justifier les trois piliers de la politique énergétique proposée.",
+    "policies": [
+      "Refonder la politique énergétique"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-RTE-FUTURS-ENERGETIQUES-2050-2021",
+        "title": "Futurs énergétiques 2050 — principaux résultats",
+        "publisher": "RTE",
+        "url": "https://assets.rte-france.com/prod/public/2021-10/Futurs-Energetiques-2050-principaux-resultats.pdf",
+        "publication_date": "2021-10",
+        "accessed_on": "2026-09-06",
+        "source_type": "scénarios de gestionnaire de réseau",
+        "quality_grade": "A",
+        "notes": "Analyse de scénarios français de neutralité électrique, conditionnelle à des hypothèses de demande et de technologies."
+      },
+      {
+        "id": "S-ADEME-TRANSITIONS-2050-2021",
+        "title": "Transition(s) 2050 — choisir maintenant, agir pour le climat",
+        "publisher": "ADEME",
+        "url": "https://librairie.ademe.fr/cadic/6529/transitions2050-rapport.pdf",
+        "publication_date": "2021-11",
+        "accessed_on": "2026-09-06",
+        "source_type": "prospective publique",
+        "quality_grade": "A",
+        "notes": "Quatre scénarios de neutralité française avec hypothèses contrastées de sobriété et de technologies."
+      },
+      {
+        "id": "S-IPCC-AR6-WGIII-SPM-2022",
+        "title": "Climate Change 2022: Mitigation of Climate Change — Summary for Policymakers",
+        "publisher": "GIEC",
+        "url": "https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_SPM.pdf",
+        "publication_date": "2022-04-04",
+        "accessed_on": "2026-09-06",
+        "source_type": "évaluation scientifique intergouvernementale",
+        "quality_grade": "A",
+        "notes": "Synthèse des options mondiales d'atténuation et de leurs conditions."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Les scénarios français de neutralité de RTE et de l'ADEME mobilisent tous efficacité énergétique et une forte part d'énergies décarbonées, dont les renouvelables; plusieurs scénarios RTE reposent aussi sur de la sobriété. Mais les études ne démontrent pas qu'une combinaison précise, ni que les seules renouvelables plutôt qu'un mix incluant du nucléaire, soit une condition nécessaire de compatibilité avec Paris. La phrase transforme en nécessité unique un choix de trajectoire parmi plusieurs scénarios bas-carbone.",
+    "consensus_or_controversy": "Consensus sur l'importance de l'efficacité, de la baisse des émissions et d'un déploiement très important des renouvelables; controverse légitime sur le degré de sobriété, le rôle relatif du nucléaire, des combustibles bas-carbone et les hypothèses de demande.",
+    "source_quality": "A — scénarios publics RTE/ADEME et synthèse du GIEC; résultats conditionnels à leurs hypothèses, non observation directe.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Affirmation de nécessité portant sur un système énergétique prospectif: verdict dépend de la distinction entre levier très robuste et condition strictement nécessaire, ainsi que du périmètre nucléaire/renouvelables."
+  },
+  {
+    "id": "PT-031",
+    "chapter": null,
+    "chapter_title": "Introduction de la partie I",
+    "pdf_pages": [
+      14
+    ],
+    "document_pages": [
+      14
+    ],
+    "candidate_ids": [
+      "K0122"
+    ],
+    "quote": "Deux des grandes menaces sur l’habitabilité sont le réchauffement climatique et la disparition de la biodiversité.",
+    "occurrences": [
+      {
+        "candidate_id": "K0122",
+        "pdf_page": 14,
+        "quote": "Deux des grandes menaces sur l’habitabilité sont le réchauffement climatique et la disparition de la biodiversité."
+      }
+    ],
+    "normalized_claim": "L'érosion de la biodiversité compte parmi les grandes menaces pour l'habitabilité humaine.",
+    "claim_type": "évaluation de risque écologique",
+    "argumentative_role": "Fonder la politique de restauration de la biodiversité de la première partie.",
+    "policies": [
+      "Restaurer la biodiversité"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "PT-menaces-habitabilite",
+    "sources": [
+      {
+        "id": "S-IPBES-2019-SPM",
+        "title": "Summary for policymakers of the global assessment report on biodiversity and ecosystem services",
+        "publisher": "IPBES",
+        "url": "https://files.ipbes.net/ipbes-web-prod-public-files/inline/files/ipbes_global_assessment_report_summary_for_policymakers.pdf",
+        "publication_date": "2019-05",
+        "accessed_on": "2026-09-06",
+        "source_type": "évaluation scientifique intergouvernementale",
+        "quality_grade": "A",
+        "notes": "Synthèse approuvée par la plénière de l'IPBES; documente la dégradation des contributions de la nature aux populations."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "L'IPBES établit que le déclin de la nature compromet les contributions de la biodiversité aux populations — alimentation, eau, régulation, santé et sécurité. La formule est substantiellement juste. « Disparition » est toutefois plus absolu que les diagnostics disponibles, qui décrivent un déclin, des dégradations et des extinctions partielles, sans disparition générale de la biodiversité.",
+    "consensus_or_controversy": "Large consensus sur le déclin mondial de la biodiversité et ses risques systémiques; la hiérarchie exacte des menaces pour l'habitabilité n'est pas une mesure unique.",
+    "source_quality": "A — évaluation scientifique intergouvernementale IPBES, synthèse approuvée et fondée sur une vaste littérature.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "needs_sol_review": false,
+    "sol_review_reason": null,
+    "recovery_provenance": "Nouvelle ligne issue de la scission documentée de PT-001: proposition biodiversité indépendante, évaluée séparément lors de la reprise du 6 septembre 2026."
+  },
+  {
+    "id": "PT-003",
+    "chapter": null,
+    "chapter_title": "Introduction de la partie I",
+    "pdf_pages": [
+      14
+    ],
+    "document_pages": [
+      14
+    ],
+    "candidate_ids": [
+      "K0123"
+    ],
+    "quote": "Nous devons aussi agir sur chacun des grands secteurs qui émettent des gaz à effet de serre : les déplacements (chapitre 2), le logement (chapitre 3), l’agriculture (partie II) et l’industrie (chapitre 20).",
+    "occurrences": [
+      {
+        "candidate_id": "K0123",
+        "pdf_page": 14,
+        "quote": "Nous devons aussi agir sur chacun des grands secteurs qui émettent des gaz à effet de serre : les déplacements (chapitre 2), le logement (chapitre 3), l’agriculture (partie II) et l’industrie (chapitre 20)."
+      }
+    ],
+    "normalized_claim": "Les transports, le logement, l'agriculture et l'industrie sont chacun des secteurs importants d'émissions de gaz à effet de serre.",
+    "claim_type": "fait descriptif multisectoriel",
+    "argumentative_role": "Justifier que la politique climatique intervienne dans chacun de ces secteurs.",
+    "policies": [
+      "Décarboner transports, logement, agriculture et industrie"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-CITEPA-SECTEN-2026",
+        "title": "Rapport Secten, édition 2026",
+        "publisher": "Citepa",
+        "url": "https://www.citepa.org/donnees-air-climat/donnees-gaz-a-effet-de-serre/secten/",
+        "publication_date": "2026-06-16",
+        "accessed_on": "2026-09-06",
+        "source_type": "inventaire national / statistique publique",
+        "quality_grade": "A",
+        "notes": "Données d'émissions françaises par secteur; périmètre territorial, hors puits de carbone selon les tableaux utilisés."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "L'inventaire national Secten classe bien les transports, les bâtiments (dont le logement), l'agriculture et l'industrie manufacturière parmi les grands secteurs émetteurs français. Les périmètres sectoriels de l'inventaire ne recouvrent pas exactement les ministères ou les chapitres du programme, mais chacun des quatre domaines représente une source substantielle de GES.",
+    "consensus_or_controversy": "Pas de controverse scientifique significative; les parts varient selon l'année et la convention de comptabilisation territoriale ou d'empreinte.",
+    "source_quality": "A — inventaire national des émissions, réalisé dans le cadre de la statistique publique et des obligations internationales de la France.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "PT-006",
+    "chapter": null,
+    "chapter_title": "Introduction de la partie I",
+    "pdf_pages": [
+      14
+    ],
+    "document_pages": [
+      14
+    ],
+    "candidate_ids": [
+      "K0130"
+    ],
+    "quote": "Il faut se battre pour empêcher la terre de se réchauffer encore plus car chaque dixième de degré en plus portera son lot de catastrophes.",
+    "occurrences": [
+      {
+        "candidate_id": "K0130",
+        "pdf_page": 14,
+        "quote": "Il faut se battre pour empêcher la terre de se réchauffer encore plus car chaque dixième de degré en plus portera son lot de catastrophes."
+      }
+    ],
+    "normalized_claim": "Chaque dixième de degré supplémentaire de réchauffement accroît les risques et dommages climatiques.",
+    "claim_type": "causalité climatique",
+    "argumentative_role": "Justifier l'atténuation même lorsque certains seuils ne peuvent plus être totalement évités.",
+    "policies": [
+      "Réduire les émissions de gaz à effet de serre"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-IPCC-AR6-SYR-2023",
+        "title": "Climate Change 2023: Synthesis Report — Summary for Policymakers",
+        "publisher": "GIEC",
+        "url": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf",
+        "publication_date": "2023-03-20",
+        "accessed_on": "2026-09-06",
+        "source_type": "évaluation scientifique intergouvernementale",
+        "quality_grade": "A",
+        "notes": "Conclut que chaque incrément de réchauffement intensifie les aléas et risques climatiques."
+      },
+      {
+        "id": "S-IPCC-AR6-WGII-SPM-2022",
+        "title": "Climate Change 2022 — Impacts, Adaptation and Vulnerability, Summary for Policymakers",
+        "publisher": "GIEC",
+        "url": "https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_SummaryForPolicymakers.pdf",
+        "publication_date": "2022-02-28",
+        "accessed_on": "2026-09-06",
+        "source_type": "évaluation scientifique intergouvernementale",
+        "quality_grade": "A",
+        "notes": "Le résumé indique que le changement climatique menace le bien-être humain et la santé de la planète et documente l'intensification des risques."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Le GIEC conclut que chaque incrément de réchauffement intensifie de multiples aléas et risques climatiques. La formulation est donc correcte dans son sens argumentatif. Elle est rhétorique: les dommages ne progressent ni uniformément ni nécessairement sous la forme d'une catastrophe nouvellement observable à chaque dixième de degré; ils dépendent de l'exposition, de la vulnérabilité et de l'adaptation, avec des seuils possibles.",
+    "consensus_or_controversy": "Consensus très élevé sur l'augmentation des risques avec le réchauffement additionnel; incertitudes sur la localisation, les seuils et l'ampleur de chaque dommage.",
+    "source_quality": "A — synthèses d'évaluation du GIEC.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C04-002",
+    "chapter": 4,
+    "chapter_title": "Adapter la France à +4 °C",
+    "pdf_pages": [
+      14,
+      26
+    ],
+    "document_pages": [
+      14,
+      26
+    ],
+    "candidate_ids": [
+      "K0234",
+      "K0124"
+    ],
+    "quote": "Le changement climatique n’est plus une hypothèse : il impacte déjà nos vies et continuera de produire des catastrophes irréversibles.",
+    "occurrences": [
+      {
+        "candidate_id": "K0234",
+        "pdf_page": 26,
+        "quote": "Le changement climatique n’est plus une hypothèse : il impacte déjà nos vies et continuera de produire des catastrophes irréversibles."
+      },
+      {
+        "candidate_id": "K0124",
+        "pdf_page": 14,
+        "quote": "Il faut aussi nous adapter car le réchauffement climatique n’est pas un horizon lointain, il est déjà présent dans notre quotidien (chapitre 4)."
+      }
+    ],
+    "normalized_claim": "Le changement climatique affecte déjà les conditions de vie en France.",
+    "claim_type": "fait observé",
+    "argumentative_role": "Établir que l'adaptation est un besoin présent.",
+    "policies": [
+      "Plan national d'adaptation",
+      "Adapter la France au réchauffement déjà présent"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-IPCC-AR6-WGII-SPM-2022",
+        "title": "Climate Change 2022 — Impacts, Adaptation and Vulnerability, Summary for Policymakers",
+        "publisher": "GIEC",
+        "url": "https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_SummaryForPolicymakers.pdf",
+        "publication_date": "2022-02-28",
+        "accessed_on": "2026-09-06",
+        "source_type": "évaluation scientifique intergouvernementale",
+        "quality_grade": "A",
+        "notes": "Établit des effets néfastes déjà généralisés, pertes et dommages attribuables au changement climatique, avec une intensification future des risques."
+      },
+      {
+        "id": "S-METEOFRANCE-CLIMAT-FRANCE-2024",
+        "title": "Le climat de la France au XXIe siècle — projections et observations",
+        "publisher": "Météo-France",
+        "url": "https://meteofrance.fr/climat-et-changement-climatique/quel-climat-futur-en-france",
+        "publication_date": null,
+        "accessed_on": "2026-09-06",
+        "source_type": "service météorologique national / synthèse institutionnelle",
+        "quality_grade": "A",
+        "notes": "Documente le réchauffement observé en France et ses effets sur les extrêmes, l'eau et les conditions de vie."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "Les observations et évaluations du GIEC établissent que le changement climatique a déjà produit des dommages et perturbations affectant les populations; la France connaît déjà une hausse des températures, des vagues de chaleur, sécheresses et autres extrêmes. La proposition normalisée ne prétend pas que tout événement particulier est exclusivement causé par le climat.",
+    "consensus_or_controversy": "Consensus scientifique très élevé sur les effets déjà observés; l'attribution d'un événement isolé requiert une analyse spécifique.",
+    "source_quality": "A — GIEC et service météorologique national.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C01-001",
+    "chapter": 1,
+    "chapter_title": "Gagner la bataille du climat",
+    "pdf_pages": [
+      15
+    ],
+    "document_pages": [
+      15
+    ],
+    "candidate_ids": [
+      "K0133"
+    ],
+    "quote": "La France est l’unique pays européen à ne pas respecter ses objectifs de production pour atteindre la neutralité carbone en 2050.",
+    "occurrences": [
+      {
+        "candidate_id": "K0133",
+        "pdf_page": 15,
+        "quote": "La France est l’unique pays européen à ne pas respecter ses objectifs de production pour atteindre la neutralité carbone en 2050."
+      }
+    ],
+    "normalized_claim": "La France serait le seul pays européen à ne pas respecter ses objectifs de production énergétique compatibles avec la neutralité carbone en 2050.",
+    "claim_type": "comparaison internationale",
+    "argumentative_role": "Justifier une réorientation de la politique énergétique.",
+    "policies": [
+      "Réviser la PPE3",
+      "Accélérer les renouvelables"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-RTE-FUTURS-ENERGETIQUES-2050-2021",
+        "title": "Futurs énergétiques 2050 — principaux résultats",
+        "publisher": "RTE",
+        "url": "https://assets.rte-france.com/prod/public/2021-10/Futurs-Energetiques-2050-principaux-resultats.pdf",
+        "publication_date": "2021-10",
+        "accessed_on": "2026-09-06",
+        "source_type": "scénarios de gestionnaire de réseau",
+        "quality_grade": "A",
+        "notes": "Décrit les scénarios français de neutralité mais ne fournit pas de classement européen des pays respectant des objectifs de production."
+      },
+      {
+        "id": "S-EEA-NECP-PROGRESS-2025",
+        "title": "National Energy and Climate Plans: EU progress assessment",
+        "publisher": "Agence européenne pour l'environnement",
+        "url": "https://www.eea.europa.eu/en/analysis/indicators/national-energy-and-climate-plans",
+        "publication_date": null,
+        "accessed_on": "2026-09-06",
+        "source_type": "évaluation institutionnelle européenne",
+        "quality_grade": "A",
+        "notes": "Les États ont des plans et indicateurs hétérogènes; cette information ne permet pas d'établir l'unicité française sans définition précise de l'objectif de production et année de référence."
+      }
+    ],
+    "verdict": "Invérifiable ou insuffisamment étayé",
+    "justification": "La phrase ne définit ni les « objectifs de production », ni le périmètre européen, ni le jalon temporel, ni la méthode permettant de comparer des objectifs nationaux hétérogènes de neutralité. Les sources publiques consultées documentent des écarts et des scénarios pour plusieurs États, mais aucune ne démontre que la France est l'unique pays européen en non-respect. L'assertion d'unicité reste donc non étayée, plutôt que réfutée par un contre-exemple entièrement comparable.",
+    "consensus_or_controversy": "Il existe un accord sur l'insuffisance globale des trajectoires européennes, mais pas d'indicateur standard permettant la comparaison affirmée.",
+    "source_quality": "A pour les sources institutionnelles, mais elles ne répondent pas à la comparaison indéfinie formulée par le programme.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Comparaison d'unicité à dénominateur et définition non explicités; une vérification exhaustive des plans nationaux pourrait modifier le statut entre insuffisamment étayé et faux."
+  },
+  {
+    "id": "C01-002",
+    "chapter": 1,
+    "chapter_title": "Gagner la bataille du climat",
+    "pdf_pages": [
+      15
+    ],
+    "document_pages": [
+      15
+    ],
+    "candidate_ids": [
+      "K0134"
+    ],
+    "quote": "Elles sont pourtant peu coûteuses, rapides à déployer et la valeur ajoutée des filières a des retombées fiscales et en emploi en France.",
+    "occurrences": [
+      {
+        "candidate_id": "K0134",
+        "pdf_page": 15,
+        "quote": "Elles sont pourtant peu coûteuses, rapides à déployer et la valeur ajoutée des filières a des retombées fiscales et en emploi en France."
+      }
+    ],
+    "normalized_claim": "Les énergies renouvelables seraient peu coûteuses.",
+    "claim_type": "comparaison de coûts",
+    "argumentative_role": "Présenter les renouvelables comme économiquement préférables.",
+    "policies": [
+      "Accélérer les renouvelables"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "C01-renouvelables",
+    "sources": [
+      {
+        "id": "S-IRENA-COSTS-2024",
+        "title": "Renewable Power Generation Costs in 2024",
+        "publisher": "International Renewable Energy Agency",
+        "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_TEC_RPGC_in_2024_2025.pdf",
+        "publication_date": "2025-07",
+        "accessed_on": "2026-09-06",
+        "source_type": "rapport institutionnel sur données de coûts mondiales",
+        "quality_grade": "A",
+        "notes": "Indique que 91 % de la capacité renouvelable nouvellement mise en service en 2024 produisait à un coût inférieur à la nouvelle alternative fossile la moins chère; données mondiales, coûts actualisés de production."
+      },
+      {
+        "id": "S-RTE-FE2050-2021",
+        "title": "Futurs énergétiques 2050",
+        "publisher": "RTE",
+        "url": "https://www.rte-france.com/donnees-publications/etudes-prospectives/futurs-energetique-2050",
+        "publication_date": "2021-10",
+        "accessed_on": "2026-09-06",
+        "source_type": "prospective du gestionnaire de réseau français",
+        "quality_grade": "A",
+        "notes": "Compare les scénarios de système électrique, y compris les coûts complets de réseau, flexibilité et production."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Le solaire et l'éolien nouveaux sont fréquemment parmi les moyens de production les moins coûteux au sens du coût actualisé de l'électricité. Cela ne suffit pas à établir que « les énergies renouvelables » au sens large, dans tout système français, sont peu coûteuses: coûts de réseau, stockage, flexibilité, sites, financement et technologie varient fortement. Le programme ne précise ni technologie ni métrique de coût.",
+    "consensus_or_controversy": "Consensus sur la forte baisse et la compétitivité de nombreuses filières; débat sur les coûts systémiques et comparaisons selon le mix.",
+    "source_quality": "A — données IRENA et étude RTE; application à un système national exige des hypothèses.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C01-003",
+    "chapter": 1,
+    "chapter_title": "Gagner la bataille du climat",
+    "pdf_pages": [
+      15
+    ],
+    "document_pages": [
+      15
+    ],
+    "candidate_ids": [
+      "K0134"
+    ],
+    "quote": "Elles sont pourtant peu coûteuses, rapides à déployer et la valeur ajoutée des filières a des retombées fiscales et en emploi en France.",
+    "occurrences": [
+      {
+        "candidate_id": "K0134",
+        "pdf_page": 15,
+        "quote": "Elles sont pourtant peu coûteuses, rapides à déployer et la valeur ajoutée des filières a des retombées fiscales et en emploi en France."
+      }
+    ],
+    "normalized_claim": "Les énergies renouvelables seraient rapides à déployer.",
+    "claim_type": "comparaison de délais",
+    "argumentative_role": "Présenter les renouvelables comme une réponse rapide.",
+    "policies": [
+      "Accélérer les renouvelables"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "C01-renouvelables",
+    "sources": [
+      {
+        "id": "S-IEA-NUCLEAR-REPORT-2025",
+        "title": "The Path to a New Era for Nuclear Energy",
+        "publisher": "Agence internationale de l'énergie",
+        "url": "https://www.iea.org/reports/the-path-to-a-new-era-for-nuclear-energy",
+        "publication_date": "2025-01",
+        "accessed_on": "2026-09-06",
+        "source_type": "rapport institutionnel international",
+        "quality_grade": "A",
+        "notes": "Documente des délais pluriannuels de construction nucléaire et les retards/coûts de nombreux projets récents."
+      },
+      {
+        "id": "S-IEA-RENEWABLES-2024",
+        "title": "Renewables 2024",
+        "publisher": "Agence internationale de l'énergie",
+        "url": "https://www.iea.org/reports/renewables-2024",
+        "publication_date": "2024-10",
+        "accessed_on": "2026-09-06",
+        "source_type": "rapport institutionnel international",
+        "quality_grade": "A",
+        "notes": "Documente des délais de déploiement courts pour le photovoltaïque et l'éolien, avec contraintes de permis et de réseaux."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Le photovoltaïque et l'éolien peuvent être construits et raccordés en quelques mois à quelques années, nettement plus vite que les grandes centrales nucléaires neuves. La généralisation à toutes les renouvelables et à toutes les implantations doit être nuancée: hydroélectricité, offshore, raccordements et procédures peuvent prendre longtemps.",
+    "consensus_or_controversy": "Consensus sur la rapidité relative du solaire et de l'éolien; délais locaux très variables selon les réseaux, permis et acceptabilité.",
+    "source_quality": "A — AIE; données de déploiement et comparaison technologique.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C01-015",
+    "chapter": 1,
+    "chapter_title": "Gagner la bataille du climat",
+    "pdf_pages": [
+      15
+    ],
+    "document_pages": [
+      15
+    ],
+    "candidate_ids": [
+      "K0134"
+    ],
+    "quote": "Elles sont pourtant peu coûteuses, rapides à déployer et la valeur ajoutée des filières a des retombées fiscales et en emploi en France.",
+    "occurrences": [
+      {
+        "candidate_id": "K0134",
+        "pdf_page": 15,
+        "quote": "Elles sont pourtant peu coûteuses, rapides à déployer et la valeur ajoutée des filières a des retombées fiscales et en emploi en France."
+      }
+    ],
+    "normalized_claim": "Les filières renouvelables produiraient en France des retombées fiscales et d'emploi.",
+    "claim_type": "causalité / effet économique",
+    "argumentative_role": "Justifier les renouvelables par leurs co-bénéfices nationaux.",
+    "policies": [
+      "Accélérer les renouvelables"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "C01-renouvelables",
+    "sources": [
+      {
+        "id": "S-SDES-EMPLOIS-ENR-2024",
+        "title": "Les emplois dans les énergies renouvelables et de récupération",
+        "publisher": "Service des données et études statistiques",
+        "url": "https://www.statistiques.developpement-durable.gouv.fr/les-emplois-dans-les-energies-renouvelables-et-de-recuperation",
+        "publication_date": null,
+        "accessed_on": "2026-09-06",
+        "source_type": "statistique publique française",
+        "quality_grade": "A",
+        "notes": "Le suivi national documente les emplois directs et indirects dans les filières d'énergies renouvelables et de récupération; les effectifs et périmètres dépendent des filières."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les filières renouvelables génèrent en France des activités économiques et des emplois, et leur valeur ajoutée entraîne des recettes fiscales ordinaires. L'affirmation ne chiffre ni emploi net ni rendement fiscal: elle ne permet donc pas d'inférer que les retombées excèdent celles d'autres investissements, ni qu'elles sont uniformément locales.",
+    "consensus_or_controversy": "Consensus sur l'existence d'emplois et de recettes associés; débats sur l'emploi net, la localisation de la chaîne de valeur et les effets d'éviction.",
+    "source_quality": "A — statistique publique, avec limites usuelles de périmètre des emplois directs/indirects.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  }
+]

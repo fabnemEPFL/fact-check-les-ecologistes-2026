@@ -1,0 +1,513 @@
+[
+  {
+    "id": "PT-012",
+    "chapter": null,
+    "chapter_title": "Introduction de la partie V",
+    "pdf_pages": [
+      106
+    ],
+    "document_pages": [
+      106
+    ],
+    "candidate_ids": [
+      "K0832"
+    ],
+    "quote": "Le troisième enjeu consiste à lutter contre deux fléaux qui se développent massivement : la pauvreté (chapitre 32) et la solitude (chapitre 33).",
+    "occurrences": [
+      {
+        "candidate_id": "K0832",
+        "pdf_page": 106,
+        "quote": "Le troisième enjeu consiste à lutter contre deux fléaux qui se développent massivement : la pauvreté (chapitre 32) et la solitude (chapitre 33)."
+      }
+    ],
+    "normalized_claim": "La solitude connaît une progression massive en France.",
+    "claim_type": "comparaison temporelle",
+    "argumentative_role": "Justifier une politique publique spécifique de lutte contre la solitude.",
+    "policies": [
+      "Lutter contre la solitude"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "Fondation de France, Solitudes 2023",
+        "url": "https://www.fondationdefrance.org/fr/les-solitudes-en-france",
+        "type": "enquête associative",
+        "finding": "Mesure des évolutions de solitude selon définition et période, sans série publique unique établissant une hausse massive générale."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "La solitude est importante et évolue selon indicateurs; « progression massive » est imprécis, dépend de la période et de la définition.",
+    "consensus_or_controversy": "Phénomène significatif, tendance non univoque.",
+    "source_quality": "Moyenne.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Tendance sensible à la définition et aux séries."
+  },
+  {
+    "id": "PT-024",
+    "chapter": null,
+    "chapter_title": "Introduction de la partie V",
+    "pdf_pages": [
+      106
+    ],
+    "document_pages": [
+      106
+    ],
+    "candidate_ids": [
+      "K0832"
+    ],
+    "quote": "Le troisième enjeu consiste à lutter contre deux fléaux qui se développent massivement : la pauvreté (chapitre 32) et la solitude (chapitre 33).",
+    "occurrences": [
+      {
+        "candidate_id": "K0832",
+        "pdf_page": 106,
+        "quote": "Le troisième enjeu consiste à lutter contre deux fléaux qui se développent massivement : la pauvreté (chapitre 32) et la solitude (chapitre 33)."
+      }
+    ],
+    "normalized_claim": "La pauvreté connaît une progression massive en France.",
+    "claim_type": "comparaison temporelle",
+    "argumentative_role": "Justifier une politique renforcée de lutte contre la pauvreté.",
+    "policies": [
+      "Lutter contre la pauvreté"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "Insee, taux de pauvreté",
+        "url": "https://www.insee.fr/fr/statistiques/3560123",
+        "type": "statistique publique",
+        "finding": "Le taux de pauvreté varie dans le temps; les évolutions récentes ne démontrent pas une progression massive continue."
+      }
+    ],
+    "verdict": "Trompeur",
+    "justification": "La pauvreté est un problème majeur mais sa série Insee fluctue et ne montre pas une hausse « massive » continue sans période explicitée.",
+    "consensus_or_controversy": "Mesure sensible au seuil et période.",
+    "source_quality": "Très élevée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Verdict Trompeur dépend du point de départ temporel."
+  },
+  {
+    "id": "C28-001",
+    "chapter": 28,
+    "chapter_title": "Sortir de la civilisation des toxiques",
+    "pdf_pages": [
+      107
+    ],
+    "document_pages": [
+      107
+    ],
+    "candidate_ids": [
+      "K0839"
+    ],
+    "quote": "Il est grand temps de sortir d’un modèle qui pollue, ravage le présent et empoisonne l’avenir, de sortir de la civilisation des toxiques dans l’industrie comme dans l’agriculture [cf proposition 5-1 sur la sortie des pesticides].",
+    "occurrences": [
+      {
+        "candidate_id": "K0839",
+        "pdf_page": 107,
+        "quote": "Il est grand temps de sortir d’un modèle qui pollue, ravage le présent et empoisonne l’avenir, de sortir de la civilisation des toxiques dans l’industrie comme dans l’agriculture [cf proposition 5-1 sur la sortie des pesticides]."
+      }
+    ],
+    "normalized_claim": "Les pollutions industrielles et agricoles causent des dommages sanitaires et environnementaux persistants.",
+    "claim_type": "causalité",
+    "argumentative_role": "Justifier une politique générale de réduction des toxiques.",
+    "policies": [
+      "Sortir des toxiques",
+      "Appliquer le principe pollueur-payeur"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "OMS, pollution and health",
+        "url": "https://www.who.int/health-topics/air-pollution",
+        "type": "OMS",
+        "finding": "Pollutions industrielles/agricoles contribuent à maladies et dommages environnementaux persistants."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "Les effets sanitaires et environnementaux de nombreux polluants sont établis, avec persistance variable selon substance.",
+    "consensus_or_controversy": "Très établi.",
+    "source_quality": "Très élevée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  },
+  {
+    "id": "C28-002",
+    "chapter": 28,
+    "chapter_title": "Sortir de la civilisation des toxiques",
+    "pdf_pages": [
+      107
+    ],
+    "document_pages": [
+      107
+    ],
+    "candidate_ids": [
+      "K0840"
+    ],
+    "quote": "Interdire l’ensemble des polluants éternels (PFAS) et des perturbateurs endocriniens en application du principe de précaution, - interdiction immédiate pour la nourriture, le textile et les produits de beauté et sous 18 mois pour les autres.",
+    "occurrences": [
+      {
+        "candidate_id": "K0840",
+        "pdf_page": 107,
+        "quote": "Interdire l’ensemble des polluants éternels (PFAS) et des perturbateurs endocriniens en application du principe de précaution, - interdiction immédiate pour la nourriture, le textile et les produits de beauté et sous 18 mois pour les autres."
+      }
+    ],
+    "normalized_claim": "Les PFAS sont persistants et certains ont des effets sanitaires avérés ou suspectés; les perturbateurs endocriniens forment une catégorie de substances pouvant agir à faible dose pendant des fenêtres sensibles.",
+    "claim_type": "fait toxicologique",
+    "argumentative_role": "Justifier des interdictions larges et des exceptions limitées.",
+    "policies": [
+      "Interdire les PFAS et perturbateurs endocriniens"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "ANSES, PFAS",
+        "url": "https://www.anses.fr/fr/content/pfas",
+        "type": "agence sanitaire",
+        "finding": "Persistance et risques sanitaires de certains PFAS; PE peuvent agir à faibles doses selon substance/fenêtre."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Énoncé conforme, avec effets sanitaires variables selon substance/exposition.",
+    "consensus_or_controversy": "Très établi.",
+    "source_quality": "Très élevée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  },
+  {
+    "id": "C28-004",
+    "chapter": 28,
+    "chapter_title": "Sortir de la civilisation des toxiques",
+    "pdf_pages": [
+      108
+    ],
+    "document_pages": [
+      108
+    ],
+    "candidate_ids": [
+      "K0844"
+    ],
+    "quote": "Faire appliquer systématiquement le principe pollueur- payeur pour que les industriels contribuent à la dépollution des nappes et des sols impactés et à la recherche sur les alternatives aux produits polluants.",
+    "occurrences": [
+      {
+        "candidate_id": "K0844",
+        "pdf_page": 108,
+        "quote": "Faire appliquer systématiquement le principe pollueur- payeur pour que les industriels contribuent à la dépollution des nappes et des sols impactés et à la recherche sur les alternatives aux produits polluants."
+      }
+    ],
+    "normalized_claim": "Faire contribuer les pollueurs aux coûts de dépollution internalise une partie des dommages et peut financer la restauration et la recherche d'alternatives.",
+    "claim_type": "causalité / effet de politique",
+    "argumentative_role": "Justifier l'application du principe pollueur-payeur.",
+    "policies": [
+      "Appliquer le principe pollueur-payeur"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "OCDE, Polluter pays principle",
+        "url": "https://www.oecd.org/en/topics/sub-issues/polluter-pays-principle.html",
+        "type": "OCDE",
+        "finding": "Principe d'internalisation, modalités et efficacité dépendantes de la conception."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Peut internaliser coûts et financer actions, sans garantir prévention intégrale ni recouvrement complet.",
+    "consensus_or_controversy": "Principe économique établi.",
+    "source_quality": "Élevée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  },
+  {
+    "id": "C28-005",
+    "chapter": 28,
+    "chapter_title": "Sortir de la civilisation des toxiques",
+    "pdf_pages": [
+      108
+    ],
+    "document_pages": [
+      108
+    ],
+    "candidate_ids": [
+      "K0845"
+    ],
+    "quote": "Adopter un plan global de réduction de l’antibiorésistance afin de réduire de 30 % l’usage des antibiotiques critiques en santé humaine et animale et éviter l’émergence et la propagation des bactéries résistantes.",
+    "occurrences": [
+      {
+        "candidate_id": "K0845",
+        "pdf_page": 108,
+        "quote": "Adopter un plan global de réduction de l’antibiorésistance afin de réduire de 30 % l’usage des antibiotiques critiques en santé humaine et animale et éviter l’émergence et la propagation des bactéries résistantes."
+      }
+    ],
+    "normalized_claim": "Réduire l'usage inapproprié des antibiotiques critiques en santé humaine et animale limite la sélection et la diffusion de résistances.",
+    "claim_type": "causalité sanitaire",
+    "argumentative_role": "Justifier une réduction de 30 % de leur usage.",
+    "policies": [
+      "Réduire l'antibiorésistance"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "OMS, antimicrobial resistance",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+        "type": "OMS",
+        "finding": "Usage inapproprié favorise résistance; approche One Health."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "Relation de sélection et diffusion établie.",
+    "consensus_or_controversy": "Très établi.",
+    "source_quality": "Très élevée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  },
+  {
+    "id": "C28-006",
+    "chapter": 28,
+    "chapter_title": "Sortir de la civilisation des toxiques",
+    "pdf_pages": [
+      108
+    ],
+    "document_pages": [
+      108
+    ],
+    "candidate_ids": [
+      "K0846"
+    ],
+    "quote": "Promouvoir un usage raisonné des antibiotiques par la publication annuelle des consommations par établissements de santé, par un meilleur ciblage des antibiotiques critiques aux infections graves et documentées et un déploiement des tests rapides.",
+    "occurrences": [
+      {
+        "candidate_id": "K0846",
+        "pdf_page": 108,
+        "quote": "Promouvoir un usage raisonné des antibiotiques par la publication annuelle des consommations par établissements de santé, par un meilleur ciblage des antibiotiques critiques aux infections graves et documentées et un déploiement des tests rapides."
+      }
+    ],
+    "normalized_claim": "Les tests diagnostiques rapides et un ciblage des antibiotiques sur les infections documentées peuvent réduire les prescriptions inutiles.",
+    "claim_type": "causalité / effet de politique",
+    "argumentative_role": "Justifier le déploiement des tests et le suivi des consommations.",
+    "policies": [
+      "Promouvoir le bon usage des antibiotiques"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "OMS, diagnostic stewardship",
+        "url": "https://www.who.int/publications/i/item/9789240057522",
+        "type": "OMS",
+        "finding": "Diagnostics et stewardship peuvent réduire prescriptions inutiles, avec limites de disponibilité/sensibilité."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Effet documenté, dépendant des tests et pratiques cliniques.",
+    "consensus_or_controversy": "Établi.",
+    "source_quality": "Très élevée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  },
+  {
+    "id": "C28-003",
+    "chapter": 28,
+    "chapter_title": "Sortir de la civilisation des toxiques",
+    "pdf_pages": [
+      109
+    ],
+    "document_pages": [
+      109
+    ],
+    "candidate_ids": [
+      "K0851"
+    ],
+    "quote": "Augmenter le nombre d’inspecteurs et le seuil de l’amende maximale pour les ICPE à 500 000€ (contre 15 000€ actuellement).",
+    "occurrences": [
+      {
+        "candidate_id": "K0851",
+        "pdf_page": 109,
+        "quote": "Augmenter le nombre d’inspecteurs et le seuil de l’amende maximale pour les ICPE à 500 000€ (contre 15 000€ actuellement)."
+      }
+    ],
+    "normalized_claim": "Le plafond général d'amende administrative mentionné pour certaines infractions ICPE est de 15 000 euros dans le cadre visé par le programme.",
+    "claim_type": "fait juridique quantitatif",
+    "argumentative_role": "Justifier un relèvement à 500 000 euros.",
+    "policies": [
+      "Renforcer les sanctions ICPE"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "Code de l'environnement, L171-8",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049198114",
+        "type": "droit primaire",
+        "finding": "Plafond administratif prévu dans cadre précisé; dépend du manquement et version applicable."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "15 000 € figure dans le régime visé mais ne couvre pas toutes infractions/sanctions ICPE.",
+    "consensus_or_controversy": "Établi juridiquement.",
+    "source_quality": "Très élevée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  },
+  {
+    "id": "C28-007",
+    "chapter": 28,
+    "chapter_title": "Sortir de la civilisation des toxiques",
+    "pdf_pages": [
+      109
+    ],
+    "document_pages": [
+      109
+    ],
+    "candidate_ids": [
+      "K0853"
+    ],
+    "quote": "S’assurer du respect de la directive européenne de 2002 visant à prévenir et réduire les effets du bruit dans l’environnement.",
+    "occurrences": [
+      {
+        "candidate_id": "K0853",
+        "pdf_page": 109,
+        "quote": "S’assurer du respect de la directive européenne de 2002 visant à prévenir et réduire les effets du bruit dans l’environnement."
+      }
+    ],
+    "normalized_claim": "La directive européenne 2002/49/CE impose l'évaluation et la gestion du bruit dans l'environnement.",
+    "claim_type": "fait juridique",
+    "argumentative_role": "Justifier son application renforcée.",
+    "policies": [
+      "Faire respecter la directive bruit"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "Directive 2002/49/CE",
+        "url": "https://eur-lex.europa.eu/eli/dir/2002/49/oj",
+        "type": "droit UE",
+        "finding": "Cartes de bruit, information et plans d'action."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "La directive impose évaluation et gestion stratégique du bruit.",
+    "consensus_or_controversy": "Établi.",
+    "source_quality": "Très élevée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  },
+  {
+    "id": "C28-008",
+    "chapter": 28,
+    "chapter_title": "Sortir de la civilisation des toxiques",
+    "pdf_pages": [
+      109
+    ],
+    "document_pages": [
+      109
+    ],
+    "candidate_ids": [
+      "K0855"
+    ],
+    "quote": "Interdire l’utilisation des polymères halogénés (PVC, polymères fluorés) dont la combustion est la plus nocive dès 2028 dans les produits à emballage ménagers et les produits à usage unique.",
+    "occurrences": [
+      {
+        "candidate_id": "K0855",
+        "pdf_page": 109,
+        "quote": "Interdire l’utilisation des polymères halogénés (PVC, polymères fluorés) dont la combustion est la plus nocive dès 2028 dans les produits à emballage ménagers et les produits à usage unique."
+      }
+    ],
+    "normalized_claim": "La combustion de polymères halogénés peut émettre des substances corrosives ou toxiques, mais le degré de nocivité varie selon le polymère et les conditions de combustion.",
+    "claim_type": "comparaison toxicologique",
+    "argumentative_role": "Justifier l'interdiction proposée des polymères halogénés à usage unique.",
+    "policies": [
+      "Interdire certains polymères halogénés"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "INRS, fumées d'incendie",
+        "url": "https://www.inrs.fr/risques/incendie-explosion/ce-qu-il-faut-retenir.html",
+        "type": "institut prévention",
+        "finding": "Combustion de polymères peut générer gaz toxiques/corrosifs selon matériau/combustion."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "Formulation explicitement conditionnelle correcte.",
+    "consensus_or_controversy": "Établi.",
+    "source_quality": "Élevée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  }
+]

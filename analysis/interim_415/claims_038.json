@@ -1,0 +1,566 @@
+[
+  {
+    "id": "C40-004",
+    "chapter": 40,
+    "chapter_title": "Amplifier la politique féministe",
+    "pdf_pages": [
+      137
+    ],
+    "document_pages": [
+      137
+    ],
+    "candidate_ids": [
+      "K1068"
+    ],
+    "quote": "Ce drame est évitable car il dépend du degré de mobilisation de la société, des institutions, des services publics, des associations.",
+    "occurrences": [
+      {
+        "candidate_id": "K1068",
+        "pdf_page": 137,
+        "quote": "Ce drame est évitable car il dépend du degré de mobilisation de la société, des institutions, des services publics, des associations."
+      }
+    ],
+    "normalized_claim": "Des dispositifs institutionnels et associatifs de prévention, protection et sanction réduisent le risque de féminicide et de récidive.",
+    "claim_type": "causalité / effet de politique",
+    "argumentative_role": "Établir qu'une partie des homicides est évitable par l'action publique.",
+    "policies": [
+      "Renforcer prévention et protection"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.justice.gouv.fr/sites/default/files/2025-04/20250410_rapport_recherche_bar.pdf",
+        "title": "Ministère de la Justice — première évaluation du bracelet anti-rapprochement",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      },
+      {
+        "url": "https://www.haut-conseil-egalite.gouv.fr/violences-de-genre/actualites/article/rapport-annuel-sur-l-etat-du-sexisme-en-france",
+        "title": "HCE — rapport sur l'état du sexisme",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les évaluations des politiques de prévention, de protection des victimes et de responsabilisation des auteurs soutiennent l'intérêt de combiner ces leviers. L'effet sur les féminicides et la récidive dépend toutefois de leur mise en œuvre, de la rapidité de protection et du suivi des auteurs.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C40-005",
+    "chapter": 40,
+    "chapter_title": "Amplifier la politique féministe",
+    "pdf_pages": [
+      137
+    ],
+    "document_pages": [
+      137
+    ],
+    "candidate_ids": [
+      "K1069"
+    ],
+    "quote": "Il repose également sur une continuité, sur une culture du viol et des violences qu’il faut combattre résolument et par tous les moyens [cf chapitre 38 sur les violences sexistes et sexuelles].",
+    "occurrences": [
+      {
+        "candidate_id": "K1069",
+        "pdf_page": 137,
+        "quote": "Il repose également sur une continuité, sur une culture du viol et des violences qu’il faut combattre résolument et par tous les moyens [cf chapitre 38 sur les violences sexistes et sexuelles]."
+      }
+    ],
+    "normalized_claim": "Les normes sociales tolérant ou minimisant les violences sexuelles contribuent à leur persistance et à la sous-déclaration.",
+    "claim_type": "causalité sociale",
+    "argumentative_role": "Justifier une action éducative et culturelle contre les violences.",
+    "policies": [
+      "Former et prévenir les violences sexistes"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.haut-conseil-egalite.gouv.fr/sites/default/files/2025-01/hce_rapport_annuel_2025_etat_du_sexisme_en_france.pdf",
+        "title": "HCE — rapport annuel sur l'état du sexisme en France",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      },
+      {
+        "url": "https://www.who.int/publications/i/item/9789240022256",
+        "title": "OMS — violence against women prevalence estimates",
+        "source_type": "organisation internationale",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "La littérature sur les normes de genre et les violences sexuelles établit qu'une tolérance sociale et la banalisation des faits constituent des facteurs de risque et favorisent le non-recours ou la sous-déclaration. Le mécanisme n'est pas exclusif d'autres déterminants institutionnels et individuels.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C40-006",
+    "chapter": 40,
+    "chapter_title": "Amplifier la politique féministe",
+    "pdf_pages": [
+      138
+    ],
+    "document_pages": [
+      138
+    ],
+    "candidate_ids": [
+      "K1074"
+    ],
+    "quote": "Réviser les mécanismes juridiques et fiscaux qui précarisent les femmes (quotient conjugal, prise en compte des congés maternité dans l’avancement, successions inégales…).",
+    "occurrences": [
+      {
+        "candidate_id": "K1074",
+        "pdf_page": 138,
+        "quote": "Réviser les mécanismes juridiques et fiscaux qui précarisent les femmes (quotient conjugal, prise en compte des congés maternité dans l’avancement, successions inégales…)."
+      }
+    ],
+    "normalized_claim": "Certains mécanismes juridiques et fiscaux, comme le quotient conjugal ou une mauvaise prise en compte des congés maternité, peuvent défavoriser économiquement les femmes.",
+    "claim_type": "causalité distributive",
+    "argumentative_role": "Justifier leur révision.",
+    "policies": [
+      "Réviser les mécanismes fiscaux genrés"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.insee.fr/fr/statistiques/2381474",
+        "title": "Insee — femmes et hommes, l'égalité en question",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      },
+      {
+        "url": "https://www.oecd.org/fr/publications/2024/11/taxing-wages-2024_8c672087.html",
+        "title": "OCDE — Taxing Wages 2024",
+        "source_type": "organisation internationale",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Les règles fiscales et de protection sociale peuvent produire des effets différenciés selon le revenu et la répartition des revenus dans le couple. Le quotient conjugal français a des effets discutés sur l'incitation au second revenu ; l'insuffisante prise en compte de certaines interruptions de carrière liées à la maternité contribue aussi aux écarts, mais l'effet global dépend du dispositif précis.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C41-001",
+    "chapter": 41,
+    "chapter_title": "Défendre les droits des personnes LGBTQIA+",
+    "pdf_pages": [
+      140
+    ],
+    "document_pages": [
+      140
+    ],
+    "candidate_ids": [
+      "K1079"
+    ],
+    "quote": "Les violences homophobes et les discriminations persistent tandis que l’invisibilisation des personnes lesbiennes, gays, bisexuelles et transgenres est à l’œuvre dans trop d’institutions.",
+    "occurrences": [
+      {
+        "candidate_id": "K1079",
+        "pdf_page": 140,
+        "quote": "Les violences homophobes et les discriminations persistent tandis que l’invisibilisation des personnes lesbiennes, gays, bisexuelles et transgenres est à l’œuvre dans trop d’institutions."
+      }
+    ],
+    "normalized_claim": "Les violences et discriminations homophobes ou transphobes persistent en France et restent sous-déclarées.",
+    "claim_type": "tendance descriptive",
+    "argumentative_role": "Justifier des politiques de prévention et de protection.",
+    "policies": [
+      "Lutter contre les violences LGBTQIAphobes"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.interieur.gouv.fr/Interstats/Actualites/Les-atteintes-anti-LGBT-enregistrees-par-les-forces-de-securite-en-2023",
+        "title": "SSMSI — atteintes anti-LGBT enregistrées en 2023",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      },
+      {
+        "url": "https://fra.europa.eu/en/publication/2024/lgbtiq-equality-crossroads-progress-and-challenges",
+        "title": "FRA — LGBTIQ equality at a crossroads",
+        "source_type": "organisation internationale",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les données de signalement et les enquêtes montrent la persistance de violences et discriminations anti-LGBT+ en France. Les écarts entre expériences déclarées et plaintes ou signalements confirment que le phénomène est sous-déclaré.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C41-002",
+    "chapter": 41,
+    "chapter_title": "Défendre les droits des personnes LGBTQIA+",
+    "pdf_pages": [
+      140
+    ],
+    "document_pages": [
+      140
+    ],
+    "candidate_ids": [
+      "K1080"
+    ],
+    "quote": "Aujourd’hui, l’extrême droite mène une offensive mondiale anti-trans au service de son projet réactionnaire qui entend remettre en cause les droits de l’ensemble des personnes LGBTQIA+, des femmes et des minorités.",
+    "occurrences": [
+      {
+        "candidate_id": "K1080",
+        "pdf_page": 140,
+        "quote": "Aujourd’hui, l’extrême droite mène une offensive mondiale anti-trans au service de son projet réactionnaire qui entend remettre en cause les droits de l’ensemble des personnes LGBTQIA+, des femmes et des minorités."
+      }
+    ],
+    "normalized_claim": "Depuis le début des années 2020, des mouvements et gouvernements conservateurs ont intensifié à l'échelle internationale les restrictions visant les personnes trans et, plus largement, certains droits LGBTQIA+.",
+    "claim_type": "comparaison temporelle et internationale",
+    "argumentative_role": "Justifier une extension et une défense active des droits.",
+    "policies": [
+      "Défendre les droits LGBTQIA+"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.ilga-europe.org/report/rainbow-europe-2024/",
+        "title": "ILGA-Europe — Rainbow Europe 2024",
+        "source_type": "association spécialisée",
+        "consulted_at": "2026-09-08"
+      },
+      {
+        "url": "https://www.hrw.org/world-report/2024/country-chapters",
+        "title": "Human Rights Watch — World Report 2024",
+        "source_type": "organisation internationale",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Depuis le début des années 2020, plusieurs pays ont adopté ou proposé des restrictions visant notamment l'accès aux soins d'affirmation de genre, la reconnaissance juridique ou l'expression des personnes trans. L'ampleur et le contenu des reculs varient fortement selon les États ; ils ne décrivent pas uniformément la situation internationale.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C41-003",
+    "chapter": 41,
+    "chapter_title": "Défendre les droits des personnes LGBTQIA+",
+    "pdf_pages": [
+      141
+    ],
+    "document_pages": [
+      141
+    ],
+    "candidate_ids": [
+      "K1082"
+    ],
+    "quote": "Conditionner les délégations de service public aux fédérations à l’atteinte d’objectifs et la mise en œuvre de campagnes permettant de lutter contre les préjugés.",
+    "occurrences": [
+      {
+        "candidate_id": "K1082",
+        "pdf_page": 141,
+        "quote": "Conditionner les délégations de service public aux fédérations à l’atteinte d’objectifs et la mise en œuvre de campagnes permettant de lutter contre les préjugés."
+      }
+    ],
+    "normalized_claim": "Des campagnes institutionnelles bien conçues peuvent réduire certains préjugés envers les personnes LGBTQIA+.",
+    "claim_type": "causalité / effet de politique",
+    "argumentative_role": "Justifier la conditionnalité des délégations de service public sportives.",
+    "policies": [
+      "Imposer des campagnes anti-préjugés"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://fra.europa.eu/en/publication/2024/lgbtiq-equality-crossroads-progress-and-challenges",
+        "title": "FRA — LGBTIQ equality at a crossroads",
+        "source_type": "organisation internationale",
+        "consulted_at": "2026-09-08"
+      },
+      {
+        "url": "https://www.unesco.org/en/articles/behind-numbers-ending-school-violence-and-bullying",
+        "title": "UNESCO — ending school violence and bullying",
+        "source_type": "organisation internationale",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Des interventions de contact, d'information et de normes sociales peuvent réduire certains préjugés, selon des études expérimentales et revues. Leur efficacité dépend du public, du message, du contexte et de la durée ; une campagne institutionnelle seule ne suffit pas nécessairement.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C41-004",
+    "chapter": 41,
+    "chapter_title": "Défendre les droits des personnes LGBTQIA+",
+    "pdf_pages": [
+      141
+    ],
+    "document_pages": [
+      141
+    ],
+    "candidate_ids": [
+      "K1083"
+    ],
+    "quote": "Combattre le harcèlement et les violences LGBTQIAphobes à l’école en incluant des référent·es formé·es dans chaque établissement, des protocoles de signalement et de protection efficaces et un soutien psychologique pour les jeunes victimes.",
+    "occurrences": [
+      {
+        "candidate_id": "K1083",
+        "pdf_page": 141,
+        "quote": "Combattre le harcèlement et les violences LGBTQIAphobes à l’école en incluant des référent·es formé·es dans chaque établissement, des protocoles de signalement et de protection efficaces et un soutien psychologique pour les jeunes victimes."
+      }
+    ],
+    "normalized_claim": "Des référents formés, protocoles de signalement et soutiens psychologiques peuvent améliorer la détection et la prise en charge du harcèlement LGBTQIAphobe à l'école.",
+    "claim_type": "causalité / effet de politique",
+    "argumentative_role": "Justifier des dispositifs obligatoires dans les établissements.",
+    "policies": [
+      "Lutter contre le harcèlement LGBTQIAphobe à l'école"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.education.gouv.fr/non-au-harcelement-323012",
+        "title": "Ministère de l'Éducation nationale — programme de lutte contre le harcèlement",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      },
+      {
+        "url": "https://www.unesco.org/en/articles/behind-numbers-ending-school-violence-and-bullying",
+        "title": "UNESCO — rapport sur la violence et le harcèlement à l'école",
+        "source_type": "organisation internationale",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les recommandations de prévention du harcèlement scolaire soulignent l'intérêt de personnels formés, de procédures de signalement et du soutien aux élèves. Les bénéfices sur la détection et la prise en charge sont plausibles et documentés, tout en dépendant de la formation effective, de la confidentialité et des moyens disponibles.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C42-001",
+    "chapter": 42,
+    "chapter_title": "Bâtir une société antivalidiste",
+    "pdf_pages": [
+      142
+    ],
+    "document_pages": [
+      142
+    ],
+    "candidate_ids": [
+      "K1085"
+    ],
+    "quote": "L’accessibilité des lieux publics, des transports ou des logements reste insuffisante, faute d’investissements à la hauteur des besoins.",
+    "occurrences": [
+      {
+        "candidate_id": "K1085",
+        "pdf_page": 142,
+        "quote": "L’accessibilité des lieux publics, des transports ou des logements reste insuffisante, faute d’investissements à la hauteur des besoins."
+      }
+    ],
+    "normalized_claim": "L'accessibilité des lieux publics, transports et logements reste incomplète en France malgré les obligations légales.",
+    "claim_type": "comparaison à une norme",
+    "argumentative_role": "Établir l'écart entre droits formels et accessibilité effective.",
+    "policies": [
+      "Renforcer l'accessibilité universelle"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.defenseurdesdroits.fr/sites/default/files/2024-11/ddd_rapport-droit-fondamental-accessibilite.pdf",
+        "title": "Défenseur des droits — droit fondamental à l'accessibilité",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      },
+      {
+        "url": "https://www.ecologie.gouv.fr/politiques-publiques/accessibilite",
+        "title": "Ministère de la Transition écologique — accessibilité",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les obligations légales d'accessibilité n'ont pas supprimé tous les obstacles dans les établissements recevant du public, les transports et le logement. Les rapports de suivi soulignent des retards et des exceptions, malgré les progrès réalisés.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C42-002",
+    "chapter": 42,
+    "chapter_title": "Bâtir une société antivalidiste",
+    "pdf_pages": [
+      143
+    ],
+    "document_pages": [
+      143
+    ],
+    "candidate_ids": [
+      "K1093"
+    ],
+    "quote": "Créer un véritable un service public d’accompagnement des élèves en situation de handicap en formant et titularisant les 144 000 AESH (accompagnant ·es d’élèves en situation de Handicap).",
+    "occurrences": [
+      {
+        "candidate_id": "K1093",
+        "pdf_page": 143,
+        "quote": "Créer un véritable un service public d’accompagnement des élèves en situation de handicap en formant et titularisant les 144 000 AESH (accompagnant ·es d’élèves en situation de Handicap)."
+      }
+    ],
+    "normalized_claim": "Environ 144 000 accompagnants d'élèves en situation de handicap exercent dans l'Éducation nationale.",
+    "claim_type": "chiffre d'emploi",
+    "argumentative_role": "Dimensionner le projet de formation et de titularisation des AESH.",
+    "policies": [
+      "Créer un service public des AESH"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.education.gouv.fr/les-accompagnants-des-eleves-en-situation-de-handicap-aesh-11626",
+        "title": "Ministère de l'Éducation nationale — AESH",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "L'Éducation nationale indique un effectif de l'ordre de 140 000 accompagnants d'élèves en situation de handicap, selon l'année scolaire et le mode de décompte. Le chiffre de 144 000 est cohérent avec cet ordre de grandeur mais doit être daté.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C42-003",
+    "chapter": 42,
+    "chapter_title": "Bâtir une société antivalidiste",
+    "pdf_pages": [
+      143
+    ],
+    "document_pages": [
+      143
+    ],
+    "candidate_ids": [
+      "K1096"
+    ],
+    "quote": "Abroger l’article 64 de la loi Elan pour garantir l’accessibilité de tous les logements en rez-de-chaussée.",
+    "occurrences": [
+      {
+        "candidate_id": "K1096",
+        "pdf_page": 143,
+        "quote": "Abroger l’article 64 de la loi Elan pour garantir l’accessibilité de tous les logements en rez-de-chaussée."
+      }
+    ],
+    "normalized_claim": "L'article 64 de la loi ELAN a ramené à 20 % la part de logements neufs devant être immédiatement accessibles, les autres devant être évolutifs.",
+    "claim_type": "fait juridique",
+    "argumentative_role": "Justifier son abrogation au nom de l'accessibilité de tous les logements.",
+    "policies": [
+      "Abroger l'article 64 de la loi ELAN"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000037639921",
+        "title": "Loi ELAN, article 64",
+        "source_type": "juridique primaire",
+        "consulted_at": "2026-09-08"
+      },
+      {
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037667916",
+        "title": "Code de la construction et de l'habitation — logements évolutifs",
+        "source_type": "juridique primaire",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "L'article 64 de la loi ELAN prévoit que 20 % des logements neufs doivent être accessibles et que les autres doivent être évolutifs, sous les conditions prévues par le code de la construction et de l'habitation.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  }
+]

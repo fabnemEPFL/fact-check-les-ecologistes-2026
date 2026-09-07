@@ -1,0 +1,554 @@
+[
+  {
+    "id": "C20-004",
+    "chapter": 20,
+    "chapter_title": "Planifier une nouvelle industrialisation",
+    "pdf_pages": [
+      76
+    ],
+    "document_pages": [
+      76
+    ],
+    "candidate_ids": [
+      "K0632"
+    ],
+    "quote": "La relocalisation des chaînes de valeurs protégera les emplois et les conditions de travail et nous permettra de maîtriser notre impact écologique alors que le secteur industriel représente 17 % des émissions nationales.",
+    "occurrences": [
+      {
+        "candidate_id": "K0632",
+        "pdf_page": 76,
+        "quote": "La relocalisation des chaînes de valeurs protégera les emplois et les conditions de travail et nous permettra de maîtriser notre impact écologique alors que le secteur industriel représente 17 % des émissions nationales."
+      }
+    ],
+    "normalized_claim": "La relocalisation de chaînes de valeur peut préserver certains emplois et améliorer le contrôle des conditions de production.",
+    "claim_type": "causalité / effet de politique",
+    "argumentative_role": "Justifier la relocalisation industrielle.",
+    "policies": [
+      "Relocaliser les chaînes de valeur"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "C20-relocalisation",
+    "sources": [
+      {
+        "id": "S-OECD-RESILIENT-SUPPLY",
+        "title": "Supply chain resilience",
+        "publisher": "OCDE",
+        "url": "https://www.oecd.org/en/topics/sub-issues/global-value-and-supply-chains.html",
+        "accessed_on": "2026-09-07",
+        "source_type": "organisation intergouvernementale",
+        "quality_grade": "A-",
+        "notes": "Relocalisation peut modifier emplois et contrôle, avec coûts/effets de déplacement."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Relocaliser peut préserver ou créer certains emplois et faciliter le contrôle local de conditions de production; bénéfices nets dépendent de compétitivité, automatisation et règles.",
+    "consensus_or_controversy": "Mécanismes plausibles, effets nets contextuels.",
+    "source_quality": "A-.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Effets emploi nets de relocalisation."
+  },
+  {
+    "id": "C20-005",
+    "chapter": 20,
+    "chapter_title": "Planifier une nouvelle industrialisation",
+    "pdf_pages": [
+      76
+    ],
+    "document_pages": [
+      76
+    ],
+    "candidate_ids": [
+      "K0632"
+    ],
+    "quote": "La relocalisation des chaînes de valeurs protégera les emplois et les conditions de travail et nous permettra de maîtriser notre impact écologique alors que le secteur industriel représente 17 % des émissions nationales.",
+    "occurrences": [
+      {
+        "candidate_id": "K0632",
+        "pdf_page": 76,
+        "quote": "La relocalisation des chaînes de valeurs protégera les emplois et les conditions de travail et nous permettra de maîtriser notre impact écologique alors que le secteur industriel représente 17 % des émissions nationales."
+      }
+    ],
+    "normalized_claim": "Le secteur industriel représente environ 17 % des émissions territoriales françaises de gaz à effet de serre.",
+    "claim_type": "chiffre descriptif",
+    "argumentative_role": "Justifier la décarbonation industrielle.",
+    "policies": [
+      "Décarboner l'industrie"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-CITEPA-SECTEN",
+        "title": "SECTEN - émissions de GES en France",
+        "publisher": "Citepa",
+        "url": "https://www.citepa.org/fr/secten/",
+        "accessed_on": "2026-09-07",
+        "source_type": "inventaire national",
+        "quality_grade": "A",
+        "notes": "L'industrie représente une part voisine de 17–18 % selon année et périmètre territorial."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "La part de l'industrie dans les émissions territoriales françaises est de l'ordre de 17 %, avec variations selon année et classification sectorielle.",
+    "consensus_or_controversy": "Établi.",
+    "source_quality": "A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C20-006",
+    "chapter": 20,
+    "chapter_title": "Planifier une nouvelle industrialisation",
+    "pdf_pages": [
+      77
+    ],
+    "document_pages": [
+      77
+    ],
+    "candidate_ids": [
+      "K0635"
+    ],
+    "quote": "Diminuer l’impact environnemental des modes de production en soutenant les procédés d’électrification (pompes à chaleur, chaudières industrielles, compression mécanique de vapeur…) via les Certificats d’Economie d’Energie.",
+    "occurrences": [
+      {
+        "candidate_id": "K0635",
+        "pdf_page": 77,
+        "quote": "Diminuer l’impact environnemental des modes de production en soutenant les procédés d’électrification (pompes à chaleur, chaudières industrielles, compression mécanique de vapeur…) via les Certificats d’Economie d’Energie."
+      }
+    ],
+    "normalized_claim": "L'électrification de procédés industriels peut réduire leurs émissions et leur dépendance aux combustibles fossiles.",
+    "claim_type": "causalité technique",
+    "argumentative_role": "Justifier un soutien par les certificats d'économies d'énergie.",
+    "policies": [
+      "Électrifier les procédés industriels"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-IEA-INDUSTRY-ELECTRIFICATION",
+        "title": "Industrial electrification",
+        "publisher": "Agence internationale de l'énergie",
+        "url": "https://www.iea.org/topics/industry",
+        "accessed_on": "2026-09-07",
+        "source_type": "agence intergouvernementale",
+        "quality_grade": "A-",
+        "notes": "Électrification peut réduire émissions selon mix électrique et procédé."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "L'électrification de procédés peut remplacer des combustibles fossiles et réduire les émissions lorsque l'électricité est peu carbonée; effets variables selon procédés.",
+    "consensus_or_controversy": "Élevé.",
+    "source_quality": "A-.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C20-007",
+    "chapter": 20,
+    "chapter_title": "Planifier une nouvelle industrialisation",
+    "pdf_pages": [
+      77
+    ],
+    "document_pages": [
+      77
+    ],
+    "candidate_ids": [
+      "K0636"
+    ],
+    "quote": "Mutualiser et massifier certains investissements stratégiques bas carbone pour en diminuer le coût et obtenir des garanties publiques car l’amortissement se ferait à long terme en particulier pour le passage à l’hydrogène décarboné par électrolyse.",
+    "occurrences": [
+      {
+        "candidate_id": "K0636",
+        "pdf_page": 77,
+        "quote": "Mutualiser et massifier certains investissements stratégiques bas carbone pour en diminuer le coût et obtenir des garanties publiques car l’amortissement se ferait à long terme en particulier pour le passage à l’hydrogène décarboné par électrolyse."
+      }
+    ],
+    "normalized_claim": "La mutualisation d'investissements bas-carbone peut réduire leurs coûts unitaires; certains projets d'hydrogène décarboné ont des durées d'amortissement longues.",
+    "claim_type": "causalité économique",
+    "argumentative_role": "Justifier garanties publiques et mutualisation.",
+    "policies": [
+      "Mutualiser les investissements bas-carbone"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-IEA-HYDROGEN",
+        "title": "Global Hydrogen Review",
+        "publisher": "Agence internationale de l'énergie",
+        "url": "https://www.iea.org/reports/global-hydrogen-review-2024",
+        "accessed_on": "2026-09-07",
+        "source_type": "agence intergouvernementale",
+        "quality_grade": "A-",
+        "notes": "Co-investissement peut générer économies d'échelle; amortissements dépendent projet et contrat."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Mutualisation et économies d'échelle peuvent réduire les coûts unitaires; les projets d'hydrogène ont souvent horizons de capital longs. L'ampleur dépend du projet.",
+    "consensus_or_controversy": "Élevé.",
+    "source_quality": "A-.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C20-008",
+    "chapter": 20,
+    "chapter_title": "Planifier une nouvelle industrialisation",
+    "pdf_pages": [
+      77
+    ],
+    "document_pages": [
+      77
+    ],
+    "candidate_ids": [
+      "K0638"
+    ],
+    "quote": "Renforcer les outils juridiques comme le décret Montebourg permettant d’intervenir dans la reprise des entreprises.",
+    "occurrences": [
+      {
+        "candidate_id": "K0638",
+        "pdf_page": 77,
+        "quote": "Renforcer les outils juridiques comme le décret Montebourg permettant d’intervenir dans la reprise des entreprises."
+      }
+    ],
+    "normalized_claim": "Le dispositif dit décret Montebourg permet à l'État de contrôler ou bloquer certains investissements étrangers dans des secteurs stratégiques.",
+    "claim_type": "fait juridique",
+    "argumentative_role": "Justifier le renforcement des outils d'intervention lors de reprises.",
+    "policies": [
+      "Renforcer le contrôle des investissements"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-DGT-IEF",
+        "title": "Contrôle des investissements étrangers en France",
+        "publisher": "Direction générale du Trésor",
+        "url": "https://www.tresor.economie.gouv.fr/Articles/tags/Investissements-etrangers-en-France",
+        "accessed_on": "2026-09-07",
+        "source_type": "administration publique",
+        "quality_grade": "A",
+        "notes": "Le dispositif IEF, souvent associé au décret Montebourg, autorise contrôle/autorisation dans secteurs sensibles."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "Le régime IEF permet d'autoriser, conditionner ou refuser certains investissements étrangers dans secteurs stratégiques.",
+    "consensus_or_controversy": "Établi juridiquement.",
+    "source_quality": "A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C20-009",
+    "chapter": 20,
+    "chapter_title": "Planifier une nouvelle industrialisation",
+    "pdf_pages": [
+      77
+    ],
+    "document_pages": [
+      77
+    ],
+    "candidate_ids": [
+      "K0639"
+    ],
+    "quote": "Instituter un droit de préemption sur les machines outils et les autres actifs nécessaires à l’activité en cas de fermeture d’usine permettant aux collecrtivités territoriales de relancer l’activité avec la participation des salarié.es",
+    "occurrences": [
+      {
+        "candidate_id": "K0639",
+        "pdf_page": 77,
+        "quote": "Instituter un droit de préemption sur les machines outils et les autres actifs nécessaires à l’activité en cas de fermeture d’usine permettant aux collecrtivités territoriales de relancer l’activité avec la participation des salarié.es"
+      }
+    ],
+    "normalized_claim": "Un droit de préemption sur les actifs productifs peut faciliter une reprise d'activité par des collectivités et des salariés après fermeture.",
+    "claim_type": "projection / effet de politique",
+    "argumentative_role": "Justifier un nouveau droit de préemption industriel.",
+    "policies": [
+      "Créer un droit de préemption sur les machines"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-ILO-WORKER-BUYOUTS",
+        "title": "Worker buyouts and enterprise transfers",
+        "publisher": "Organisation internationale du Travail",
+        "url": "https://www.ilo.org/",
+        "accessed_on": "2026-09-07",
+        "source_type": "organisation internationale",
+        "quality_grade": "A-",
+        "notes": "Préemption peut faciliter reprise mais n'assure viabilité économique."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Un droit de préemption peut donner du temps et un accès aux actifs pour une reprise collective. La viabilité dépend du financement, marché et compétences.",
+    "consensus_or_controversy": "Mécanisme institutionnel plausible.",
+    "source_quality": "A-.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Effets de reprise d'activité non garantis."
+  },
+  {
+    "id": "C20-010",
+    "chapter": 20,
+    "chapter_title": "Planifier une nouvelle industrialisation",
+    "pdf_pages": [
+      78
+    ],
+    "document_pages": [
+      78
+    ],
+    "candidate_ids": [
+      "K0641"
+    ],
+    "quote": "Dénoncer puis renégocier l’accord du 27 juillet 2025 entre les Etats-Unis et l’UE sur les droits de douane afin d’imposer une réciprocité douanière.",
+    "occurrences": [
+      {
+        "candidate_id": "K0641",
+        "pdf_page": 78,
+        "quote": "Dénoncer puis renégocier l’accord du 27 juillet 2025 entre les Etats-Unis et l’UE sur les droits de douane afin d’imposer une réciprocité douanière."
+      }
+    ],
+    "normalized_claim": "Un accord commercial entre l'Union européenne et les États-Unis a été conclu le 27 juillet 2025 et a modifié les droits de douane réciproques.",
+    "claim_type": "fait institutionnel",
+    "argumentative_role": "Justifier sa dénonciation et renégociation.",
+    "policies": [
+      "Renégocier l'accord UE–États-Unis"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-EC-EU-US-TRADE",
+        "title": "EU-US trade relations",
+        "publisher": "Commission européenne",
+        "url": "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/united-states_en",
+        "accessed_on": "2026-09-07",
+        "source_type": "institution européenne",
+        "quality_grade": "A",
+        "notes": "Les accords et annonces commerciales doivent être distingués des accords juridiquement conclus."
+      }
+    ],
+    "verdict": "Invérifiable ou insuffisamment étayé",
+    "justification": "La date, la nature juridique de l'accord et les droits modifiés exigent une source primaire précise. Le programme ne fournit ni intitulé ni texte; l'affirmation ne peut être vérifiée telle quelle.",
+    "consensus_or_controversy": "Non établi sans document identifié.",
+    "source_quality": "A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Fait diplomatique daté nécessitant texte officiel précis."
+  },
+  {
+    "id": "C21-001",
+    "chapter": 21,
+    "chapter_title": "Protéger nos techno-diversités numériques",
+    "pdf_pages": [
+      79
+    ],
+    "document_pages": [
+      79
+    ],
+    "candidate_ids": [
+      "K0644"
+    ],
+    "quote": "Le numérique n’est pas seulement un secteur économique, c’est un espace de pouvoir qui influence nos manières d’agir, de produire, de nous informer et de décider.",
+    "occurrences": [
+      {
+        "candidate_id": "K0644",
+        "pdf_page": 79,
+        "quote": "Le numérique n’est pas seulement un secteur économique, c’est un espace de pouvoir qui influence nos manières d’agir, de produire, de nous informer et de décider."
+      }
+    ],
+    "normalized_claim": "Les infrastructures et plateformes numériques influencent substantiellement les comportements, la production, l'information et les décisions collectives.",
+    "claim_type": "causalité sociotechnique",
+    "argumentative_role": "Établir que la politique numérique est aussi une politique de pouvoir.",
+    "policies": [
+      "Réguler les plateformes",
+      "Développer la technodiversité"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-OECD-DIGITAL-ECONOMY",
+        "title": "Digital Economy Outlook",
+        "publisher": "OCDE",
+        "url": "https://www.oecd.org/en/publications/oecd-digital-economy-outlook-2024_a1689dc5-en.html",
+        "accessed_on": "2026-09-07",
+        "source_type": "organisation intergouvernementale",
+        "quality_grade": "A-",
+        "notes": "Plateformes et infrastructures numériques structurent activités, information et services."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "Les plateformes et infrastructures numériques influencent les comportements, production, information et décisions; constat établi.",
+    "consensus_or_controversy": "Très élevé.",
+    "source_quality": "A-.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C21-002",
+    "chapter": 21,
+    "chapter_title": "Protéger nos techno-diversités numériques",
+    "pdf_pages": [
+      79
+    ],
+    "document_pages": [
+      79
+    ],
+    "candidate_ids": [
+      "K0649"
+    ],
+    "quote": "Présentée comme une avancée technologique, elle met en cause les équilibres de l’État social, du respect des droits d’auteur, des libertés fondamentales et consomme une énergie gigantesque et un travail humain largement invisibilisé.",
+    "occurrences": [
+      {
+        "candidate_id": "K0649",
+        "pdf_page": 79,
+        "quote": "Présentée comme une avancée technologique, elle met en cause les équilibres de l’État social, du respect des droits d’auteur, des libertés fondamentales et consomme une énergie gigantesque et un travail humain largement invisibilisé."
+      }
+    ],
+    "normalized_claim": "Le développement de l'intelligence artificielle soulève des risques pour les droits d'auteur, certaines libertés et certains équilibres sociaux.",
+    "claim_type": "causalité / risques",
+    "argumentative_role": "Justifier la traçabilité des données et la régulation de l'IA.",
+    "policies": [
+      "Tracer les données d'entraînement",
+      "Étiqueter les contenus IA"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "C21-IA",
+    "sources": [
+      {
+        "id": "S-EU-AI-ACT",
+        "title": "AI Act",
+        "publisher": "Commission européenne",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+        "accessed_on": "2026-09-07",
+        "source_type": "institution européenne",
+        "quality_grade": "A",
+        "notes": "Le cadre répond aux risques fondamentaux; droit d'auteur relève aussi du droit existant et contentieux."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "L'IA soulève des enjeux de droits d'auteur, droits fondamentaux et impacts sociaux, reconnus par les régulateurs. Les risques dépendent des applications.",
+    "consensus_or_controversy": "Élevé.",
+    "source_quality": "A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C21-003",
+    "chapter": 21,
+    "chapter_title": "Protéger nos techno-diversités numériques",
+    "pdf_pages": [
+      79
+    ],
+    "document_pages": [
+      79
+    ],
+    "candidate_ids": [
+      "K0649"
+    ],
+    "quote": "Présentée comme une avancée technologique, elle met en cause les équilibres de l’État social, du respect des droits d’auteur, des libertés fondamentales et consomme une énergie gigantesque et un travail humain largement invisibilisé.",
+    "occurrences": [
+      {
+        "candidate_id": "K0649",
+        "pdf_page": 79,
+        "quote": "Présentée comme une avancée technologique, elle met en cause les équilibres de l’État social, du respect des droits d’auteur, des libertés fondamentales et consomme une énergie gigantesque et un travail humain largement invisibilisé."
+      }
+    ],
+    "normalized_claim": "L'entraînement et l'usage de systèmes d'IA peuvent consommer de grandes quantités d'électricité et d'eau.",
+    "claim_type": "fait environnemental",
+    "argumentative_role": "Justifier une politique numérique sobre.",
+    "policies": [
+      "Développer un numérique sobre"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "C21-IA",
+    "sources": [
+      {
+        "id": "S-IEA-ELECTRICITY-2024",
+        "title": "Electricity 2024",
+        "publisher": "Agence internationale de l'énergie",
+        "url": "https://www.iea.org/reports/electricity-2024",
+        "accessed_on": "2026-09-07",
+        "source_type": "agence intergouvernementale",
+        "quality_grade": "A-",
+        "notes": "Data centers/IA accroissent demande électrique; eau dépend refroidissement et localisation."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "L'entraînement et l'inférence peuvent consommer beaucoup d'électricité; les data centers peuvent aussi consommer de l'eau. Quantités varient fortement selon modèle, matériel, lieu et refroidissement.",
+    "consensus_or_controversy": "Élevé.",
+    "source_quality": "A-.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Quantification très variable par système et site."
+  }
+]

@@ -1,0 +1,512 @@
+[
+  {
+    "id": "C46-003",
+    "chapter": 46,
+    "chapter_title": "Accomplir l’égalité avec tous les territoires dits d’Outre-mer",
+    "pdf_pages": [
+      153
+    ],
+    "document_pages": [
+      153
+    ],
+    "candidate_ids": [
+      "K1143"
+    ],
+    "quote": "Fluidifier les voies d’accès à l’hexagone pour désenclaver l’île par la suppression du titre de séjour territorialisé avant 2030.",
+    "occurrences": [
+      {
+        "candidate_id": "K1143",
+        "pdf_page": 153,
+        "quote": "Fluidifier les voies d’accès à l’hexagone pour désenclaver l’île par la suppression du titre de séjour territorialisé avant 2030."
+      }
+    ],
+    "normalized_claim": "Le titre de séjour territorialisé à Mayotte limite la circulation vers le reste du territoire français de personnes pourtant en séjour régulier à Mayotte.",
+    "claim_type": "fait juridique et causalité",
+    "argumentative_role": "Justifier sa suppression pour désenclaver l'île.",
+    "policies": [
+      "Supprimer le titre de séjour territorialisé à Mayotte"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.service-public.fr/particuliers/vosdroits/F2209",
+        "title": "Service-Public — titre de séjour à Mayotte",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "Le titre de séjour délivré à Mayotte n'autorise en principe son titulaire à séjourner que dans ce département ; une circulation vers le reste du territoire requiert les conditions prévues par le droit applicable.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C46-004",
+    "chapter": 46,
+    "chapter_title": "Accomplir l’égalité avec tous les territoires dits d’Outre-mer",
+    "pdf_pages": [
+      153
+    ],
+    "document_pages": [
+      153
+    ],
+    "candidate_ids": [
+      "K1144"
+    ],
+    "quote": "Favoriser une agriculture locale respectueuse du climat et de la biodiversité.",
+    "occurrences": [
+      {
+        "candidate_id": "K1144",
+        "pdf_page": 153,
+        "quote": "Favoriser une agriculture locale respectueuse du climat et de la biodiversité."
+      }
+    ],
+    "normalized_claim": "Une production agricole locale diversifiée peut réduire certaines dépendances alimentaires des territoires insulaires, mais ses effets environnementaux dépendent des pratiques et ressources.",
+    "claim_type": "causalité / effet de politique",
+    "argumentative_role": "Justifier le soutien à une agriculture locale durable.",
+    "policies": [
+      "Soutenir l'agriculture locale outre-mer"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.fao.org/land-water/water/water-scarcity/en/",
+        "title": "FAO — sécurité alimentaire et ressources",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Une diversification de l'agriculture locale peut réduire certaines dépendances alimentaires insulaires. Les conséquences environnementales dépendent des pratiques, de l'eau disponible, du foncier et des intrants.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C46-005",
+    "chapter": 46,
+    "chapter_title": "Accomplir l’égalité avec tous les territoires dits d’Outre-mer",
+    "pdf_pages": [
+      153
+    ],
+    "document_pages": [
+      153
+    ],
+    "candidate_ids": [
+      "K1146"
+    ],
+    "quote": "Veiller à l’application de la loi Lurel qui interdit la commercialisation de produits plus sucrés dans les territoires dits d’Outre-mer que dans l’Hexagone.",
+    "occurrences": [
+      {
+        "candidate_id": "K1146",
+        "pdf_page": 153,
+        "quote": "Veiller à l’application de la loi Lurel qui interdit la commercialisation de produits plus sucrés dans les territoires dits d’Outre-mer que dans l’Hexagone."
+      }
+    ],
+    "normalized_claim": "La loi Lurel interdit qu'un aliment commercialisé outre-mer ait une teneur en sucres ajoutés supérieure à celle du même produit vendu en Hexagone.",
+    "claim_type": "fait juridique",
+    "argumentative_role": "Justifier le contrôle de son application.",
+    "policies": [
+      "Faire appliquer la loi Lurel"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000027414545",
+        "title": "Loi n° 2013-453 dite Lurel",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "La loi Lurel interdit une teneur en sucres ajoutés supérieure dans un produit alimentaire vendu outre-mer par rapport à un produit comparable de la même marque vendu en Hexagone.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C46-006",
+    "chapter": 46,
+    "chapter_title": "Accomplir l’égalité avec tous les territoires dits d’Outre-mer",
+    "pdf_pages": [
+      154
+    ],
+    "document_pages": [
+      154
+    ],
+    "candidate_ids": [
+      "K1147"
+    ],
+    "quote": "Transférer la propriété de 400 000 hectares de forêts aux peuples autochtones conformément à l’accord de 2017.",
+    "occurrences": [
+      {
+        "candidate_id": "K1147",
+        "pdf_page": 154,
+        "quote": "Transférer la propriété de 400 000 hectares de forêts aux peuples autochtones conformément à l’accord de 2017."
+      }
+    ],
+    "normalized_claim": "Un accord conclu en 2017 en Guyane prévoyait l'attribution ou la restitution de 400 000 hectares de terres aux peuples autochtones.",
+    "claim_type": "fait historique et juridique",
+    "argumentative_role": "Justifier le transfert de propriété annoncé.",
+    "policies": [
+      "Transférer 400 000 hectares en Guyane"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.vie-publique.fr/rapport/37570-accords-de-guyane-2017",
+        "title": "Vie publique — accords de Guyane de 2017",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Les accords de Guyane de 2017 comprennent des engagements fonciers envers les peuples autochtones. Le chiffre de 400 000 hectares et la distinction entre attribution et restitution nécessitent de préciser le document, les bénéficiaires et le calendrier effectif de mise en œuvre.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C46-007",
+    "chapter": 46,
+    "chapter_title": "Accomplir l’égalité avec tous les territoires dits d’Outre-mer",
+    "pdf_pages": [
+      154
+    ],
+    "document_pages": [
+      154
+    ],
+    "candidate_ids": [
+      "K1148"
+    ],
+    "quote": "Veiller à limiter l’impact des présences humaines.",
+    "occurrences": [
+      {
+        "candidate_id": "K1148",
+        "pdf_page": 154,
+        "quote": "Veiller à limiter l’impact des présences humaines."
+      }
+    ],
+    "normalized_claim": "Dans plusieurs écosystèmes ultramarins isolés, la fréquentation humaine non maîtrisée peut causer des dommages disproportionnés à la biodiversité.",
+    "claim_type": "causalité écologique",
+    "argumentative_role": "Justifier la limitation de certaines présences humaines.",
+    "policies": [
+      "Protéger les écosystèmes ultramarins"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.iucn.org/resources/issues-brief/islands-and-biodiversity",
+        "title": "UICN — îles et biodiversité",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Dans des écosystèmes insulaires souvent riches en espèces endémiques, une fréquentation non maîtrisée peut dégrader habitats et espèces. L'importance des effets dépend de la fréquentation, de la sensibilité des milieux et de la gestion.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C47-002",
+    "chapter": 47,
+    "chapter_title": "Soutenir la vie associative et l’engagement citoyen",
+    "pdf_pages": [
+      155
+    ],
+    "document_pages": [
+      155
+    ],
+    "candidate_ids": [
+      "K1150"
+    ],
+    "quote": "Elles constituent un maillon essentiel à la démocratie locale.",
+    "occurrences": [
+      {
+        "candidate_id": "K1150",
+        "pdf_page": 155,
+        "quote": "Elles constituent un maillon essentiel à la démocratie locale."
+      }
+    ],
+    "normalized_claim": "La participation associative contribue à la participation civique, au lien social et à la démocratie locale.",
+    "claim_type": "causalité sociale",
+    "argumentative_role": "Justifier un soutien public stable et indépendant.",
+    "policies": [
+      "Soutenir l'engagement associatif"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.injep.fr/publication/la-france-associative-en-mouvement/",
+        "title": "INJEP — La France associative en mouvement",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "La participation associative est associée à l'engagement civique, au lien social et à la vie démocratique locale. Il s'agit d'une relation largement documentée, sans que l'adhésion seule établisse toujours une causalité individuelle.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C47-001",
+    "chapter": 47,
+    "chapter_title": "Soutenir la vie associative et l’engagement citoyen",
+    "pdf_pages": [
+      155
+    ],
+    "document_pages": [
+      155
+    ],
+    "candidate_ids": [
+      "K1151"
+    ],
+    "quote": "Elles portent de nombreuses initiatives économiques dans le réemploi, les centres de santé, la prise en charge de nos aîné·es et de nos enfants.",
+    "occurrences": [
+      {
+        "candidate_id": "K1151",
+        "pdf_page": 155,
+        "quote": "Elles portent de nombreuses initiatives économiques dans le réemploi, les centres de santé, la prise en charge de nos aîné·es et de nos enfants."
+      }
+    ],
+    "normalized_claim": "Les associations fournissent une part substantielle de services et d'activités dans le réemploi, la santé, le grand âge, l'enfance, la culture et le sport.",
+    "claim_type": "fait socio-économique",
+    "argumentative_role": "Établir leur rôle dans la mise en œuvre des politiques publiques.",
+    "policies": [
+      "Soutenir le secteur associatif"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.associations.gouv.fr/les-associations-en-france.html",
+        "title": "Gouvernement — les associations en France",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les associations interviennent substantiellement dans le réemploi, le médico-social, l'enfance, la culture et le sport, même si leur poids relatif diffère selon les secteurs.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C47-003",
+    "chapter": 47,
+    "chapter_title": "Soutenir la vie associative et l’engagement citoyen",
+    "pdf_pages": [
+      155
+    ],
+    "document_pages": [
+      155
+    ],
+    "candidate_ids": [
+      "K1154"
+    ],
+    "quote": "Pourtant, les associations manquent de moyens, de reconnaissance et de stabilité.",
+    "occurrences": [
+      {
+        "candidate_id": "K1154",
+        "pdf_page": 155,
+        "quote": "Pourtant, les associations manquent de moyens, de reconnaissance et de stabilité."
+      }
+    ],
+    "normalized_claim": "Une part importante des associations fait face à des financements instables et à des difficultés de recrutement ou de trésorerie.",
+    "claim_type": "tendance économique",
+    "argumentative_role": "Justifier un socle de financement pluriannuel.",
+    "policies": [
+      "Stabiliser le financement associatif"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.recherches-solidarites.org/",
+        "title": "Recherches & Solidarités — situation des associations",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les enquêtes sur le secteur associatif font état de tensions de financement, de trésorerie et de recrutement pour une part importante des structures, avec de fortes différences de taille et de domaine.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C47-004",
+    "chapter": 47,
+    "chapter_title": "Soutenir la vie associative et l’engagement citoyen",
+    "pdf_pages": [
+      155
+    ],
+    "document_pages": [
+      155
+    ],
+    "candidate_ids": [
+      "K1155"
+    ],
+    "quote": "Elles se sont parfois vu déléguer des missions de services publics sans financement associés, embauchant des personnes dans des emplois précaires et transformant des bénévoles en employeurs sans moyens d’exercer leur fonction.",
+    "occurrences": [
+      {
+        "candidate_id": "K1155",
+        "pdf_page": 155,
+        "quote": "Elles se sont parfois vu déléguer des missions de services publics sans financement associés, embauchant des personnes dans des emplois précaires et transformant des bénévoles en employeurs sans moyens d’exercer leur fonction."
+      }
+    ],
+    "normalized_claim": "Des missions de service public ont été déléguées à des associations sans financement toujours proportionné, favorisant certains emplois précaires et charges bénévoles.",
+    "claim_type": "fait institutionnel / causalité",
+    "argumentative_role": "Justifier la sécurisation des financements.",
+    "policies": [
+      "Financer les missions déléguées"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.associations.gouv.fr/les-associations-en-france.html",
+        "title": "Gouvernement — associations en France",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Certaines associations assurent des missions d'intérêt général ou de service public avec des financements contraints, ce qui peut accroître les charges bénévoles et la précarité. La généralisation à toutes les délégations exige toutefois des données sectorielles précises.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C47-005",
+    "chapter": 47,
+    "chapter_title": "Soutenir la vie associative et l’engagement citoyen",
+    "pdf_pages": [
+      156
+    ],
+    "document_pages": [
+      156
+    ],
+    "candidate_ids": [
+      "K1160"
+    ],
+    "quote": "Instaurer un socle de financement stable pour les associations reconnues d’intérêt général permettant la pérennité des emplois associatifs.",
+    "occurrences": [
+      {
+        "candidate_id": "K1160",
+        "pdf_page": 156,
+        "quote": "Instaurer un socle de financement stable pour les associations reconnues d’intérêt général permettant la pérennité des emplois associatifs."
+      }
+    ],
+    "normalized_claim": "Un financement stable et pluriannuel améliore la pérennité des emplois associatifs.",
+    "claim_type": "causalité / effet de politique",
+    "argumentative_role": "Justifier un socle de financement des associations d'intérêt général.",
+    "policies": [
+      "Créer un socle de financement stable"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.associations.gouv.fr/le-contrat-pluriannuel-dobjectifs.html",
+        "title": "Gouvernement — convention pluriannuelle d'objectifs",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Des financements pluriannuels et prévisibles facilitent la planification et la stabilisation des emplois associatifs. Leur effet dépend de leur montant, durée et de la situation économique de chaque association.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  }
+]

@@ -1,0 +1,257 @@
+[
+  {
+    "id": "C47-006",
+    "chapter": 47,
+    "chapter_title": "Soutenir la vie associative et l’engagement citoyen",
+    "pdf_pages": [
+      156
+    ],
+    "document_pages": [
+      156
+    ],
+    "candidate_ids": [
+      "K1162"
+    ],
+    "quote": "Défendre et protéger les lanceurs d’alertes et les militant·es qui sont la cible d’intimidation ou de criminalisation notamment en raison de leurs engagements écologistes, féministse ou en défense des migrant·es.",
+    "occurrences": [
+      {
+        "candidate_id": "K1162",
+        "pdf_page": 156,
+        "quote": "Défendre et protéger les lanceurs d’alertes et les militant·es qui sont la cible d’intimidation ou de criminalisation notamment en raison de leurs engagements écologistes, féministse ou en défense des migrant·es."
+      }
+    ],
+    "normalized_claim": "Des lanceurs d'alerte et militants font l'objet d'intimidations, de poursuites ou de formes de criminalisation liées à leurs activités.",
+    "claim_type": "fait juridique et social",
+    "argumentative_role": "Justifier des protections renforcées.",
+    "policies": [
+      "Protéger lanceurs d'alerte et militants"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.defenseurdesdroits.fr/sites/default/files/2024-03/ddd_rapport-annuel-activite-2023_20240325.pdf",
+        "title": "Défenseur des droits — rapport annuel 2023",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Des lanceurs d'alerte, défenseurs des droits et militants peuvent faire l'objet de pressions, procédures ou intimidations liées à leurs activités. Les contextes, fondements juridiques et qualifications de ces actions doivent être distingués au cas par cas.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C48-001",
+    "chapter": 48,
+    "chapter_title": "Passer à la Première République Écologique et citoyenne",
+    "pdf_pages": [
+      159
+    ],
+    "document_pages": [
+      159
+    ],
+    "candidate_ids": [
+      "K1178"
+    ],
+    "quote": "La France a besoin d’un renouveau institutionnel et démocratique.",
+    "occurrences": [
+      {
+        "candidate_id": "K1178",
+        "pdf_page": 159,
+        "quote": "La France a besoin d’un renouveau institutionnel et démocratique."
+      }
+    ],
+    "normalized_claim": "La France connaît une défiance politique élevée et des tensions institutionnelles pouvant être qualifiées de crise démocratique.",
+    "claim_type": "tendance politique",
+    "argumentative_role": "Justifier une réforme du régime et des contre-pouvoirs.",
+    "policies": [
+      "Passer à un régime parlementaire"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.cevipof.com/fr/le-barometre-de-la-confiance-politique/",
+        "title": "CEVIPOF — baromètre de la confiance politique",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Les enquêtes montrent une confiance politique faible et des tensions institutionnelles. L'expression « crise démocratique » est un diagnostic interprétatif plutôt qu'un indicateur unique, même si elle repose sur des signaux empiriques réels.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C48-002",
+    "chapter": 48,
+    "chapter_title": "Passer à la Première République Écologique et citoyenne",
+    "pdf_pages": [
+      159
+    ],
+    "document_pages": [
+      159
+    ],
+    "candidate_ids": [
+      "K1180"
+    ],
+    "quote": "La République écologique et citoyenne doit être une perspective réaffirmée et les contre- pouvoirs doivent être davantage protégés, notamment la justice et des médias qui sont la cible de pouvoirs privés, arbitraires et réactionnaires.",
+    "occurrences": [
+      {
+        "candidate_id": "K1180",
+        "pdf_page": 159,
+        "quote": "La République écologique et citoyenne doit être une perspective réaffirmée et les contre- pouvoirs doivent être davantage protégés, notamment la justice et des médias qui sont la cible de pouvoirs privés, arbitraires et réactionnaires."
+      }
+    ],
+    "normalized_claim": "La concentration du pouvoir économique et politique peut exercer des pressions sur l'indépendance des médias et de la justice.",
+    "claim_type": "causalité institutionnelle",
+    "argumentative_role": "Justifier une protection constitutionnelle des contre-pouvoirs.",
+    "policies": [
+      "Protéger justice et médias"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://rsf.org/fr/classement",
+        "title": "Reporters sans frontières — pluralisme et indépendance des médias",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "La concentration de propriété et de pouvoir peut créer des risques pour l'indépendance des médias et des institutions, mais l'existence et l'intensité des pressions doivent être établies dans chaque cas, compte tenu des garanties juridiques et contre-pouvoirs.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C48-003",
+    "chapter": 48,
+    "chapter_title": "Passer à la Première République Écologique et citoyenne",
+    "pdf_pages": [
+      159
+    ],
+    "document_pages": [
+      159
+    ],
+    "candidate_ids": [
+      "K1181"
+    ],
+    "quote": "La démocratie représentative doit plus que jamais s’appuyer sur la démocratie participative et la démocratie directe pour affronter les défis du XXIe siècle.",
+    "occurrences": [
+      {
+        "candidate_id": "K1181",
+        "pdf_page": 159,
+        "quote": "La démocratie représentative doit plus que jamais s’appuyer sur la démocratie participative et la démocratie directe pour affronter les défis du XXIe siècle."
+      }
+    ],
+    "normalized_claim": "Des dispositifs participatifs ou de démocratie directe peuvent compléter la représentation en améliorant information, délibération ou légitimité, selon leur conception.",
+    "claim_type": "évaluation de politique",
+    "argumentative_role": "Justifier une convention citoyenne permanente et des pétitions délibératives.",
+    "policies": [
+      "Développer la démocratie participative"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.vie-publique.fr/files/rapport/pdf/084000344.pdf",
+        "title": "Vie publique — participation des citoyens et action publique",
+        "source_type": "institutionnel",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Des dispositifs participatifs peuvent améliorer l'information, la délibération et la légitimité perçue lorsqu'ils sont bien conçus et suivis d'effets. Ils ne remplacent pas automatiquement la représentation et peuvent aussi reproduire des inégalités de participation.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C48-004",
+    "chapter": 48,
+    "chapter_title": "Passer à la Première République Écologique et citoyenne",
+    "pdf_pages": [
+      160
+    ],
+    "document_pages": [
+      160
+    ],
+    "candidate_ids": [
+      "K1182"
+    ],
+    "quote": "Assurer que le Parlement dispose d’un meilleur contrôle de son ordre du jour et ne soit plus limité par les actuels articles 34 ou par l’article 49-3.",
+    "occurrences": [
+      {
+        "candidate_id": "K1182",
+        "pdf_page": 160,
+        "quote": "Assurer que le Parlement dispose d’un meilleur contrôle de son ordre du jour et ne soit plus limité par les actuels articles 34 ou par l’article 49-3."
+      }
+    ],
+    "normalized_claim": "Les articles 34 et 49 alinéa 3 de la Constitution encadrent respectivement le domaine de la loi et l'adoption d'un texte sans vote, limitant certains pouvoirs parlementaires.",
+    "claim_type": "fait juridique",
+    "argumentative_role": "Justifier leur réforme.",
+    "policies": [
+      "Renforcer les pouvoirs du Parlement"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000571356",
+        "title": "Constitution du 4 octobre 1958, articles 34 et 49",
+        "source_type": "juridique primaire",
+        "consulted_at": "2026-09-08"
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "L'article 34 délimite le domaine de la loi et l'article 49, alinéa 3, permet l'adoption d'un texte sans vote sauf motion de censure. Les présenter comme « limitant certains pouvoirs parlementaires » est interprétatif : l'article 34 organise aussi une compétence du Parlement, tandis que le 49.3 constitue un outil du Gouvernement encadré par la Constitution.",
+    "consensus_or_controversy": "À rétablir",
+    "source_quality": "À rétablir",
+    "confidence": "élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": null
+  }
+]

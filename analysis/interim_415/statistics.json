@@ -1,0 +1,2782 @@
+{
+  "generated_from": {
+    "latest_json_timestamp_utc": "2026-09-08T03:10:00Z",
+    "authoritative_checkpoint": "latest_2026-09-08_primary_415claims.json.xz.b64",
+    "phase": "fact-checking systématique — sources, verdicts et justifications"
+  },
+  "corpus": {
+    "source_pdf_pages": 208,
+    "chapters_covered": 66,
+    "automatic_candidates_extracted": 1466,
+    "unique_claims_total": 564,
+    "occurrences_total": 568,
+    "verified_claims": 415,
+    "verified_occurrences": 418,
+    "pending_claims": 149,
+    "coverage_percent": 73.58,
+    "first_unfinished_identifier": "C48-005"
+  },
+  "verdicts": [
+    {
+      "verdict": "Exact",
+      "n": 56,
+      "percent_of_verified": 13.49
+    },
+    {
+      "verdict": "Globalement exact",
+      "n": 183,
+      "percent_of_verified": 44.1
+    },
+    {
+      "verdict": "À nuancer",
+      "n": 111,
+      "percent_of_verified": 26.75
+    },
+    {
+      "verdict": "Trompeur",
+      "n": 18,
+      "percent_of_verified": 4.34
+    },
+    {
+      "verdict": "Faux",
+      "n": 8,
+      "percent_of_verified": 1.93
+    },
+    {
+      "verdict": "Invérifiable ou insuffisamment étayé",
+      "n": 39,
+      "percent_of_verified": 9.4
+    }
+  ],
+  "needs_sol_review": {
+    "n": 176,
+    "ids": [
+      "PT-002",
+      "C01-001",
+      "C01-004",
+      "C01-005",
+      "C01-006",
+      "C01-012",
+      "C01-013",
+      "C01-014",
+      "C01-007",
+      "C01-008",
+      "C01-011",
+      "C02-004",
+      "C02-005",
+      "C03-004",
+      "C03-006",
+      "C03-007",
+      "C04-001",
+      "C04-005",
+      "C04-006",
+      "C04-007",
+      "C04-009",
+      "C04-010",
+      "C04-011",
+      "C04-013",
+      "C05-002",
+      "C05-005",
+      "C06-003",
+      "C06-006",
+      "C06-004",
+      "C06-005",
+      "C06-007",
+      "C06-009",
+      "C07-003",
+      "C08-005",
+      "PT-017",
+      "PT-015",
+      "PT-016",
+      "C09-002",
+      "C09-003",
+      "C09-005",
+      "C10-003",
+      "C10-004",
+      "C10-006",
+      "C10-007",
+      "C11-003",
+      "C11-004",
+      "C11-005",
+      "C11-008",
+      "C12-003",
+      "C12-004",
+      "C12-005",
+      "C12-009",
+      "C12-011",
+      "PT-007",
+      "PT-008",
+      "PT-009",
+      "C13-001",
+      "C13-002",
+      "C13-007",
+      "C13-008",
+      "C14-001",
+      "C14-002",
+      "C14-007",
+      "C14-008",
+      "C14-009",
+      "C15-003",
+      "C16-002",
+      "C16-003",
+      "C16-006",
+      "C17-001",
+      "C17-002",
+      "C17-003",
+      "C17-009",
+      "C17-004",
+      "C17-006",
+      "C17-010",
+      "C17-008",
+      "C17-011",
+      "C18-002",
+      "C18-003",
+      "C18-004",
+      "C18-005",
+      "C19-007",
+      "C19-002",
+      "C19-003",
+      "C19-004",
+      "C19-005",
+      "C19-012",
+      "C20-002",
+      "C20-003",
+      "C20-004",
+      "C20-009",
+      "C20-010",
+      "C21-003",
+      "C21-005",
+      "C21-008",
+      "C21-007",
+      "PT-021",
+      "C22-005",
+      "C23-002",
+      "C23-005",
+      "C23-006",
+      "C23-007",
+      "C23-008",
+      "C24-003",
+      "C24-005",
+      "C25-002",
+      "C25-001",
+      "C25-003",
+      "C25-004",
+      "C25-006",
+      "C25-009",
+      "C26-001",
+      "C26-003",
+      "C26-004",
+      "C26-005",
+      "C27-005",
+      "PT-012",
+      "PT-024",
+      "C29-002",
+      "C29-003",
+      "C29-008",
+      "C30-001",
+      "C30-004",
+      "C30-005",
+      "C30-006",
+      "C30-008",
+      "C30-010",
+      "C31-001",
+      "C31-002",
+      "C31-003",
+      "C31-006",
+      "C32-003",
+      "C32-004",
+      "C33-003",
+      "C33-004",
+      "C33-005",
+      "C34-002",
+      "C34-007",
+      "C35-002",
+      "C35-005",
+      "C36-001",
+      "C36-003",
+      "C36-004",
+      "C36-007",
+      "C37-001",
+      "C37-002",
+      "C37-003",
+      "C37-004",
+      "C38-002",
+      "C38-004",
+      "C38-005",
+      "C39-001",
+      "C39-002",
+      "C40-001",
+      "C40-002",
+      "C40-003",
+      "C40-004",
+      "C40-006",
+      "C41-003",
+      "C41-004",
+      "C42-004",
+      "C42-006",
+      "C43-002",
+      "C43-004",
+      "C43-006",
+      "C44-003",
+      "C45-001",
+      "C46-002",
+      "C46-004",
+      "C46-006",
+      "C47-004",
+      "C48-001",
+      "C48-002",
+      "C48-003",
+      "C48-004"
+    ],
+    "reasons": {
+      "PT-002": "Affirmation de nécessité portant sur un système énergétique prospectif: verdict dépend de la distinction entre levier très robuste et condition strictement nécessaire, ainsi que du périmètre nucléaire/renouvelables.",
+      "C01-001": "Comparaison d'unicité à dénominateur et définition non explicités; une vérification exhaustive des plans nationaux pourrait modifier le statut entre insuffisamment étayé et faux.",
+      "C01-004": "Verdict Trompeur reposant sur l'interprétation de l'absolu « à l'abri » et sur la frontière entre bénéfice de résilience et garantie de disponibilité.",
+      "C01-005": "Verdict Faux sur une formule catégorique dans un débat énergétique politiquement et méthodologiquement sensible; nécessite contrôle des hypothèses des scénarios.",
+      "C01-006": "Seuil normatif de « trop coûteux » et comparaisons de coût de système sensibles aux hypothèses.",
+      "C01-012": "Projection de calendrier et notion de contribution « utile » sensibles aux dates de mise en service et à la cible considérée.",
+      "C01-013": "Comparaison de vulnérabilité systémique, définition non chiffrée de « trop » et dépendance aux adaptations.",
+      "C01-014": "Évaluation comparative de risque intergénérationnel avec seuil de danger non défini et controverse substantielle.",
+      "C01-007": "Affirmation causale sur des risques futurs de centrales, avec effets très dépendants de la conception et des adaptations locales.",
+      "C01-008": "Affirmation de rythme comparée à une trajectoire prospective, sans indicateur temporel explicite.",
+      "C01-011": "Comparaison prospective de coûts EPR2/SMR, très dépendante des hypothèses de financement, d'apprentissage et de taux d'actualisation.",
+      "C02-004": "Définition et unité statistique ambiguës; un appariement fiscal spécifique pourrait modifier le verdict.",
+      "C02-005": "Risque de confusion entre population, adultes et ménages, avec chiffre exact non sourcé.",
+      "C03-004": "Causalité territoriale complexe avec comportements d'ajustement et effets rebond.",
+      "C03-006": "Bilan causal net dépendant de plusieurs effets rebond et du périmètre retenu.",
+      "C03-007": "Comparaison de dispositifs fiscaux aux assiettes et objectifs différents; terme « compenser » ambigu.",
+      "C04-001": "Projection régionale dépendante du sens retenu pour « respect de Paris », de la référence et du scénario.",
+      "C04-005": "Chiffre précis avec définition de l'exposition et dénominateur absents.",
+      "C04-006": "Projection d'assurabilité dépendante des mécanismes Cat Nat, des choix de marché et des hypothèses de scénarios.",
+      "C04-007": "Lien climat–prix/liquidité immobilière et temporalité (« déjà ») non précisés.",
+      "C04-009": "Ambiguïté substantielle logement/personne et définition de l'exposition.",
+      "C04-010": "Projection de politique d'assurance dépendant de décisions réglementaires et de scénarios non spécifiés.",
+      "C04-011": "Chiffre historique sans période exacte, périmètre de sinistralité ni ajustements monétaires/exposition.",
+      "C04-013": "Causalité de politique locale et hétérogénéité des effets du surtourisme.",
+      "C05-002": "Comparaison de danger sanitaire/écologique entre substances et évaluation du prosulfocarbe dépendantes du risque d'exposition.",
+      "C05-005": "Chaîne causale entre indicateur national, consommation et extraction territoriale.",
+      "C06-003": "Chiffre de tendance dépendant de la métrique, de la période et de la normalisation des émissions.",
+      "C06-006": "Attribution de causalité et définition de « quelques flottes » très indéterminées.",
+      "C06-004": "Dénominateur, définition de l'industrie et unité de capture absents.",
+      "C06-005": "Comparaison quantitative spectaculaire sans unité ni population de référence.",
+      "C06-007": "Causalité ambiguë et antécédent non défini dans la formulation consolidée.",
+      "C06-009": "Comparaison environnementale et économique entre métiers de pêche dépendante des espèces et territoires.",
+      "C07-003": "Causalité écologique dépendante des pratiques concrètes et de l'échelle.",
+      "C08-005": "Bilan biodiversité de la chasse fortement dépendant de l'espèce et du régime de gestion.",
+      "PT-017": "Attribution d'intention à des acteurs hétérogènes et notion politiquement/academiquement disputée.",
+      "PT-015": "Indicateur flux-vers-surfaces nécessitant un modèle d'allocation et un périmètre précis.",
+      "PT-016": "Dénominateur et catégories de produits non définis.",
+      "C09-002": "Attribution distributive et causalité de stockage fortement dépendantes de chaque bassin.",
+      "C09-003": "Série hydrologique et projection quantitative sans station, saison ni scénario.",
+      "C09-005": "Effet de politique fiscale sur un intrant dépendant d'élasticités et de paramètres non fournis.",
+      "C10-003": "Concepts de financiarisation/dépossession et causalité d'accès au foncier nécessitant une analyse socio-économique fine.",
+      "C10-004": "Allégation d'intention et de pratiques potentiellement juridiques sans cas ni périmètre.",
+      "C10-006": "Projection de succession foncière dépendante d'hypothèses démographiques et juridiques.",
+      "C10-007": "Causalité de politique fiscale dépendante du dispositif et comportements anticipatifs.",
+      "C11-003": "Définition de la population et de l'indicateur totalement absente pour un doublement chiffré.",
+      "C11-004": "Comparaison temporelle d'indicateurs d'aide alimentaire avec périmètres institutionnels changeants.",
+      "C11-005": "Attribution éventuelle à des politiques publiques non démontrée par la seule tendance descriptive.",
+      "C11-008": "Verdict Faux fondé sur une comparaison de seuil réglementaire nécessitant vérification juridique fine.",
+      "C12-003": "Fusion de deux indicateurs économiques différents et analyse distributive requise.",
+      "C12-004": "Effet de politique de prix sur partage de valeur dépendant du design et des marchés.",
+      "C12-005": "Dénominateur et définition réglementaire de condition environnementale ambigus.",
+      "C12-009": "Projection de réforme complexe à effets redistributifs et territoriaux incertains.",
+      "C12-011": "Causalité sur concentration de marché et dépendance agricole multidimensionnelle.",
+      "PT-007": "Causalité macro-politique complexe et notions de pouvoir/démocratie multiples.",
+      "PT-008": "Lien ressources-conflit multicausal.",
+      "PT-009": "Qualification géopolitique et intensité de dépendance à contextualiser.",
+      "C13-001": "Agrégation de distributions différentes sans période.",
+      "C13-002": "Comparaison distributive politiquement saillante sans catégories ni séries.",
+      "C13-007": "Comparaison sur vingt ans par corps et rémunération totale.",
+      "C13-008": "Effet de politique d'exonération dépendant de son design.",
+      "C14-001": "Dénominateur et comparaison internationale non précisés.",
+      "C14-002": "Statistique comparative précise sans population ni mesure.",
+      "C14-007": "Évaluation causale d'expérimentation et effets de déplacement.",
+      "C14-008": "Référence juridique/collective exacte ambiguë.",
+      "C14-009": "Causalité de protection sociale vers pouvoir de négociation.",
+      "C15-003": "Influence politique et causalité réglementaire.",
+      "C16-002": "Causalité macroéconomique multiple.",
+      "C16-003": "Confusion possible entre règles de concurrence et concurrence non régulée.",
+      "C16-006": "Comptage d'effectifs dépendant du périmètre et de l'année.",
+      "C17-001": "Attribution causale macro-budgétaire.",
+      "C17-002": "Montants et distribution fiscale agrégés.",
+      "C17-003": "Définition du revenu économique et imposition effective complexe.",
+      "C17-009": "Verdict Faux sur causalité budgétaire quantitative.",
+      "C17-004": "Qualification de choc externe et causalité.",
+      "C17-006": "Projection prospérité future.",
+      "C17-010": "Projection de dépenses pharmaceutiques.",
+      "C17-008": "Évaluation causale d'exonérations avec résultats sensibles aux méthodes.",
+      "C17-011": "Effet causal sur marché souverain.",
+      "C18-002": "Agrégation de causalités financières et distributives.",
+      "C18-003": "Double causalité stabilité/allocation.",
+      "C18-004": "Question juridique litigieuse.",
+      "C18-005": "Comparaison juridique public/privé délicate.",
+      "C19-007": "Comparaison de priorités de politique sans indicateur.",
+      "C19-002": "Moyenne de produits et périmètre ACV non définis.",
+      "C19-003": "Chiffre d'enquête sans référence ni définition.",
+      "C19-004": "Chiffre d'enquête sans périmètre.",
+      "C19-005": "Chiffre précis non sourcé.",
+      "C19-012": "Gouvernance de filière et conflit d'intérêts contextuels.",
+      "C20-002": "Sélection de période et périmètre emploi industriel.",
+      "C20-003": "Comparaison internationale de subventions et aides implicites.",
+      "C20-004": "Effets emploi nets de relocalisation.",
+      "C20-009": "Effets de reprise d'activité non garantis.",
+      "C20-010": "Fait diplomatique daté nécessitant texte officiel précis.",
+      "C21-003": "Quantification très variable par système et site.",
+      "C21-005": "Comparaison quantitative emploi/investissement sans métrique.",
+      "C21-008": "Comparaison de sécurité/souveraineté techniquement et juridiquement dépendante de définitions non précisées.",
+      "C21-007": "Verdict Trompeur sur un régime juridique complexe, à confronter au texte alors en vigueur et aux textes d'application sectoriels.",
+      "PT-021": "Bloc argumentatif composite mêlant faits observables, causalités et langage évaluatif.",
+      "C22-005": "Affirmation causale d'accès aux droits, appuyée sur données principalement observationnelles et institutionnelles.",
+      "C23-002": "Causalité santé mentale/apprentissages multifactorielle.",
+      "C23-005": "Formulation agrège des associations et une causalité possible.",
+      "C23-006": "Projection dépendante des hypothèses démographiques et budgétaires.",
+      "C23-007": "Interprétation causale des études de taille de classe.",
+      "C23-008": "Effet causal et distributif localement hétérogène.",
+      "C24-003": "Affirmation mélange fait de procédure, expérience subjective et causalité institutionnelle.",
+      "C24-005": "Inférence causale de biais sans mesure uniforme nationale.",
+      "C25-002": "Causalité contextuelle sans mesure française précise.",
+      "C25-001": "Tendance temporelle sans registre complet de cas.",
+      "C25-003": "Tendance institutionnelle composite et politiquement chargée.",
+      "C25-004": "Comparaison bibliométrique sensible à la métrique et au périmètre.",
+      "C25-006": "Causalité systémique très large.",
+      "C25-009": "Projection institutionnelle et comparaison internationale imprécise.",
+      "C26-001": "Causalité politique/contextuelle.",
+      "C26-003": "Effet politique difficilement isolable.",
+      "C26-004": "Champ précis des exceptions et contentieux IA évolutif.",
+      "C26-005": "Comparaison de cycle de vie dépendante des scénarios.",
+      "C27-005": "Risque de généralisation sur investissements étrangers.",
+      "PT-012": "Tendance sensible à la définition et aux séries.",
+      "PT-024": "Verdict Trompeur dépend du point de départ temporel.",
+      "C29-002": "Comparaison causale de systèmes.",
+      "C29-003": "Causalité de politique multifactorielle.",
+      "C29-008": "Le périmètre administratif implicite des deux chiffres est indéterminé; une revue ciblée d’archives ministérielles pourrait retrouver leur origine.",
+      "C30-001": "La causalité synthétique attribuée aux « logiques marchandes » nécessite une revue plus approfondie si elle doit être tranchée au-delà de la nuance.",
+      "C30-004": "La formulation dépend d'un périmètre non précisé (spécialité, urgence, territoire) et l'indicateur national exhaustif manque.",
+      "C30-005": "Le chiffre est largement repris dans le débat politique mais sa base statistique et sa définition doivent être vérifiées contradictoirement.",
+      "C30-006": "Causalité de long terme avec plusieurs leviers confondants et évaluation empirique limitée.",
+      "C30-008": "Effet causal de financement dépendant du dispositif précis et de son évaluation.",
+      "C30-010": "Effet de politique et statut juridique précis du règlement européen à contrôler contradictoirement.",
+      "C31-001": "Le chiffre de 1965 et celui de 2023 doivent être rapprochés sur le même champ statistique.",
+      "C31-002": "Affirmation macroéconomique contrefactuelle.",
+      "C31-003": "Mélange de résultats mesurables et de jugements normatifs.",
+      "C31-006": "Relation entre inégalités et consentement au système non directement mesurée ici.",
+      "C32-003": "Le chiffre peut viser un sous-ensemble non défini de l'hébergement inconditionnel.",
+      "C32-004": "Effet d'un encadrement spécifique à évaluer selon sa conception.",
+      "C33-003": "Causalité sociale large et réciproque.",
+      "C33-004": "Attribution causale aux écrans et aux évolutions sociales trop large.",
+      "C33-005": "Comparaison implicite avec traitement médicamenteux seul et hétérogénéité des études.",
+      "C34-002": "La formule « le plus souvent » exige un croisement précis de la structure des enfants pauvres.",
+      "C34-007": "Le 30% dépend du champ et du moment de mesure.",
+      "C35-002": "Classe d'âge et champ de pauvreté non précisés.",
+      "C35-005": "Effet projeté sans paramètres de dispositif.",
+      "C36-001": "Projection chiffrée non sourcée dans le programme.",
+      "C36-003": "Affirmation nationale générale à distinguer des besoins territorialisés.",
+      "C36-004": "Chiffre précis non corroboré et définition du taux de vacance absente.",
+      "C36-007": "Généralisation empirique sans indicateur de fréquence.",
+      "C37-001": "Projection chiffrée sans scénario ou base de comparaison explicites.",
+      "C37-002": "Agrège soins palliatifs, accompagnement et coût funéraire.",
+      "C37-003": "Absence de filière française autorisée et d'ACV comparative robuste.",
+      "C37-004": "Effet de politique sans modèle de financement précisé.",
+      "C38-002": "Comparer strictement définitions françaises et européennes.",
+      "C38-004": null,
+      "C38-005": null,
+      "C39-001": null,
+      "C39-002": null,
+      "C40-001": null,
+      "C40-002": null,
+      "C40-003": null,
+      "C40-004": null,
+      "C40-006": null,
+      "C41-003": null,
+      "C41-004": null,
+      "C42-004": null,
+      "C42-006": null,
+      "C43-002": null,
+      "C43-004": null,
+      "C43-006": null,
+      "C44-003": null,
+      "C45-001": null,
+      "C46-002": null,
+      "C46-004": null,
+      "C46-006": null,
+      "C47-004": null,
+      "C48-001": null,
+      "C48-002": null,
+      "C48-003": null,
+      "C48-004": null
+    }
+  },
+  "confidence_counts": {
+    "Élevée": 292,
+    "Moyenne": 68,
+    "élevée": 26,
+    "moyenne": 29
+  },
+  "source_quality_counts": {
+    "Une évaluation scientifique intergouvernementale de grade A, corroborée par une synthèse publique française de grade B.": 1,
+    "Deux rapports institutionnels de grade A; ils établissent la tendance mais pas un indice unique d'accélération.": 1,
+    "Sources de grade A pertinentes pour le contexte, mais incapables par nature de valider l'attribution absolue d'intention.": 1,
+    "Source statistique primaire de grade A, exactement celle nommée par le programme.": 3,
+    "Enquête primaire détaillant échantillon, terrain, quotas et marges d'erreur, mais un sondage isolé ne permet pas d'estimer une probabilité électorale robuste à neuf mois du scrutin.": 1,
+    "Deux sources programmatiques primaires cohérentes, mais partisanes et antérieures au programme présidentiel définitif de 2027.": 1,
+    "Un programme primaire partisan et une analyse spécialisée explicitant les catégories; absence d'une mesure académique consensuelle propre à Marine Le Pen en 2026.": 1,
+    "Source programmatique primaire du RN confrontée à une définition institutionnelle européenne de grade A; le livret date de 2022 et peut évoluer avant 2027.": 1,
+    "Article scientifique de grade A, à méthode explicite mais terrain local et période 2014-2019; insuffisant seul pour une causalité nationale exhaustive.": 1,
+    "Deux sources primaires partisanes de grade B, dont l'une est ex ante; absence de pièce de traçabilité ou d'audit indépendant.": 1,
+    "Sources primaires intéressées de grade B; aucune traçabilité publique de l'effet allégué.": 1,
+    "Source primaire du mouvement concurrent, de grade B: intéressée pour les volumes annoncés, mais directement probante sur l'existence et le contenu public du dispositif.": 1,
+    "Deux sources primaires partisanes de grade B et une source de presse de grade B qui relaie l'attribution; pas de données brutes.": 1,
+    "Sources primaires partisanes de grade B et reprise de presse non indépendante du chiffre; aucune documentation de traitement.": 1,
+    "Sources primaires partisanes de grade B et reprise de presse de grade B; absence de jeu de données avant/après.": 1,
+    "Sources primaires partisanes de grade B et reprise de presse de grade B; absence de liste ou de journal de modifications.": 1,
+    "Édition primaire conservée par une bibliothèque universitaire de grade A, corroborée par la notice de l'organisme commanditaire de grade B.": 1,
+    "Rapport scientifique institutionnel et article évalué par les pairs, tous deux de grade A.": 1,
+    "Deux évaluations scientifiques internationales de grade A, complémentaires sur l'état des limites et les moteurs matériels.": 1,
+    "Texte de loi primaire et audit public des comptes, tous deux de grade A.": 1,
+    "Bilan institutionnel et évaluation climatique indépendante de grade A.": 1,
+    "Évaluation indépendante de la Cour des comptes, grade A.": 1,
+    "Audits et évaluation publics de grade A; l'attribution agrégée à la dette ne repose toutefois sur aucune décomposition contrefactuelle publiée.": 1,
+    "Document budgétaire primaire et inventaire OCDE de grade A; pas d'étude contrefactuelle attribuant une fraction de la dette française à ces soutiens.": 1,
+    "Synthèse du GIEC et évaluation nationale indépendante de grade A.": 1,
+    "Jeu de données académique transparent et document stratégique primaire, grade A; les deux sources mesurent des dimensions différentes.": 1,
+    "Source stratégique gouvernementale primaire de grade A pour le diagnostic français; sa nature institutionnelle appelle à distinguer constat d'actes et jugement prospectif.": 1,
+    "Deux évaluations institutionnelles indépendantes de grade A, centrées surtout sur la politique climatique et écologique.": 1,
+    "Évaluations de grade A, mais aucune n'emploie un test empirique correspondant à la proposition systémique formulée.": 1,
+    "Deux évaluations IPBES de grade A; article évalué par les pairs de grade B, explicitement situé dans le débat sur la décroissance.": 1,
+    "Statistique publique française, rapport OIT et sources institutionnelles de grades A à B; indicateurs non parfaitement comparables et données françaises exhaustives récentes limitées.": 1,
+    "Évaluation du GIEC et synthèse OCDE de grade A, couvrant un vaste corpus de travaux; application générale plutôt qu'estimation propre à la France.": 1,
+    "Rapport comparatif de grade A, revue scientifique de grade A et synthèse onusienne de grade B.": 1,
+    "Sources de grades A à B convergentes et couvrant causalité institutionnelle, conflits internes et paix internationale.": 1,
+    "Traité primaire et article méthodologique de grade A; études françaises et modèle distributif de grade B, convergents sur le gradient mais non sur les niveaux absolus.": 1,
+    "Source primaire complète, contrôlée page par page par signature typographique et séquences de numérotation; script et sortie de contrôle conservés.": 1,
+    "Évaluation du GIEC de grade A, fondée sur une littérature théorique et empirique abondante; la proposition très générale ne permet pas d'estimer une taille d'effet unique.": 1,
+    "Deux évaluations intergouvernementales IPBES de grade A; elles recensent aussi les exceptions et limites qui empêchent une lecture littéralement universelle.": 1,
+    "Rapport comparatif OCDE et deux revues scientifiques de grade A; les résultats couvrent plusieurs dimensions mais ne constituent pas un test unique de la notion générale de « protection ».": 1,
+    "Rapport AIE de grade A et règlement européen primaire de grade A; la quantification est prospective mais transparente et cohérente avec le mécanisme matériel.": 1,
+    "Deux sources de grade A directement pertinentes; elles soutiennent l'effet de la circularité mais contredisent l'idée qu'un levier unique suffirait à comparer tous les risques.": 1,
+    "Audit indépendant et rapport budgétaire primaire de grade A; projections assorties de scénarios et sensibilités mais révisables avec la conjoncture.": 1,
+    "Microsimulation indépendante et statistiques publiques de grade A. Les effets contrefactuels dépendent du champ des mesures et n'intègrent pas tous les effets macroéconomiques indirects; les constats 2023 sont observés mais multicausaux.": 1,
+    "Comptes nationaux, comptes sectoriels et données administratives de grade A. Ils mesurent solidement les volumes financiers et les emplois, mais imparfaitement les besoins, les conditions de travail, l'accès et la qualité effective.": 1,
+    "Trois synthèses scientifiques évaluées par les pairs, dont deux revues de référence. La preuve est robuste pour l'existence, moins précise pour la taille macroéconomique et encore émergente pour certains rebonds matériels.": 1,
+    "Une évaluation scientifique intergouvernementale de grade A, une analyse mondiale évaluée par les pairs et une étude de modélisation sanitaire évaluée par les pairs. Les limites du modèle sanitaire sont explicitées.": 1,
+    "Sources de grade A dans chacun des deux domaines, mais aucune source ne rend la comparaison inter-domaines testable.": 1,
+    "Définition de consensus du panel OHHLEP, synthèse officielle de l’OMS et étude mondiale évaluée par les pairs, toutes de grade A. L’article OHHLEP est formellement un article d’opinion de consensus plutôt qu’une étude d’impact.": 1,
+    "A — synthèses d'évaluation du GIEC, fondées sur une littérature évaluée par les pairs et approuvées par les États.": 1,
+    "A — scénarios publics RTE/ADEME et synthèse du GIEC; résultats conditionnels à leurs hypothèses, non observation directe.": 1,
+    "A — évaluation scientifique intergouvernementale IPBES, synthèse approuvée et fondée sur une vaste littérature.": 1,
+    "A — inventaire national des émissions, réalisé dans le cadre de la statistique publique et des obligations internationales de la France.": 1,
+    "A — synthèses d'évaluation du GIEC.": 1,
+    "A — GIEC et service météorologique national.": 1,
+    "A pour les sources institutionnelles, mais elles ne répondent pas à la comparaison indéfinie formulée par le programme.": 1,
+    "A — données IRENA et étude RTE; application à un système national exige des hypothèses.": 1,
+    "A — AIE; données de déploiement et comparaison technologique.": 1,
+    "A — statistique publique, avec limites usuelles de périmètre des emplois directs/indirects.": 1,
+    "A — RTE et AIE.": 2,
+    "A — RTE et AIE; analyses prospectives conditionnelles mais directement pertinentes.": 1,
+    "A — RTE et Cour des comptes; résultats prospectifs et comptables à hypothèses explicites.": 1,
+    "A — GIEC et AIE.": 1,
+    "A — UNSCEAR et AIEA, avec limites: elles caractérisent risques et gestion, non le seuil politique de danger acceptable.": 1,
+    "A/B — GIEC pour les aléas; documentation de l'exploitant pour les mécanismes des centrales, à interpréter avec précaution.": 1,
+    "A — HCC et RTE.": 1,
+    "A/B — rapport de contrôle public complété par une analyse indépendante transparente.": 1,
+    "A — synthèses GIEC et IPBES.": 1,
+    "A — Cour des comptes et AIE.": 1,
+    "A/B — données publiques et agrégation méthodologique associative explicitée.": 1,
+    "A — statistiques publiques; relation de fragilisation étayée mais non chiffrée ici.": 1,
+    "A — Insee.": 3,
+    "A pour les données Insee, mais insuffisantes pour valider l'énoncé exact.": 1,
+    "A — inventaire national Citepa.": 2,
+    "A — ONPE, observatoire public spécialisé.": 1,
+    "A — Commission et ADEME.": 1,
+    "A — information administrative officielle.": 2,
+    "A — inventaire Citepa et budgets carbone publics.": 1,
+    "A — expertise publique; causalité contextuelle.": 1,
+    "A — ADEME.": 1,
+    "A — ADEME; résultats de bilan conditionnels.": 1,
+    "A — Commission européenne.": 1,
+    "A — Météo-France/DRIAS et GIEC.": 1,
+    "A — GIEC.": 2,
+    "A pour le contexte, mais insuffisante pour valider la valeur exacte.": 1,
+    "A : exercice prudentiel public fondé sur des scénarios; ses résultats sont conditionnels et ne constituent pas une prévision observée.": 1,
+    "A; insuffisante pour quantifier l'invendabilité déjà observée.": 1,
+    "A : source publique compétente, fondée sur les cartographies de risques.": 1,
+    "A pour le périmètre des logements; insuffisante pour valider le dénominateur de personnes exact.": 1,
+    "A pour les risques; ne permet pas d'établir la prédiction institutionnelle du programme.": 1,
+    "A pour le contexte, insuffisante pour la statistique exacte.": 1,
+    "A : évaluation systématique de la littérature scientifique.": 1,
+    "A- : analyse comparative intergouvernementale; pas une évaluation causale universelle.": 1,
+    "A : synthèse intergouvernementale fondée sur la littérature.": 1,
+    "A : évaluation scientifique intergouvernementale.": 2,
+    "A : agences réglementaires; conclusion comparative du programme plus large que leurs classifications.": 1,
+    "A- : synthèse institutionnelle de littérature.": 1,
+    "A- : évaluation institutionnelle; elle ne démontre pas l'effet automatique de la mesure proposée.": 1,
+    "A.": 60,
+    "A- pour le constat général, insuffisante pour le chiffre du programme.": 1,
+    "A- : données FAO, mais ne justifient pas la généralisation causale.": 1,
+    "A pour les données potentielles, mais le programme ne rend pas le calcul reproductible.": 1,
+    "A- pour le contexte, insuffisante pour le chiffre.": 1,
+    "A- pour le contexte, pas pour l'attribution spécifique.": 1,
+    "A- pour les conditions structurelles; insuffisante pour une évolution non définie.": 1,
+    "A- : expertise scientifique sectorielle; évaluation comparative conditionnelle.": 1,
+    "A : inventaire statistique public.": 1,
+    "A-.": 48,
+    "A pour des données potentielles, insuffisante pour la proposition non spécifiée.": 1,
+    "A : source juridique et institutionnelle primaire.": 1,
+    "A pour statut légal; appui scientifique nécessaire pour la sentience.": 1,
+    "A : source juridique primaire.": 2,
+    "A- pour le contexte des systèmes alimentaires, sans portée probante sur l'intention alléguée.": 1,
+    "A pour les données de base; insuffisante pour le ratio non sourcé.": 1,
+    "A pour les bilans possibles, insuffisante pour le chiffre isolé.": 1,
+    "A- pour le contexte; insuffisante pour valider exactement les deux chiffres.": 1,
+    "A- : cadre européen fondé sur expertise et données écologiques.": 1,
+    "A- pour le cadre analytique, insuffisante pour la prédiction précise.": 1,
+    "A : observatoire public dédié.": 1,
+    "A pour structures, insuffisante pour l'ensemble de l'assertion.": 1,
+    "B+ pour structure du marché; insuffisante pour l'attribution d'intention.": 1,
+    "A pour données de structure, insuffisante pour la projection précise non sourcée.": 1,
+    "B : sondage publié par une association, utile mais moins robuste qu'une statistique administrative ou une enquête nutritionnelle représentative détaillée.": 1,
+    "A pour données disponibles, insuffisante pour le chiffre non spécifié.": 1,
+    "A pour les règles, insuffisante pour le chiffre isolé.": 1,
+    "A- pour contexte, non probante pour le scénario proposé.": 1,
+    "A si accord identifié, insuffisante ici.": 1,
+    "B : source de l'organisation sur elle-même, directement pertinente pour composition.": 1,
+    "Élevée — ANSSI et droit de l'Union européenne.": 1,
+    "Très élevée — Légifrance, textes normatifs.": 1,
+    "Très élevée — Insee, enquêtes TIC et indicateur européen.": 1,
+    "Élevée — DEPP et Cour des comptes.": 1,
+    "Très élevée — Constitution.": 1,
+    "Très élevée — Code général des collectivités territoriales.": 1,
+    "Élevée — Cour des comptes et DGCL.": 1,
+    "Très élevée — DGFiP et DGCL.": 1,
+    "Élevée — Défenseur des droits et Cour des comptes.": 1,
+    "Élevée — Cour des comptes.": 1,
+    "Très élevée — traité UE.": 1,
+    "Élevée.": 25,
+    "Très élevée.": 22,
+    "Très élevée pour le constat général.": 1,
+    "Très élevée — MESR.": 1,
+    "Élevée mais non suffisante pour valider l'assertion précise.": 1,
+    "Moyenne à élevée.": 1,
+    "Moyenne.": 1,
+    "Élevée (Assurance maladie et DREES).": 1,
+    "Très élevée (sources gouvernementale et parlementaire britanniques).": 1,
+    "Faible pour le chiffre (source du programme non documentée); source de contexte publique.": 1,
+    "Élevée pour les constats; limitée pour l’attribution causale.": 1,
+    "Statistiques de la DREES et publication de l'Assurance Maladie (grades A).": 1,
+    "Deux sources institutionnelles de grade A, dont une source gouvernementale pour le chiffre historique.": 1,
+    "Source ministérielle de grade A; étude de plateforme de grade B, utile mais à couverture partielle.": 1,
+    "Données institutionnelles de grade A pour le zonage; source parlementaire de grade B pour l'origine du chiffre.": 1,
+    "Revue de littérature de la DREES et données de l'Assurance Maladie, grades A.": 1,
+    "Sources institutionnelles de grade A.": 1,
+    "OMS et revue scientifique, grades A.": 2,
+    "Deux sources ANSM de grade A.": 2,
+    "Insee et Vie publique, grades A.": 1,
+    "Insee et COR, grades A.": 1,
+    "DREES et COR, grades A.": 1,
+    "COR grade A, analyse Fipeco de grade B.": 1,
+    "Deux sources DREES de grade A.": 1,
+    "Deux publications Insee de grade A.": 1,
+    "Sources publiques de grade A.": 2,
+    "Sources budgétaires publiques de grade A.": 1,
+    "Banque de France et Insee, grades A.": 1,
+    "Banque de France et ministère, grades A.": 1,
+    "Enquête de grade B, cadrée par l'OMS de grade A.": 1,
+    "OMS A, enquête B.": 2,
+    "OMS et revue systématique, grades A.": 1,
+    "Deux sources Insee de grade A.": 4,
+    "DREES et Insee, grades A.": 1,
+    "UNICEF, grade A.": 1,
+    "Deux sources Insee, grades A.": 3,
+    "Insee, grade A.": 1,
+    "Insee A, synthèse secondaire B.": 1,
+    "Deux sources INJEP, grades A.": 1,
+    "Cour des comptes, grade A.": 1,
+    "DREES, grade A.": 2,
+    "Insee et DREES, grades A.": 1,
+    "Deux sources DREES, grades A.": 2,
+    "OMS et Irdes, grades A.": 1,
+    "DREES, grades A.": 1,
+    "DREES et Irdes, grades A.": 1,
+    "Source juridique de grade A, insuffisante pour les comparaisons d'impact.": 1,
+    "Service-Public A; source coopérative C pour le contexte de coût.": 1,
+    "Deux sources publiques, grades A.": 1,
+    "Santé publique France et FRA, grades A.": 1,
+    "À rétablir": 55
+  },
+  "claim_type_counts": {
+    "fait observé / causalité": 1,
+    "comparaison temporelle": 11,
+    "fait géoéconomique / causalité": 1,
+    "comparaison temporelle statistique": 2,
+    "chiffre statistique": 1,
+    "projection politique": 1,
+    "caractérisation juridique / comparaison de droits": 1,
+    "caractérisation de position politique": 1,
+    "caractérisation juridique / projection": 1,
+    "causalité politique / stratégie": 1,
+    "fait de processus interne": 2,
+    "effet de processus interne": 1,
+    "comparaison politique": 1,
+    "chiffre de processus interne": 4,
+    "fait historique scientifique": 1,
+    "chiffre scientifique synthétique": 1,
+    "causalité environnementale": 3,
+    "évaluation causale de mouvement social": 1,
+    "évaluation causale de dispositif participatif": 1,
+    "évaluation causale institutionnelle": 1,
+    "causalité budgétaire": 2,
+    "causalité climatique": 3,
+    "tendance géopolitique": 1,
+    "évaluation de risque géopolitique": 1,
+    "évaluation de politique": 12,
+    "évaluation systémique de politique": 1,
+    "tendance socio-économique / causalité": 1,
+    "causalité systémique": 2,
+    "causalité institutionnelle": 9,
+    "causalité exclusive / condition suffisante": 1,
+    "comparaison distributive": 8,
+    "causalité économique / défaillance de marché": 2,
+    "causalité économique / institutions du travail": 1,
+    "causalité géoéconomique": 1,
+    "comparaison superlative / projection géoéconomique": 1,
+    "projection budgétaire": 1,
+    "évaluation de politique / causalité distributive": 1,
+    "évaluation de politique / tendance budgétaire": 1,
+    "causalité économique et environnementale": 1,
+    "causalité écologique": 9,
+    "comparaison de dépendance": 1,
+    "causalité sanitaire": 10,
+    "évaluation de risque climatique": 1,
+    "condition de faisabilité / projection": 1,
+    "évaluation de risque écologique": 1,
+    "fait descriptif multisectoriel": 1,
+    "fait observé": 1,
+    "comparaison internationale": 5,
+    "comparaison de coûts": 3,
+    "comparaison de délais": 2,
+    "causalité / effet économique": 1,
+    "causalité / effet de politique": 41,
+    "conclusion comparative": 1,
+    "comparaison de résilience": 1,
+    "comparaison de risques": 2,
+    "projection causale": 4,
+    "comparaison à une trajectoire": 1,
+    "fait fiscal": 2,
+    "causalité / arbitrage d'usage": 1,
+    "chiffre descriptif": 11,
+    "causalité / tendance": 2,
+    "chiffre distributif": 1,
+    "chiffre patrimonial": 1,
+    "causalité / état du parc": 1,
+    "fait juridique": 17,
+    "fait juridique et effet": 1,
+    "tendance": 2,
+    "causalité / effet d'aménagement": 1,
+    "causalité économique": 4,
+    "fait fiscal / effet de politique": 1,
+    "projection climatique": 1,
+    "tendance et comparaison": 2,
+    "chiffre d'exposition": 3,
+    "projection assurantielle": 1,
+    "causalité / projection": 2,
+    "projection institutionnelle": 2,
+    "causalité sectorielle": 1,
+    "effet d'instrument": 1,
+    "fait écologique": 1,
+    "causalité et comparaison": 1,
+    "comparaison quantitative": 3,
+    "causalité géopolitique": 2,
+    "tendance socio-économique": 2,
+    "comparaison technologique": 3,
+    "fait socio-économique": 5,
+    "fait scientifique et juridique": 1,
+    "attribution historique et politique": 1,
+    "chiffre d'usage agricole": 1,
+    "chiffre de commerce alimentaire": 1,
+    "tendance et projection": 1,
+    "projection / effet fiscal": 1,
+    "causalité socio-économique": 2,
+    "fait économique": 1,
+    "chiffre démographique": 1,
+    "projection": 1,
+    "causalité / effet fiscal": 2,
+    "chiffre d'enquête": 7,
+    "comparaison territoriale": 5,
+    "causalité sanitaire et environnementale": 1,
+    "seuil sanitaire": 1,
+    "causalité / résilience": 2,
+    "causalité comparative": 1,
+    "fait budgétaire": 1,
+    "effet distributif": 1,
+    "fait toxicologique": 2,
+    "causalité politico-économique": 1,
+    "comparaison institutionnelle": 3,
+    "causalité financière": 2,
+    "projection géoéconomique": 1,
+    "tendance distributive": 1,
+    "comparaison temporelle et distributive": 1,
+    "tendance salariale": 2,
+    "chiffre et comparaison": 2,
+    "comparaison sociale": 3,
+    "causalité psychosociale": 2,
+    "causalité": 2,
+    "fait juridique et distributif": 1,
+    "fait institutionnel": 5,
+    "projection / effet de politique": 5,
+    "comparaison économique": 4,
+    "causalité / effet réglementaire": 1,
+    "comparaison à un besoin": 1,
+    "causalité macroéconomique": 2,
+    "fait budgétaire et distributif": 1,
+    "causalité quantitative": 1,
+    "comparaison temporelle et causale": 1,
+    "projection macrofinancière": 1,
+    "projection de dépenses": 1,
+    "projection financière": 1,
+    "comparaison réglementaire": 1,
+    "causalité / autonomie stratégique": 1,
+    "causalité prudentielle": 1,
+    "tendance quantitative": 1,
+    "comparaison de politiques": 2,
+    "chiffre de cycle de vie": 1,
+    "causalité concurrentielle": 1,
+    "causalité technique": 2,
+    "fait institutionnel / causalité": 2,
+    "fait historique / causalité": 1,
+    "tendance temporelle": 1,
+    "causalité sociotechnique": 2,
+    "causalité / risques": 1,
+    "fait environnemental": 2,
+    "chiffre d'inclusion numérique": 1,
+    "état institutionnel": 1,
+    "causalité / accès aux droits": 2,
+    "tendance institutionnelle": 3,
+    "corrélation sociale": 2,
+    "corrélation et causalité": 1,
+    "projection de faisabilité": 1,
+    "comparaison budgétaire": 1,
+    "causalité algorithmique": 1,
+    "causalité / biais de sélection": 1,
+    "tendance juridique": 1,
+    "fait professionnel": 1,
+    "projection / comparaison internationale": 1,
+    "causalité socioculturelle": 1,
+    "fait juridique et technique": 1,
+    "causalité sociale": 7,
+    "comparaison de systèmes": 1,
+    "causalité historique": 2,
+    "causalité démographique": 1,
+    "fait juridique quantitatif": 1,
+    "comparaison toxicologique": 1,
+    "causalité / comparaison de systèmes": 1,
+    "chiffre administratif": 1,
+    "fait descriptif": 2,
+    "chiffre géographique": 1,
+    "causalité / effet de financement": 1,
+    "tendance descriptive": 2,
+    "comparaison démographique": 1,
+    "causalité distributive": 3,
+    "estimation quantitative": 2,
+    "causalité multifactorielle": 1,
+    "fait démographique": 1,
+    "tendance démographique": 1,
+    "comparaison genrée et causalité": 1,
+    "projection démographique": 2,
+    "comparaison offre-besoin": 1,
+    "chiffre d'emploi": 2,
+    "fait social": 2,
+    "comparaison sociale et territoriale": 1,
+    "comparaison de cycle de vie": 1,
+    "comparaison temporelle et internationale": 1,
+    "comparaison à une norme": 1,
+    "causalité historique et institutionnelle": 1,
+    "fait juridique et causalité": 2,
+    "causalité territoriale": 1,
+    "fait historique et juridique": 1,
+    "tendance économique": 1,
+    "fait juridique et social": 1,
+    "tendance politique": 1
+  },
+  "by_chapter": [
+    {
+      "chapter": "Non renseigné",
+      "n": 70,
+      "verdict_counts": {
+        "Globalement exact": 24,
+        "Invérifiable ou insuffisamment étayé": 13,
+        "Exact": 11,
+        "À nuancer": 13,
+        "Faux": 2,
+        "Trompeur": 7
+      }
+    },
+    {
+      "chapter": "1",
+      "n": 15,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1,
+        "À nuancer": 6,
+        "Globalement exact": 5,
+        "Trompeur": 1,
+        "Faux": 1,
+        "Exact": 1
+      }
+    },
+    {
+      "chapter": "19",
+      "n": 15,
+      "verdict_counts": {
+        "Globalement exact": 6,
+        "À nuancer": 3,
+        "Invérifiable ou insuffisamment étayé": 3,
+        "Exact": 3
+      }
+    },
+    {
+      "chapter": "4",
+      "n": 13,
+      "verdict_counts": {
+        "Exact": 2,
+        "Trompeur": 1,
+        "Globalement exact": 4,
+        "Invérifiable ou insuffisamment étayé": 3,
+        "À nuancer": 3
+      }
+    },
+    {
+      "chapter": "12",
+      "n": 11,
+      "verdict_counts": {
+        "À nuancer": 4,
+        "Globalement exact": 3,
+        "Invérifiable ou insuffisamment étayé": 2,
+        "Exact": 2
+      }
+    },
+    {
+      "chapter": "17",
+      "n": 11,
+      "verdict_counts": {
+        "À nuancer": 7,
+        "Faux": 1,
+        "Exact": 1,
+        "Globalement exact": 2
+      }
+    },
+    {
+      "chapter": "2",
+      "n": 10,
+      "verdict_counts": {
+        "Globalement exact": 6,
+        "Invérifiable ou insuffisamment étayé": 1,
+        "À nuancer": 1,
+        "Exact": 2
+      }
+    },
+    {
+      "chapter": "20",
+      "n": 10,
+      "verdict_counts": {
+        "Exact": 2,
+        "À nuancer": 1,
+        "Globalement exact": 6,
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "chapter": "30",
+      "n": 10,
+      "verdict_counts": {
+        "À nuancer": 5,
+        "Globalement exact": 4,
+        "Trompeur": 1
+      }
+    },
+    {
+      "chapter": "6",
+      "n": 9,
+      "verdict_counts": {
+        "Exact": 1,
+        "Globalement exact": 1,
+        "Invérifiable ou insuffisamment étayé": 3,
+        "À nuancer": 4
+      }
+    },
+    {
+      "chapter": "11",
+      "n": 9,
+      "verdict_counts": {
+        "Globalement exact": 6,
+        "Invérifiable ou insuffisamment étayé": 1,
+        "À nuancer": 1,
+        "Faux": 1
+      }
+    },
+    {
+      "chapter": "14",
+      "n": 9,
+      "verdict_counts": {
+        "À nuancer": 3,
+        "Invérifiable ou insuffisamment étayé": 1,
+        "Globalement exact": 4,
+        "Exact": 1
+      }
+    },
+    {
+      "chapter": "25",
+      "n": 9,
+      "verdict_counts": {
+        "Globalement exact": 5,
+        "À nuancer": 3,
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "chapter": "29",
+      "n": 9,
+      "verdict_counts": {
+        "Exact": 2,
+        "Globalement exact": 4,
+        "À nuancer": 1,
+        "Faux": 1,
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "chapter": "13",
+      "n": 8,
+      "verdict_counts": {
+        "À nuancer": 4,
+        "Invérifiable ou insuffisamment étayé": 1,
+        "Globalement exact": 3
+      }
+    },
+    {
+      "chapter": "18",
+      "n": 8,
+      "verdict_counts": {
+        "Exact": 2,
+        "À nuancer": 3,
+        "Trompeur": 1,
+        "Globalement exact": 2
+      }
+    },
+    {
+      "chapter": "21",
+      "n": 8,
+      "verdict_counts": {
+        "Exact": 1,
+        "Globalement exact": 4,
+        "À nuancer": 2,
+        "Trompeur": 1
+      }
+    },
+    {
+      "chapter": "23",
+      "n": 8,
+      "verdict_counts": {
+        "Globalement exact": 6,
+        "Exact": 1,
+        "À nuancer": 1
+      }
+    },
+    {
+      "chapter": "28",
+      "n": 8,
+      "verdict_counts": {
+        "Exact": 4,
+        "Globalement exact": 4
+      }
+    },
+    {
+      "chapter": "3",
+      "n": 7,
+      "verdict_counts": {
+        "Globalement exact": 5,
+        "Exact": 1,
+        "À nuancer": 1
+      }
+    },
+    {
+      "chapter": "10",
+      "n": 7,
+      "verdict_counts": {
+        "Globalement exact": 2,
+        "Exact": 1,
+        "À nuancer": 3,
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "chapter": "22",
+      "n": 7,
+      "verdict_counts": {
+        "Exact": 3,
+        "Globalement exact": 2,
+        "À nuancer": 2
+      }
+    },
+    {
+      "chapter": "34",
+      "n": 7,
+      "verdict_counts": {
+        "Globalement exact": 4,
+        "Exact": 1,
+        "Trompeur": 1,
+        "À nuancer": 1
+      }
+    },
+    {
+      "chapter": "36",
+      "n": 7,
+      "verdict_counts": {
+        "À nuancer": 3,
+        "Globalement exact": 3,
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "chapter": "46",
+      "n": 7,
+      "verdict_counts": {
+        "Exact": 3,
+        "À nuancer": 2,
+        "Globalement exact": 2
+      }
+    },
+    {
+      "chapter": "7",
+      "n": 6,
+      "verdict_counts": {
+        "Globalement exact": 3,
+        "À nuancer": 1,
+        "Invérifiable ou insuffisamment étayé": 1,
+        "Exact": 1
+      }
+    },
+    {
+      "chapter": "16",
+      "n": 6,
+      "verdict_counts": {
+        "Globalement exact": 3,
+        "À nuancer": 3
+      }
+    },
+    {
+      "chapter": "31",
+      "n": 6,
+      "verdict_counts": {
+        "Exact": 1,
+        "Trompeur": 1,
+        "À nuancer": 3,
+        "Faux": 1
+      }
+    },
+    {
+      "chapter": "32",
+      "n": 6,
+      "verdict_counts": {
+        "Globalement exact": 5,
+        "Trompeur": 1
+      }
+    },
+    {
+      "chapter": "40",
+      "n": 6,
+      "verdict_counts": {
+        "À nuancer": 3,
+        "Invérifiable ou insuffisamment étayé": 1,
+        "Globalement exact": 2
+      }
+    },
+    {
+      "chapter": "42",
+      "n": 6,
+      "verdict_counts": {
+        "Globalement exact": 3,
+        "Exact": 2,
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "chapter": "43",
+      "n": 6,
+      "verdict_counts": {
+        "Globalement exact": 4,
+        "À nuancer": 2
+      }
+    },
+    {
+      "chapter": "47",
+      "n": 6,
+      "verdict_counts": {
+        "Globalement exact": 5,
+        "À nuancer": 1
+      }
+    },
+    {
+      "chapter": "5",
+      "n": 5,
+      "verdict_counts": {
+        "Globalement exact": 2,
+        "Exact": 1,
+        "À nuancer": 2
+      }
+    },
+    {
+      "chapter": "8",
+      "n": 5,
+      "verdict_counts": {
+        "Globalement exact": 2,
+        "À nuancer": 1,
+        "Exact": 2
+      }
+    },
+    {
+      "chapter": "9",
+      "n": 5,
+      "verdict_counts": {
+        "Globalement exact": 2,
+        "À nuancer": 2,
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "chapter": "15",
+      "n": 5,
+      "verdict_counts": {
+        "Globalement exact": 3,
+        "À nuancer": 1,
+        "Exact": 1
+      }
+    },
+    {
+      "chapter": "24",
+      "n": 5,
+      "verdict_counts": {
+        "Globalement exact": 3,
+        "Faux": 1,
+        "Trompeur": 1
+      }
+    },
+    {
+      "chapter": "26",
+      "n": 5,
+      "verdict_counts": {
+        "Globalement exact": 4,
+        "Exact": 1
+      }
+    },
+    {
+      "chapter": "27",
+      "n": 5,
+      "verdict_counts": {
+        "Exact": 2,
+        "Globalement exact": 3
+      }
+    },
+    {
+      "chapter": "33",
+      "n": 5,
+      "verdict_counts": {
+        "Globalement exact": 2,
+        "À nuancer": 3
+      }
+    },
+    {
+      "chapter": "35",
+      "n": 5,
+      "verdict_counts": {
+        "Globalement exact": 5
+      }
+    },
+    {
+      "chapter": "38",
+      "n": 5,
+      "verdict_counts": {
+        "Globalement exact": 2,
+        "Trompeur": 1,
+        "À nuancer": 2
+      }
+    },
+    {
+      "chapter": "44",
+      "n": 5,
+      "verdict_counts": {
+        "Globalement exact": 4,
+        "À nuancer": 1
+      }
+    },
+    {
+      "chapter": "37",
+      "n": 4,
+      "verdict_counts": {
+        "À nuancer": 2,
+        "Globalement exact": 1,
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "chapter": "39",
+      "n": 4,
+      "verdict_counts": {
+        "À nuancer": 1,
+        "Trompeur": 1,
+        "Globalement exact": 2
+      }
+    },
+    {
+      "chapter": "41",
+      "n": 4,
+      "verdict_counts": {
+        "Globalement exact": 3,
+        "À nuancer": 1
+      }
+    },
+    {
+      "chapter": "45",
+      "n": 4,
+      "verdict_counts": {
+        "À nuancer": 1,
+        "Globalement exact": 3
+      }
+    },
+    {
+      "chapter": "48",
+      "n": 4,
+      "verdict_counts": {
+        "À nuancer": 4
+      }
+    }
+  ],
+  "by_claim_type": [
+    {
+      "claim_type": "causalité / effet de politique",
+      "n": 41,
+      "verdict_counts": {
+        "Trompeur": 1,
+        "Globalement exact": 26,
+        "Exact": 3,
+        "À nuancer": 11
+      }
+    },
+    {
+      "claim_type": "fait juridique",
+      "n": 17,
+      "verdict_counts": {
+        "Exact": 14,
+        "À nuancer": 2,
+        "Trompeur": 1
+      }
+    },
+    {
+      "claim_type": "évaluation de politique",
+      "n": 12,
+      "verdict_counts": {
+        "Globalement exact": 7,
+        "À nuancer": 5
+      }
+    },
+    {
+      "claim_type": "comparaison temporelle",
+      "n": 11,
+      "verdict_counts": {
+        "Globalement exact": 2,
+        "Invérifiable ou insuffisamment étayé": 3,
+        "À nuancer": 4,
+        "Trompeur": 2
+      }
+    },
+    {
+      "claim_type": "chiffre descriptif",
+      "n": 11,
+      "verdict_counts": {
+        "Globalement exact": 9,
+        "À nuancer": 1,
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "claim_type": "causalité sanitaire",
+      "n": 10,
+      "verdict_counts": {
+        "Exact": 6,
+        "Globalement exact": 4
+      }
+    },
+    {
+      "claim_type": "causalité institutionnelle",
+      "n": 9,
+      "verdict_counts": {
+        "Globalement exact": 7,
+        "À nuancer": 2
+      }
+    },
+    {
+      "claim_type": "causalité écologique",
+      "n": 9,
+      "verdict_counts": {
+        "Globalement exact": 6,
+        "Exact": 1,
+        "À nuancer": 2
+      }
+    },
+    {
+      "claim_type": "comparaison distributive",
+      "n": 8,
+      "verdict_counts": {
+        "Trompeur": 1,
+        "À nuancer": 5,
+        "Invérifiable ou insuffisamment étayé": 1,
+        "Faux": 1
+      }
+    },
+    {
+      "claim_type": "chiffre d'enquête",
+      "n": 7,
+      "verdict_counts": {
+        "Globalement exact": 2,
+        "Invérifiable ou insuffisamment étayé": 3,
+        "Trompeur": 1,
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "causalité sociale",
+      "n": 7,
+      "verdict_counts": {
+        "Globalement exact": 5,
+        "À nuancer": 2
+      }
+    },
+    {
+      "claim_type": "comparaison internationale",
+      "n": 5,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 2,
+        "Globalement exact": 3
+      }
+    },
+    {
+      "claim_type": "fait socio-économique",
+      "n": 5,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1,
+        "Globalement exact": 4
+      }
+    },
+    {
+      "claim_type": "comparaison territoriale",
+      "n": 5,
+      "verdict_counts": {
+        "Globalement exact": 4,
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "fait institutionnel",
+      "n": 5,
+      "verdict_counts": {
+        "À nuancer": 2,
+        "Globalement exact": 2,
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "claim_type": "projection / effet de politique",
+      "n": 5,
+      "verdict_counts": {
+        "À nuancer": 1,
+        "Globalement exact": 3,
+        "Faux": 1
+      }
+    },
+    {
+      "claim_type": "chiffre de processus interne",
+      "n": 4,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 3,
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "projection causale",
+      "n": 4,
+      "verdict_counts": {
+        "Globalement exact": 4
+      }
+    },
+    {
+      "claim_type": "causalité économique",
+      "n": 4,
+      "verdict_counts": {
+        "Globalement exact": 3,
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "comparaison économique",
+      "n": 4,
+      "verdict_counts": {
+        "À nuancer": 3,
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "causalité environnementale",
+      "n": 3,
+      "verdict_counts": {
+        "Globalement exact": 2,
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "causalité climatique",
+      "n": 3,
+      "verdict_counts": {
+        "Globalement exact": 3
+      }
+    },
+    {
+      "claim_type": "comparaison de coûts",
+      "n": 3,
+      "verdict_counts": {
+        "À nuancer": 3
+      }
+    },
+    {
+      "claim_type": "chiffre d'exposition",
+      "n": 3,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1,
+        "Exact": 1,
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "comparaison quantitative",
+      "n": 3,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1,
+        "À nuancer": 1,
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "comparaison technologique",
+      "n": 3,
+      "verdict_counts": {
+        "À nuancer": 2,
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "comparaison institutionnelle",
+      "n": 3,
+      "verdict_counts": {
+        "À nuancer": 1,
+        "Globalement exact": 2
+      }
+    },
+    {
+      "claim_type": "comparaison sociale",
+      "n": 3,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1,
+        "Globalement exact": 2
+      }
+    },
+    {
+      "claim_type": "tendance institutionnelle",
+      "n": 3,
+      "verdict_counts": {
+        "À nuancer": 3
+      }
+    },
+    {
+      "claim_type": "causalité distributive",
+      "n": 3,
+      "verdict_counts": {
+        "À nuancer": 2,
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "comparaison temporelle statistique",
+      "n": 2,
+      "verdict_counts": {
+        "Exact": 2
+      }
+    },
+    {
+      "claim_type": "fait de processus interne",
+      "n": 2,
+      "verdict_counts": {
+        "À nuancer": 1,
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "claim_type": "causalité budgétaire",
+      "n": 2,
+      "verdict_counts": {
+        "À nuancer": 2
+      }
+    },
+    {
+      "claim_type": "causalité systémique",
+      "n": 2,
+      "verdict_counts": {
+        "Globalement exact": 2
+      }
+    },
+    {
+      "claim_type": "causalité économique / défaillance de marché",
+      "n": 2,
+      "verdict_counts": {
+        "Globalement exact": 2
+      }
+    },
+    {
+      "claim_type": "comparaison de délais",
+      "n": 2,
+      "verdict_counts": {
+        "Globalement exact": 1,
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "comparaison de risques",
+      "n": 2,
+      "verdict_counts": {
+        "À nuancer": 2
+      }
+    },
+    {
+      "claim_type": "fait fiscal",
+      "n": 2,
+      "verdict_counts": {
+        "Exact": 1,
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "causalité / tendance",
+      "n": 2,
+      "verdict_counts": {
+        "Globalement exact": 2
+      }
+    },
+    {
+      "claim_type": "tendance",
+      "n": 2,
+      "verdict_counts": {
+        "Globalement exact": 1,
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "tendance et comparaison",
+      "n": 2,
+      "verdict_counts": {
+        "Globalement exact": 1,
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "causalité / projection",
+      "n": 2,
+      "verdict_counts": {
+        "À nuancer": 1,
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "projection institutionnelle",
+      "n": 2,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 2
+      }
+    },
+    {
+      "claim_type": "causalité géopolitique",
+      "n": 2,
+      "verdict_counts": {
+        "À nuancer": 1,
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "tendance socio-économique",
+      "n": 2,
+      "verdict_counts": {
+        "À nuancer": 1,
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "causalité socio-économique",
+      "n": 2,
+      "verdict_counts": {
+        "À nuancer": 1,
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "causalité / effet fiscal",
+      "n": 2,
+      "verdict_counts": {
+        "À nuancer": 1,
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "causalité / résilience",
+      "n": 2,
+      "verdict_counts": {
+        "Globalement exact": 2
+      }
+    },
+    {
+      "claim_type": "fait toxicologique",
+      "n": 2,
+      "verdict_counts": {
+        "Globalement exact": 2
+      }
+    },
+    {
+      "claim_type": "causalité financière",
+      "n": 2,
+      "verdict_counts": {
+        "Globalement exact": 1,
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "tendance salariale",
+      "n": 2,
+      "verdict_counts": {
+        "À nuancer": 1,
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "chiffre et comparaison",
+      "n": 2,
+      "verdict_counts": {
+        "À nuancer": 1,
+        "Trompeur": 1
+      }
+    },
+    {
+      "claim_type": "causalité psychosociale",
+      "n": 2,
+      "verdict_counts": {
+        "Globalement exact": 2
+      }
+    },
+    {
+      "claim_type": "causalité",
+      "n": 2,
+      "verdict_counts": {
+        "Globalement exact": 1,
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "causalité macroéconomique",
+      "n": 2,
+      "verdict_counts": {
+        "À nuancer": 2
+      }
+    },
+    {
+      "claim_type": "comparaison de politiques",
+      "n": 2,
+      "verdict_counts": {
+        "À nuancer": 1,
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "causalité technique",
+      "n": 2,
+      "verdict_counts": {
+        "Exact": 1,
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "fait institutionnel / causalité",
+      "n": 2,
+      "verdict_counts": {
+        "À nuancer": 2
+      }
+    },
+    {
+      "claim_type": "causalité sociotechnique",
+      "n": 2,
+      "verdict_counts": {
+        "Exact": 1,
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "fait environnemental",
+      "n": 2,
+      "verdict_counts": {
+        "Globalement exact": 2
+      }
+    },
+    {
+      "claim_type": "causalité / accès aux droits",
+      "n": 2,
+      "verdict_counts": {
+        "Globalement exact": 2
+      }
+    },
+    {
+      "claim_type": "corrélation sociale",
+      "n": 2,
+      "verdict_counts": {
+        "Exact": 1,
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "causalité historique",
+      "n": 2,
+      "verdict_counts": {
+        "Globalement exact": 1,
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "fait descriptif",
+      "n": 2,
+      "verdict_counts": {
+        "À nuancer": 1,
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "tendance descriptive",
+      "n": 2,
+      "verdict_counts": {
+        "Globalement exact": 2
+      }
+    },
+    {
+      "claim_type": "estimation quantitative",
+      "n": 2,
+      "verdict_counts": {
+        "Trompeur": 1,
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "claim_type": "projection démographique",
+      "n": 2,
+      "verdict_counts": {
+        "À nuancer": 2
+      }
+    },
+    {
+      "claim_type": "chiffre d'emploi",
+      "n": 2,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1,
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "fait social",
+      "n": 2,
+      "verdict_counts": {
+        "À nuancer": 1,
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "fait juridique et causalité",
+      "n": 2,
+      "verdict_counts": {
+        "À nuancer": 1,
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "fait observé / causalité",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "fait géoéconomique / causalité",
+      "n": 1,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "claim_type": "chiffre statistique",
+      "n": 1,
+      "verdict_counts": {
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "projection politique",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "caractérisation juridique / comparaison de droits",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "caractérisation de position politique",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "caractérisation juridique / projection",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "causalité politique / stratégie",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "effet de processus interne",
+      "n": 1,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "claim_type": "comparaison politique",
+      "n": 1,
+      "verdict_counts": {
+        "Faux": 1
+      }
+    },
+    {
+      "claim_type": "fait historique scientifique",
+      "n": 1,
+      "verdict_counts": {
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "chiffre scientifique synthétique",
+      "n": 1,
+      "verdict_counts": {
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "évaluation causale de mouvement social",
+      "n": 1,
+      "verdict_counts": {
+        "Trompeur": 1
+      }
+    },
+    {
+      "claim_type": "évaluation causale de dispositif participatif",
+      "n": 1,
+      "verdict_counts": {
+        "Trompeur": 1
+      }
+    },
+    {
+      "claim_type": "évaluation causale institutionnelle",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "tendance géopolitique",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "évaluation de risque géopolitique",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "évaluation systémique de politique",
+      "n": 1,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "claim_type": "tendance socio-économique / causalité",
+      "n": 1,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "claim_type": "causalité exclusive / condition suffisante",
+      "n": 1,
+      "verdict_counts": {
+        "Faux": 1
+      }
+    },
+    {
+      "claim_type": "causalité économique / institutions du travail",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "causalité géoéconomique",
+      "n": 1,
+      "verdict_counts": {
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "comparaison superlative / projection géoéconomique",
+      "n": 1,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "claim_type": "projection budgétaire",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "évaluation de politique / causalité distributive",
+      "n": 1,
+      "verdict_counts": {
+        "Trompeur": 1
+      }
+    },
+    {
+      "claim_type": "évaluation de politique / tendance budgétaire",
+      "n": 1,
+      "verdict_counts": {
+        "Trompeur": 1
+      }
+    },
+    {
+      "claim_type": "causalité économique et environnementale",
+      "n": 1,
+      "verdict_counts": {
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "comparaison de dépendance",
+      "n": 1,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "claim_type": "évaluation de risque climatique",
+      "n": 1,
+      "verdict_counts": {
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "condition de faisabilité / projection",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "évaluation de risque écologique",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "fait descriptif multisectoriel",
+      "n": 1,
+      "verdict_counts": {
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "fait observé",
+      "n": 1,
+      "verdict_counts": {
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "causalité / effet économique",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "conclusion comparative",
+      "n": 1,
+      "verdict_counts": {
+        "Faux": 1
+      }
+    },
+    {
+      "claim_type": "comparaison de résilience",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "comparaison à une trajectoire",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "causalité / arbitrage d'usage",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "chiffre distributif",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "chiffre patrimonial",
+      "n": 1,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "claim_type": "causalité / état du parc",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "fait juridique et effet",
+      "n": 1,
+      "verdict_counts": {
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "causalité / effet d'aménagement",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "fait fiscal / effet de politique",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "projection climatique",
+      "n": 1,
+      "verdict_counts": {
+        "Trompeur": 1
+      }
+    },
+    {
+      "claim_type": "projection assurantielle",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "causalité sectorielle",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "effet d'instrument",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "fait écologique",
+      "n": 1,
+      "verdict_counts": {
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "causalité et comparaison",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "fait scientifique et juridique",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "attribution historique et politique",
+      "n": 1,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "claim_type": "chiffre d'usage agricole",
+      "n": 1,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "claim_type": "chiffre de commerce alimentaire",
+      "n": 1,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "claim_type": "tendance et projection",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "projection / effet fiscal",
+      "n": 1,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "claim_type": "fait économique",
+      "n": 1,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "claim_type": "chiffre démographique",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "projection",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "causalité sanitaire et environnementale",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "seuil sanitaire",
+      "n": 1,
+      "verdict_counts": {
+        "Faux": 1
+      }
+    },
+    {
+      "claim_type": "causalité comparative",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "fait budgétaire",
+      "n": 1,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "claim_type": "effet distributif",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "causalité politico-économique",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "projection géoéconomique",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "tendance distributive",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "comparaison temporelle et distributive",
+      "n": 1,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "claim_type": "fait juridique et distributif",
+      "n": 1,
+      "verdict_counts": {
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "causalité / effet réglementaire",
+      "n": 1,
+      "verdict_counts": {
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "comparaison à un besoin",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "fait budgétaire et distributif",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "causalité quantitative",
+      "n": 1,
+      "verdict_counts": {
+        "Faux": 1
+      }
+    },
+    {
+      "claim_type": "comparaison temporelle et causale",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "projection macrofinancière",
+      "n": 1,
+      "verdict_counts": {
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "projection de dépenses",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "projection financière",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "comparaison réglementaire",
+      "n": 1,
+      "verdict_counts": {
+        "Trompeur": 1
+      }
+    },
+    {
+      "claim_type": "causalité / autonomie stratégique",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "causalité prudentielle",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "tendance quantitative",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "chiffre de cycle de vie",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "causalité concurrentielle",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "fait historique / causalité",
+      "n": 1,
+      "verdict_counts": {
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "tendance temporelle",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "causalité / risques",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "chiffre d'inclusion numérique",
+      "n": 1,
+      "verdict_counts": {
+        "Trompeur": 1
+      }
+    },
+    {
+      "claim_type": "état institutionnel",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "corrélation et causalité",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "projection de faisabilité",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "comparaison budgétaire",
+      "n": 1,
+      "verdict_counts": {
+        "Faux": 1
+      }
+    },
+    {
+      "claim_type": "causalité algorithmique",
+      "n": 1,
+      "verdict_counts": {
+        "Trompeur": 1
+      }
+    },
+    {
+      "claim_type": "causalité / biais de sélection",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "tendance juridique",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "fait professionnel",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "projection / comparaison internationale",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "causalité socioculturelle",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "fait juridique et technique",
+      "n": 1,
+      "verdict_counts": {
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "comparaison de systèmes",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "causalité démographique",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "fait juridique quantitatif",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "comparaison toxicologique",
+      "n": 1,
+      "verdict_counts": {
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "causalité / comparaison de systèmes",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "chiffre administratif",
+      "n": 1,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "claim_type": "chiffre géographique",
+      "n": 1,
+      "verdict_counts": {
+        "Trompeur": 1
+      }
+    },
+    {
+      "claim_type": "causalité / effet de financement",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "comparaison démographique",
+      "n": 1,
+      "verdict_counts": {
+        "Trompeur": 1
+      }
+    },
+    {
+      "claim_type": "causalité multifactorielle",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "fait démographique",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "tendance démographique",
+      "n": 1,
+      "verdict_counts": {
+        "Exact": 1
+      }
+    },
+    {
+      "claim_type": "comparaison genrée et causalité",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "comparaison offre-besoin",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "comparaison sociale et territoriale",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "comparaison de cycle de vie",
+      "n": 1,
+      "verdict_counts": {
+        "Invérifiable ou insuffisamment étayé": 1
+      }
+    },
+    {
+      "claim_type": "comparaison temporelle et internationale",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "comparaison à une norme",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "causalité historique et institutionnelle",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "causalité territoriale",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "fait historique et juridique",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    },
+    {
+      "claim_type": "tendance économique",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "fait juridique et social",
+      "n": 1,
+      "verdict_counts": {
+        "Globalement exact": 1
+      }
+    },
+    {
+      "claim_type": "tendance politique",
+      "n": 1,
+      "verdict_counts": {
+        "À nuancer": 1
+      }
+    }
+  ],
+  "field_presence": {
+    "adversarial_audit_status": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    },
+    "argumentative_role": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    },
+    "argumentative_weight": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    },
+    "candidate_ids": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    },
+    "chapter": {
+      "verified_nonempty": 345,
+      "verified_total": 415
+    },
+    "chapter_title": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    },
+    "claim_type": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    },
+    "confidence": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    },
+    "consensus": {
+      "verified_nonempty": 11,
+      "verified_total": 415
+    },
+    "consensus_or_controversy": {
+      "verified_nonempty": 360,
+      "verified_total": 415
+    },
+    "document_pages": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    },
+    "duplicate_of": {
+      "verified_nonempty": 0,
+      "verified_total": 415
+    },
+    "id": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    },
+    "justification": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    },
+    "legacy_aliases": {
+      "verified_nonempty": 1,
+      "verified_total": 415
+    },
+    "needs_sol_review": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    },
+    "normalized_claim": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    },
+    "occurrences": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    },
+    "pdf_pages": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    },
+    "policies": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    },
+    "programme_source": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    },
+    "quote": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    },
+    "recovery_provenance": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    },
+    "sol_review_reason": {
+      "verified_nonempty": 150,
+      "verified_total": 415
+    },
+    "source_quality": {
+      "verified_nonempty": 360,
+      "verified_total": 415
+    },
+    "sources": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    },
+    "split_group": {
+      "verified_nonempty": 60,
+      "verified_total": 415
+    },
+    "verdict": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    },
+    "verification_status": {
+      "verified_nonempty": 415,
+      "verified_total": 415
+    }
+  }
+}

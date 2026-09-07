@@ -1,0 +1,675 @@
+[
+  {
+    "id": "AV-037",
+    "chapter": null,
+    "chapter_title": "Avant-propos",
+    "pdf_pages": [
+      4
+    ],
+    "document_pages": [
+      4
+    ],
+    "candidate_ids": [
+      "K0031"
+    ],
+    "quote": "Les décennies suivantes n’ont fait qu’empirer le problème : la quête d’une croissance matérielle a abouti en quelques décennies à un dépassement de sept limites planétaires sur les neuf indispensables à des conditions de vie sûres et durables sur terre.",
+    "occurrences": [
+      {
+        "candidate_id": "K0031",
+        "pdf_page": 4,
+        "quote": "Les décennies suivantes n’ont fait qu’empirer le problème : la quête d’une croissance matérielle a abouti en quelques décennies à un dépassement de sept limites planétaires sur les neuf indispensables à des conditions de vie sûres et durables sur terre."
+      }
+    ],
+    "normalized_claim": "L'expansion de la production et de la consommation matérielles a substantiellement contribué au dépassement des limites planétaires.",
+    "claim_type": "causalité environnementale",
+    "argumentative_role": "Attribuer le dépassement des limites planétaires au modèle de croissance matérielle.",
+    "policies": [
+      "Planifier une économie sous contraintes planétaires"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "AV-limites-planetaires",
+    "sources": [
+      {
+        "id": "S-PIK-PHC-2025",
+        "title": "Planetary Health Check 2025: A Scientific Assessment of the State of the Planet",
+        "publisher": "Potsdam Institute for Climate Impact Research",
+        "url": "https://publications.pik-potsdam.de/pubman/item/item_32589_1/component/file_32845/PlanetaryHealthCheck2025.pdf",
+        "publication_date": "2025-09-24",
+        "accessed_on": "2026-09-06",
+        "source_type": "rapport scientifique institutionnel",
+        "quality_grade": "A",
+        "notes": "Évaluation 2025 du cadre des limites planétaires. Elle classe sept limites sur neuf comme franchies, l'acidification des océans rejoignant les six établies dans l'évaluation globale de 2023."
+      },
+      {
+        "id": "S-UNEP-GRO-2024",
+        "title": "Global Resources Outlook 2024: Bend the Trend — Pathways to a Liveable Planet as Resource Use Spikes",
+        "publisher": "Programme des Nations unies pour l'environnement, International Resource Panel",
+        "url": "https://www.unep.org/resources/Global-Resource-Outlook-2024",
+        "publication_date": "2024-03-01",
+        "accessed_on": "2026-09-06",
+        "source_type": "évaluation scientifique internationale",
+        "quality_grade": "A",
+        "notes": "Synthèse interdisciplinaire indiquant que l'augmentation de l'usage des ressources est un moteur principal des crises du climat, de la biodiversité et de la pollution; distingue consommation matérielle, croissance économique et possibilités de découplage."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "L'expansion mondiale de l'extraction, de la transformation et de la consommation de matières contribue directement aux émissions, aux changements d'usage des sols, aux flux d'azote et de phosphore, à l'eau douce, à la pollution chimique et à l'érosion de la biodiversité. Le Panel international des ressources la qualifie de moteur principal de la triple crise planétaire. La formulation devient toutefois trop générale si « quête de croissance » est comprise comme une cause unique: démographie, technologies, institutions et répartition de la consommation modulent fortement les pressions, et le lien avec chacune des sept limites n'est pas identique.",
+    "consensus_or_controversy": "Consensus élevé sur le rôle causal du débit matériel; débat sur la possibilité et l'ampleur d'un découplage durable entre PIB, ressources et impacts.",
+    "source_quality": "Deux évaluations scientifiques internationales de grade A, complémentaires sur l'état des limites et les moteurs matériels.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "AV-017",
+    "chapter": null,
+    "chapter_title": "Avant-propos",
+    "pdf_pages": [
+      4
+    ],
+    "document_pages": [
+      4
+    ],
+    "candidate_ids": [
+      "K0036"
+    ],
+    "quote": "Ni la révolte des Gilets Jaunes, ni la Convention citoyenne pour le Climat, ni la création d’un Secrétariat Général à la Planification Ecologique n’ont changé la trajectoire des politiques économiques.",
+    "occurrences": [
+      {
+        "candidate_id": "K0036",
+        "pdf_page": 4,
+        "quote": "Ni la révolte des Gilets Jaunes, ni la Convention citoyenne pour le Climat, ni la création d’un Secrétariat Général à la Planification Ecologique n’ont changé la trajectoire des politiques économiques."
+      }
+    ],
+    "normalized_claim": "Le mouvement des Gilets jaunes n'aurait pas modifié la trajectoire des politiques économiques françaises.",
+    "claim_type": "évaluation causale de mouvement social",
+    "argumentative_role": "Justifier une rupture plutôt que des ajustements obtenus par mobilisation sociale.",
+    "policies": [
+      "Changer le modèle économique"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "AV-trajectoire-economique",
+    "sources": [
+      {
+        "id": "S-LEGIFRANCE-MUES-2018",
+        "title": "Loi n° 2018-1213 du 24 décembre 2018 portant mesures d'urgence économiques et sociales",
+        "publisher": "Légifrance",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037851899",
+        "publication_date": "2018-12-24",
+        "accessed_on": "2026-09-06",
+        "source_type": "texte juridique primaire",
+        "quality_grade": "A",
+        "notes": "Crée notamment une prime exceptionnelle exonérée et modifie le régime fiscal et social des heures supplémentaires; texte adopté dans la réponse politique au mouvement social de l'automne 2018."
+      },
+      {
+        "id": "S-CCOMPTES-BUDGET-2019",
+        "title": "Le budget de l'État en 2019 — résultats et gestion",
+        "publisher": "Cour des comptes",
+        "url": "https://www.ccomptes.fr/fr/publications/le-budget-de-letat-en-2019-resultats-et-gestion",
+        "publication_date": "2020-04-28",
+        "accessed_on": "2026-09-06",
+        "source_type": "audit public des comptes de l'État",
+        "quality_grade": "A",
+        "notes": "Attribue explicitement une partie de l'aggravation du déficit 2019 aux mesures décidées en décembre 2018 à la suite des mouvements sociaux, et chiffre notamment +4 Md€ pour la prime d'activité."
+      }
+    ],
+    "verdict": "Trompeur",
+    "justification": "Il est défendable de soutenir que le mouvement n'a pas renversé l'orientation générale du modèle économique. Mais la négation non qualifiée efface des inflexions directement attribuables aux Gilets jaunes: abandon de la hausse de fiscalité sur les carburants, loi d'urgence sur le pouvoir d'achat, revalorisation de la prime d'activité et effets budgétaires de plusieurs milliards. La Cour des comptes relie explicitement une partie du déficit 2019 aux mesures prises après les mouvements sociaux. Sans définition d'une « trajectoire » exclusivement structurelle, le lecteur est conduit à tort à comprendre qu'aucun changement économique substantiel n'a eu lieu.",
+    "consensus_or_controversy": "Consensus sur des effets de politique à court terme; débat interprétatif sur leur capacité à modifier le modèle économique à long terme.",
+    "source_quality": "Texte de loi primaire et audit public des comptes, tous deux de grade A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "AV-038",
+    "chapter": null,
+    "chapter_title": "Avant-propos",
+    "pdf_pages": [
+      4
+    ],
+    "document_pages": [
+      4
+    ],
+    "candidate_ids": [
+      "K0036"
+    ],
+    "quote": "Ni la révolte des Gilets Jaunes, ni la Convention citoyenne pour le Climat, ni la création d’un Secrétariat Général à la Planification Ecologique n’ont changé la trajectoire des politiques économiques.",
+    "occurrences": [
+      {
+        "candidate_id": "K0036",
+        "pdf_page": 4,
+        "quote": "Ni la révolte des Gilets Jaunes, ni la Convention citoyenne pour le Climat, ni la création d’un Secrétariat Général à la Planification Ecologique n’ont changé la trajectoire des politiques économiques."
+      }
+    ],
+    "normalized_claim": "La Convention citoyenne pour le climat n'aurait pas modifié la trajectoire des politiques économiques françaises.",
+    "claim_type": "évaluation causale de dispositif participatif",
+    "argumentative_role": "Justifier une rupture plutôt qu'un dispositif consultatif.",
+    "policies": [
+      "Changer le modèle économique"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "AV-trajectoire-economique",
+    "sources": [
+      {
+        "id": "S-VIEPUBLIQUE-CCC-BILAN-2026",
+        "title": "Convention citoyenne pour le climat de 2020 : un bilan mitigé",
+        "publisher": "Vie-publique.fr, Direction de l'information légale et administrative",
+        "url": "https://www.vie-publique.fr/eclairage/279701-convention-citoyenne-pour-le-climat-de-2020-un-bilan-mitige",
+        "publication_date": "2026-04-01",
+        "accessed_on": "2026-09-06",
+        "source_type": "bilan institutionnel de synthèse",
+        "quality_grade": "A",
+        "notes": "Recense 149 propositions; indique qu'en 2026, 100 sont mises en œuvre totalement ou partiellement, 46 en cours et 3 écartées. Le titre et le contenu qualifient le bilan de mitigé."
+      },
+      {
+        "id": "S-HCC-AVIS-LOI-CLIMAT-2021",
+        "title": "Avis portant sur le projet de loi climat et résilience",
+        "publisher": "Haut Conseil pour le climat",
+        "url": "https://www.hautconseilclimat.fr/wp-content/uploads/2021/02/hcc-avis-pjl-climat-resilience-1.pdf",
+        "publication_date": "2021-02-23",
+        "accessed_on": "2026-09-06",
+        "source_type": "évaluation indépendante de politique climatique",
+        "quality_grade": "A",
+        "notes": "Identifie le projet de loi comme une voie principale d'aboutissement de la Convention, tout en jugeant nombre de mesures limitées, différées ou insuffisantes pour rattraper la trajectoire bas-carbone."
+      }
+    ],
+    "verdict": "Trompeur",
+    "justification": "La Convention n'a pas placé la France sur une trajectoire suffisante pour ses objectifs climatiques, et le Haut Conseil pour le climat a relevé la portée limitée ou différée de nombreuses mesures issues du projet de loi. Néanmoins, elle a bien produit des effets observables: la loi Climat et résilience en a constitué une voie principale d'aboutissement et, selon le bilan public de 2026, 100 des 149 propositions avaient été mises en œuvre au moins partiellement, 46 restaient en cours et trois avaient été écartées. Dire sans qualification qu'elle n'a pas « changé la trajectoire » transforme donc un bilan insuffisant en absence d'effet.",
+    "consensus_or_controversy": "Accord large sur une transposition partielle et une ambition insuffisante; l'effet causal exact sur les agrégats économiques ou les émissions n'est pas isolé.",
+    "source_quality": "Bilan institutionnel et évaluation climatique indépendante de grade A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "AV-039",
+    "chapter": null,
+    "chapter_title": "Avant-propos",
+    "pdf_pages": [
+      4
+    ],
+    "document_pages": [
+      4
+    ],
+    "candidate_ids": [
+      "K0036"
+    ],
+    "quote": "Ni la révolte des Gilets Jaunes, ni la Convention citoyenne pour le Climat, ni la création d’un Secrétariat Général à la Planification Ecologique n’ont changé la trajectoire des politiques économiques.",
+    "occurrences": [
+      {
+        "candidate_id": "K0036",
+        "pdf_page": 4,
+        "quote": "Ni la révolte des Gilets Jaunes, ni la Convention citoyenne pour le Climat, ni la création d’un Secrétariat Général à la Planification Ecologique n’ont changé la trajectoire des politiques économiques."
+      }
+    ],
+    "normalized_claim": "La création du Secrétariat général à la planification écologique n'aurait pas modifié la trajectoire des politiques économiques françaises.",
+    "claim_type": "évaluation causale institutionnelle",
+    "argumentative_role": "Justifier une rupture plutôt qu'une nouvelle structure de coordination.",
+    "policies": [
+      "Changer le modèle économique"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "AV-trajectoire-economique",
+    "sources": [
+      {
+        "id": "S-CCOMPTES-TRANSITION-2025",
+        "title": "La transition écologique",
+        "publisher": "Cour des comptes",
+        "url": "https://www.ccomptes.fr/fr/publications/la-transition-ecologique",
+        "publication_date": "2025-09-16",
+        "accessed_on": "2026-09-06",
+        "source_type": "évaluation institutionnelle indépendante",
+        "quality_grade": "A",
+        "notes": "Qualifie la création du SGPE d'étape importante ayant permis une feuille de route bas-carbone et une coordination interministérielle; constate simultanément des résultats insuffisants, un ralentissement des réductions d'émissions et des instruments dispersés."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "La Cour des comptes juge que les résultats écologiques demeurent insuffisants et que les leviers restent dispersés, ce qui soutient l'idée que le SGPE n'a pas, à lui seul, réorienté l'ensemble de l'économie. Elle conclut pourtant aussi que sa création a marqué une étape importante, permis de produire une feuille de route bas-carbone et amélioré la coordination interministérielle. L'effet sur la « trajectoire des politiques économiques » n'est pas défini par un indicateur ni identifié causalement; une formulation plus exacte distinguerait le changement de pilotage, bien documenté, de l'insuffisance des résultats.",
+    "consensus_or_controversy": "Bilan institutionnel contrasté; absence d'une identification causale du SGPE sur la trajectoire macroéconomique.",
+    "source_quality": "Évaluation indépendante de la Cour des comptes, grade A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "AV-018",
+    "chapter": null,
+    "chapter_title": "Avant-propos",
+    "pdf_pages": [
+      5
+    ],
+    "document_pages": [
+      5
+    ],
+    "candidate_ids": [
+      "K0040"
+    ],
+    "quote": "Endetté par des années de baisse d’impôt des plus riches et des subventions fossiles.",
+    "occurrences": [
+      {
+        "candidate_id": "K0040",
+        "pdf_page": 5,
+        "quote": "Endetté par des années de baisse d’impôt des plus riches et des subventions fossiles."
+      }
+    ],
+    "normalized_claim": "Les baisses d'impôts qui ont bénéficié aux ménages les plus riches ont contribué matériellement à l'endettement public français.",
+    "claim_type": "causalité budgétaire",
+    "argumentative_role": "Attribuer une partie de la dette aux choix de fiscalité du capital et justifier leur révision.",
+    "policies": [
+      "Refonder le pacte fiscal"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "AV-causes-endettement",
+    "sources": [
+      {
+        "id": "S-CCOMPTES-BUDGET-2018",
+        "title": "Le budget de l'État en 2018 — résultats et gestion",
+        "publisher": "Cour des comptes",
+        "url": "https://www.ccomptes.fr/fr/publications/le-budget-de-letat-en-2018-resultats-et-gestion",
+        "publication_date": "2019-05-15",
+        "accessed_on": "2026-09-06",
+        "source_type": "audit public des comptes de l'État",
+        "quality_grade": "A",
+        "notes": "Constate 16,5 Md€ de baisses de prélèvements affectant les recettes fiscales nettes en 2018 et précise que l'État porte l'essentiel du coût net des baisses de prélèvements qu'il met en œuvre."
+      },
+      {
+        "id": "S-FRANCE-STRATEGIE-CAPITAL-2023",
+        "title": "Comité d'évaluation des réformes de la fiscalité du capital — rapport final",
+        "publisher": "France Stratégie",
+        "url": "https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2023-rapport-isf-quatrieme_rapport_complet_17octobre_2.pdf",
+        "publication_date": "2023-10-04",
+        "accessed_on": "2026-09-06",
+        "source_type": "évaluation publique fondée sur données fiscales et travaux économétriques",
+        "quality_grade": "A",
+        "notes": "Estime à 4,5 Md€ en 2022 la perte de recettes liée au remplacement de l'ISF par l'IFI, sous une hypothèse explicitée; conclut en revanche que le coût budgétaire du PFU aurait été annulé les premières années par les recettes induites, avec une ampleur comportementale incertaine."
+      },
+      {
+        "id": "S-CCOMPTES-FINANCES-DEBUT-2025",
+        "title": "La situation des finances publiques début 2025",
+        "publisher": "Cour des comptes",
+        "url": "https://www.ccomptes.fr/fr/publications/la-situation-des-finances-publiques-debut-2025",
+        "publication_date": "2025-02-13",
+        "accessed_on": "2026-09-06",
+        "source_type": "audit macro-budgétaire public",
+        "quality_grade": "A",
+        "notes": "Documente des déficits persistants, la progression tendancielle de la dépense hors charge de la dette et la pluralité des facteurs de dérive; ne fournit pas de décomposition contrefactuelle du stock de dette entre bénéficiaires de baisses d'impôts."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "À politique inchangée par ailleurs, une baisse durable de recettes accroît bien le déficit puis la dette. Des mesures très concentrées en haut de la distribution ont eu un coût documenté: France Stratégie estime, sous une hypothèse explicite, à 4,5 Md€ en 2022 la perte de recettes due au remplacement de l'ISF par l'IFI. Mais toutes les réformes souvent regroupées sous l'étiquette de « baisses d'impôts des plus riches » n'ont ni les mêmes bénéficiaires ni le même coût: le comité estime notamment que le PFU a pu s'autofinancer durant ses premières années grâce aux dividendes supplémentaires imposés. Surtout, aucune des sources ne décompose le stock de dette selon le revenu des bénéficiaires des mesures fiscales; les crises, les autres baisses d'impôts, la dépense et la conjoncture comptent aussi. La causalité partielle est étayée, la formulation générale et l'importance relative restent indéterminées.",
+    "consensus_or_controversy": "Consensus sur l'identité comptable et sur le coût de certaines mesures; désaccords et incertitudes sur les effets comportementaux, le périmètre des « plus riches » et la part de dette causalement attribuable.",
+    "source_quality": "Audits et évaluation publics de grade A; l'attribution agrégée à la dette ne repose toutefois sur aucune décomposition contrefactuelle publiée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "AV-040",
+    "chapter": null,
+    "chapter_title": "Avant-propos",
+    "pdf_pages": [
+      5
+    ],
+    "document_pages": [
+      5
+    ],
+    "candidate_ids": [
+      "K0040"
+    ],
+    "quote": "Endetté par des années de baisse d’impôt des plus riches et des subventions fossiles.",
+    "occurrences": [
+      {
+        "candidate_id": "K0040",
+        "pdf_page": 5,
+        "quote": "Endetté par des années de baisse d’impôt des plus riches et des subventions fossiles."
+      }
+    ],
+    "normalized_claim": "Les soutiens publics aux énergies fossiles ont contribué matériellement à l'endettement public français.",
+    "claim_type": "causalité budgétaire",
+    "argumentative_role": "Attribuer une partie de la dette aux soutiens fossiles et justifier leur suppression.",
+    "policies": [
+      "Supprimer les subventions fossiles"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "AV-causes-endettement",
+    "sources": [
+      {
+        "id": "S-BUDGET-VERT-PLF2026",
+        "title": "Rapport sur l'impact environnemental du budget de l'État — PLF 2026",
+        "publisher": "Gouvernement français, annexe au projet de loi de finances pour 2026",
+        "url": "https://www.assemblee-nationale.fr/dyn/dyn/contenu/visualisation/1089981/file/4-BV_PLF%202026%20VF2-1.pdf",
+        "publication_date": "2025-10",
+        "accessed_on": "2026-09-06",
+        "source_type": "document budgétaire primaire",
+        "quality_grade": "A",
+        "notes": "Recense 8,1 Md€ de dépenses défavorables à l'environnement en PLF 2026 (9,4 Md€ en LFI 2025 et 10,1 Md€ exécutés en 2024), dont plusieurs milliards de tarifs réduits et dépenses liés aux carburants et autres énergies fossiles; le périmètre est celui du Budget vert et non une définition universelle des subventions fossiles."
+      },
+      {
+        "id": "S-OECD-FOSSIL-SUPPORT-2025",
+        "title": "OECD Inventory of Support Measures for Fossil Fuels 2025",
+        "publisher": "OCDE",
+        "url": "https://www.oecd.org/en/topics/sub-issues/fossil-fuel-support.html",
+        "publication_date": "2025",
+        "accessed_on": "2026-09-06",
+        "source_type": "inventaire institutionnel international de transferts et dépenses fiscales",
+        "quality_grade": "A",
+        "notes": "Inventorie les transferts budgétaires et dépenses fiscales soutenant producteurs ou consommateurs d'énergies fossiles; souligne que les montants dépendent du système fiscal de référence et ne sont pas tous additionnables comme une mesure économique homogène."
+      },
+      {
+        "id": "S-CCOMPTES-FINANCES-DEBUT-2025",
+        "title": "La situation des finances publiques début 2025",
+        "publisher": "Cour des comptes",
+        "url": "https://www.ccomptes.fr/fr/publications/la-situation-des-finances-publiques-debut-2025",
+        "publication_date": "2025-02-13",
+        "accessed_on": "2026-09-06",
+        "source_type": "audit macro-budgétaire public",
+        "quality_grade": "A",
+        "notes": "Documente des déficits persistants, la progression tendancielle de la dépense hors charge de la dette et la pluralité des facteurs de dérive; ne fournit pas de décomposition contrefactuelle du stock de dette entre bénéficiaires de baisses d'impôts."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Il existe incontestablement des transferts et dépenses fiscales qui soutiennent la consommation d'énergies fossiles. Le Budget vert chiffre à plusieurs milliards les dispositifs défavorables directement liés aux carburants et à l'énergie; toutes choses égales par ailleurs, ils dégradent le solde public et peuvent donc accroître la dette. Toutefois, « subvention fossile » n'a pas un périmètre unique: certains inventaires incluent des taux réduits mesurés par rapport à un régime fiscal de référence, des soutiens sociaux temporaires ou des infrastructures, et leurs montants ne sont pas toujours comparables. Le programme ne précise ni période, ni définition, ni part de l'endettement attribuée. L'existence d'une contribution budgétaire est étayée; son poids causal dans la dette ne l'est pas.",
+    "consensus_or_controversy": "Large consensus sur l'existence de soutiens fiscaux et budgétaires aux fossiles; controverse méthodologique sur leur définition et absence de consensus sur une attribution chiffrée du stock de dette.",
+    "source_quality": "Document budgétaire primaire et inventaire OCDE de grade A; pas d'étude contrefactuelle attribuant une fraction de la dette française à ces soutiens.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "AV-019",
+    "chapter": null,
+    "chapter_title": "Avant-propos",
+    "pdf_pages": [
+      5
+    ],
+    "document_pages": [
+      5
+    ],
+    "candidate_ids": [
+      "K0041"
+    ],
+    "quote": "Menacé par l’inaction climatique des 30 dernières années et le retour en force des empires réactionnaires à l’international.",
+    "occurrences": [
+      {
+        "candidate_id": "K0041",
+        "pdf_page": 5,
+        "quote": "Menacé par l’inaction climatique des 30 dernières années et le retour en force des empires réactionnaires à l’international."
+      }
+    ],
+    "normalized_claim": "L'inaction climatique accumulée au cours des trente dernières années accroît les menaces auxquelles la France est exposée.",
+    "claim_type": "causalité climatique",
+    "argumentative_role": "Justifier une accélération des politiques climatiques.",
+    "policies": [
+      "Gagner la bataille du climat",
+      "Adapter la France"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "AV-menaces",
+    "sources": [
+      {
+        "id": "S-IPCC-AR6-SYR-2023",
+        "title": "Climate Change 2023 — AR6 Synthesis Report, Summary for Policymakers",
+        "publisher": "GIEC",
+        "url": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf",
+        "publication_date": "2023-03-20",
+        "accessed_on": "2026-09-06",
+        "source_type": "évaluation scientifique internationale de synthèse",
+        "quality_grade": "A",
+        "notes": "Conclut avec un niveau de confiance élevé que retarder atténuation et adaptation verrouille des infrastructures fortement émettrices, augmente les coûts, réduit la faisabilité et accroît pertes et dommages; chaque incrément de réchauffement intensifie plusieurs aléas."
+      },
+      {
+        "id": "S-HCC-RAPPORT-2020",
+        "title": "Rapport annuel 2020 — Redresser le cap, relancer la transition",
+        "publisher": "Haut Conseil pour le climat",
+        "url": "https://www.hautconseilclimat.fr/publications/rapport-annuel-2020/",
+        "publication_date": "2020-07-08",
+        "accessed_on": "2026-09-06",
+        "source_type": "évaluation indépendante de la politique climatique française",
+        "quality_grade": "A",
+        "notes": "Constate des progrès de gouvernance et davantage d'annonces, mais pas d'avancée structurelle suffisante dans le rythme de baisse des émissions; utile pour distinguer insuffisance d'action et absence totale d'action."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Le lien causal central est solidement établi: les émissions cumulées des dernières décennies ont accru le réchauffement, chaque incrément de réchauffement augmente les aléas et les dommages, et le retard d'atténuation réduit les options disponibles. La France est donc aujourd'hui davantage exposée qu'elle ne l'aurait été sous une action mondiale précoce et suffisante. Le mot « inaction » est toutefois excessif: des politiques climatiques ont existé et les émissions territoriales françaises ont baissé; le Haut Conseil pour le climat décrivait des progrès de gouvernance mais une transformation structurelle insuffisante. « Retard et insuffisance de l'action » serait plus exact qu'une absence d'action pendant trente ans.",
+    "consensus_or_controversy": "Consensus scientifique très élevé sur les effets des émissions cumulées et du retard; appréciation politique variable du seuil entre action insuffisante et « inaction ».",
+    "source_quality": "Synthèse du GIEC et évaluation nationale indépendante de grade A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "AV-020",
+    "chapter": null,
+    "chapter_title": "Avant-propos",
+    "pdf_pages": [
+      5
+    ],
+    "document_pages": [
+      5
+    ],
+    "candidate_ids": [
+      "K0041"
+    ],
+    "quote": "Menacé par l’inaction climatique des 30 dernières années et le retour en force des empires réactionnaires à l’international.",
+    "occurrences": [
+      {
+        "candidate_id": "K0041",
+        "pdf_page": 5,
+        "quote": "Menacé par l’inaction climatique des 30 dernières années et le retour en force des empires réactionnaires à l’international."
+      }
+    ],
+    "normalized_claim": "Des régimes autoritaires et des puissances révisionnistes ont gagné du terrain ou durci leur influence internationale au cours des dernières années.",
+    "claim_type": "tendance géopolitique",
+    "argumentative_role": "Établir le « retour en force » international invoqué dans le diagnostic.",
+    "policies": [
+      "Construire une Europe fédérale",
+      "Renforcer l'autonomie stratégique"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "AV-menaces-internationales",
+    "sources": [
+      {
+        "id": "S-VDEM-DEMOCRACY-2026",
+        "title": "Democracy Report 2026 — Unraveling the Democratic Era?",
+        "publisher": "V-Dem Institute, Université de Göteborg",
+        "url": "https://www.v-dem.net/documents/75/V-Dem_Institute_Democracy_Report_2026_lowres.pdf",
+        "publication_date": "2026-03-06",
+        "accessed_on": "2026-09-06",
+        "source_type": "rapport académique fondé sur un jeu de données comparatif expert",
+        "quality_grade": "A",
+        "notes": "Estime 92 autocraties contre 87 démocraties en 2025, une hausse des autocraties depuis 2004 et 44 pays en autocratisation; fournit des intervalles et avertissements sur les classifications proches des seuils."
+      },
+      {
+        "id": "S-SGDSN-RNS-2025",
+        "title": "Revue nationale stratégique 2025",
+        "publisher": "Secrétariat général de la défense et de la sécurité nationale",
+        "url": "https://www.sgdsn.gouv.fr/publications/revue-nationale-strategique-2025",
+        "publication_date": "2025-07-14",
+        "accessed_on": "2026-09-06",
+        "source_type": "évaluation stratégique primaire du Gouvernement français",
+        "quality_grade": "A",
+        "notes": "Décrit un environnement dégradé, le durcissement des postures coercitives ou révisionnistes de la Russie, de l'Iran et de la Chine, des coopérations accrues avec la Corée du Nord et des menaces hybrides contre la France et l'Europe. Source autoritative pour la position française, mais non mesure neutre d'une probabilité de conflit."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les indicateurs comparatifs montrent un recul démocratique durable: V-Dem compte davantage d'autocraties que de démocraties en 2025, une hausse du nombre d'autocraties depuis 2004 et une vague d'autocratisation dominante depuis les années 2010. La Revue nationale stratégique française décrit simultanément un durcissement des puissances révisionnistes et de leurs coopérations. Cela étaye un « retour en force » au sens d'un poids institutionnel et coercitif accru. La formule « empires réactionnaires » n'est toutefois pas une catégorie scientifique et l'influence géopolitique n'est pas mesurée par le seul nombre de régimes autoritaires.",
+    "consensus_or_controversy": "Consensus sur une vague récente d'autocratisation; davantage de débat sur la notion d'empire, le périmètre des puissances concernées et la mesure agrégée de leur influence.",
+    "source_quality": "Jeu de données académique transparent et document stratégique primaire, grade A; les deux sources mesurent des dimensions différentes.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "AV-041",
+    "chapter": null,
+    "chapter_title": "Avant-propos",
+    "pdf_pages": [
+      5
+    ],
+    "document_pages": [
+      5
+    ],
+    "candidate_ids": [
+      "K0041"
+    ],
+    "quote": "Menacé par l’inaction climatique des 30 dernières années et le retour en force des empires réactionnaires à l’international.",
+    "occurrences": [
+      {
+        "candidate_id": "K0041",
+        "pdf_page": 5,
+        "quote": "Menacé par l’inaction climatique des 30 dernières années et le retour en force des empires réactionnaires à l’international."
+      }
+    ],
+    "normalized_claim": "Certaines puissances autoritaires ou révisionnistes constituent une menace de sécurité substantielle pour la France et l'Europe.",
+    "claim_type": "évaluation de risque géopolitique",
+    "argumentative_role": "Justifier une stratégie européenne et une autonomie géopolitique.",
+    "policies": [
+      "Construire une Europe fédérale",
+      "Renforcer l'autonomie stratégique"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "AV-menaces-internationales",
+    "sources": [
+      {
+        "id": "S-SGDSN-RNS-2025",
+        "title": "Revue nationale stratégique 2025",
+        "publisher": "Secrétariat général de la défense et de la sécurité nationale",
+        "url": "https://www.sgdsn.gouv.fr/publications/revue-nationale-strategique-2025",
+        "publication_date": "2025-07-14",
+        "accessed_on": "2026-09-06",
+        "source_type": "évaluation stratégique primaire du Gouvernement français",
+        "quality_grade": "A",
+        "notes": "Décrit un environnement dégradé, le durcissement des postures coercitives ou révisionnistes de la Russie, de l'Iran et de la Chine, des coopérations accrues avec la Corée du Nord et des menaces hybrides contre la France et l'Europe. Source autoritative pour la position française, mais non mesure neutre d'une probabilité de conflit."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "La propre évaluation stratégique de l'État français identifie des postures coercitives et révisionnistes, des menaces hybrides déjà dirigées contre les intérêts français et européens, ainsi qu'un risque de conflit majeur en Europe. Les actes observables — guerre d'agression russe contre l'Ukraine, cyberattaques, ingérences et pressions — rendent le risque substantiel, et pas seulement spéculatif. Une évaluation de menace reste néanmoins prospective, dépend du scénario et ne s'applique pas indistinctement à tout régime autoritaire; le vocabulaire d'« empire réactionnaire » demeure politique.",
+    "consensus_or_controversy": "Accord large des institutions de sécurité européennes sur la menace russe et les menaces hybrides; incertitude intrinsèque sur l'évolution, la probabilité et le périmètre des scénarios futurs.",
+    "source_quality": "Source stratégique gouvernementale primaire de grade A pour le diagnostic français; sa nature institutionnelle appelle à distinguer constat d'actes et jugement prospectif.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "AV-021",
+    "chapter": null,
+    "chapter_title": "Avant-propos",
+    "pdf_pages": [
+      5
+    ],
+    "document_pages": [
+      5
+    ],
+    "candidate_ids": [
+      "K0042"
+    ],
+    "quote": "Les réponses apportées jusqu’ici n’ont pas changé de modèle : elles ont – plus ou moins – tenté d’en corriger les excès sans en remettre en cause la logique.",
+    "occurrences": [
+      {
+        "candidate_id": "K0042",
+        "pdf_page": 5,
+        "quote": "Les réponses apportées jusqu’ici n’ont pas changé de modèle : elles ont – plus ou moins – tenté d’en corriger les excès sans en remettre en cause la logique."
+      }
+    ],
+    "normalized_claim": "Les politiques publiques mises en œuvre jusqu'ici ont tenté, avec des résultats variables, de corriger certains dommages sociaux ou environnementaux du modèle économique.",
+    "claim_type": "évaluation de politique",
+    "argumentative_role": "Reconnaître la portée corrective mais limitée des politiques antérieures.",
+    "policies": [
+      "Mettre en œuvre la prospérité écologique"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "AV-reponses-modele",
+    "sources": [
+      {
+        "id": "S-HCC-RAPPORT-2020",
+        "title": "Rapport annuel 2020 — Redresser le cap, relancer la transition",
+        "publisher": "Haut Conseil pour le climat",
+        "url": "https://www.hautconseilclimat.fr/publications/rapport-annuel-2020/",
+        "publication_date": "2020-07-08",
+        "accessed_on": "2026-09-06",
+        "source_type": "évaluation indépendante de la politique climatique française",
+        "quality_grade": "A",
+        "notes": "Constate des progrès de gouvernance et davantage d'annonces, mais pas d'avancée structurelle suffisante dans le rythme de baisse des émissions; utile pour distinguer insuffisance d'action et absence totale d'action."
+      },
+      {
+        "id": "S-CCOMPTES-TRANSITION-2025",
+        "title": "La transition écologique",
+        "publisher": "Cour des comptes",
+        "url": "https://www.ccomptes.fr/fr/publications/la-transition-ecologique",
+        "publication_date": "2025-09-16",
+        "accessed_on": "2026-09-06",
+        "source_type": "évaluation institutionnelle indépendante",
+        "quality_grade": "A",
+        "notes": "Qualifie la création du SGPE d'étape importante ayant permis une feuille de route bas-carbone et une coordination interministérielle; constate simultanément des résultats insuffisants, un ralentissement des réductions d'émissions et des instruments dispersés."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les évaluations publiques recensent de nombreux instruments adoptés pour corriger des dommages environnementaux ou sociaux, avec des résultats hétérogènes. Le Haut Conseil pour le climat note des progrès de gouvernance et la Cour des comptes relève des feuilles de route et coordinations nouvelles tout en jugeant les résultats insuffisants. Il est donc raisonnable de dire que les réponses ont tenté des corrections partielles. Les mots « excès » et « modèle » ne définissent cependant ni champ ni métrique, de sorte que la proposition n'est exacte qu'à ce niveau général.",
+    "consensus_or_controversy": "Consensus sur l'existence d'interventions correctrices et sur des résultats inégaux; interprétation variable de ce qui constitue un « excès » du modèle.",
+    "source_quality": "Deux évaluations institutionnelles indépendantes de grade A, centrées surtout sur la politique climatique et écologique.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  }
+]

@@ -1,0 +1,563 @@
+[
+  {
+    "id": "C21-004",
+    "chapter": 21,
+    "chapter_title": "Protéger nos techno-diversités numériques",
+    "pdf_pages": [
+      79
+    ],
+    "document_pages": [
+      79
+    ],
+    "candidate_ids": [
+      "K0649"
+    ],
+    "quote": "Présentée comme une avancée technologique, elle met en cause les équilibres de l’État social, du respect des droits d’auteur, des libertés fondamentales et consomme une énergie gigantesque et un travail humain largement invisibilisé.",
+    "occurrences": [
+      {
+        "candidate_id": "K0649",
+        "pdf_page": 79,
+        "quote": "Présentée comme une avancée technologique, elle met en cause les équilibres de l’État social, du respect des droits d’auteur, des libertés fondamentales et consomme une énergie gigantesque et un travail humain largement invisibilisé."
+      }
+    ],
+    "normalized_claim": "La chaîne de valeur de l'IA repose sur une quantité importante de travail humain souvent peu visible, notamment l'annotation et la modération.",
+    "claim_type": "fait socio-économique",
+    "argumentative_role": "Justifier une régulation sociale de l'IA.",
+    "policies": [
+      "Encadrer les systèmes d'IA"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "C21-IA",
+    "sources": [
+      {
+        "id": "S-ILO-GENERATIVE-AI",
+        "title": "Generative AI and jobs",
+        "publisher": "Organisation internationale du Travail",
+        "url": "https://www.ilo.org/publications/generative-ai-and-jobs-global-analysis-potential-effects-task",
+        "accessed_on": "2026-09-07",
+        "source_type": "organisation internationale",
+        "quality_grade": "A-",
+        "notes": "Données/annotation/modération impliquent du travail humain, parfois externalisé et peu visible."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Annotation, modération et évaluation humaines sont des composantes importantes de nombreuses chaînes d'IA, souvent externalisées et peu visibles.",
+    "consensus_or_controversy": "Élevé.",
+    "source_quality": "A-.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C21-005",
+    "chapter": 21,
+    "chapter_title": "Protéger nos techno-diversités numériques",
+    "pdf_pages": [
+      79
+    ],
+    "document_pages": [
+      79
+    ],
+    "candidate_ids": [
+      "K0650"
+    ],
+    "quote": "Quelques entreprises investissent à corps perdu en tentant de gagner la course de vitesse en espérant constituer une rente et amortir des investissements démentiels, peu créateurs d’emploi et remettant en cause la nécessaire sobriété énergétique.",
+    "occurrences": [
+      {
+        "candidate_id": "K0650",
+        "pdf_page": 79,
+        "quote": "Quelques entreprises investissent à corps perdu en tentant de gagner la course de vitesse en espérant constituer une rente et amortir des investissements démentiels, peu créateurs d’emploi et remettant en cause la nécessaire sobriété énergétique."
+      }
+    ],
+    "normalized_claim": "Le marché de l'IA est concentré autour de quelques entreprises réalisant des investissements très élevés, avec des créations directes d'emplois limitées relativement au capital engagé.",
+    "claim_type": "comparaison économique",
+    "argumentative_role": "Justifier une stratégie de technodiversité et de souveraineté.",
+    "policies": [
+      "Développer une IA européenne",
+      "Soutenir la technodiversité"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-CMAI-AI-INDEX-2025",
+        "title": "AI Index Report",
+        "publisher": "Stanford Institute for Human-Centered AI",
+        "url": "https://aiindex.stanford.edu/report/",
+        "accessed_on": "2026-09-07",
+        "source_type": "rapport académique",
+        "quality_grade": "A-",
+        "notes": "Investissements et modèles de pointe concentrés; créations d'emploi directes par capital non métrique standard."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Les investissements et modèles de pointe sont concentrés dans quelques entreprises. La comparaison avec des « créations directes d'emplois limitées relativement au capital engagé » ne fournit ni période ni dénominateur et n'est pas établie par les sources générales.",
+    "consensus_or_controversy": "Concentration établie; ratio emploi-capital non validé.",
+    "source_quality": "A-.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Comparaison quantitative emploi/investissement sans métrique."
+  },
+  {
+    "id": "C21-006",
+    "chapter": 21,
+    "chapter_title": "Protéger nos techno-diversités numériques",
+    "pdf_pages": [
+      80
+    ],
+    "document_pages": [
+      80
+    ],
+    "candidate_ids": [
+      "K0653"
+    ],
+    "quote": "des infrastructures et des modèles numériques est la condition de la robustesse de nos sociétés et de notre souveraineté démocratique.",
+    "occurrences": [
+      {
+        "candidate_id": "K0653",
+        "pdf_page": 80,
+        "quote": "des infrastructures et des modèles numériques est la condition de la robustesse de nos sociétés et de notre souveraineté démocratique."
+      }
+    ],
+    "normalized_claim": "La diversité des fournisseurs, infrastructures et modèles numériques peut améliorer la résilience et réduire les dépendances stratégiques.",
+    "claim_type": "causalité / résilience",
+    "argumentative_role": "Justifier la technodiversité et des infrastructures européennes.",
+    "policies": [
+      "Développer la technodiversité",
+      "Créer des clouds industriels"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-ENISA-RESILIENCE",
+        "title": "Cybersecurity and digital resilience",
+        "publisher": "ENISA",
+        "url": "https://www.enisa.europa.eu/topics/resilience",
+        "accessed_on": "2026-09-07",
+        "source_type": "agence européenne",
+        "quality_grade": "A",
+        "notes": "Diversité/redondance peut limiter dépendance et points uniques de défaillance."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Diversifier fournisseurs, infrastructures et modèles peut améliorer résilience et réduire dépendance, mais augmente aussi complexité de gestion.",
+    "consensus_or_controversy": "Élevé.",
+    "source_quality": "A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C21-008",
+    "chapter": 21,
+    "chapter_title": "Protéger nos techno-diversités numériques",
+    "pdf_pages": [
+      81
+    ],
+    "document_pages": [
+      81
+    ],
+    "candidate_ids": [
+      "K0657"
+    ],
+    "quote": "Créer des clouds industriel permettant d’échanger des données sensibles en toute sécurité.",
+    "occurrences": [
+      {
+        "candidate_id": "K0657",
+        "pdf_page": 81,
+        "quote": "Créer des clouds industriel permettant d’échanger des données sensibles en toute sécurité."
+      }
+    ],
+    "normalized_claim": "Un cloud industriel maîtrisé peut faciliter des échanges de données sensibles avec des garanties de sécurité et de souveraineté supérieures à des services non maîtrisés.",
+    "claim_type": "comparaison technologique",
+    "argumentative_role": "Justifier la création de clouds industriels.",
+    "policies": [
+      "Créer des clouds industriels"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "ANSSI — référentiel SecNumCloud",
+        "url": "https://cyber.gouv.fr/secnumcloud",
+        "type": "source primaire / autorité nationale",
+        "finding": "Le référentiel fixe des exigences de sécurité et de protection contre les lois extraterritoriales pour les services cloud qualifiés; il ne garantit pas qu'un cloud soit sûr par sa seule qualification d'« industriel »."
+      },
+      {
+        "title": "Règlement (UE) 2019/881 — cybersécurité",
+        "url": "https://eur-lex.europa.eu/eli/reg/2019/881/oj",
+        "type": "droit primaire",
+        "finding": "Le niveau de sécurité découle d'exigences, de gouvernance et de certification, non de la seule localisation ou propriété du service."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Un cloud contrôlé et qualifié peut effectivement réduire certains risques de sécurité et de souveraineté. Mais « en toute sécurité » est absolu: les garanties dépendent de l'architecture, de l'exploitation, des certifications, des accès et du droit applicable. Le programme ne précise ni référentiel ni périmètre comparatif.",
+    "consensus_or_controversy": "Consensus de cybersécurité sur l'importance de la gouvernance et de la qualification; pas de garantie générale attachée à la seule notion de cloud industriel.",
+    "source_quality": "Élevée — ANSSI et droit de l'Union européenne.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Comparaison de sécurité/souveraineté techniquement et juridiquement dépendante de définitions non précisées."
+  },
+  {
+    "id": "C21-007",
+    "chapter": 21,
+    "chapter_title": "Protéger nos techno-diversités numériques",
+    "pdf_pages": [
+      82
+    ],
+    "document_pages": [
+      82
+    ],
+    "candidate_ids": [
+      "K0662"
+    ],
+    "quote": "Supprimer la possibilité de labelliser des data centers « projet d’intérêt national majeur » (PINM) les exonérant d’études d’impact.",
+    "occurrences": [
+      {
+        "candidate_id": "K0662",
+        "pdf_page": 82,
+        "quote": "Supprimer la possibilité de labelliser des data centers « projet d’intérêt national majeur » (PINM) les exonérant d’études d’impact."
+      }
+    ],
+    "normalized_claim": "La qualification de projet d'intérêt national majeur peut dispenser certains projets de centres de données de procédures ordinaires d'évaluation ou d'autorisation environnementale.",
+    "claim_type": "fait juridique",
+    "argumentative_role": "Justifier la suppression de cette qualification pour les data centers.",
+    "policies": [
+      "Supprimer le statut PINM des data centers"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "Code de l'environnement, article L. 300-6-2",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045213162",
+        "type": "droit primaire",
+        "finding": "La reconnaissance de raison impérative d'intérêt public majeur est prévue pour certains projets; elle ne vaut pas exonération générale de l'évaluation environnementale."
+      },
+      {
+        "title": "Décret n° 2023-1366 du 29 décembre 2023 relatif aux projets d'intérêt national majeur",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048707346",
+        "type": "droit primaire",
+        "finding": "Le régime PINM organise notamment une procédure d'identification et de facilitation; il ne supprime pas par lui-même les règles ordinaires d'évaluation environnementale applicables."
+      }
+    ],
+    "verdict": "Trompeur",
+    "justification": "Le statut PINM peut produire des effets procéduraux et, dans certains cas, soutenir une reconnaissance de raison impérative d'intérêt public majeur utile à des dérogations. Il n'« exonère » toutefois pas les centres de données d'études d'impact de façon générale: l'affirmation assimile à une exemption automatique un régime plus limité et conditionnel.",
+    "consensus_or_controversy": "Lecture juridique établie par les textes; l'effet exact dépend du projet et des autres autorisations requises.",
+    "source_quality": "Très élevée — Légifrance, textes normatifs.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Verdict Trompeur sur un régime juridique complexe, à confronter au texte alors en vigueur et aux textes d'application sectoriels."
+  },
+  {
+    "id": "PT-020",
+    "chapter": null,
+    "chapter_title": "Introduction de la partie IV",
+    "pdf_pages": [
+      84
+    ],
+    "document_pages": [
+      84
+    ],
+    "candidate_ids": [
+      "K0670"
+    ],
+    "quote": "16 millions de Français·es sont en difficulté car sans connexion ou n’utilisant jamais Internet.",
+    "occurrences": [
+      {
+        "candidate_id": "K0670",
+        "pdf_page": 84,
+        "quote": "16 millions de Français·es sont en difficulté car sans connexion ou n’utilisant jamais Internet."
+      }
+    ],
+    "normalized_claim": "Environ seize millions de personnes en France rencontreraient des difficultés numériques parce qu'elles n'ont pas de connexion ou n'utilisent jamais Internet.",
+    "claim_type": "chiffre d'inclusion numérique",
+    "argumentative_role": "Justifier le maintien d'accueils administratifs humains et de guichets physiques.",
+    "policies": [
+      "Garantir un accueil humain dans les services publics"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "Insee, 15 % de la population est en situation d'illectronisme en 2021",
+        "url": "https://www.insee.fr/fr/statistiques/7633654",
+        "type": "statistique publique primaire",
+        "finding": "15,4 % des 15 ans ou plus hors Mayotte sont en situation d'illectronisme; 13,9 % n'avaient pas utilisé internet au cours des trois derniers mois."
+      },
+      {
+        "title": "Insee Focus n°376, Une personne sur trois manque de compétences numériques",
+        "url": "https://www.insee.fr/fr/statistiques/8739245",
+        "type": "statistique publique primaire",
+        "finding": "En 2025, 34 % des 16-74 ans n'utilisent pas internet ou n'ont pas les notions de base dans au moins un des cinq domaines: définition plus large que l'absence de connexion ou le non-usage."
+      }
+    ],
+    "verdict": "Trompeur",
+    "justification": "Les statistiques publiques confirment un problème massif, mais ne corroborent pas seize millions de personnes du seul fait d'être sans connexion ou de ne jamais utiliser internet. Les ordres de grandeur de non-usage sont nettement inférieurs; le chiffre proche de 16–17 millions résulte d'un indicateur 2025 beaucoup plus large incluant les compétences insuffisantes. La formulation mélange les dénominateurs et définitions.",
+    "consensus_or_controversy": "Données Insee convergentes sur l'ampleur de la fracture numérique, mais sensibles à la définition retenue.",
+    "source_quality": "Très élevée — Insee, enquêtes TIC et indicateur européen.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  },
+  {
+    "id": "PT-021",
+    "chapter": null,
+    "chapter_title": "Introduction de la partie IV",
+    "pdf_pages": [
+      84
+    ],
+    "document_pages": [
+      84
+    ],
+    "candidate_ids": [
+      "K0677"
+    ],
+    "quote": "L’école de la République est à l’agonie, minée par les inégalités et le manque de moyens, mise en tension par des objectifs démentiels (comme si l’école pouvait répondre à tous les problèmes) et une précarité organisée des locaux, des rémunérations et des personnels qui viennent en soutien.",
+    "occurrences": [
+      {
+        "candidate_id": "K0677",
+        "pdf_page": 84,
+        "quote": "L’école de la République est à l’agonie, minée par les inégalités et le manque de moyens, mise en tension par des objectifs démentiels (comme si l’école pouvait répondre à tous les problèmes) et une précarité organisée des locaux, des rémunérations et des personnels qui viennent en soutien."
+      }
+    ],
+    "normalized_claim": "L'école française est fortement affectée par les inégalités scolaires, des moyens insuffisants et la précarité de certains locaux, personnels et métiers de soutien.",
+    "claim_type": "état institutionnel",
+    "argumentative_role": "Justifier la priorité budgétaire et sociale donnée à l'éducation.",
+    "policies": [
+      "Renforcer les moyens de l'école publique"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "DEPP, L'état de l'École 2024",
+        "url": "https://www.education.gouv.fr/l-etat-de-l-ecole-2024-414392",
+        "type": "statistique publique",
+        "finding": "Documente des écarts sociaux et territoriaux de résultats et de conditions de scolarisation, sans établir les formulations globales et causales du programme."
+      },
+      {
+        "title": "Cour des comptes, L'école, une organisation à repenser",
+        "url": "https://www.ccomptes.fr/fr/publications/lecole-une-organisation-repenser",
+        "type": "institution de contrôle",
+        "finding": "Relève des difficultés de gestion et d'organisation; ne permet pas à elle seule de conclure à une dégradation uniforme de l'ensemble de l'école."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Les inégalités scolaires et certaines difficultés de moyens, de bâti ou de recrutement sont documentées. En revanche, « à l'agonie », « précarité organisée » et le lien causal global avec les objectifs assignés à l'école sont des généralisations évaluatives non opérationnalisées; les sources disponibles ne les démontrent pas comme diagnostic national unique.",
+    "consensus_or_controversy": "Consensus sur la persistance d'inégalités; diagnostic global et imputations causales discutés.",
+    "source_quality": "Élevée — DEPP et Cour des comptes.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Bloc argumentatif composite mêlant faits observables, causalités et langage évaluatif."
+  },
+  {
+    "id": "C22-001",
+    "chapter": 22,
+    "chapter_title": "Décentraliser les services publics",
+    "pdf_pages": [
+      86
+    ],
+    "document_pages": [
+      86
+    ],
+    "candidate_ids": [
+      "K0685"
+    ],
+    "quote": "L’autonomie financière des collectivités est inscrite dans la Constitution.",
+    "occurrences": [
+      {
+        "candidate_id": "K0685",
+        "pdf_page": 86,
+        "quote": "L’autonomie financière des collectivités est inscrite dans la Constitution."
+      }
+    ],
+    "normalized_claim": "L'autonomie financière des collectivités territoriales est garantie par la Constitution française.",
+    "claim_type": "fait juridique",
+    "argumentative_role": "Établir le cadre constitutionnel de la réforme proposée.",
+    "policies": [
+      "Renforcer l'autonomie financière locale"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "Constitution du 4 octobre 1958, article 72-2",
+        "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006527616",
+        "type": "droit constitutionnel primaire",
+        "finding": "Les collectivités territoriales bénéficient de ressources dont elles peuvent disposer librement et la loi détermine les conditions de leurs ressources propres."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "L'article 72-2 de la Constitution encadre explicitement la libre disposition des ressources et la part déterminante des ressources propres; le Conseil constitutionnel en déduit une exigence d'autonomie financière.",
+    "consensus_or_controversy": "Établi en droit constitutionnel.",
+    "source_quality": "Très élevée — Constitution.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  },
+  {
+    "id": "C22-003",
+    "chapter": 22,
+    "chapter_title": "Décentraliser les services publics",
+    "pdf_pages": [
+      86
+    ],
+    "document_pages": [
+      86
+    ],
+    "candidate_ids": [
+      "K0686"
+    ],
+    "quote": "Elle correspond au ratio entre les recettes sur lesquelles les collectivités détiennent un pouvoir de taux et l’ensemble de leurs ressources.",
+    "occurrences": [
+      {
+        "candidate_id": "K0686",
+        "pdf_page": 86,
+        "quote": "Elle correspond au ratio entre les recettes sur lesquelles les collectivités détiennent un pouvoir de taux et l’ensemble de leurs ressources."
+      }
+    ],
+    "normalized_claim": "L'indicateur légal d'autonomie financière rapporte certaines ressources propres à l'ensemble des ressources des collectivités, sans se limiter strictement aux impôts dont elles fixent le taux.",
+    "claim_type": "fait juridique",
+    "argumentative_role": "Préciser ce que mesure réellement l'autonomie financière.",
+    "policies": [
+      "Réformer le financement local"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "Code général des collectivités territoriales, article LO 1114-2",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042448943",
+        "type": "droit organique primaire",
+        "finding": "Le ratio légal met les ressources propres au numérateur et l'ensemble des ressources (hors exceptions légales) au dénominateur; une ressource propre inclut notamment des impositions dont la loi autorise à fixer l'assiette, le taux ou le tarif, mais aussi d'autres catégories."
+      },
+      {
+        "title": "Observatoire des finances et de la gestion publique locales, rapport 2024",
+        "url": "https://www.collectivites-locales.gouv.fr/observatoire-des-finances-et-de-la-gestion-publique-locales",
+        "type": "institution publique",
+        "finding": "Présente le suivi de l'autonomie financière au sens organique, distinct de la seule autonomie fiscale au pouvoir de taux."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "La proposition normalisée est conforme à la définition organique: le ratio porte sur les ressources propres, notion plus large que les seuls impôts pour lesquels la collectivité vote un taux. La citation du programme, elle, réduit à tort cette définition aux recettes avec pouvoir de taux; cette imprécision est conservée pour l'audit transversal des citations juridiques.",
+    "consensus_or_controversy": "Établi par la loi organique.",
+    "source_quality": "Très élevée — Code général des collectivités territoriales.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  },
+  {
+    "id": "C22-002",
+    "chapter": 22,
+    "chapter_title": "Décentraliser les services publics",
+    "pdf_pages": [
+      86
+    ],
+    "document_pages": [
+      86
+    ],
+    "candidate_ids": [
+      "K0688"
+    ],
+    "quote": "L’inflation et l’augmentation des charges, l’abandon de la Contribution sur la Valeur Ajoutée des Entreprises (CVAE) et la suppression de la taxe d’habitation ont progressivement détruit la maîtrise locale des ressources budgétaires.",
+    "occurrences": [
+      {
+        "candidate_id": "K0688",
+        "pdf_page": 86,
+        "quote": "L’inflation et l’augmentation des charges, l’abandon de la Contribution sur la Valeur Ajoutée des Entreprises (CVAE) et la suppression de la taxe d’habitation ont progressivement détruit la maîtrise locale des ressources budgétaires."
+      }
+    ],
+    "normalized_claim": "La suppression de la taxe d'habitation et la réduction puis suppression de la CVAE ont substantiellement réduit l'autonomie fiscale locale.",
+    "claim_type": "causalité institutionnelle",
+    "argumentative_role": "Justifier le rétablissement de ressources fiscales à pouvoir de taux local.",
+    "policies": [
+      "Rétablir la CVAE",
+      "Renforcer la fiscalité locale"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "Cour des comptes, Les finances publiques locales 2024",
+        "url": "https://www.ccomptes.fr/fr/publications/les-finances-publiques-locales-2024",
+        "type": "institution de contrôle",
+        "finding": "Décrit les réformes fiscales récentes, les compensations et les conséquences sur les marges de manoeuvre et l'autonomie fiscale locales."
+      },
+      {
+        "title": "DGCL, Les collectivités locales en chiffres 2024",
+        "url": "https://www.collectivites-locales.gouv.fr/collectivites-locales-en-chiffres",
+        "type": "statistique administrative",
+        "finding": "Retrace la suppression de la taxe d'habitation sur les résidences principales, la baisse programmée de la CVAE et les mécanismes de compensation."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "La suppression de la taxe d'habitation sur les résidences principales et la baisse puis suppression programmée de la CVAE ont réduit des leviers de fiscalité locale et accru la part de recettes transférées ou compensées. Elles n'ont pas supprimé l'autonomie financière constitutionnelle, et les effets varient selon niveau de collectivité et mécanisme de compensation: « détruit » est donc excessif.",
+    "consensus_or_controversy": "Constat largement partagé sur l'érosion de l'autonomie fiscale, avec débat sur l'ampleur effective de la compensation financière.",
+    "source_quality": "Élevée — Cour des comptes et DGCL.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  }
+]

@@ -1,0 +1,556 @@
+[
+  {
+    "id": "C16-004",
+    "chapter": 16,
+    "chapter_title": "Changer les règles du marché",
+    "pdf_pages": [
+      62
+    ],
+    "document_pages": [
+      62
+    ],
+    "candidate_ids": [
+      "K0510"
+    ],
+    "quote": "Dans le même temps, l’investissement privé reste insuffisamment orienté vers les activités créatrices de valeur sociale et écologique.",
+    "occurrences": [
+      {
+        "candidate_id": "K0510",
+        "pdf_page": 62,
+        "quote": "Dans le même temps, l’investissement privé reste insuffisamment orienté vers les activités créatrices de valeur sociale et écologique."
+      }
+    ],
+    "normalized_claim": "L'investissement privé est insuffisamment orienté vers les activités à forte valeur sociale et écologique.",
+    "claim_type": "comparaison à un besoin",
+    "argumentative_role": "Justifier une orientation publique de l'investissement.",
+    "policies": [
+      "Orienter l'investissement",
+      "Réformer les aides d'État"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-UNEP-FINANCE",
+        "title": "Sustainable finance and investment gaps",
+        "publisher": "PNUE",
+        "url": "https://www.unep.org/explore-topics/finance-and-economic-transformations",
+        "accessed_on": "2026-09-07",
+        "source_type": "organisation ONU",
+        "quality_grade": "A-",
+        "notes": "Les besoins d'investissement durable dépassent les flux actuels, mais « valeur sociale » n'a pas mesure unique."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les évaluations internationales constatent un déficit d'investissement vers des transitions environnementales et sociales. « Valeur sociale » est large, mais la proposition générale est étayée.",
+    "consensus_or_controversy": "Élevé.",
+    "source_quality": "A-.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C16-005",
+    "chapter": 16,
+    "chapter_title": "Changer les règles du marché",
+    "pdf_pages": [
+      62
+    ],
+    "document_pages": [
+      62
+    ],
+    "candidate_ids": [
+      "K0511"
+    ],
+    "quote": "En imposant des normes environnementales contraignantes, en protégeant les biens communs et en encadrant l’activité économique, nous pouvons orienter l’activité économique vers la satisfaction des besoins essentiels plutôt que vers l’accumulation sans limites des profits.",
+    "occurrences": [
+      {
+        "candidate_id": "K0511",
+        "pdf_page": 62,
+        "quote": "En imposant des normes environnementales contraignantes, en protégeant les biens communs et en encadrant l’activité économique, nous pouvons orienter l’activité économique vers la satisfaction des besoins essentiels plutôt que vers l’accumulation sans limites des profits."
+      }
+    ],
+    "normalized_claim": "Des normes environnementales, la protection des biens communs et l'encadrement du marché peuvent réorienter l'activité vers les besoins essentiels.",
+    "claim_type": "causalité / effet de politique",
+    "argumentative_role": "Justifier la régulation environnementale.",
+    "policies": [
+      "Adopter des normes et conditionnalités vertes"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-OECD-GREEN-GROWTH",
+        "title": "Green growth and environmental policy",
+        "publisher": "OCDE",
+        "url": "https://www.oecd.org/en/topics/sub-issues/green-growth-and-sustainable-development.html",
+        "accessed_on": "2026-09-07",
+        "source_type": "organisation intergouvernementale",
+        "quality_grade": "A-",
+        "notes": "Les normes et instruments de marché peuvent réorienter l'activité, sous conditions de conception."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Des normes, protection des biens communs et régulation peuvent modifier les incitations et orienter l'activité. La définition de besoins essentiels est politique, mais le mécanisme empirique est correct.",
+    "consensus_or_controversy": "Élevé.",
+    "source_quality": "A-.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C16-006",
+    "chapter": 16,
+    "chapter_title": "Changer les règles du marché",
+    "pdf_pages": [
+      63
+    ],
+    "document_pages": [
+      63
+    ],
+    "candidate_ids": [
+      "K0515"
+    ],
+    "quote": "Rétablir les 1000 postes d’agents supprimés dans les 15 dernières années à la Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF) et les postes dans les douanes.",
+    "occurrences": [
+      {
+        "candidate_id": "K0515",
+        "pdf_page": 63,
+        "quote": "Rétablir les 1000 postes d’agents supprimés dans les 15 dernières années à la Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF) et les postes dans les douanes."
+      }
+    ],
+    "normalized_claim": "Environ 1 000 postes auraient été supprimés à la DGCCRF au cours des quinze dernières années.",
+    "claim_type": "comparaison temporelle",
+    "argumentative_role": "Justifier le rétablissement d'effectifs de contrôle.",
+    "policies": [
+      "Rétablir 1 000 postes à la DGCCRF"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-DGCCRF-RAPPORT",
+        "title": "Rapport d'activité de la DGCCRF",
+        "publisher": "Ministère de l'Économie",
+        "url": "https://www.economie.gouv.fr/dgccrf/publications",
+        "accessed_on": "2026-09-07",
+        "source_type": "administration publique",
+        "quality_grade": "A",
+        "notes": "Les effectifs varient selon date et définition; baisse importante sur longue période documentée."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "La DGCCRF a connu une baisse marquée de ses effectifs sur longue période, mais le chiffre de 1 000 postes et les quinze ans exacts nécessitent une série précise et un périmètre d'emplois défini.",
+    "consensus_or_controversy": "Tendance baissière reconnue; quantification exacte à documenter.",
+    "source_quality": "A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Comptage d'effectifs dépendant du périmètre et de l'année."
+  },
+  {
+    "id": "C17-001",
+    "chapter": 17,
+    "chapter_title": "Refonder le pacte fiscal",
+    "pdf_pages": [
+      65
+    ],
+    "document_pages": [
+      65
+    ],
+    "candidate_ids": [
+      "K0522"
+    ],
+    "quote": "Les deux quinquennats d’Emmanuel Macron ont plombé les finances publiques.",
+    "occurrences": [
+      {
+        "candidate_id": "K0522",
+        "pdf_page": 65,
+        "quote": "Les deux quinquennats d’Emmanuel Macron ont plombé les finances publiques."
+      }
+    ],
+    "normalized_claim": "Les politiques des deux quinquennats Macron ont dégradé les finances publiques.",
+    "claim_type": "causalité macroéconomique",
+    "argumentative_role": "Justifier une stratégie fiscale alternative.",
+    "policies": [
+      "Pacte fiscal vert"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-INSEE-FINANCES-PUBLIQUES",
+        "title": "Comptes des administrations publiques",
+        "publisher": "Insee",
+        "url": "https://www.insee.fr/fr/statistiques?debut=0&theme=13",
+        "accessed_on": "2026-09-07",
+        "source_type": "statistique publique",
+        "quality_grade": "A",
+        "notes": "Les soldes/dettes reflètent choix gouvernementaux et chocs macroéconomiques."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Les politiques budgétaires influencent les finances publiques, mais leur dégradation ne peut être attribuée aux seules politiques des quinquennats : pandémie, inflation, croissance et taux ont aussi compté.",
+    "consensus_or_controversy": "Comptes établis, attribution causale contestable.",
+    "source_quality": "A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Attribution causale macro-budgétaire."
+  },
+  {
+    "id": "C17-002",
+    "chapter": 17,
+    "chapter_title": "Refonder le pacte fiscal",
+    "pdf_pages": [
+      65
+    ],
+    "document_pages": [
+      65
+    ],
+    "candidate_ids": [
+      "K0523"
+    ],
+    "quote": "Sous couvert d’une politique pro- business, ses gouvernements successifs ont adopté une politique de redistribution à l’envers, coupé dans les services publics et écrasé les classes moyennes pour diminuer par dizaine de milliards les impôts des plus riches et des grandes entreprises.",
+    "occurrences": [
+      {
+        "candidate_id": "K0523",
+        "pdf_page": 65,
+        "quote": "Sous couvert d’une politique pro- business, ses gouvernements successifs ont adopté une politique de redistribution à l’envers, coupé dans les services publics et écrasé les classes moyennes pour diminuer par dizaine de milliards les impôts des plus riches et des grandes entreprises."
+      }
+    ],
+    "normalized_claim": "Les gouvernements Macron ont réduit de plusieurs dizaines de milliards d'euros les impôts des ménages aisés et des grandes entreprises tout en comprimant certains services publics.",
+    "claim_type": "fait budgétaire et distributif",
+    "argumentative_role": "Caractériser une redistribution fiscale vers le haut.",
+    "policies": [
+      "Accroître la progressivité fiscale"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-IPP-REFORMES-FISCALES",
+        "title": "Évaluation des réformes fiscales depuis 2017",
+        "publisher": "Institut des politiques publiques",
+        "url": "https://www.ipp.eu/",
+        "accessed_on": "2026-09-07",
+        "source_type": "recherche indépendante",
+        "quality_grade": "A-",
+        "notes": "Les réformes ont des effets distributifs, montant total dépendant du périmètre."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Des réductions d'impôts importantes ont bénéficié aux entreprises et à certains ménages. Les montants, bénéficiaires nets et lien avec la compression de services publics exigent un périmètre budgétaire précis; la phrase agrège plusieurs affirmations.",
+    "consensus_or_controversy": "Réformes substantielles établies, quantification/attribution à préciser.",
+    "source_quality": "A-.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Montants et distribution fiscale agrégés."
+  },
+  {
+    "id": "C17-003",
+    "chapter": 17,
+    "chapter_title": "Refonder le pacte fiscal",
+    "pdf_pages": [
+      65
+    ],
+    "document_pages": [
+      65
+    ],
+    "candidate_ids": [
+      "K0524"
+    ],
+    "quote": "Cette politique a mené à un une impasse économique et une augmentation des inégalités fiscales avec des foyers riches qui paient proportionnellement moins d’impôt que les foyers modestes.",
+    "occurrences": [
+      {
+        "candidate_id": "K0524",
+        "pdf_page": 65,
+        "quote": "Cette politique a mené à un une impasse économique et une augmentation des inégalités fiscales avec des foyers riches qui paient proportionnellement moins d’impôt que les foyers modestes."
+      }
+    ],
+    "normalized_claim": "Au sommet de la distribution, certains ménages acquittent une part plus faible de leur revenu économique en prélèvements que des ménages moins aisés.",
+    "claim_type": "comparaison distributive",
+    "argumentative_role": "Justifier un impôt minimal sur les très grands patrimoines.",
+    "policies": [
+      "Taxe Zucman",
+      "Nouvelles tranches d'impôt"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-CONSEIL-PRELEVEMENTS-OBLIGATOIRES",
+        "title": "Progressivité des prélèvements obligatoires",
+        "publisher": "Conseil des prélèvements obligatoires",
+        "url": "https://www.ccomptes.fr/fr/conseil-des-prelevements-obligatoires",
+        "accessed_on": "2026-09-07",
+        "source_type": "institution publique",
+        "quality_grade": "A",
+        "notes": "Le taux dépend du revenu économique incluant revenus non réalisés et patrimoines."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Certaines études trouvent des taux effectifs moins progressifs au sommet selon définition élargie du revenu. Cela dépend fortement du traitement des revenus du capital, non réalisés et de l'évasion; l'assertion requiert la méthode.",
+    "consensus_or_controversy": "Débat méthodologique sérieux, pas taux unique.",
+    "source_quality": "A.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Définition du revenu économique et imposition effective complexe."
+  },
+  {
+    "id": "C17-009",
+    "chapter": 17,
+    "chapter_title": "Refonder le pacte fiscal",
+    "pdf_pages": [
+      65
+    ],
+    "document_pages": [
+      65
+    ],
+    "candidate_ids": [
+      "K0525"
+    ],
+    "quote": "A cause de ces cadeaux fiscaux, la dette publique a augmenté de 20 points de PIB.",
+    "occurrences": [
+      {
+        "candidate_id": "K0525",
+        "pdf_page": 65,
+        "quote": "A cause de ces cadeaux fiscaux, la dette publique a augmenté de 20 points de PIB."
+      }
+    ],
+    "normalized_claim": "Les baisses d'impôts accordées depuis 2017 auraient causé à elles seules une hausse de vingt points de PIB de la dette publique.",
+    "claim_type": "causalité quantitative",
+    "argumentative_role": "Imputer la hausse de dette aux choix fiscaux.",
+    "policies": [
+      "Refonder le pacte fiscal"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-INSEE-DETTE-PIB",
+        "title": "Dette des administrations publiques",
+        "publisher": "Insee",
+        "url": "https://www.insee.fr/fr/statistiques?debut=0&theme=13",
+        "accessed_on": "2026-09-07",
+        "source_type": "statistique publique",
+        "quality_grade": "A",
+        "notes": "La dette/PIB a été affectée par crise sanitaire, mesures de soutien et croissance nominale."
+      }
+    ],
+    "verdict": "Faux",
+    "justification": "Attribuer à elles seules les baisses d'impôts une hausse de vingt points de PIB de dette ignore les dépenses et chocs majeurs, notamment la pandémie et les mesures associées. Les comptes publics ne soutiennent pas cette causalité exclusive.",
+    "consensus_or_controversy": "Dette observée, attribution monocausale incompatible avec la comptabilité macroéconomique.",
+    "source_quality": "A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Verdict Faux sur causalité budgétaire quantitative."
+  },
+  {
+    "id": "C17-004",
+    "chapter": 17,
+    "chapter_title": "Refonder le pacte fiscal",
+    "pdf_pages": [
+      65
+    ],
+    "document_pages": [
+      65
+    ],
+    "candidate_ids": [
+      "K0526"
+    ],
+    "quote": "Le déficit public a explosé sans crise externe entre 2023 et 2025.",
+    "occurrences": [
+      {
+        "candidate_id": "K0526",
+        "pdf_page": 65,
+        "quote": "Le déficit public a explosé sans crise externe entre 2023 et 2025."
+      }
+    ],
+    "normalized_claim": "Le déficit public a fortement augmenté entre 2023 et 2025 sans choc externe significatif.",
+    "claim_type": "comparaison temporelle et causale",
+    "argumentative_role": "Imputer le déficit à la politique intérieure et justifier une hausse de recettes.",
+    "policies": [
+      "Pacte fiscal vert"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-INSEE-DEFICIT",
+        "title": "Déficit public et dette publique",
+        "publisher": "Insee",
+        "url": "https://www.insee.fr/fr/statistiques?debut=0&theme=13",
+        "accessed_on": "2026-09-07",
+        "source_type": "statistique publique",
+        "quality_grade": "A",
+        "notes": "Déficit évolue avec mesures budgétaires et conjoncture; « sans choc externe significatif » est interprétatif."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Le déficit a augmenté, mais l'absence de choc externe significatif n'est pas établie : inflation, ralentissement international, guerre et énergie ont affecté économie et finances. La causalité gouvernementale exclusive est trop forte.",
+    "consensus_or_controversy": "Évolution comptable établie, cause multiple.",
+    "source_quality": "A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Qualification de choc externe et causalité."
+  },
+  {
+    "id": "C17-005",
+    "chapter": 17,
+    "chapter_title": "Refonder le pacte fiscal",
+    "pdf_pages": [
+      65
+    ],
+    "document_pages": [
+      65
+    ],
+    "candidate_ids": [
+      "K0527"
+    ],
+    "quote": "La charge de cette dette peut devenir incontrôlable, et mettre la France à la merci des marchés financiers.",
+    "occurrences": [
+      {
+        "candidate_id": "K0527",
+        "pdf_page": 65,
+        "quote": "La charge de cette dette peut devenir incontrôlable, et mettre la France à la merci des marchés financiers."
+      }
+    ],
+    "normalized_claim": "Une hausse durable de la charge d'intérêts peut réduire la marge budgétaire et accroître la dépendance aux conditions de marché.",
+    "claim_type": "projection macrofinancière",
+    "argumentative_role": "Justifier le redressement des recettes et une détention plus européenne de la dette.",
+    "policies": [
+      "Pacte fiscal vert",
+      "Renforcer les créanciers européens"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-IMF-FISCAL-MONITOR",
+        "title": "Fiscal Monitor",
+        "publisher": "Fonds monétaire international",
+        "url": "https://www.imf.org/en/Publications/FM",
+        "accessed_on": "2026-09-07",
+        "source_type": "institution internationale",
+        "quality_grade": "A-",
+        "notes": "Une hausse d'intérêt accroît service de dette et pression budgétaire."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "À dette donnée, une hausse durable des taux accroît progressivement la charge d'intérêts, réduit les marges budgétaires et augmente l'exposition aux conditions de financement.",
+    "consensus_or_controversy": "Très élevé.",
+    "source_quality": "A-.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C17-006",
+    "chapter": 17,
+    "chapter_title": "Refonder le pacte fiscal",
+    "pdf_pages": [
+      65
+    ],
+    "document_pages": [
+      65
+    ],
+    "candidate_ids": [
+      "K0529"
+    ],
+    "quote": "Les investissements d’avenir (sobriété, recherche, infrastructures vertes, services publics) n’ont pas été faits ce qui hypothèque la tenue de nos engagements pour atteindre la neutralité carbone en 2050 mais aussi notre propre prospérité économique.",
+    "occurrences": [
+      {
+        "candidate_id": "K0529",
+        "pdf_page": 65,
+        "quote": "Les investissements d’avenir (sobriété, recherche, infrastructures vertes, services publics) n’ont pas été faits ce qui hypothèque la tenue de nos engagements pour atteindre la neutralité carbone en 2050 mais aussi notre propre prospérité économique."
+      }
+    ],
+    "normalized_claim": "L'insuffisance d'investissements dans la sobriété, la recherche, les infrastructures vertes et les services publics compromet les trajectoires climatiques et la prospérité future.",
+    "claim_type": "projection causale",
+    "argumentative_role": "Justifier des investissements publics de transition.",
+    "policies": [
+      "France Verte 2040",
+      "Pacte fiscal vert"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-IEA-NETZERO",
+        "title": "Net Zero by 2050",
+        "publisher": "Agence internationale de l'énergie",
+        "url": "https://www.iea.org/reports/net-zero-by-2050",
+        "accessed_on": "2026-09-07",
+        "source_type": "agence intergouvernementale",
+        "quality_grade": "A-",
+        "notes": "Les trajectoires requièrent investissements; la prospérité future comporte une part prospective."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les trajectoires climatiques exigent des investissements dans efficacité, innovation et infrastructures. L'effet sur prospérité est prospectif et dépend de choix d'ensemble, mais l'insuffisance d'investissement compromet les objectifs physiques.",
+    "consensus_or_controversy": "Élevé sur trajectoires climatiques; bien-être futur dépend d'hypothèses.",
+    "source_quality": "A-.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Projection prospérité future."
+  }
+]

@@ -1,0 +1,628 @@
+[
+  {
+    "id": "C34-006",
+    "chapter": 34,
+    "chapter_title": "Soutenir toutes les familles",
+    "pdf_pages": [
+      123
+    ],
+    "document_pages": [
+      123
+    ],
+    "candidate_ids": [
+      "K0965"
+    ],
+    "quote": "La meilleure manière de les aider c’est d’aider les parents.",
+    "occurrences": [
+      {
+        "candidate_id": "K0965",
+        "pdf_page": 123,
+        "quote": "La meilleure manière de les aider c’est d’aider les parents."
+      }
+    ],
+    "normalized_claim": "Soutenir les ressources et capacités parentales améliore en moyenne les conditions de vie et le développement des enfants.",
+    "claim_type": "causalité sociale",
+    "argumentative_role": "Justifier des politiques centrées sur les parents pour aider les enfants.",
+    "policies": [
+      "Soutenir les parents"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-UNICEF-PARENTING",
+        "title": "A decade of evidence on parenting, caregiving and family-focused programming",
+        "publisher": "UNICEF",
+        "url": "https://www.unicef.org/evaluation/decade-evidence-parenting-caregiving-and-family-focused-programming",
+        "publication_date": null,
+        "accessed_on": "2026-09-07",
+        "source_type": "organisation internationale",
+        "quality_grade": "A",
+        "notes": "Les interventions de soutien parental améliorent bien-être, protection et résilience de l'enfant."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Le soutien aux ressources, à la santé et aux capacités parentales améliore en moyenne les conditions de développement des enfants. La formule est toutefois trop générale: les besoins des enfants ne se réduisent pas au soutien des parents.",
+    "consensus_or_controversy": "Consensus sur le rôle central de l'environnement parental.",
+    "source_quality": "UNICEF, grade A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C34-007",
+    "chapter": 34,
+    "chapter_title": "Soutenir toutes les familles",
+    "pdf_pages": [
+      124
+    ],
+    "document_pages": [
+      124
+    ],
+    "candidate_ids": [
+      "K0970"
+    ],
+    "quote": "Limiter les impacts négatifs des séparations et des divorces qui touche particulièrement les femmes dont le niveau de vie peut diminuer de 30 %.",
+    "occurrences": [
+      {
+        "candidate_id": "K0970",
+        "pdf_page": 124,
+        "quote": "Limiter les impacts négatifs des séparations et des divorces qui touche particulièrement les femmes dont le niveau de vie peut diminuer de 30 %."
+      }
+    ],
+    "normalized_claim": "Après une séparation, le niveau de vie des femmes peut baisser d'environ 30 % et baisse davantage que celui des hommes en moyenne.",
+    "claim_type": "comparaison distributive",
+    "argumentative_role": "Justifier des mécanismes réduisant le préjudice économique des séparations.",
+    "policies": [
+      "Réformer les conséquences économiques des séparations"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-INSEE-SEPARATION2024",
+        "title": "Après une séparation, les femmes subissent une perte de niveau de vie plus importante",
+        "publisher": "Insee",
+        "url": "https://www.insee.fr/fr/statistiques/8188195",
+        "publication_date": "2024-05-23",
+        "accessed_on": "2026-09-07",
+        "source_type": "statistiques publiques",
+        "quality_grade": "A",
+        "notes": "Baisse maximale l'année de la séparation; -16% après divorce dans l'analyse récente."
+      },
+      {
+        "id": "S-INSEE-SEPARATION2021",
+        "title": "Les femmes sont financièrement plus affectées par une séparation",
+        "publisher": "Insee",
+        "url": "https://www.insee.fr/fr/statistiques/5228962",
+        "publication_date": "2021-03-08",
+        "accessed_on": "2026-09-07",
+        "source_type": "statistiques publiques",
+        "quality_grade": "A",
+        "notes": "Pour les femmes divorcées observées, baisse de 28% contre 4% pour les hommes."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "La baisse est nettement plus forte pour les femmes en moyenne, et des études Insee trouvent près de 28% dans certains champs de divorce. Mais les données récentes donnent plutôt -16% pour les femmes divorcées; 30% ne peut être présenté comme une moyenne générale de toutes les séparations.",
+    "consensus_or_controversy": "Écart femmes-hommes établi, ampleur variable selon union, enfants et horizon temporel.",
+    "source_quality": "Deux sources Insee, grades A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Le 30% dépend du champ et du moment de mesure."
+  },
+  {
+    "id": "C35-001",
+    "chapter": 35,
+    "chapter_title": "Soutenir l’émancipation des jeunes",
+    "pdf_pages": [
+      125
+    ],
+    "document_pages": [
+      125
+    ],
+    "candidate_ids": [
+      "K0977"
+    ],
+    "quote": "Non seulement, elle subit de plein fouet la crise du logement mais le chômage des jeunes est deux fois plus important que la moyenne nationale et la pauvreté touche un jeune sur cinq.",
+    "occurrences": [
+      {
+        "candidate_id": "K0977",
+        "pdf_page": 125,
+        "quote": "Non seulement, elle subit de plein fouet la crise du logement mais le chômage des jeunes est deux fois plus important que la moyenne nationale et la pauvreté touche un jeune sur cinq."
+      }
+    ],
+    "normalized_claim": "Le taux de chômage des jeunes est environ deux fois supérieur au taux de chômage moyen.",
+    "claim_type": "comparaison quantitative",
+    "argumentative_role": "Justifier une garantie d'autonomie et un soutien à l'insertion.",
+    "policies": [
+      "Étendre la protection sociale des jeunes"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-INSEE-CHOMAGE2025",
+        "title": "L'essentiel sur le chômage",
+        "publisher": "Insee",
+        "url": "https://www.insee.fr/fr/statistiques/4805248",
+        "publication_date": "2026",
+        "accessed_on": "2026-09-07",
+        "source_type": "statistiques publiques",
+        "quality_grade": "A",
+        "notes": "19,8% de chômage chez les 15-24 ans en 2025, contre 6,9% chez les 25-49 ans."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Le taux de chômage des 15-24 ans est proche de trois fois celui des 25-49 ans et bien supérieur au taux moyen. Mais il est calculé parmi les jeunes actifs; rapporté à tous les jeunes, la part de chômeurs est bien plus faible car beaucoup étudient.",
+    "consensus_or_controversy": "Écart robuste, indicateur à interpréter avec le taux d'activité.",
+    "source_quality": "Insee, grade A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C35-002",
+    "chapter": 35,
+    "chapter_title": "Soutenir l’émancipation des jeunes",
+    "pdf_pages": [
+      125
+    ],
+    "document_pages": [
+      125
+    ],
+    "candidate_ids": [
+      "K0977"
+    ],
+    "quote": "Non seulement, elle subit de plein fouet la crise du logement mais le chômage des jeunes est deux fois plus important que la moyenne nationale et la pauvreté touche un jeune sur cinq.",
+    "occurrences": [
+      {
+        "candidate_id": "K0977",
+        "pdf_page": 125,
+        "quote": "Non seulement, elle subit de plein fouet la crise du logement mais le chômage des jeunes est deux fois plus important que la moyenne nationale et la pauvreté touche un jeune sur cinq."
+      }
+    ],
+    "normalized_claim": "Environ un jeune sur cinq vit sous le seuil de pauvreté.",
+    "claim_type": "chiffre descriptif",
+    "argumentative_role": "Justifier l'extension de la garantie d'autonomie dès 18 ans.",
+    "policies": [
+      "Garantie d'autonomie des jeunes"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-INSEE-PAUVRETE2024",
+        "title": "L'essentiel sur la pauvreté",
+        "publisher": "Insee",
+        "url": "https://www.insee.fr/fr/statistiques/5759045",
+        "publication_date": "2026",
+        "accessed_on": "2026-09-07",
+        "source_type": "statistiques publiques",
+        "quality_grade": "A",
+        "notes": "Publie les taux selon âges et configurations de ménages."
+      },
+      {
+        "id": "S-BP-JEUNES2024",
+        "title": "La pauvreté des enfants et des jeunes en chiffres",
+        "publisher": "Break Poverty Foundation",
+        "url": "https://breakpoverty.com/wp-content/uploads/2024/03/1.-Pauvrete-des-enfants-et-des-jeunes-en-chiffre.pdf",
+        "publication_date": "2024-03",
+        "accessed_on": "2026-09-07",
+        "source_type": "synthèse associative de données Insee",
+        "quality_grade": "B",
+        "notes": "Indique près de 20% pour les 18-29 ans selon le millésime mobilisé."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "L'ordre de grandeur d'un jeune sur cinq est compatible avec les statistiques récentes pour certaines classes d'âge, mais dépend de la définition de « jeune », du seuil et du millésime. Il faut donc le dater et en préciser le champ.",
+    "consensus_or_controversy": "Pauvreté des jeunes supérieure à la moyenne, niveau variable selon âge et statut.",
+    "source_quality": "Insee A, synthèse secondaire B.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Classe d'âge et champ de pauvreté non précisés."
+  },
+  {
+    "id": "C35-003",
+    "chapter": 35,
+    "chapter_title": "Soutenir l’émancipation des jeunes",
+    "pdf_pages": [
+      125
+    ],
+    "document_pages": [
+      125
+    ],
+    "candidate_ids": [
+      "K0977"
+    ],
+    "quote": "Non seulement, elle subit de plein fouet la crise du logement mais le chômage des jeunes est deux fois plus important que la moyenne nationale et la pauvreté touche un jeune sur cinq.",
+    "occurrences": [
+      {
+        "candidate_id": "K0977",
+        "pdf_page": 125,
+        "quote": "Non seulement, elle subit de plein fouet la crise du logement mais le chômage des jeunes est deux fois plus important que la moyenne nationale et la pauvreté touche un jeune sur cinq."
+      }
+    ],
+    "normalized_claim": "Les jeunes sont particulièrement affectés par la crise du logement et rencontrent des taux d'effort et de décohabitation contraints élevés.",
+    "claim_type": "comparaison sociale",
+    "argumentative_role": "Justifier la construction de logements étudiants et jeunes travailleurs.",
+    "policies": [
+      "Construire 150 000 logements pour jeunes"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-INJEP-LOGEMENT2025",
+        "title": "L'accès au logement des jeunes à l'épreuve des contraintes et des inégalités",
+        "publisher": "INJEP",
+        "url": "https://injep.fr/publication/lacces-au-logement-des-jeunes-a-lepreuve-des-contraintes-et-des-inegalites/",
+        "publication_date": "2025-11-25",
+        "accessed_on": "2026-09-07",
+        "source_type": "étude publique",
+        "quality_grade": "A",
+        "notes": "Décrit contraintes, inégalités et modes de logement des 18-30 ans."
+      },
+      {
+        "id": "S-INJEP-LOGEMENT2026",
+        "title": "Le logement des jeunes en 2025",
+        "publisher": "INJEP / Crédoc",
+        "url": "https://www.credoc.fr/download/pdf/Sou/Sou2026-5075.pdf",
+        "publication_date": "2026",
+        "accessed_on": "2026-09-07",
+        "source_type": "enquête",
+        "quality_grade": "A",
+        "notes": "La contrainte budgétaire est particulièrement déclarée par jeunes chômeurs et étudiants sans emploi."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les travaux de l'INJEP montrent des contraintes fortes d'accès au logement et des décohabitations différées, surtout pour les jeunes précaires. Le degré d'exposition varie toutefois fortement avec le statut étudiant, l'emploi, le soutien familial et le territoire.",
+    "consensus_or_controversy": "Tendance bien documentée, hétérogène entre groupes de jeunes.",
+    "source_quality": "Deux sources INJEP, grades A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C35-004",
+    "chapter": 35,
+    "chapter_title": "Soutenir l’émancipation des jeunes",
+    "pdf_pages": [
+      126
+    ],
+    "document_pages": [
+      126
+    ],
+    "candidate_ids": [
+      "K0984"
+    ],
+    "quote": "Réviser en profondeur le Pass Culture pour favoriser l’accès à la diversité artistique et culturelle des jeunes quel que soient leur milieu social.",
+    "occurrences": [
+      {
+        "candidate_id": "K0984",
+        "pdf_page": 126,
+        "quote": "Réviser en profondeur le Pass Culture pour favoriser l’accès à la diversité artistique et culturelle des jeunes quel que soient leur milieu social."
+      }
+    ],
+    "normalized_claim": "Le Pass Culture actuel ne garantit pas un accès égal à une diversité d'œuvres et de pratiques selon le milieu social.",
+    "claim_type": "évaluation de politique",
+    "argumentative_role": "Justifier sa révision en profondeur.",
+    "policies": [
+      "Réviser le Pass Culture"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-CDC-PASS2024",
+        "title": "Premier bilan du pass Culture",
+        "publisher": "Cour des comptes",
+        "url": "https://www.ccomptes.fr/fr/publications/premier-bilan-du-pass-culture",
+        "publication_date": "2024-12-17",
+        "accessed_on": "2026-09-07",
+        "source_type": "audit public",
+        "quality_grade": "A",
+        "notes": "25% des jeunes n'ont pas bénéficié du dispositif et les publics moins familiers de la culture sont moins touchés."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "La Cour des comptes conclut que le Pass Culture atteint imparfaitement les jeunes les moins familiers des pratiques culturelles et a un impact limité sur la démocratisation. Cela étaye la critique d'inégalités d'accès, sans permettre d'affirmer que le dispositif ne garantit jamais une diversité culturelle.",
+    "consensus_or_controversy": "Évaluation publique défavorable sur la démocratisation, couverture globale néanmoins élevée.",
+    "source_quality": "Cour des comptes, grade A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C35-005",
+    "chapter": 35,
+    "chapter_title": "Soutenir l’émancipation des jeunes",
+    "pdf_pages": [
+      126
+    ],
+    "document_pages": [
+      126
+    ],
+    "candidate_ids": [
+      "K0987"
+    ],
+    "quote": "Étendre la protection sociale aux jeunes adultes par l’extension de la garantie d’autonomie dès 18 ans pour toutes les personnes indépendantes fiscalement [cf proposition 32-1].",
+    "occurrences": [
+      {
+        "candidate_id": "K0987",
+        "pdf_page": 126,
+        "quote": "Étendre la protection sociale aux jeunes adultes par l’extension de la garantie d’autonomie dès 18 ans pour toutes les personnes indépendantes fiscalement [cf proposition 32-1]."
+      }
+    ],
+    "normalized_claim": "Une garantie de revenu accessible dès 18 ans réduirait la pauvreté monétaire des jeunes indépendants fiscalement, selon son montant et son taux de recours.",
+    "claim_type": "projection / effet de politique",
+    "argumentative_role": "Justifier l'extension de la garantie d'autonomie.",
+    "policies": [
+      "Étendre la garantie d'autonomie"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-DREES-MINIMA2024",
+        "title": "Minima sociaux et prestations sociales 2024",
+        "publisher": "DREES",
+        "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/panoramas-de-la-drees/241022_Minima_Sociaux_2024",
+        "publication_date": "2024-10-24",
+        "accessed_on": "2026-09-07",
+        "source_type": "statistiques publiques",
+        "quality_grade": "A",
+        "notes": "Les prestations non contributives représentent une part importante du revenu disponible des ménages pauvres."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Une garantie de revenu accessible à des jeunes indépendants réduirait mécaniquement la pauvreté monétaire des bénéficiaires, toutes choses égales par ailleurs. L'ampleur dépend du montant, des règles, du financement et du non-recours; la proposition ne les précise pas.",
+    "consensus_or_controversy": "Mécanisme redistributif établi, impact quantitatif conditionnel.",
+    "source_quality": "DREES, grade A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Effet projeté sans paramètres de dispositif."
+  },
+  {
+    "id": "C36-001",
+    "chapter": 36,
+    "chapter_title": "Protéger le très grand âge",
+    "pdf_pages": [
+      127
+    ],
+    "document_pages": [
+      127
+    ],
+    "candidate_ids": [
+      "K0991"
+    ],
+    "quote": "7,4 millions de personnes auront plus de 75 ans en 2030 dont un tiers auront plus de 85 ans.",
+    "occurrences": [
+      {
+        "candidate_id": "K0991",
+        "pdf_page": 127,
+        "quote": "7,4 millions de personnes auront plus de 75 ans en 2030 dont un tiers auront plus de 85 ans."
+      }
+    ],
+    "normalized_claim": "En 2030, environ 7,4 millions de personnes auraient plus de 75 ans et un tiers d'entre elles plus de 85 ans.",
+    "claim_type": "projection démographique",
+    "argumentative_role": "Quantifier le vieillissement et les besoins futurs.",
+    "policies": [
+      "Créer un service public de la dépendance"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-INSEE-POPAGE",
+        "title": "Population par âge",
+        "publisher": "Insee",
+        "url": "https://www.insee.fr/fr/statistiques/4277619?sommaire=4318291",
+        "publication_date": null,
+        "accessed_on": "2026-09-07",
+        "source_type": "projections démographiques",
+        "quality_grade": "A",
+        "notes": "Les projections centrales prévoient une hausse particulièrement forte des 75 ans ou plus."
+      },
+      {
+        "id": "S-INSEE-AUTONOMIE2025",
+        "title": "700 000 seniors en perte d'autonomie supplémentaires",
+        "publisher": "Insee",
+        "url": "https://www.insee.fr/fr/statistiques/8653672",
+        "publication_date": "2025-10-22",
+        "accessed_on": "2026-09-07",
+        "source_type": "statistiques publiques",
+        "quality_grade": "A",
+        "notes": "Documente l'augmentation des besoins aux âges élevés."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "La croissance rapide des 75 ans et plus est établie par les projections Insee. Le chiffre précis de 7,4 millions et la part d'un tiers de 85 ans ou plus doivent toutefois être rattachés à une projection et un champ explicites, qui ne sont pas fournis dans le programme.",
+    "consensus_or_controversy": "Tendance robuste, valeurs exactes dépendantes du scénario et de la date de référence.",
+    "source_quality": "Deux sources Insee, grades A.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Projection chiffrée non sourcée dans le programme."
+  },
+  {
+    "id": "C36-002",
+    "chapter": 36,
+    "chapter_title": "Protéger le très grand âge",
+    "pdf_pages": [
+      127
+    ],
+    "document_pages": [
+      127
+    ],
+    "candidate_ids": [
+      "K0992"
+    ],
+    "quote": "Vu leur dépendance, un grand nombre d’entre elles nécessiteraient une prise en charge en structure médicalisée.",
+    "occurrences": [
+      {
+        "candidate_id": "K0992",
+        "pdf_page": 127,
+        "quote": "Vu leur dépendance, un grand nombre d’entre elles nécessiteraient une prise en charge en structure médicalisée."
+      }
+    ],
+    "normalized_claim": "La hausse du nombre de personnes très âgées augmentera les besoins d'aide à domicile et de prise en charge médicalisée.",
+    "claim_type": "projection causale",
+    "argumentative_role": "Justifier un service public de la dépendance.",
+    "policies": [
+      "Développer l'aide à domicile et les EHPAD"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-INSEE-AUTONOMIE2025",
+        "title": "700 000 seniors en perte d'autonomie supplémentaires",
+        "publisher": "Insee",
+        "url": "https://www.insee.fr/fr/statistiques/8653672",
+        "publication_date": "2025-10-22",
+        "accessed_on": "2026-09-07",
+        "source_type": "statistiques publiques",
+        "quality_grade": "A",
+        "notes": "La perte d'autonomie est bien plus fréquente après 85 ans."
+      },
+      {
+        "id": "S-DREES-LIVIA",
+        "title": "Projection de personnes âgées dépendantes par lieu de vie",
+        "publisher": "DREES",
+        "url": "https://drees.solidarites-sante.gouv.fr/definitions-ressources-et-methodes/projection-de-personnes-agees-dependantes-par-lieu-de-vie-le",
+        "publication_date": "2025-12-09",
+        "accessed_on": "2026-09-07",
+        "source_type": "modèle de projection",
+        "quality_grade": "A",
+        "notes": "Projette les besoins et lieux de vie des personnes âgées dépendantes."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Le vieillissement accroît les besoins d'aide et de soins, notamment aux grands âges. Une part importante peut cependant relever de l'aide à domicile ou de solutions intermédiaires plutôt que d'une structure médicalisée; la conséquence n'est pas uniforme.",
+    "consensus_or_controversy": "Tendance démographique et sanitaire établie, choix de lieu de vie dépendant des politiques et préférences.",
+    "source_quality": "Insee et DREES, grades A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C36-003",
+    "chapter": 36,
+    "chapter_title": "Protéger le très grand âge",
+    "pdf_pages": [
+      127
+    ],
+    "document_pages": [
+      127
+    ],
+    "candidate_ids": [
+      "K0993"
+    ],
+    "quote": "Or, la France manque déjà de places en EHPAD.",
+    "occurrences": [
+      {
+        "candidate_id": "K0993",
+        "pdf_page": 127,
+        "quote": "Or, la France manque déjà de places en EHPAD."
+      }
+    ],
+    "normalized_claim": "L'offre de places en EHPAD est insuffisante dans certains territoires ou pour certains niveaux de dépendance et de revenu.",
+    "claim_type": "comparaison offre-besoin",
+    "argumentative_role": "Justifier une augmentation du nombre de places.",
+    "policies": [
+      "Augmenter les places en EHPAD"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-DREES-AUTONOMIE2026",
+        "title": "Soutien à l'autonomie des personnes âgées",
+        "publisher": "DREES",
+        "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260205-soutien-autonomie-personnes-agees",
+        "publication_date": "2026-02-05",
+        "accessed_on": "2026-09-07",
+        "source_type": "projection publique",
+        "quality_grade": "A",
+        "notes": "Sans nouvelles places, les EHPAD se concentreraient sur les personnes les moins autonomes à l'horizon 2050."
+      },
+      {
+        "id": "S-DREES-LIVIA",
+        "title": "Projection de personnes âgées dépendantes par lieu de vie",
+        "publisher": "DREES",
+        "url": "https://drees.solidarites-sante.gouv.fr/definitions-ressources-et-methodes/projection-de-personnes-agees-dependantes-par-lieu-de-vie-le",
+        "publication_date": "2025-12-09",
+        "accessed_on": "2026-09-07",
+        "source_type": "modèle de projection",
+        "quality_grade": "A",
+        "notes": "Modélise besoins par territoire et lieu de vie."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Les projections établissent un besoin important d'adaptation de l'offre et de création de capacités à moyen terme. Elles ne démontrent pas que la France manque partout de places aujourd'hui: les tensions dépendent du territoire, de la dépendance, du prix et des alternatives.",
+    "consensus_or_controversy": "Besoin futur robuste; insuffisance présente hétérogène.",
+    "source_quality": "Deux sources DREES, grades A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Affirmation nationale générale à distinguer des besoins territorialisés."
+  }
+]

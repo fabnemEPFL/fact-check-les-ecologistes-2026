@@ -1,0 +1,543 @@
+[
+  {
+    "id": "C29-001",
+    "chapter": 29,
+    "chapter_title": "Améliorer la prévention et le parcours de soin",
+    "pdf_pages": [
+      110
+    ],
+    "document_pages": [
+      110
+    ],
+    "candidate_ids": [
+      "K0858"
+    ],
+    "quote": "Une politique sanitaire doit s’attaquer aux causes structurelles des maladies – inégalités, pollution, précarité – et replacer le soin, la prévention et la santé mentale au cœur du projet collectif.",
+    "occurrences": [
+      {
+        "candidate_id": "K0858",
+        "pdf_page": 110,
+        "quote": "Une politique sanitaire doit s’attaquer aux causes structurelles des maladies – inégalités, pollution, précarité – et replacer le soin, la prévention et la santé mentale au cœur du projet collectif."
+      }
+    ],
+    "normalized_claim": "Les inégalités sociales, la pollution et la précarité sont des déterminants importants de la morbidité et de la mortalité.",
+    "claim_type": "causalité sanitaire",
+    "argumentative_role": "Justifier une prévention agissant sur les causes structurelles.",
+    "policies": [
+      "Agir sur les déterminants de santé"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "OMS, social determinants of health",
+        "url": "https://www.who.int/health-topics/social-determinants-of-health",
+        "type": "OMS",
+        "finding": "Inégalités et conditions sociales sont déterminants majeurs; pollution également."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "Déterminants importants bien établis.",
+    "consensus_or_controversy": "Très établi.",
+    "source_quality": "Très élevée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  },
+  {
+    "id": "C29-002",
+    "chapter": 29,
+    "chapter_title": "Améliorer la prévention et le parcours de soin",
+    "pdf_pages": [
+      110
+    ],
+    "document_pages": [
+      110
+    ],
+    "candidate_ids": [
+      "K0864"
+    ],
+    "quote": "La prise en charge de plus en plus de soins par le privé est une impasse budgétaire et sociale.",
+    "occurrences": [
+      {
+        "candidate_id": "K0864",
+        "pdf_page": 110,
+        "quote": "La prise en charge de plus en plus de soins par le privé est une impasse budgétaire et sociale."
+      }
+    ],
+    "normalized_claim": "Un transfert croissant de soins vers une couverture privée peut accroître les inégalités d'accès et les coûts de gestion.",
+    "claim_type": "causalité / comparaison de systèmes",
+    "argumentative_role": "Justifier une Assurance maladie couvrant davantage de soins essentiels.",
+    "policies": [
+      "Mettre en place la Grande Sécu"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "OCDE, Health at a Glance",
+        "url": "https://www.oecd.org/en/publications/health-at-a-glance-2023_7a7afb35-en.html",
+        "type": "OCDE",
+        "finding": "Couverture privée peut introduire inégalités; frais de gestion comparatifs dépendants de l'architecture."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Risque d'inégalités et de coûts de gestion accru possible, mais non automatique.",
+    "consensus_or_controversy": "Effets dépendants de régulation.",
+    "source_quality": "Élevée.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Comparaison causale de systèmes."
+  },
+  {
+    "id": "C29-003",
+    "chapter": 29,
+    "chapter_title": "Améliorer la prévention et le parcours de soin",
+    "pdf_pages": [
+      111
+    ],
+    "document_pages": [
+      111
+    ],
+    "candidate_ids": [
+      "K0866"
+    ],
+    "quote": "Par exemple, instaurer des programmes éducatifs sur l’éducation à la santé et la connaissance de son corps pour les enfants, rembourser des séances de diététique, soutenir les associations et les groupes de pairs et interdire les produits nocifs pour mieux lutter contre l’obésité.",
+    "occurrences": [
+      {
+        "candidate_id": "K0866",
+        "pdf_page": 111,
+        "quote": "Par exemple, instaurer des programmes éducatifs sur l’éducation à la santé et la connaissance de son corps pour les enfants, rembourser des séances de diététique, soutenir les associations et les groupes de pairs et interdire les produits nocifs pour mieux lutter contre l’obésité."
+      }
+    ],
+    "normalized_claim": "L'éducation nutritionnelle, l'accès à la diététique et la réduction de l'exposition aux produits nocifs peuvent contribuer à prévenir l'obésité.",
+    "claim_type": "causalité / effet de politique",
+    "argumentative_role": "Justifier un ensemble de mesures préventives.",
+    "policies": [
+      "Prévenir l'obésité"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "OMS, obesity",
+        "url": "https://www.who.int/health-topics/obesity",
+        "type": "OMS",
+        "finding": "Prévention multifactorielle incluant alimentation, environnement et accès soins."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Ces interventions peuvent contribuer; effets isolés souvent modestes et contextuels.",
+    "consensus_or_controversy": "Établi mais multifactoriel.",
+    "source_quality": "Très élevée.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Causalité de politique multifactorielle."
+  },
+  {
+    "id": "C29-004",
+    "chapter": 29,
+    "chapter_title": "Améliorer la prévention et le parcours de soin",
+    "pdf_pages": [
+      111
+    ],
+    "document_pages": [
+      111
+    ],
+    "candidate_ids": [
+      "K0867"
+    ],
+    "quote": "Défendre et promouvoir des programmes de vaccination préventive en particulier auprès des personnes vulnérables.",
+    "occurrences": [
+      {
+        "candidate_id": "K0867",
+        "pdf_page": 111,
+        "quote": "Défendre et promouvoir des programmes de vaccination préventive en particulier auprès des personnes vulnérables."
+      }
+    ],
+    "normalized_claim": "La vaccination préventive réduit l'incidence et la gravité de nombreuses maladies, avec un bénéfice particulier pour certains groupes vulnérables.",
+    "claim_type": "causalité sanitaire",
+    "argumentative_role": "Justifier le renforcement des programmes de vaccination.",
+    "policies": [
+      "Promouvoir la vaccination"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "OMS, Vaccines and immunization",
+        "url": "https://www.who.int/health-topics/vaccines-and-immunization",
+        "type": "OMS",
+        "finding": "La vaccination réduit incidence, complications et décès de nombreuses maladies."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "L'efficacité préventive de nombreux vaccins et leur bénéfice pour groupes vulnérables sont solidement établis, sous réserve des vaccins et populations concernés.",
+    "consensus_or_controversy": "Très établi.",
+    "source_quality": "Très élevée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  },
+  {
+    "id": "C29-005",
+    "chapter": 29,
+    "chapter_title": "Améliorer la prévention et le parcours de soin",
+    "pdf_pages": [
+      111
+    ],
+    "document_pages": [
+      111
+    ],
+    "candidate_ids": [
+      "K0869"
+    ],
+    "quote": "Augmenter les moyens de la prévention autour des toxicomanies en particulier les « haltes soins addictions » [cf également le chapitre 58 pour lutter contre le narcotrafic y compris la proposition 58-4 de légalisation du cannabis].",
+    "occurrences": [
+      {
+        "candidate_id": "K0869",
+        "pdf_page": 111,
+        "quote": "Augmenter les moyens de la prévention autour des toxicomanies en particulier les « haltes soins addictions » [cf également le chapitre 58 pour lutter contre le narcotrafic y compris la proposition 58-4 de légalisation du cannabis]."
+      }
+    ],
+    "normalized_claim": "Les haltes soins addictions peuvent réduire certains dommages sanitaires et améliorer l'accès aux soins des usagers de drogues.",
+    "claim_type": "évaluation de politique",
+    "argumentative_role": "Justifier leur développement.",
+    "policies": [
+      "Renforcer les haltes soins addictions"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "Inserm, évaluation des salles de consommation à moindre risque",
+        "url": "https://www.inserm.fr/rapport/salles-de-consommation-a-moindre-risque-rapport-scientifique-mai-2021/",
+        "type": "évaluation scientifique institutionnelle",
+        "finding": "Effets positifs en santé publique; réduction de pratiques à risque et entrée dans parcours de soins."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "L'évaluation Inserm des dispositifs de Paris et Strasbourg conclut à des effets positifs sur pratiques à risque et accès au soin. La généralisation à toute halte dépend de son implantation et de son public.",
+    "consensus_or_controversy": "Résultats favorables dans le contexte français évalué; portée externe limitée.",
+    "source_quality": "Élevée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  },
+  {
+    "id": "C29-006",
+    "chapter": 29,
+    "chapter_title": "Améliorer la prévention et le parcours de soin",
+    "pdf_pages": [
+      111
+    ],
+    "document_pages": [
+      111
+    ],
+    "candidate_ids": [
+      "K0870"
+    ],
+    "quote": "Garantir un remboursement total des soins essentiels nécessaires au maintien de l’autonomie et de la qualité de vie par la prise en charge à 100 % par l’Assurance maladie.",
+    "occurrences": [
+      {
+        "candidate_id": "K0870",
+        "pdf_page": 111,
+        "quote": "Garantir un remboursement total des soins essentiels nécessaires au maintien de l’autonomie et de la qualité de vie par la prise en charge à 100 % par l’Assurance maladie."
+      }
+    ],
+    "normalized_claim": "Une prise en charge intégrale des soins essentiels réduit les renoncements financiers et peut améliorer l'accès aux soins.",
+    "claim_type": "causalité / effet de politique",
+    "argumentative_role": "Justifier une couverture à 100 % par l'Assurance maladie.",
+    "policies": [
+      "Rembourser intégralement les soins essentiels"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "Assurance Maladie, remboursement des soins",
+        "url": "https://www.ameli.fr/assure/remboursements/rembourse/prise-charge",
+        "type": "information administrative primaire",
+        "finding": "L'Assurance maladie ne couvre pas uniformément 100 % des dépenses; tickets modérateurs, franchises et dépassements peuvent subsister."
+      },
+      {
+        "title": "DREES, Les dépenses de santé en 2023",
+        "url": "https://drees.solidarites-sante.gouv.fr/publications/les-dossiers-de-la-drees/les-depenses-de-sante-en-2023-resultats-des-comptes-de-la-sante",
+        "type": "statistique publique",
+        "finding": "La part restant à la charge des ménages est limitée mais non nulle et dépend notamment de la couverture complémentaire et des dépassements."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "La suppression d'un reste à charge sur des soins correctement définis réduirait bien les barrières financières. Mais « soins essentiels » n'est pas défini, et une prise en charge à 100 % par le seul régime obligatoire ne garantit pas à elle seule l'absence de reste à charge (dépassements, franchises, prestations hors nomenclature) ni l'accès effectif à l'offre.",
+    "consensus_or_controversy": "Lien entre coût à la charge du patient et renoncement aux soins bien établi; modalités, périmètre et effets de l'extension intégrale sont discutés.",
+    "source_quality": "Élevée (Assurance maladie et DREES).",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C29-007",
+    "chapter": 29,
+    "chapter_title": "Améliorer la prévention et le parcours de soin",
+    "pdf_pages": [
+      111
+    ],
+    "document_pages": [
+      111
+    ],
+    "candidate_ids": [
+      "K0873"
+    ],
+    "quote": "Interdire la vente de tabac à toute personne née en 2014 et après sur le modèle britannique.",
+    "occurrences": [
+      {
+        "candidate_id": "K0873",
+        "pdf_page": 111,
+        "quote": "Interdire la vente de tabac à toute personne née en 2014 et après sur le modèle britannique."
+      }
+    ],
+    "normalized_claim": "Une interdiction générationnelle de vente de tabac réduirait à terme l'accès légal au tabac des cohortes concernées et pourrait diminuer le tabagisme.",
+    "claim_type": "projection / effet de politique",
+    "argumentative_role": "Justifier l'interdiction pour les personnes nées à partir de 2014.",
+    "policies": [
+      "Créer une génération sans tabac"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "UK Government, Tobacco and Vapes Bill becomes law",
+        "url": "https://www.gov.uk/government/news/tobacco-and-vapes-bill-becomes-law",
+        "type": "source législative gouvernementale primaire",
+        "finding": "La loi britannique interdit la vente de tabac aux personnes nées à compter du 1er janvier 2009, et non 2014."
+      },
+      {
+        "title": "UK Parliament, Tobacco and Vapes Act 2026",
+        "url": "https://bills.parliament.uk/bills/3879",
+        "type": "source parlementaire primaire",
+        "finding": "Le texte vise les personnes nées le ou après le 1er janvier 2009."
+      }
+    ],
+    "verdict": "Faux",
+    "justification": "Le Royaume-Uni sert bien de modèle à une interdiction générationnelle de vente de tabac, mais son seuil est le 1er janvier 2009. Le programme le décrit comme un modèle britannique tout en avançant 2014; si le seuil français proposé est volontairement différent, la formule ne l'explicite pas et est factuellement erronée sur le modèle cité.",
+    "consensus_or_controversy": "Fait juridique non controversé.",
+    "source_quality": "Très élevée (sources gouvernementale et parlementaire britanniques).",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C29-008",
+    "chapter": 29,
+    "chapter_title": "Améliorer la prévention et le parcours de soin",
+    "pdf_pages": [
+      112
+    ],
+    "document_pages": [
+      112
+    ],
+    "candidate_ids": [
+      "K0874"
+    ],
+    "quote": "Pourvoir les 800 postes de médecins et les 1000 postes de psychologues vacants.",
+    "occurrences": [
+      {
+        "candidate_id": "K0874",
+        "pdf_page": 112,
+        "quote": "Pourvoir les 800 postes de médecins et les 1000 postes de psychologues vacants."
+      }
+    ],
+    "normalized_claim": "Environ 800 postes de médecins et 1 000 postes de psychologues seraient vacants dans le dispositif visé par le chapitre.",
+    "claim_type": "chiffre administratif",
+    "argumentative_role": "Justifier le pourvoi de postes vacants.",
+    "policies": [
+      "Renforcer la santé scolaire"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "Programme Les Écologistes, proposition santé scolaire",
+        "url": "https://projet.lesecologistes.fr/consultations/chapitre-2-une-nation-solidaire-et-juste/consultation/consultation-chapitre-2/opinions/rendre-lassurance-maladie-universelle/mettre-en-place-un-plan-durgence-pour-la-sante-scolaire",
+        "type": "source du programme",
+        "finding": "Le programme reprend les chiffres de 800 médecins et 1 000 psychologues vacants sans date, employeur, définition de poste ni source primaire."
+      },
+      {
+        "title": "Dares, enquête sur les emplois vacants",
+        "url": "https://dares.travail-emploi.gouv.fr/enquete-source/enquete-sur-les-emplois-vacants",
+        "type": "statistique publique – périmètre général",
+        "finding": "Les statistiques d'emplois vacants reposent sur une définition et un champ précis; elles ne corroborent pas ici les deux chiffres sectoriels avancés."
+      }
+    ],
+    "verdict": "Invérifiable ou insuffisamment étayé",
+    "justification": "Les deux nombres sont présentés sans période ni périmètre (santé scolaire, Éducation nationale, fonction publique hospitalière ou ensemble du marché). La source accessible du programme les répète sans documentation et aucune source administrative primaire n'a été retrouvée permettant de contrôler ces totaux. L'ampleur du besoin ne suffit pas à valider les valeurs exactes.",
+    "consensus_or_controversy": "Pénuries de personnels de santé scolaire largement documentées, mais ces effectifs vacants précis ne sont pas vérifiables avec les éléments disponibles.",
+    "source_quality": "Faible pour le chiffre (source du programme non documentée); source de contexte publique.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Le périmètre administratif implicite des deux chiffres est indéterminé; une revue ciblée d’archives ministérielles pourrait retrouver leur origine."
+  },
+  {
+    "id": "C29-009",
+    "chapter": 29,
+    "chapter_title": "Améliorer la prévention et le parcours de soin",
+    "pdf_pages": [
+      112
+    ],
+    "document_pages": [
+      112
+    ],
+    "candidate_ids": [
+      "K0877"
+    ],
+    "quote": "Améliorer les parcours de soins pour les personnes vulnérables et celles affectées par des maladies chroniques afin de prévenir une dégradation de leur état de santé pouvant conduire à leur hospitalisation en urgence.",
+    "occurrences": [
+      {
+        "candidate_id": "K0877",
+        "pdf_page": 112,
+        "quote": "Améliorer les parcours de soins pour les personnes vulnérables et celles affectées par des maladies chroniques afin de prévenir une dégradation de leur état de santé pouvant conduire à leur hospitalisation en urgence."
+      }
+    ],
+    "normalized_claim": "Un suivi coordonné des personnes vulnérables ou atteintes de maladies chroniques peut prévenir des décompensations et des hospitalisations en urgence.",
+    "claim_type": "causalité / effet de politique",
+    "argumentative_role": "Justifier l'amélioration des parcours de soins.",
+    "policies": [
+      "Coordonner les parcours de soins"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "Ministère de la santé, Alternatives et aval des urgences",
+        "url": "https://sante.gouv.fr/IMG/pdf/rapport-mission-aval-alternatives-aux-urgences.pdf",
+        "type": "rapport institutionnel",
+        "finding": "Les maladies chroniques pèsent fortement dans les hospitalisations et la coordination/les alternatives peuvent éviter certaines admissions."
+      },
+      {
+        "title": "IRDES, Analyse des déterminants territoriaux du recours aux urgences non suivi d’hospitalisation",
+        "url": "https://www.irdes.fr/recherche/documents-de-travail/072-analyse-des-determinants-territoriaux-du-recours-aux-urgences-non-suivi-d-une-hospitalisation.pdf",
+        "type": "recherche institutionnelle",
+        "finding": "Les ruptures de soins et l'accessibilité insuffisante favorisent certains recours aux urgences; continuité et coordination sont des leviers pertinents."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les ruptures de suivi et la mauvaise coordination peuvent contribuer à des décompensations et à des recours évitables aux urgences, particulièrement pour les maladies chroniques. L'effet dépend toutefois des pathologies, des dispositifs et de l'accès réel aux soins: améliorer le parcours ne prévient pas toutes les hospitalisations urgentes.",
+    "consensus_or_controversy": "Mécanisme largement admis; magnitude variable selon intervention et population.",
+    "source_quality": "Élevée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C30-001",
+    "chapter": 30,
+    "chapter_title": "Rendre accessible une offre de soin de qualité",
+    "pdf_pages": [
+      113
+    ],
+    "document_pages": [
+      113
+    ],
+    "candidate_ids": [
+      "K0879"
+    ],
+    "quote": "Pourtant, notre système de soin s’affaiblit sous le poids des logiques marchandes, de la pénurie de moyens et de la désertification médicale.",
+    "occurrences": [
+      {
+        "candidate_id": "K0879",
+        "pdf_page": 113,
+        "quote": "Pourtant, notre système de soin s’affaiblit sous le poids des logiques marchandes, de la pénurie de moyens et de la désertification médicale."
+      }
+    ],
+    "normalized_claim": "Le système de soins français subit des pénuries de personnels et des inégalités territoriales d'accès, tandis que la place des acteurs marchands a augmenté dans certains segments.",
+    "claim_type": "tendance institutionnelle",
+    "argumentative_role": "Établir la crise de l'offre de soins.",
+    "policies": [
+      "Renforcer l'hôpital public",
+      "Créer des centres de santé"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "DREES, établissements de santé en 2024",
+        "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/251113_ER_etablissements-de-sante",
+        "type": "statistique publique",
+        "finding": "Le nombre de lits d'hospitalisation complète a encore baissé de 0,5 % en 2024."
+      },
+      {
+        "title": "Vie publique, politique contre les déserts médicaux",
+        "url": "https://www.vie-publique.fr/eclairage/24080-sante-quelle-politique-publique-contre-les-deserts-medicaux",
+        "type": "information publique de synthèse",
+        "finding": "La densité et l'accessibilité médicales sont très inégalement réparties sur le territoire."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Les pénuries et inégalités territoriales d'accès sont documentées, de même que la réduction continue des lits d'hospitalisation complète. En revanche, « s'affaiblit sous le poids des logiques marchandes » est une attribution causale large, sans indicateur ni définition de ces logiques; la phrase agrège donc des constats établis et une explication insuffisamment démontrée.",
+    "consensus_or_controversy": "Les tensions d'offre et déserts médicaux sont établis; leurs causes et le rôle respectif des acteurs marchands font débat.",
+    "source_quality": "Élevée pour les constats; limitée pour l’attribution causale.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "La causalité synthétique attribuée aux « logiques marchandes » nécessite une revue plus approfondie si elle doit être tranchée au-delà de la nuance."
+  }
+]

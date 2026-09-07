@@ -1,0 +1,565 @@
+[
+  {
+    "id": "C08-001",
+    "chapter": 8,
+    "chapter_title": "Améliorer la condition animale",
+    "pdf_pages": [
+      36
+    ],
+    "document_pages": [
+      36
+    ],
+    "candidate_ids": [
+      "K0299"
+    ],
+    "quote": "Un milliard d’animaux issus des élevages français ont été abattus l’année dernière alors que nous devrions diminuer notre consommation de produits animaux [cf proposition 11-8].",
+    "occurrences": [
+      {
+        "candidate_id": "K0299",
+        "pdf_page": 36,
+        "quote": "Un milliard d’animaux issus des élevages français ont été abattus l’année dernière alors que nous devrions diminuer notre consommation de produits animaux [cf proposition 11-8]."
+      }
+    ],
+    "normalized_claim": "Environ un milliard d'animaux provenant d'élevages français auraient été abattus au cours de l'année précédente.",
+    "claim_type": "chiffre descriptif",
+    "argumentative_role": "Établir l'ampleur de l'abattage lié à la consommation animale.",
+    "policies": [
+      "Réduire la consommation de produits animaux",
+      "Améliorer les conditions d'élevage"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-AGRESTE-ABATTAGES-2024",
+        "title": "Statistique annuelle des abattages contrôlés",
+        "publisher": "Agreste / Ministère de l'Agriculture",
+        "url": "https://agreste.agriculture.gouv.fr/agreste-web/disaron/Abattages%20d%27animaux%20en%20France%20m%C3%A9tropolitaine/detail/",
+        "publication_date": null,
+        "accessed_on": "2026-09-06",
+        "source_type": "statistique publique",
+        "quality_grade": "A",
+        "notes": "Les dénombrements d'abattages sont dominés en nombre par les volailles et sont de l'ordre du milliard selon l'année et le champ."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les statistiques d'abattage françaises, dominées par les volailles, se situent de l'ordre du milliard d'animaux par an. Le programme ne donne pas l'année ni le périmètre exact (France entière, métropole, catégories incluses), ce qui empêche une validation au chiffre exact, mais l'ordre de grandeur est correct.",
+    "consensus_or_controversy": "Établi par les statistiques administratives annuelles; variation selon année et catégories comptées.",
+    "source_quality": "A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C08-002",
+    "chapter": 8,
+    "chapter_title": "Améliorer la condition animale",
+    "pdf_pages": [
+      36
+    ],
+    "document_pages": [
+      36
+    ],
+    "candidate_ids": [
+      "K0300"
+    ],
+    "quote": "Nous luttons pour leur reconnaissance comme des êtres sensibles et sentients.",
+    "occurrences": [
+      {
+        "candidate_id": "K0300",
+        "pdf_page": 36,
+        "quote": "Nous luttons pour leur reconnaissance comme des êtres sensibles et sentients."
+      }
+    ],
+    "normalized_claim": "Les animaux vertébrés sont des êtres sensibles et de nombreux animaux présentent des capacités compatibles avec la sentience.",
+    "claim_type": "fait scientifique et juridique",
+    "argumentative_role": "Justifier une protection juridique et matérielle accrue des animaux.",
+    "policies": [
+      "Renforcer la condition animale"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-CODE-CIVIL-515-14",
+        "title": "Article 515-14 du Code civil",
+        "publisher": "Légifrance",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030250342",
+        "publication_date": null,
+        "accessed_on": "2026-09-06",
+        "source_type": "texte juridique primaire",
+        "quality_grade": "A",
+        "notes": "Le droit français reconnaît les animaux comme des êtres vivants doués de sensibilité; la sentience au sens scientifique dépasse le seul texte juridique."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Le Code civil français qualifie les animaux d'êtres vivants doués de sensibilité et la littérature scientifique reconnaît la sentience chez les vertébrés et divers invertébrés. La formulation « tous les animaux » n'est pas explicitement démontrée, mais l'énoncé normalisé ne l'affirme pas et correspond au consensus pour de nombreux groupes.",
+    "consensus_or_controversy": "Très élevé pour vertébrés; extension à certains invertébrés en évolution selon les taxons.",
+    "source_quality": "A pour statut légal; appui scientifique nécessaire pour la sentience.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C08-005",
+    "chapter": 8,
+    "chapter_title": "Améliorer la condition animale",
+    "pdf_pages": [
+      36
+    ],
+    "document_pages": [
+      36
+    ],
+    "candidate_ids": [
+      "K0305"
+    ],
+    "quote": "Intégrer des modules présentant l’impact de la chasse sur la biodiversité dans la formation du permis de chasser.",
+    "occurrences": [
+      {
+        "candidate_id": "K0305",
+        "pdf_page": 36,
+        "quote": "Intégrer des modules présentant l’impact de la chasse sur la biodiversité dans la formation du permis de chasser."
+      }
+    ],
+    "normalized_claim": "La chasse peut avoir des effets significatifs sur la biodiversité.",
+    "claim_type": "causalité écologique",
+    "argumentative_role": "Justifier l'intégration de ces effets à la formation au permis de chasser.",
+    "policies": [
+      "Former les chasseurs aux impacts écologiques"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-IPBES-GLOBAL-2019",
+        "title": "Global Assessment Report on Biodiversity and Ecosystem Services",
+        "publisher": "IPBES",
+        "url": "https://www.ipbes.net/global-assessment",
+        "publication_date": "2019-05-06",
+        "accessed_on": "2026-09-06",
+        "source_type": "évaluation scientifique intergouvernementale",
+        "quality_grade": "A",
+        "notes": "L'impact de prélèvements d'animaux sauvages dépend des espèces, statuts de conservation, pratiques et régulation."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "La chasse peut affecter la biodiversité, particulièrement pour les espèces vulnérables ou lorsque prélèvement, perturbation et pratiques de gestion sont inadaptés. Elle peut aussi être encadrée ou utilisée dans certains dispositifs de gestion; l'affirmation large justifie une information mais ne précise ni les effets, ni les espèces, ni l'ampleur.",
+    "consensus_or_controversy": "Élevé sur la possibilité d'impacts significatifs; effets hétérogènes selon espèces et régulation.",
+    "source_quality": "A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Bilan biodiversité de la chasse fortement dépendant de l'espèce et du régime de gestion."
+  },
+  {
+    "id": "C08-003",
+    "chapter": 8,
+    "chapter_title": "Améliorer la condition animale",
+    "pdf_pages": [
+      37
+    ],
+    "document_pages": [
+      37
+    ],
+    "candidate_ids": [
+      "K0307"
+    ],
+    "quote": "Créer les conditions effectives d’accueil dans les EHPAD afin de ne pas séparer les aîné·es de leurs compagnons en application de la loi « Bien vieillir » de 2024.",
+    "occurrences": [
+      {
+        "candidate_id": "K0307",
+        "pdf_page": 37,
+        "quote": "Créer les conditions effectives d’accueil dans les EHPAD afin de ne pas séparer les aîné·es de leurs compagnons en application de la loi « Bien vieillir » de 2024."
+      }
+    ],
+    "normalized_claim": "La loi Bien vieillir de 2024 prévoit sous conditions l'accueil des animaux de compagnie des résidents en EHPAD.",
+    "claim_type": "fait juridique",
+    "argumentative_role": "Justifier la mise en œuvre effective de cet accueil.",
+    "policies": [
+      "Permettre les animaux de compagnie en EHPAD"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-LOI-BIEN-VIEILLIR-2024",
+        "title": "Loi n° 2024-317 du 8 avril 2024 portant mesures pour bâtir la société du bien-vieillir et de l'autonomie",
+        "publisher": "Légifrance",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049385201",
+        "publication_date": "2024-04-08",
+        "accessed_on": "2026-09-07",
+        "source_type": "texte juridique primaire",
+        "quality_grade": "A",
+        "notes": "La loi prévoit le droit pour les résidents d'EHPAD d'accueillir leur animal de compagnie, sous conditions de capacité à assurer ses besoins et respect des règles."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "La loi de 2024 prévoit bien, sous conditions, l'accueil de l'animal de compagnie du résident en EHPAD. La formulation consolidée restitue correctement ce cadre conditionnel.",
+    "consensus_or_controversy": "Établi par le texte de loi.",
+    "source_quality": "A : source juridique primaire.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C08-004",
+    "chapter": 8,
+    "chapter_title": "Améliorer la condition animale",
+    "pdf_pages": [
+      37
+    ],
+    "document_pages": [
+      37
+    ],
+    "candidate_ids": [
+      "K0310"
+    ],
+    "quote": "Appliquer la loi de 2021 sur la fin de la présence des animaux sauvages dans les cirques itinérants en 2028.",
+    "occurrences": [
+      {
+        "candidate_id": "K0310",
+        "pdf_page": 37,
+        "quote": "Appliquer la loi de 2021 sur la fin de la présence des animaux sauvages dans les cirques itinérants en 2028."
+      }
+    ],
+    "normalized_claim": "La loi de 2021 prévoit la fin de la présence d'animaux sauvages dans les établissements itinérants à l'échéance de 2028.",
+    "claim_type": "fait juridique",
+    "argumentative_role": "Justifier l'application du calendrier légal.",
+    "policies": [
+      "Appliquer l'interdiction des animaux sauvages en cirque"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-LOI-MALTRAITANCE-2021",
+        "title": "Loi n° 2021-1539 du 30 novembre 2021 visant à lutter contre la maltraitance animale",
+        "publisher": "Légifrance",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044387560",
+        "publication_date": "2021-11-30",
+        "accessed_on": "2026-09-07",
+        "source_type": "texte juridique primaire",
+        "quality_grade": "A",
+        "notes": "Prévoit l'interdiction de la présentation au public d'animaux sauvages dans les établissements itinérants à compter du 1er décembre 2028, avec exceptions prévues."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "La loi de 2021 fixe bien l'échéance de 2028 pour l'interdiction de présentation au public d'animaux sauvages dans les établissements itinérants, sous les exceptions légales. Le programme la décrit fidèlement.",
+    "consensus_or_controversy": "Établi par le texte de loi.",
+    "source_quality": "A : source juridique primaire.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "PT-017",
+    "chapter": null,
+    "chapter_title": "Introduction de la partie II",
+    "pdf_pages": [
+      39
+    ],
+    "document_pages": [
+      39
+    ],
+    "candidate_ids": [
+      "K0316"
+    ],
+    "quote": "Or, certains syndicats productivistes et l’agro-industrie ont manipulé la notion pour en faire un outil au service de leurs capacités d’exportation, de la brevetabilité du vivant ou de leurs méthodes extractivistes.",
+    "occurrences": [
+      {
+        "candidate_id": "K0316",
+        "pdf_page": 39,
+        "quote": "Or, certains syndicats productivistes et l’agro-industrie ont manipulé la notion pour en faire un outil au service de leurs capacités d’exportation, de la brevetabilité du vivant ou de leurs méthodes extractivistes."
+      }
+    ],
+    "normalized_claim": "Des organisations agricoles productivistes et l'agro-industrie ont réorienté la notion de souveraineté alimentaire vers les exportations, la brevetabilité du vivant et des pratiques extractives.",
+    "claim_type": "attribution historique et politique",
+    "argumentative_role": "Justifier une redéfinition de la souveraineté alimentaire centrée sur les populations locales.",
+    "policies": [
+      "Refonder la souveraineté alimentaire"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-FAO-SOFI-2024",
+        "title": "The State of Food Security and Nutrition in the World 2024",
+        "publisher": "FAO et partenaires ONU",
+        "url": "https://www.fao.org/publications/sofi/2024/en/",
+        "publication_date": "2024-07-24",
+        "accessed_on": "2026-09-07",
+        "source_type": "organisation intergouvernementale / synthèse",
+        "quality_grade": "A-",
+        "notes": "Documente les enjeux de systèmes alimentaires, mais ne permet pas d'établir l'intention ou la manipulation alléguée d'organisations non nommées."
+      }
+    ],
+    "verdict": "Invérifiable ou insuffisamment étayé",
+    "justification": "L'affirmation attribue une stratégie et une réorientation idéologique à des acteurs non identifiés (« certains syndicats », « l'agro-industrie »), sans sources ni période ni définition opérationnelle de souveraineté alimentaire. Les débats sur ses appropriations sont réels, mais la proposition causale et intentionnelle ne peut être vérifiée telle quelle.",
+    "consensus_or_controversy": "Notion disputée dans la littérature et dans le débat public; absence de preuve attribuable pour l'accusation précise.",
+    "source_quality": "A- pour le contexte des systèmes alimentaires, sans portée probante sur l'intention alléguée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Attribution d'intention à des acteurs hétérogènes et notion politiquement/academiquement disputée."
+  },
+  {
+    "id": "PT-015",
+    "chapter": null,
+    "chapter_title": "Introduction de la partie II",
+    "pdf_pages": [
+      39
+    ],
+    "document_pages": [
+      39
+    ],
+    "candidate_ids": [
+      "K0317"
+    ],
+    "quote": "43 % des terres agricoles françaises produisent pour l’exportation alors qu’on importe 71 % de nos fruits.",
+    "occurrences": [
+      {
+        "candidate_id": "K0317",
+        "pdf_page": 39,
+        "quote": "43 % des terres agricoles françaises produisent pour l’exportation alors qu’on importe 71 % de nos fruits."
+      }
+    ],
+    "normalized_claim": "Environ 43 % des terres agricoles françaises produiraient pour l'exportation.",
+    "claim_type": "chiffre d'usage agricole",
+    "argumentative_role": "Mettre en cause l'assimilation entre capacité exportatrice et souveraineté alimentaire.",
+    "policies": [
+      "Réorienter l'agriculture vers les besoins locaux"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "PT-souverainete-alimentaire",
+    "sources": [
+      {
+        "id": "S-AGRESTE-COMMERCE-EXTERIEUR",
+        "title": "Données du commerce extérieur agroalimentaire et de l'usage des terres",
+        "publisher": "Agreste / Ministère de l'Agriculture",
+        "url": "https://agreste.agriculture.gouv.fr/agreste-web/",
+        "publication_date": null,
+        "accessed_on": "2026-09-07",
+        "source_type": "statistique publique",
+        "quality_grade": "A",
+        "notes": "Les statistiques séparent productions, exportations et surfaces; elles ne produisent pas directement un ratio de 43 % des terres « qui produisent pour l'exportation » sans modèle d'allocation."
+      }
+    ],
+    "verdict": "Invérifiable ou insuffisamment étayé",
+    "justification": "Le taux exige de définir les terres (surface agricole utile, cultures, pâturages), le traitement des coproduits, la destination finale et l'année. Le programme ne fournit ni méthode ni source. Les flux exportés ne permettent pas, à eux seuls, d'attribuer de façon reproductible 43 % des terres françaises à l'exportation.",
+    "consensus_or_controversy": "Aucun chiffre unique sans méthode d'allocation des surfaces aux débouchés.",
+    "source_quality": "A pour les données de base; insuffisante pour le ratio non sourcé.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Indicateur flux-vers-surfaces nécessitant un modèle d'allocation et un périmètre précis."
+  },
+  {
+    "id": "PT-016",
+    "chapter": null,
+    "chapter_title": "Introduction de la partie II",
+    "pdf_pages": [
+      39
+    ],
+    "document_pages": [
+      39
+    ],
+    "candidate_ids": [
+      "K0317"
+    ],
+    "quote": "43 % des terres agricoles françaises produisent pour l’exportation alors qu’on importe 71 % de nos fruits.",
+    "occurrences": [
+      {
+        "candidate_id": "K0317",
+        "pdf_page": 39,
+        "quote": "43 % des terres agricoles françaises produisent pour l’exportation alors qu’on importe 71 % de nos fruits."
+      }
+    ],
+    "normalized_claim": "La France importerait environ 71 % des fruits qu'elle consomme.",
+    "claim_type": "chiffre de commerce alimentaire",
+    "argumentative_role": "Illustrer une dépendance alimentaire malgré l'importance des terres consacrées à l'export.",
+    "policies": [
+      "Diversifier la production fruitière",
+      "Renforcer la souveraineté alimentaire"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "PT-souverainete-alimentaire",
+    "sources": [
+      {
+        "id": "S-AGRESTE-BILAN-FRUITS",
+        "title": "Bilan d'approvisionnement des fruits et légumes",
+        "publisher": "Agreste / Ministère de l'Agriculture",
+        "url": "https://agreste.agriculture.gouv.fr/agreste-web/",
+        "publication_date": null,
+        "accessed_on": "2026-09-07",
+        "source_type": "statistique publique",
+        "quality_grade": "A",
+        "notes": "Les taux d'auto-approvisionnement et d'importation varient fortement selon fruit, année, produits transformés et mesure en volume ou valeur."
+      }
+    ],
+    "verdict": "Invérifiable ou insuffisamment étayé",
+    "justification": "La part de fruits importés dépend de la définition de « fruits », de la consommation apparente, des produits transformés, de l'unité (tonnes ou valeur), de l'année et des réexportations. Sans source ni périmètre, le chiffre 71 % n'est pas reproductible à partir de la statistique publique générale.",
+    "consensus_or_controversy": "Dépendance importante aux importations pour plusieurs fruits reconnue; taux agrégé non vérifiable ici.",
+    "source_quality": "A pour les bilans possibles, insuffisante pour le chiffre isolé.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Dénominateur et catégories de produits non définis."
+  },
+  {
+    "id": "C09-001",
+    "chapter": 9,
+    "chapter_title": "Sanctuariser l’accès à l’eau potable",
+    "pdf_pages": [
+      40
+    ],
+    "document_pages": [
+      40
+    ],
+    "candidate_ids": [
+      "K0321"
+    ],
+    "quote": "Diminuée par la multiplication des sécheresses et les perturbations du cycle de l’eau, accaparée par quelques agro-industriels au détriment de l’ensemble de la population et des petits paysans, menacée par la construction de barrages illégaux ou de méga-bassines, l’eau potable est un bien et un droit menacé.",
+    "occurrences": [
+      {
+        "candidate_id": "K0321",
+        "pdf_page": 40,
+        "quote": "Diminuée par la multiplication des sécheresses et les perturbations du cycle de l’eau, accaparée par quelques agro-industriels au détriment de l’ensemble de la population et des petits paysans, menacée par la construction de barrages illégaux ou de méga-bassines, l’eau potable est un bien et un droit menacé."
+      }
+    ],
+    "normalized_claim": "Les sécheresses et les perturbations du cycle hydrologique réduisent la disponibilité de l'eau potable.",
+    "claim_type": "causalité climatique",
+    "argumentative_role": "Justifier une politique nationale de partage et de restauration du cycle de l'eau.",
+    "policies": [
+      "Plan de sauvegarde de l'eau"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-IPCC-WGII-2022-WATER",
+        "title": "Climate Change 2022: Impacts, Adaptation and Vulnerability",
+        "publisher": "GIEC",
+        "url": "https://www.ipcc.ch/report/ar6/wg2/",
+        "publication_date": "2022-02-28",
+        "accessed_on": "2026-09-07",
+        "source_type": "évaluation scientifique",
+        "quality_grade": "A",
+        "notes": "Établit l'intensification de risques de sécheresse et de disponibilité en eau dans de nombreuses régions sous réchauffement."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les sécheresses et perturbations du cycle hydrologique réduisent la disponibilité de l'eau, y compris pour l'alimentation en eau potable, dans les zones et périodes touchées. La disponibilité effective dépend aussi des infrastructures, de la qualité et des prélèvements; la formulation reste générale mais correcte.",
+    "consensus_or_controversy": "Élevé.",
+    "source_quality": "A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "C09-002",
+    "chapter": 9,
+    "chapter_title": "Sanctuariser l’accès à l’eau potable",
+    "pdf_pages": [
+      40
+    ],
+    "document_pages": [
+      40
+    ],
+    "candidate_ids": [
+      "K0321"
+    ],
+    "quote": "Diminuée par la multiplication des sécheresses et les perturbations du cycle de l’eau, accaparée par quelques agro-industriels au détriment de l’ensemble de la population et des petits paysans, menacée par la construction de barrages illégaux ou de méga-bassines, l’eau potable est un bien et un droit menacé.",
+    "occurrences": [
+      {
+        "candidate_id": "K0321",
+        "pdf_page": 40,
+        "quote": "Diminuée par la multiplication des sécheresses et les perturbations du cycle de l’eau, accaparée par quelques agro-industriels au détriment de l’ensemble de la population et des petits paysans, menacée par la construction de barrages illégaux ou de méga-bassines, l’eau potable est un bien et un droit menacé."
+      }
+    ],
+    "normalized_claim": "Certains grands usages agro-industriels et ouvrages de stockage peuvent concentrer l'accès à l'eau au détriment d'autres usagers et des écosystèmes.",
+    "claim_type": "comparaison distributive",
+    "argumentative_role": "Justifier une hiérarchie publique des usages.",
+    "policies": [
+      "Prioriser les usages de l'eau",
+      "Encadrer les mégabassines"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "C09-pressions",
+    "sources": [
+      {
+        "id": "S-OFB-RESTAURATION-EAU",
+        "title": "Gestion quantitative de l'eau et partage entre usages",
+        "publisher": "Office français de la biodiversité",
+        "url": "https://www.ofb.gouv.fr/",
+        "publication_date": null,
+        "accessed_on": "2026-09-07",
+        "source_type": "établissement public / expertise",
+        "quality_grade": "A-",
+        "notes": "Les prélèvements et stockages peuvent modifier la disponibilité pour les milieux et autres usages; l'ampleur dépend du bassin, des volumes et de la gouvernance."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "De grands prélèvements ou stockages peuvent affecter des écoulements, nappes et la disponibilité pour d'autres usages et écosystèmes. Mais qualifier certains usages d'« agro-industriels » et conclure à une concentration au détriment d'autrui exige des données locales sur volumes, droits, saisonnalité et compensation; le programme ne les apporte pas.",
+    "consensus_or_controversy": "Élevé sur les arbitrages quantitatifs; attribution distributive nécessairement locale.",
+    "source_quality": "A-.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Attribution distributive et causalité de stockage fortement dépendantes de chaque bassin."
+  }
+]

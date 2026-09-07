@@ -1,0 +1,694 @@
+[
+  {
+    "id": "AV-034",
+    "chapter": null,
+    "chapter_title": "Avant-propos",
+    "pdf_pages": [
+      2
+    ],
+    "document_pages": [
+      2
+    ],
+    "candidate_ids": [
+      "K0009"
+    ],
+    "quote": "En 2027, le résultat de l’élection présidentielle pourrait faire basculer l’Europe dans l’inconnu en menant au pouvoir une présidente d’extrême droite et son projet assumé de hiérarchisation des citoyen.nes, son climatoscepticisme, sa remise en cause de l’Etat de droit et son entreprise méthodique de banalisation d’idées réactionnaires.",
+    "occurrences": [
+      {
+        "candidate_id": "K0009",
+        "pdf_page": 2,
+        "quote": "En 2027, le résultat de l’élection présidentielle pourrait faire basculer l’Europe dans l’inconnu en menant au pouvoir une présidente d’extrême droite et son projet assumé de hiérarchisation des citoyen.nes, son climatoscepticisme, sa remise en cause de l’Etat de droit et son entreprise méthodique de banalisation d’idées réactionnaires."
+      }
+    ],
+    "normalized_claim": "Le Rassemblement national mène une stratégie méthodique qui contribue à banaliser dans le débat public des idées réactionnaires.",
+    "claim_type": "causalité politique / stratégie",
+    "argumentative_role": "Caractériser l'effet du Rassemblement national sur les normes du débat public.",
+    "policies": [
+      "Faire barrage à l'extrême droite"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "AV-projet-RN-2027",
+    "sources": [
+      {
+        "id": "S-PAXTON-PEACE-2021",
+        "title": "Window Dressing? The Mainstreaming Strategy of the Rassemblement National in Power in French Local Government",
+        "publisher": "Government and Opposition (Cambridge University Press)",
+        "url": "https://doi.org/10.1017/gov.2020.11",
+        "publication_date": "2021-07",
+        "accessed_on": "2026-09-06",
+        "source_type": "article scientifique évalué par les pairs",
+        "quality_grade": "A",
+        "notes": "Étude qualitative comparée de Hénin-Beaumont et Lens. Établit une stratégie de dédiabolisation/mainstreaming et un effet partiel, mais son terrain est local et ne mesure pas directement la banalisation nationale d'idées déterminées."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "Une étude évaluée par les pairs documente une stratégie délibérée de dédiabolisation et de « mainstreaming » du RN, fondée notamment sur la présentation d'une image plus modérée et compétente; elle observe un effet partiel. Cela étaye le caractère méthodique de la normalisation. En revanche, l'étude porte surtout sur le gouvernement local d'Hénin-Beaumont, ne mesure pas directement la banalisation nationale de chaque idée, et l'adjectif « réactionnaires » est un jugement normatif. Le noyau empirique est soutenu, mais l'ampleur et l'objet exact de l'effet sont généralisés.",
+    "consensus_or_controversy": "La stratégie de dédiabolisation fait l'objet d'un large accord dans la littérature; son effet causal national et la qualification des idées restent discutables.",
+    "source_quality": "Article scientifique de grade A, à méthode explicite mais terrain local et période 2014-2019; insuffisant seul pour une causalité nationale exhaustive.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "AV-008",
+    "chapter": null,
+    "chapter_title": "Avant-propos",
+    "pdf_pages": [
+      3
+    ],
+    "document_pages": [
+      3
+    ],
+    "candidate_ids": [
+      "K0015"
+    ],
+    "quote": "Il prend en compte le résultat de dizaines d’auditions avec des syndicats, des associations, des entrepreneurs, des ONG, et des citoyennes et citoyens engagés.",
+    "occurrences": [
+      {
+        "candidate_id": "K0015",
+        "pdf_page": 3,
+        "quote": "Il prend en compte le résultat de dizaines d’auditions avec des syndicats, des associations, des entrepreneurs, des ONG, et des citoyennes et citoyens engagés."
+      }
+    ],
+    "normalized_claim": "Plusieurs dizaines d'auditions de syndicats, associations, entrepreneurs, ONG et citoyens auraient été menées pendant l'élaboration du programme.",
+    "claim_type": "fait de processus interne",
+    "argumentative_role": "Soutenir la diversité des contributions à l'élaboration du programme.",
+    "policies": [
+      "Légitimité méthodologique du programme"
+    ],
+    "programme_source": "Attribution interne non documentée",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "AV-auditions",
+    "sources": [
+      {
+        "id": "S-ECOLOGISTES-PROJET-2027",
+        "title": "Projet 2027",
+        "publisher": "Les Écologistes",
+        "url": "https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027",
+        "publication_date": "2026-07",
+        "accessed_on": "2026-09-06",
+        "source_type": "présentation partisane primaire du programme final",
+        "quality_grade": "B",
+        "notes": "Source primaire mais intéressée. Elle annonce 557 mesures, des dizaines d'auditions et près de 50 000 contributions; elle ne publie ni registre d'auditions, ni données brutes, ni journal des modifications."
+      },
+      {
+        "id": "S-ECOLOGISTES-CF-CONSULTATION-2025",
+        "title": "Mise en consultation de la plateforme programmatique des Écologistes",
+        "publisher": "Conseil fédéral des Écologistes",
+        "url": "https://cf.eelv.fr/mm-urgence-programme-bp/",
+        "publication_date": "2025-12-17",
+        "accessed_on": "2026-09-06",
+        "source_type": "motion partisane primaire antérieure à la consultation",
+        "quality_grade": "B",
+        "notes": "Établit le lancement d'un site participatif le 16 décembre 2025, les modalités prévues (votes, amendements, nouvelles propositions), des rendez-vous bilatéraux avec la société civile et une restitution au Conseil fédéral. C'est un plan ex ante, non une preuve d'exécution complète."
+      }
+    ],
+    "verdict": "À nuancer",
+    "justification": "La motion de décembre 2025 prévoyait des rendez-vous bilatéraux avec des organisations de la société civile, et la présentation finale du parti affirme que des dizaines d'auditions ont effectivement nourri la refonte. L'existence d'un tel volet est donc cohérente et documentée avant comme après la consultation. En revanche, aucun registre public des organismes, dates, participants ou comptes rendus ne permet de contrôler indépendamment le nombre exact ni l'éventail complet énuméré; « plusieurs dizaines » demeure une donnée interne non auditée.",
+    "consensus_or_controversy": "Pas de controverse externe identifiée; l'incertitude porte sur la vérifiabilité d'un processus interne et de son décompte.",
+    "source_quality": "Deux sources primaires partisanes de grade B, dont l'une est ex ante; absence de pièce de traçabilité ou d'audit indépendant.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Moyen",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "AV-036",
+    "chapter": null,
+    "chapter_title": "Avant-propos",
+    "pdf_pages": [
+      3
+    ],
+    "document_pages": [
+      3
+    ],
+    "candidate_ids": [
+      "K0015"
+    ],
+    "quote": "Il prend en compte le résultat de dizaines d’auditions avec des syndicats, des associations, des entrepreneurs, des ONG, et des citoyennes et citoyens engagés.",
+    "occurrences": [
+      {
+        "candidate_id": "K0015",
+        "pdf_page": 3,
+        "quote": "Il prend en compte le résultat de dizaines d’auditions avec des syndicats, des associations, des entrepreneurs, des ONG, et des citoyennes et citoyens engagés."
+      }
+    ],
+    "normalized_claim": "Les résultats des auditions menées pendant l'élaboration auraient effectivement été pris en compte dans le programme final.",
+    "claim_type": "effet de processus interne",
+    "argumentative_role": "Soutenir que les auditions ont eu un effet réel sur le contenu du programme.",
+    "policies": [
+      "Légitimité méthodologique du programme"
+    ],
+    "programme_source": "Attribution interne non documentée",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "AV-auditions",
+    "sources": [
+      {
+        "id": "S-ECOLOGISTES-PROJET-2027",
+        "title": "Projet 2027",
+        "publisher": "Les Écologistes",
+        "url": "https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027",
+        "publication_date": "2026-07",
+        "accessed_on": "2026-09-06",
+        "source_type": "présentation partisane primaire du programme final",
+        "quality_grade": "B",
+        "notes": "Source primaire mais intéressée. Elle annonce 557 mesures, des dizaines d'auditions et près de 50 000 contributions; elle ne publie ni registre d'auditions, ni données brutes, ni journal des modifications."
+      },
+      {
+        "id": "S-ECOLOGISTES-CF-CONSULTATION-2025",
+        "title": "Mise en consultation de la plateforme programmatique des Écologistes",
+        "publisher": "Conseil fédéral des Écologistes",
+        "url": "https://cf.eelv.fr/mm-urgence-programme-bp/",
+        "publication_date": "2025-12-17",
+        "accessed_on": "2026-09-06",
+        "source_type": "motion partisane primaire antérieure à la consultation",
+        "quality_grade": "B",
+        "notes": "Établit le lancement d'un site participatif le 16 décembre 2025, les modalités prévues (votes, amendements, nouvelles propositions), des rendez-vous bilatéraux avec la société civile et une restitution au Conseil fédéral. C'est un plan ex ante, non une preuve d'exécution complète."
+      }
+    ],
+    "verdict": "Invérifiable ou insuffisamment étayé",
+    "justification": "Les documents disponibles établissent que des auditions étaient prévues puis déclarées réalisées, mais ils ne publient ni demandes formulées lors de ces auditions, ni matrice de réponse, ni versions permettant de relier une modification déterminée à une audition. La prise en compte effective des résultats ne peut donc pas être distinguée d'une simple tenue de réunions.",
+    "consensus_or_controversy": "Absence de base documentaire publique permettant un test; ce n'est pas une preuve que les auditions n'ont eu aucun effet.",
+    "source_quality": "Sources primaires intéressées de grade B; aucune traçabilité publique de l'effet allégué.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Moyen",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "AV-009",
+    "chapter": null,
+    "chapter_title": "Avant-propos",
+    "pdf_pages": [
+      3
+    ],
+    "document_pages": [
+      3
+    ],
+    "candidate_ids": [
+      "K0016"
+    ],
+    "quote": "Enfin, nous sommes la seule organisation politique à avoir soumis ce travail à la critique et aux contributions citoyennes de manière ouverte et transparente.",
+    "occurrences": [
+      {
+        "candidate_id": "K0016",
+        "pdf_page": 3,
+        "quote": "Enfin, nous sommes la seule organisation politique à avoir soumis ce travail à la critique et aux contributions citoyennes de manière ouverte et transparente."
+      }
+    ],
+    "normalized_claim": "Les Écologistes seraient la seule organisation politique ayant soumis son programme à une critique et à des contributions citoyennes ouvertes et transparentes.",
+    "claim_type": "comparaison politique",
+    "argumentative_role": "Revendiquer une singularité de méthode démocratique.",
+    "policies": [
+      "Légitimité méthodologique du programme"
+    ],
+    "programme_source": "Attribution interne non documentée",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-LFI-SYNTHESE-CONTRIBUTIONS-2026",
+        "title": "Synthèse des contributions",
+        "publisher": "Campagne Mélenchon 2027 / La France insoumise",
+        "url": "https://melenchon2027.fr/synthese-des-contributions/",
+        "publication_date": "2026-07",
+        "accessed_on": "2026-09-06",
+        "source_type": "documentation partisane primaire d'un processus concurrent",
+        "quality_grade": "B",
+        "notes": "Contre-exemple à une prétention d'unicité: programme ouvert à toute personne du 20 mai au 20 juin 2026 pour proposer ajouts ou modifications; près de 24 000 contributions annoncées; synthèses et décomptes par chapitre publiés. Source intéressée pour ses propres chiffres mais directement probante sur l'existence du dispositif public."
+      }
+    ],
+    "verdict": "Faux",
+    "justification": "La prétention absolue d'être la seule organisation politique est contredite par au moins un cas directement documenté. La France insoumise avait ouvert son programme à toute personne du 20 mai au 20 juin 2026 pour proposer l'ajout ou la modification d'une mesure, avant la publication du programme écologiste; elle a ensuite rendu publiques une synthèse générale et des synthèses détaillées par chapitre. Même si « transparente » ne possède pas ici de critère opérationnel universel, ce dispositif public satisfait raisonnablement le noyau vérifiable de la comparaison: critique ouverte, contributions citoyennes et restitution accessible.",
+    "consensus_or_controversy": "L'existence du contre-exemple est certaine; seule la définition exigeante ou restrictive que le programme pourrait donner à « transparente » reste indéterminée.",
+    "source_quality": "Source primaire du mouvement concurrent, de grade B: intéressée pour les volumes annoncés, mais directement probante sur l'existence et le contenu public du dispositif.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Moyen",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "AV-010",
+    "chapter": null,
+    "chapter_title": "Avant-propos",
+    "pdf_pages": [
+      3
+    ],
+    "document_pages": [
+      3
+    ],
+    "candidate_ids": [
+      "K0017"
+    ],
+    "quote": "50 000 contributions individuelles ont ainsi été reçues et analysées.",
+    "occurrences": [
+      {
+        "candidate_id": "K0017",
+        "pdf_page": 3,
+        "quote": "50 000 contributions individuelles ont ainsi été reçues et analysées."
+      }
+    ],
+    "normalized_claim": "La consultation citoyenne du programme aurait reçu 50 000 contributions individuelles.",
+    "claim_type": "chiffre de processus interne",
+    "argumentative_role": "Quantifier l'ampleur de la consultation revendiquée.",
+    "policies": [
+      "Légitimité méthodologique du programme"
+    ],
+    "programme_source": "Attribution interne non documentée",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "AV-50000-contributions",
+    "sources": [
+      {
+        "id": "S-ECOLOGISTES-PROJET-2027",
+        "title": "Projet 2027",
+        "publisher": "Les Écologistes",
+        "url": "https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027",
+        "publication_date": "2026-07",
+        "accessed_on": "2026-09-06",
+        "source_type": "présentation partisane primaire du programme final",
+        "quality_grade": "B",
+        "notes": "Source primaire mais intéressée. Elle annonce 557 mesures, des dizaines d'auditions et près de 50 000 contributions; elle ne publie ni registre d'auditions, ni données brutes, ni journal des modifications."
+      },
+      {
+        "id": "S-ECOLOGISTES-PLATEFORME-DEMARCHE",
+        "title": "La démarche — consultation du projet",
+        "publisher": "Les Écologistes / plateforme Cap Collectif",
+        "url": "https://projet.lesecologistes.fr/pages/la-demarche",
+        "publication_date": "2025-12",
+        "accessed_on": "2026-09-06",
+        "source_type": "plateforme participative primaire",
+        "quality_grade": "B",
+        "notes": "La page publique décrit quatre modes de contribution et un corpus initial de plus de 478 propositions. Elle annonçait une réécriture et une validation en juin 2026, mais n'affiche pas de bilan auditable du nombre total de contributions ni de table de correspondance avant/après."
+      },
+      {
+        "id": "S-LEMONDE-ECOLOGISTES-PROGRAMME-2026",
+        "title": "« Première République écologique et citoyenne » : le programme des Ecologistes pour peser en 2027",
+        "publisher": "Le Monde",
+        "url": "https://www.lemonde.fr/politique/article/2026/07/13/premiere-republique-ecologique-et-citoyenne-le-programme-des-ecologistes-pour-peser-en-2027_6723128_823448.html",
+        "publication_date": "2026-07-13",
+        "accessed_on": "2026-09-06",
+        "source_type": "article de presse secondaire",
+        "quality_grade": "B",
+        "notes": "Confirme l'existence de la plateforme et rapporte les chiffres de 50 000, 87 % et 68 en les attribuant explicitement à la formation écologiste; il ne s'agit donc pas d'un audit indépendant de ces données internes."
+      }
+    ],
+    "verdict": "Invérifiable ou insuffisamment étayé",
+    "justification": "Le chiffre d'environ 50 000 est repris par le site du parti et par Le Monde, mais le journal l'attribue expressément à la formation. La plateforme publique confirme le dispositif et ses différents gestes possibles (avis, arguments, votes, amendements, nouvelles mesures), sans publier de compteur consolidé, d'export ou de définition de l'unité « contribution individuelle ». On ne peut donc vérifier ni le total, ni s'il additionne des objets de nature différente, ni s'il s'agit d'actions ou de personnes distinctes.",
+    "consensus_or_controversy": "Le dispositif est observable; le total et son dénominateur restent des données internes non auditables publiquement.",
+    "source_quality": "Deux sources primaires partisanes de grade B et une source de presse de grade B qui relaie l'attribution; pas de données brutes.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Moyen",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "AV-035",
+    "chapter": null,
+    "chapter_title": "Avant-propos",
+    "pdf_pages": [
+      3
+    ],
+    "document_pages": [
+      3
+    ],
+    "candidate_ids": [
+      "K0017"
+    ],
+    "quote": "50 000 contributions individuelles ont ainsi été reçues et analysées.",
+    "occurrences": [
+      {
+        "candidate_id": "K0017",
+        "pdf_page": 3,
+        "quote": "50 000 contributions individuelles ont ainsi été reçues et analysées."
+      }
+    ],
+    "normalized_claim": "Les 50 000 contributions individuelles reçues auraient toutes été analysées.",
+    "claim_type": "fait de processus interne",
+    "argumentative_role": "Soutenir que le volume annoncé de contributions a été effectivement traité.",
+    "policies": [
+      "Légitimité méthodologique du programme"
+    ],
+    "programme_source": "Attribution interne non documentée",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "AV-50000-contributions",
+    "sources": [
+      {
+        "id": "S-ECOLOGISTES-PROJET-2027",
+        "title": "Projet 2027",
+        "publisher": "Les Écologistes",
+        "url": "https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027",
+        "publication_date": "2026-07",
+        "accessed_on": "2026-09-06",
+        "source_type": "présentation partisane primaire du programme final",
+        "quality_grade": "B",
+        "notes": "Source primaire mais intéressée. Elle annonce 557 mesures, des dizaines d'auditions et près de 50 000 contributions; elle ne publie ni registre d'auditions, ni données brutes, ni journal des modifications."
+      },
+      {
+        "id": "S-ECOLOGISTES-PLATEFORME-DEMARCHE",
+        "title": "La démarche — consultation du projet",
+        "publisher": "Les Écologistes / plateforme Cap Collectif",
+        "url": "https://projet.lesecologistes.fr/pages/la-demarche",
+        "publication_date": "2025-12",
+        "accessed_on": "2026-09-06",
+        "source_type": "plateforme participative primaire",
+        "quality_grade": "B",
+        "notes": "La page publique décrit quatre modes de contribution et un corpus initial de plus de 478 propositions. Elle annonçait une réécriture et une validation en juin 2026, mais n'affiche pas de bilan auditable du nombre total de contributions ni de table de correspondance avant/après."
+      },
+      {
+        "id": "S-LEMONDE-ECOLOGISTES-PROGRAMME-2026",
+        "title": "« Première République écologique et citoyenne » : le programme des Ecologistes pour peser en 2027",
+        "publisher": "Le Monde",
+        "url": "https://www.lemonde.fr/politique/article/2026/07/13/premiere-republique-ecologique-et-citoyenne-le-programme-des-ecologistes-pour-peser-en-2027_6723128_823448.html",
+        "publication_date": "2026-07-13",
+        "accessed_on": "2026-09-06",
+        "source_type": "article de presse secondaire",
+        "quality_grade": "B",
+        "notes": "Confirme l'existence de la plateforme et rapporte les chiffres de 50 000, 87 % et 68 en les attribuant explicitement à la formation écologiste; il ne s'agit donc pas d'un audit indépendant de ces données internes."
+      }
+    ],
+    "verdict": "Invérifiable ou insuffisamment étayé",
+    "justification": "La plateforme annonçait qu'une équipe rédigerait une nouvelle version et que les contributions nourriraient le programme, mais aucune procédure d'analyse, aucun taux de traitement, aucun export annoté et aucun rapport de restitution complet ne sont publiés. L'affirmation que la totalité des 50 000 contributions a été analysée ne peut donc pas être contrôlée. L'absence de preuve publique ne démontre pas qu'elles ne l'ont pas été.",
+    "consensus_or_controversy": "Absence de preuve publique suffisante; aucune preuve du contraire.",
+    "source_quality": "Sources primaires partisanes de grade B et reprise de presse non indépendante du chiffre; aucune documentation de traitement.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Moyen",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "AV-011",
+    "chapter": null,
+    "chapter_title": "Avant-propos",
+    "pdf_pages": [
+      3
+    ],
+    "document_pages": [
+      3
+    ],
+    "candidate_ids": [
+      "K0018"
+    ],
+    "quote": "87 % des propositions ont été modifiées suite à cette consultation et 68 ont été ajoutées.",
+    "occurrences": [
+      {
+        "candidate_id": "K0018",
+        "pdf_page": 3,
+        "quote": "87 % des propositions ont été modifiées suite à cette consultation et 68 ont été ajoutées."
+      }
+    ],
+    "normalized_claim": "La consultation aurait conduit à modifier 87 % des propositions du programme.",
+    "claim_type": "chiffre de processus interne",
+    "argumentative_role": "Quantifier l'effet revendiqué de la consultation sur le texte.",
+    "policies": [
+      "Légitimité méthodologique du programme"
+    ],
+    "programme_source": "Attribution interne non documentée",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "AV-consultation",
+    "sources": [
+      {
+        "id": "S-ECOLOGISTES-PROJET-2027",
+        "title": "Projet 2027",
+        "publisher": "Les Écologistes",
+        "url": "https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027",
+        "publication_date": "2026-07",
+        "accessed_on": "2026-09-06",
+        "source_type": "présentation partisane primaire du programme final",
+        "quality_grade": "B",
+        "notes": "Source primaire mais intéressée. Elle annonce 557 mesures, des dizaines d'auditions et près de 50 000 contributions; elle ne publie ni registre d'auditions, ni données brutes, ni journal des modifications."
+      },
+      {
+        "id": "S-ECOLOGISTES-PLATEFORME-DEMARCHE",
+        "title": "La démarche — consultation du projet",
+        "publisher": "Les Écologistes / plateforme Cap Collectif",
+        "url": "https://projet.lesecologistes.fr/pages/la-demarche",
+        "publication_date": "2025-12",
+        "accessed_on": "2026-09-06",
+        "source_type": "plateforme participative primaire",
+        "quality_grade": "B",
+        "notes": "La page publique décrit quatre modes de contribution et un corpus initial de plus de 478 propositions. Elle annonçait une réécriture et une validation en juin 2026, mais n'affiche pas de bilan auditable du nombre total de contributions ni de table de correspondance avant/après."
+      },
+      {
+        "id": "S-LEMONDE-ECOLOGISTES-PROGRAMME-2026",
+        "title": "« Première République écologique et citoyenne » : le programme des Ecologistes pour peser en 2027",
+        "publisher": "Le Monde",
+        "url": "https://www.lemonde.fr/politique/article/2026/07/13/premiere-republique-ecologique-et-citoyenne-le-programme-des-ecologistes-pour-peser-en-2027_6723128_823448.html",
+        "publication_date": "2026-07-13",
+        "accessed_on": "2026-09-06",
+        "source_type": "article de presse secondaire",
+        "quality_grade": "B",
+        "notes": "Confirme l'existence de la plateforme et rapporte les chiffres de 50 000, 87 % et 68 en les attribuant explicitement à la formation écologiste; il ne s'agit donc pas d'un audit indépendant de ces données internes."
+      }
+    ],
+    "verdict": "Invérifiable ou insuffisamment étayé",
+    "justification": "La plateforme atteste un corpus initial de plus de 478 propositions et le site final annonce 557 mesures, mais aucune archive versionnée ni règle de codage de « modifiée » n'est fournie. Le Monde rapporte les 87 % en les attribuant au parti. Sans appariement proposition par proposition, le pourcentage et surtout l'imputation causale « suite à cette consultation » ne sont pas reproductibles.",
+    "consensus_or_controversy": "Aucune littérature contradictoire pertinente; insuffisance de traçabilité pour une statistique et une attribution causale internes.",
+    "source_quality": "Sources primaires partisanes de grade B et reprise de presse de grade B; absence de jeu de données avant/après.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Moyen",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "AV-012",
+    "chapter": null,
+    "chapter_title": "Avant-propos",
+    "pdf_pages": [
+      3
+    ],
+    "document_pages": [
+      3
+    ],
+    "candidate_ids": [
+      "K0018"
+    ],
+    "quote": "87 % des propositions ont été modifiées suite à cette consultation et 68 ont été ajoutées.",
+    "occurrences": [
+      {
+        "candidate_id": "K0018",
+        "pdf_page": 3,
+        "quote": "87 % des propositions ont été modifiées suite à cette consultation et 68 ont été ajoutées."
+      }
+    ],
+    "normalized_claim": "La consultation aurait conduit à ajouter 68 propositions au programme.",
+    "claim_type": "chiffre de processus interne",
+    "argumentative_role": "Quantifier l'effet revendiqué de la consultation sur le contenu.",
+    "policies": [
+      "Légitimité méthodologique du programme"
+    ],
+    "programme_source": "Attribution interne non documentée",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "AV-consultation",
+    "sources": [
+      {
+        "id": "S-ECOLOGISTES-PROJET-2027",
+        "title": "Projet 2027",
+        "publisher": "Les Écologistes",
+        "url": "https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027",
+        "publication_date": "2026-07",
+        "accessed_on": "2026-09-06",
+        "source_type": "présentation partisane primaire du programme final",
+        "quality_grade": "B",
+        "notes": "Source primaire mais intéressée. Elle annonce 557 mesures, des dizaines d'auditions et près de 50 000 contributions; elle ne publie ni registre d'auditions, ni données brutes, ni journal des modifications."
+      },
+      {
+        "id": "S-ECOLOGISTES-PLATEFORME-DEMARCHE",
+        "title": "La démarche — consultation du projet",
+        "publisher": "Les Écologistes / plateforme Cap Collectif",
+        "url": "https://projet.lesecologistes.fr/pages/la-demarche",
+        "publication_date": "2025-12",
+        "accessed_on": "2026-09-06",
+        "source_type": "plateforme participative primaire",
+        "quality_grade": "B",
+        "notes": "La page publique décrit quatre modes de contribution et un corpus initial de plus de 478 propositions. Elle annonçait une réécriture et une validation en juin 2026, mais n'affiche pas de bilan auditable du nombre total de contributions ni de table de correspondance avant/après."
+      },
+      {
+        "id": "S-LEMONDE-ECOLOGISTES-PROGRAMME-2026",
+        "title": "« Première République écologique et citoyenne » : le programme des Ecologistes pour peser en 2027",
+        "publisher": "Le Monde",
+        "url": "https://www.lemonde.fr/politique/article/2026/07/13/premiere-republique-ecologique-et-citoyenne-le-programme-des-ecologistes-pour-peser-en-2027_6723128_823448.html",
+        "publication_date": "2026-07-13",
+        "accessed_on": "2026-09-06",
+        "source_type": "article de presse secondaire",
+        "quality_grade": "B",
+        "notes": "Confirme l'existence de la plateforme et rapporte les chiffres de 50 000, 87 % et 68 en les attribuant explicitement à la formation écologiste; il ne s'agit donc pas d'un audit indépendant de ces données internes."
+      }
+    ],
+    "verdict": "Invérifiable ou insuffisamment étayé",
+    "justification": "Le nombre de 68 ajouts est annoncé par le parti et repris comme tel par Le Monde. Les deux seuls totaux publics retrouvés sont plus de 478 propositions au début et 557 mesures à la fin, soit un accroissement net d'au moins 79 si les unités et périmètres sont comparables; cet écart ne réfute pas 68 ajouts, car suppressions, fusions, scissions ou changements de périmètre sont possibles, mais il montre que le chiffre ne se déduit pas des totaux. Faute de liste des 68 ajouts et de journal des versions, il n'est pas vérifiable, pas davantage que leur attribution à la consultation.",
+    "consensus_or_controversy": "Preuve insuffisante et unités possiblement non comparables; pas de preuve du contraire.",
+    "source_quality": "Sources primaires partisanes de grade B et reprise de presse de grade B; absence de liste ou de journal de modifications.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Moyen",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "AV-013",
+    "chapter": null,
+    "chapter_title": "Avant-propos",
+    "pdf_pages": [
+      4
+    ],
+    "document_pages": [
+      4
+    ],
+    "candidate_ids": [
+      "K0030"
+    ],
+    "quote": "Dès 1972, le rapport du Club de Rome — rédigé par Donella Meadows — alertait sur les limites physiques d’une croissance infinie.",
+    "occurrences": [
+      {
+        "candidate_id": "K0030",
+        "pdf_page": 4,
+        "quote": "Dès 1972, le rapport du Club de Rome — rédigé par Donella Meadows — alertait sur les limites physiques d’une croissance infinie."
+      }
+    ],
+    "normalized_claim": "Le rapport The Limits to Growth, publié en 1972 par une équipe comprenant Donella Meadows pour le Club de Rome, alertait sur les contraintes physiques d'une croissance matérielle indéfinie.",
+    "claim_type": "fait historique scientifique",
+    "argumentative_role": "Inscrire le diagnostic des limites physiques dans une histoire scientifique longue.",
+    "policies": [
+      "Planifier une économie sous contraintes planétaires"
+    ],
+    "programme_source": "Rapport du Club de Rome de 1972 (titre non indiqué)",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-MEADOWS-LTG-1972",
+        "title": "The Limits to Growth: A Report for the Club of Rome's Project on the Predicament of Mankind",
+        "publisher": "Universe Books; édition numérique Dartmouth Libraries",
+        "url": "https://www.library.dartmouth.edu/digital/digital-collections/limits-growth",
+        "publication_date": "1972",
+        "accessed_on": "2026-09-06",
+        "source_type": "ouvrage scientifique primaire et notice patrimoniale universitaire",
+        "quality_grade": "A",
+        "notes": "Première édition numérisée avec l'autorisation des auteurs. La notice identifie Donella H. Meadows comme autrice principale, l'année 1972 et le sous-titre indiquant explicitement le projet du Club de Rome."
+      },
+      {
+        "id": "S-CLUB-ROME-LTG",
+        "title": "The Limits to Growth",
+        "publisher": "Club of Rome",
+        "url": "https://www.clubofrome.org/publication/the-limits-to-growth/",
+        "publication_date": "1972",
+        "accessed_on": "2026-09-06",
+        "source_type": "notice institutionnelle de l'organisme commanditaire",
+        "quality_grade": "B",
+        "notes": "Résume l'étude MIT des interactions entre population, production agricole, ressources non renouvelables, production industrielle et pollution; liste les quatre auteurs et confirme la publication en 1972."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "Le livre a bien été publié en 1972 sous le sous-titre « A Report for the Club of Rome's Project on the Predicament of Mankind ». Donella H. Meadows en est l'autrice principale avec Dennis L. Meadows, Jørgen Randers et William W. Behrens III. Le modèle examinait précisément comment la croissance de la population et de la production interagit avec des ressources finies, la pollution et la production alimentaire. Dire qu'il alertait sur les contraintes physiques d'une croissance matérielle indéfinie restitue fidèlement son objet, sans prétendre que chacun de ses scénarios constituait une prédiction certaine.",
+    "consensus_or_controversy": "Le contenu historique du rapport est certain; les performances prédictives ultérieures du modèle sont controversées mais ne sont pas affirmées ici.",
+    "source_quality": "Édition primaire conservée par une bibliothèque universitaire de grade A, corroborée par la notice de l'organisme commanditaire de grade B.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  },
+  {
+    "id": "AV-016",
+    "chapter": null,
+    "chapter_title": "Avant-propos",
+    "pdf_pages": [
+      4
+    ],
+    "document_pages": [
+      4
+    ],
+    "candidate_ids": [
+      "K0031"
+    ],
+    "quote": "Les décennies suivantes n’ont fait qu’empirer le problème : la quête d’une croissance matérielle a abouti en quelques décennies à un dépassement de sept limites planétaires sur les neuf indispensables à des conditions de vie sûres et durables sur terre.",
+    "occurrences": [
+      {
+        "candidate_id": "K0031",
+        "pdf_page": 4,
+        "quote": "Les décennies suivantes n’ont fait qu’empirer le problème : la quête d’une croissance matérielle a abouti en quelques décennies à un dépassement de sept limites planétaires sur les neuf indispensables à des conditions de vie sûres et durables sur terre."
+      }
+    ],
+    "normalized_claim": "Sept des neuf limites planétaires identifiées par le cadre scientifique de référence auraient été dépassées.",
+    "claim_type": "chiffre scientifique synthétique",
+    "argumentative_role": "Quantifier le dépassement des seuils biophysiques invoqué pour changer de modèle.",
+    "policies": [
+      "Inscrire les limites planétaires dans la planification"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "id": "S-PIK-PHC-2025",
+        "title": "Planetary Health Check 2025: A Scientific Assessment of the State of the Planet",
+        "publisher": "Potsdam Institute for Climate Impact Research",
+        "url": "https://publications.pik-potsdam.de/pubman/item/item_32589_1/component/file_32845/PlanetaryHealthCheck2025.pdf",
+        "publication_date": "2025-09-24",
+        "accessed_on": "2026-09-06",
+        "source_type": "rapport scientifique institutionnel",
+        "quality_grade": "A",
+        "notes": "Évaluation 2025 du cadre des limites planétaires. Elle classe sept limites sur neuf comme franchies, l'acidification des océans rejoignant les six établies dans l'évaluation globale de 2023."
+      },
+      {
+        "id": "S-FINDLAY-OA-2025",
+        "title": "Ocean Acidification: Another Planetary Boundary Crossed",
+        "publisher": "Global Change Biology",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40485607/",
+        "publication_date": "2025-06",
+        "accessed_on": "2026-09-06",
+        "source_type": "article scientifique évalué par les pairs",
+        "quality_grade": "A",
+        "notes": "Réévalue l'acidification mondiale en intégrant incertitudes, hétérogénéité régionale, profondeur et seuils biologiques; conclut que la limite a été franchie au début des années 2020."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "À la date de publication du programme, l'évaluation scientifique 2025 classait bien sept des neuf limites comme franchies: climat, intégrité de la biosphère, changement d'usage des sols, eau douce, flux biogéochimiques, entités nouvelles et acidification des océans. Cette dernière est devenue la septième après une réévaluation publiée en 2025. Le chiffre est donc à jour; il faut seulement comprendre les « limites » comme des seuils de risque du cadre scientifique, non comme sept points de bascule certains et irréversibles.",
+    "consensus_or_controversy": "Large accord au sein de la communauté qui développe le cadre sur le décompte 2025; discussion scientifique persistante sur le choix précis de certains indicateurs et seuils.",
+    "source_quality": "Rapport scientifique institutionnel et article évalué par les pairs, tous deux de grade A.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": null
+  }
+]

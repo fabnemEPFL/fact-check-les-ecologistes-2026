@@ -1,0 +1,524 @@
+[
+  {
+    "id": "C26-005",
+    "chapter": 26,
+    "chapter_title": "Ouvrir la politique culturelle",
+    "pdf_pages": [
+      101
+    ],
+    "document_pages": [
+      101
+    ],
+    "candidate_ids": [
+      "K0801"
+    ],
+    "quote": "Soutenir les studios indépendants par un bonus dans le Crédit d’Impôt Jeu Vidéo (CIJV) Intégrer l’écoconception logicielle et la prise en compte de l’impact énergétique du cloud gaming dans ses clauses.",
+    "occurrences": [
+      {
+        "candidate_id": "K0801",
+        "pdf_page": 101,
+        "quote": "Soutenir les studios indépendants par un bonus dans le Crédit d’Impôt Jeu Vidéo (CIJV) Intégrer l’écoconception logicielle et la prise en compte de l’impact énergétique du cloud gaming dans ses clauses."
+      }
+    ],
+    "normalized_claim": "Le cloud gaming peut avoir une empreinte énergétique et matérielle élevée selon les équipements, réseaux, centres de données et usages.",
+    "claim_type": "fait environnemental",
+    "argumentative_role": "Justifier l'intégration de son impact au crédit d'impôt jeu vidéo.",
+    "policies": [
+      "Écoconditionner le crédit d'impôt jeu vidéo"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "IEA, Energy and AI",
+        "url": "https://www.iea.org/reports/energy-and-ai",
+        "type": "agence internationale",
+        "finding": "Impacts de services numériques dépendent de réseaux, terminaux, centres de données et profil d'usage."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Le cloud gaming peut déplacer/accroître certains impacts, mais ne peut être qualifié uniformément d'élevé sans scénario comparatif.",
+    "consensus_or_controversy": "Évaluation dépendante de l'analyse de cycle de vie.",
+    "source_quality": "Élevée.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Comparaison de cycle de vie dépendante des scénarios."
+  },
+  {
+    "id": "C27-001",
+    "chapter": 27,
+    "chapter_title": "Encourager un sport inclusif et décarboné",
+    "pdf_pages": [
+      102
+    ],
+    "document_pages": [
+      102
+    ],
+    "candidate_ids": [
+      "K0802"
+    ],
+    "quote": "Le sport est un jeu, une activité ludique, récréative et bénéfique pour la majorité des Français·es pour ses effets sur la santé et le lien social.",
+    "occurrences": [
+      {
+        "candidate_id": "K0802",
+        "pdf_page": 102,
+        "quote": "Le sport est un jeu, une activité ludique, récréative et bénéfique pour la majorité des Français·es pour ses effets sur la santé et le lien social."
+      }
+    ],
+    "normalized_claim": "L'activité physique régulière produit d'importants bénéfices de santé pour la majorité de la population.",
+    "claim_type": "causalité sanitaire",
+    "argumentative_role": "Justifier un accès élargi au sport.",
+    "policies": [
+      "Renforcer le sport amateur",
+      "Subventionner les licences"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "OMS, Physical activity fact sheet",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+        "type": "organisation sanitaire internationale",
+        "finding": "Activité régulière réduit risques de maladies non transmissibles et améliore santé mentale."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "Bénéfices importants pour la santé largement établis, sous adaptation aux capacités et contre-indications individuelles.",
+    "consensus_or_controversy": "Très établi.",
+    "source_quality": "Très élevée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  },
+  {
+    "id": "C27-002",
+    "chapter": 27,
+    "chapter_title": "Encourager un sport inclusif et décarboné",
+    "pdf_pages": [
+      102
+    ],
+    "document_pages": [
+      102
+    ],
+    "candidate_ids": [
+      "K0802"
+    ],
+    "quote": "Le sport est un jeu, une activité ludique, récréative et bénéfique pour la majorité des Français·es pour ses effets sur la santé et le lien social.",
+    "occurrences": [
+      {
+        "candidate_id": "K0802",
+        "pdf_page": 102,
+        "quote": "Le sport est un jeu, une activité ludique, récréative et bénéfique pour la majorité des Français·es pour ses effets sur la santé et le lien social."
+      }
+    ],
+    "normalized_claim": "La pratique sportive collective peut renforcer les liens sociaux et le bien-être.",
+    "claim_type": "causalité sociale",
+    "argumentative_role": "Justifier le soutien au sport amateur et inclusif.",
+    "policies": [
+      "Renforcer le sport amateur"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": "C27-benefices",
+    "sources": [
+      {
+        "title": "OMS, Sport for Health",
+        "url": "https://www.who.int/initiatives/sport-for-health",
+        "type": "organisation sanitaire internationale",
+        "finding": "Le sport peut favoriser inclusion, bien-être et liens sociaux, avec effets dépendant du cadre."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "La pratique collective peut favoriser liens et bien-être, sans effet automatique dans tout contexte ni pour tous publics.",
+    "consensus_or_controversy": "Convergence qualitative, effets contextuels.",
+    "source_quality": "Élevée.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  },
+  {
+    "id": "C27-003",
+    "chapter": 27,
+    "chapter_title": "Encourager un sport inclusif et décarboné",
+    "pdf_pages": [
+      102
+    ],
+    "document_pages": [
+      102
+    ],
+    "candidate_ids": [
+      "K0806"
+    ],
+    "quote": "Les écologistes considèrent que le sport amène de la joie et peut aussi être un vecteur d’émancipation et d’inclusion s’il est guidé par une politique claire fondé sur les droits, la maximisation de son impact social et la minimisation de son impact environnemental.",
+    "occurrences": [
+      {
+        "candidate_id": "K0806",
+        "pdf_page": 102,
+        "quote": "Les écologistes considèrent que le sport amène de la joie et peut aussi être un vecteur d’émancipation et d’inclusion s’il est guidé par une politique claire fondé sur les droits, la maximisation de son impact social et la minimisation de son impact environnemental."
+      }
+    ],
+    "normalized_claim": "Des politiques d'accessibilité et d'inclusion peuvent accroître la participation sportive des groupes sous-représentés.",
+    "claim_type": "causalité / effet de politique",
+    "argumentative_role": "Justifier l'accessibilité des équipements et la lutte contre les discriminations.",
+    "policies": [
+      "Rendre les équipements accessibles"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "OMS, Disability inclusion in sport",
+        "url": "https://www.who.int/health-topics/disability",
+        "type": "OMS",
+        "finding": "Accessibilité, équipements et accompagnement réduisent des barrières à l'activité."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Des politiques ciblées peuvent lever des obstacles; l'effet dépend de leur conception et financement.",
+    "consensus_or_controversy": "Mécanisme largement reconnu.",
+    "source_quality": "Élevée.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  },
+  {
+    "id": "C27-004",
+    "chapter": 27,
+    "chapter_title": "Encourager un sport inclusif et décarboné",
+    "pdf_pages": [
+      103
+    ],
+    "document_pages": [
+      103
+    ],
+    "candidate_ids": [
+      "K0814"
+    ],
+    "quote": "Rendre les équipements acces- sibles à tou·tes (handisport, sport adapté, pratiques féminines…) en respectant la loi Adap’ votée en 2005.",
+    "occurrences": [
+      {
+        "candidate_id": "K0814",
+        "pdf_page": 103,
+        "quote": "Rendre les équipements acces- sibles à tou·tes (handisport, sport adapté, pratiques féminines…) en respectant la loi Adap’ votée en 2005."
+      }
+    ],
+    "normalized_claim": "La loi du 11 février 2005 impose un principe d'accessibilité des établissements recevant du public, incluant les équipements sportifs.",
+    "claim_type": "fait juridique",
+    "argumentative_role": "Justifier l'application de l'obligation d'accessibilité.",
+    "policies": [
+      "Rendre les équipements sportifs accessibles"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "Loi n°2005-102 du 11 février 2005",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000809647/",
+        "type": "droit primaire",
+        "finding": "Pose obligation d'accessibilité des ERP, dont équipements sportifs."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "Le principe d'accessibilité des ERP est bien fixé par la loi.",
+    "consensus_or_controversy": "Établi juridiquement.",
+    "source_quality": "Très élevée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  },
+  {
+    "id": "C27-005",
+    "chapter": 27,
+    "chapter_title": "Encourager un sport inclusif et décarboné",
+    "pdf_pages": [
+      103
+    ],
+    "document_pages": [
+      103
+    ],
+    "candidate_ids": [
+      "K0816"
+    ],
+    "quote": "Soumettre les investisse- ments étrangers dans les clubs sportifs à autorisation préalable ; élargir l’interdiction de la multipropriété des clubs sportifs ; imposer aux clubs professionnels une stratégie de réduction de leur impact environnemental et d’adaptation au dérèglement climatique.",
+    "occurrences": [
+      {
+        "candidate_id": "K0816",
+        "pdf_page": 103,
+        "quote": "Soumettre les investisse- ments étrangers dans les clubs sportifs à autorisation préalable ; élargir l’interdiction de la multipropriété des clubs sportifs ; imposer aux clubs professionnels une stratégie de réduction de leur impact environnemental et d’adaptation au dérèglement climatique."
+      }
+    ],
+    "normalized_claim": "La multipropriété et certains investissements étrangers dans les clubs peuvent créer des conflits d'intérêts et des risques pour leur gouvernance.",
+    "claim_type": "causalité institutionnelle",
+    "argumentative_role": "Justifier une autorisation préalable et l'encadrement de la multipropriété.",
+    "policies": [
+      "Encadrer la propriété des clubs"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "UEFA, European Club Footballing Landscape",
+        "url": "https://www.uefa.com/insideuefa/protecting-the-game/club-licensing/",
+        "type": "fédération / réglementation",
+        "finding": "Les règles de propriété et conflit d'intérêts visent les risques de multipropriété."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "La multipropriété crée des conflits d'intérêts potentiels; l'investissement étranger n'est pas en soi une preuve de mauvaise gouvernance.",
+    "consensus_or_controversy": "Risque réglementaire reconnu.",
+    "source_quality": "Moyenne à élevée.",
+    "confidence": "Moyenne",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": true,
+    "sol_review_reason": "Risque de généralisation sur investissements étrangers."
+  },
+  {
+    "id": "PT-010",
+    "chapter": null,
+    "chapter_title": "Introduction de la partie V",
+    "pdf_pages": [
+      105
+    ],
+    "document_pages": [
+      105
+    ],
+    "candidate_ids": [
+      "K0830"
+    ],
+    "quote": "Le second enjeu vise à pérenniser le régime des retraites par répartition qui a permis de protéger les personnes âgées contre les aléas de la vieillesse et de limiter les dynamiques spéculatives engendrées par les fonds de pension.",
+    "occurrences": [
+      {
+        "candidate_id": "K0830",
+        "pdf_page": 105,
+        "quote": "Le second enjeu vise à pérenniser le régime des retraites par répartition qui a permis de protéger les personnes âgées contre les aléas de la vieillesse et de limiter les dynamiques spéculatives engendrées par les fonds de pension."
+      }
+    ],
+    "normalized_claim": "Un régime de retraite par répartition limite davantage les dynamiques spéculatives associées aux fonds de pension qu'un régime fortement capitalisé.",
+    "claim_type": "comparaison de systèmes",
+    "argumentative_role": "Justifier la pérennisation de la retraite par répartition.",
+    "policies": [
+      "Maintenir la retraite par répartition"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "OCDE, Pensions at a Glance",
+        "url": "https://www.oecd.org/en/publications/pensions-at-a-glance-2023_678055dd-en.html",
+        "type": "organisation internationale",
+        "finding": "Distingue financement par répartition et capitalisation, avec expositions aux marchés différentes."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "La répartition est moins directement exposée aux fluctuations des actifs financiers que la capitalisation; elle comporte d'autres risques macro-démographiques.",
+    "consensus_or_controversy": "Distinction économique standard.",
+    "source_quality": "Très élevée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  },
+  {
+    "id": "PT-022",
+    "chapter": null,
+    "chapter_title": "Introduction de la partie V",
+    "pdf_pages": [
+      105
+    ],
+    "document_pages": [
+      105
+    ],
+    "candidate_ids": [
+      "K0830"
+    ],
+    "quote": "Le second enjeu vise à pérenniser le régime des retraites par répartition qui a permis de protéger les personnes âgées contre les aléas de la vieillesse et de limiter les dynamiques spéculatives engendrées par les fonds de pension.",
+    "occurrences": [
+      {
+        "candidate_id": "K0830",
+        "pdf_page": 105,
+        "quote": "Le second enjeu vise à pérenniser le régime des retraites par répartition qui a permis de protéger les personnes âgées contre les aléas de la vieillesse et de limiter les dynamiques spéculatives engendrées par les fonds de pension."
+      }
+    ],
+    "normalized_claim": "Le régime de retraite par répartition a contribué à protéger les personnes âgées contre le risque de pauvreté et les aléas de la vieillesse.",
+    "claim_type": "causalité historique",
+    "argumentative_role": "Justifier la préservation du régime par répartition.",
+    "policies": [
+      "Maintenir la retraite par répartition"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "DREES, Les retraités et les retraites",
+        "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-documents-de-reference/les-retraites-et-les-retraites",
+        "type": "statistique publique",
+        "finding": "La pauvreté des retraités est inférieure à celle de l'ensemble de la population, liée notamment aux pensions."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Les pensions par répartition ont contribué à réduire la pauvreté âgée; l'effet résulte aussi de minima sociaux, patrimoine et protection sociale.",
+    "consensus_or_controversy": "Très documenté.",
+    "source_quality": "Très élevée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  },
+  {
+    "id": "PT-023",
+    "chapter": null,
+    "chapter_title": "Introduction de la partie V",
+    "pdf_pages": [
+      105
+    ],
+    "document_pages": [
+      105
+    ],
+    "candidate_ids": [
+      "K0831"
+    ],
+    "quote": "Mais ce modèle est fragilisé par le vieillissement de la population, la faible natalité, les exonérations de cotisation et des réformes brutales (chapitre 31).",
+    "occurrences": [
+      {
+        "candidate_id": "K0831",
+        "pdf_page": 105,
+        "quote": "Mais ce modèle est fragilisé par le vieillissement de la population, la faible natalité, les exonérations de cotisation et des réformes brutales (chapitre 31)."
+      }
+    ],
+    "normalized_claim": "Le vieillissement de la population et la faible natalité fragilisent financièrement le régime de retraite par répartition.",
+    "claim_type": "causalité démographique",
+    "argumentative_role": "Justifier une adaptation du financement des retraites.",
+    "policies": [
+      "Pérenniser le régime de retraite"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "COR, Rapport annuel",
+        "url": "https://www.cor-retraites.fr/",
+        "type": "organisme public",
+        "finding": "Le ratio cotisants/retraités et la démographie influencent l'équilibre financier, avec autres paramètres déterminants."
+      }
+    ],
+    "verdict": "Globalement exact",
+    "justification": "Vieillissement et natalité affectent le ratio de dépendance; productivité, emploi, âge de départ et financement modulent l'effet.",
+    "consensus_or_controversy": "Établi en économie des retraites.",
+    "source_quality": "Très élevée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  },
+  {
+    "id": "C31-005",
+    "chapter": 31,
+    "chapter_title": "Adopter une autre réforme des retraites",
+    "pdf_pages": [
+      105,
+      116
+    ],
+    "document_pages": [
+      105,
+      116
+    ],
+    "candidate_ids": [
+      "K0910",
+      "K0831"
+    ],
+    "quote": "Les exonérations de cotisations, le recul de l’âge de départ, les écarts persistants entre femmes et hommes, entre cadres et ouvrier·es menacent non seulement l’équilibre du système et la justice qu’il portait mais le consentement à un régime commun.",
+    "occurrences": [
+      {
+        "candidate_id": "K0910",
+        "pdf_page": 116,
+        "quote": "Les exonérations de cotisations, le recul de l’âge de départ, les écarts persistants entre femmes et hommes, entre cadres et ouvrier·es menacent non seulement l’équilibre du système et la justice qu’il portait mais le consentement à un régime commun."
+      },
+      {
+        "candidate_id": "K0831",
+        "pdf_page": 105,
+        "quote": "Mais ce modèle est fragilisé par le vieillissement de la population, la faible natalité, les exonérations de cotisation et des réformes brutales (chapitre 31)."
+      }
+    ],
+    "normalized_claim": "Les exonérations de cotisations réduisent, sauf compensation budgétaire intégrale, les recettes propres des régimes de retraite.",
+    "claim_type": "causalité financière",
+    "argumentative_role": "Justifier une réduction des exonérations.",
+    "policies": [
+      "Renforcer le financement contributif",
+      "Pérenniser le régime de retraite par répartition"
+    ],
+    "programme_source": "Aucune source explicite",
+    "duplicate_of": null,
+    "legacy_aliases": [
+      "PT-011"
+    ],
+    "split_group": null,
+    "sources": [
+      {
+        "title": "Code de la sécurité sociale, compensation des exonérations",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000046062116",
+        "type": "droit primaire",
+        "finding": "Les exonérations font l'objet de règles de compensation, pas toujours intégrale selon dispositifs."
+      }
+    ],
+    "verdict": "Exact",
+    "justification": "Une exonération diminue mécaniquement les recettes de cotisations sauf compensation intégrale.",
+    "consensus_or_controversy": "Comptable et juridique.",
+    "source_quality": "Très élevée.",
+    "confidence": "Élevée",
+    "verification_status": "vérifiée",
+    "adversarial_audit_status": "non audité",
+    "argumentative_weight": "Élevé",
+    "recovery_provenance": "Ligne reconstruite depuis l'extraction paginée après perte du fichier de ledger; aucun verdict antérieur n'est réattribué sans dossier de preuve.",
+    "needs_sol_review": false,
+    "sol_review_reason": ""
+  }
+]
