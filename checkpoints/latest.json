@@ -1,6 +1,6 @@
 {
   "schema": "fact-check-les-ecologistes-2026/latest/v1",
-  "timestamp_utc": "2026-09-07T21:20:00Z",
+  "timestamp_utc": "2026-09-07T21:45:00Z",
   "phase": "fact-checking systématique — sources, verdicts et justifications",
   "source_pdf_pages": 208,
   "chapters_covered": 66,
@@ -8,37 +8,29 @@
     "automatic_candidates_extracted": 1466,
     "unique_claims_consolidated": 564,
     "occurrences": 568,
-    "claims_sourced": 315,
-    "claims_verified": 315,
+    "claims_sourced": 320,
+    "claims_verified": 320,
     "claims_adversarially_audited": 0
   },
   "resume": {
-    "first_unfinished_identifier": "C30-007",
+    "first_unfinished_identifier": "C31-002",
     "audit_phase_started": false
   },
   "authoritative_recovery_source": {
-    "name": "latest_2026-09-07_primary_315claims.json.xz.b64",
-    "version": "primary-315",
-    "created_at_utc": "2026-09-07T21:20:00Z",
-    "size_bytes": 302600,
-    "sha256": "89670728b6e21b5bc18515dc92c165cd14dc7777edcd17932352f8629bbebf49",
-    "uncompressed_sha256": "91dc34cb1453a0076b31fa1ce408d3cea415cd6e0c2ff66365b51178e7857371",
+    "name": "latest_2026-09-07_primary_320claims.json.xz.b64",
+    "version": "primary-320",
+    "created_at_utc": "2026-09-07T21:45:00Z",
+    "size_bytes": 226000,
+    "sha256": "441d9a19cda4564435a710c53dfc1702fae4116fc0816b9c9fd25bb84ebca049",
+    "uncompressed_sha256": "53bb7ca848a2b72683c049f11dc974a2361ac2a7b20af3dc88120ea6cc8ccffb",
     "storage_encoding": "base64 text; decode before xz -dc"
   },
   "critical_files": [
     {
-      "path": "checkpoints/latest_2026-09-07_primary_315claims.json.xz.b64",
+      "path": "latest_2026-09-07_primary_320claims.json.xz.b64",
       "stored_encoding": "base64 text representing an XZ byte stream",
-      "decoded_size_bytes": 226948,
-      "decoded_sha256": "89670728b6e21b5bc18515dc92c165cd14dc7777edcd17932352f8629bbebf49",
-      "uncompressed_sha256": "91dc34cb1453a0076b31fa1ce408d3cea415cd6e0c2ff66365b51178e7857371"
-    },
-    {
-      "path": "data/ledger_restored_current_primary_315claims.json.xz.b64",
-      "stored_encoding": "base64 text representing the same full XZ checkpoint",
-      "decoded_size_bytes": 226948,
-      "decoded_sha256": "89670728b6e21b5bc18515dc92c165cd14dc7777edcd17932352f8629bbebf49",
-      "uncompressed_sha256": "91dc34cb1453a0076b31fa1ce408d3cea415cd6e0c2ff66365b51178e7857371"
+      "decoded_sha256": "441d9a19cda4564435a710c53dfc1702fae4116fc0816b9c9fd25bb84ebca049",
+      "uncompressed_sha256": "53bb7ca848a2b72683c049f11dc974a2361ac2a7b20af3dc88120ea6cc8ccffb"
     }
   ],
   "known_losses_or_unrestored_items": [
