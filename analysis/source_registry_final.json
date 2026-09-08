@@ -1,0 +1,1768 @@
+[
+  {
+    "id": "S-ACPR-CLIMAT-ASSURANCE-2025",
+    "title": "Les principaux résultats de l'exercice climatique sur le secteur de l'assurance",
+    "publisher": "ACPR / Banque de France",
+    "url": "https://acpr.banque-france.fr/fr/publications-et-statistiques/publications/les-principaux-resultats-de-lexercice-climatique-sur-le-secteur-de-lassurance",
+    "claim_ids": [
+      "C04-007"
+    ],
+    "claims": [
+      "Les risques climatiques rendent déjà certains logements difficiles à vendre et menacent de les endommager ou détruire."
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T19:45:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "note": "URL ACPR correcte et page ouverte. Le document ACPR (mis à jour le 23 avril 2025) traite bien du stress-test climatique des assureurs et du risque d’inassurabilité; il ne suffit pas, seul, à établir que des logements sont déjà invendables."
+    }
+  },
+  {
+    "id": "S-ADEME-NUMERIQUE-2022",
+    "title": "Évaluation de l'impact environnemental du numérique en France",
+    "publisher": "ADEME / Arcep",
+    "url": "https://www.arcep.fr/cartes-et-donnees/nos-publications-chiffrees/empreinte-environnementale-du-numerique.html",
+    "claim_ids": [
+      "C19-002"
+    ],
+    "claims": [
+      "La fabrication représenterait 78 % de l'empreinte carbone moyenne d'un produit électrique ou électronique."
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T19:45:00Z",
+      "http_status": "404",
+      "resolution": "url_dead",
+      "note": "URL Arcep testée: destination non exploitable/404. Le titre ADEME-Arcep est plausible mais aucune page ou PDF canonique n’a été substitué sans vérification."
+    }
+  },
+  {
+    "id": "S-ADEME-OBSOLESCENCE",
+    "title": "Étude sur la durée d'usage des équipements électriques et électroniques",
+    "publisher": "ADEME",
+    "url": "https://librairie.ademe.fr/consommer-autrement/",
+    "claim_ids": [
+      "C19-003",
+      "C19-004"
+    ],
+    "claims": [
+      "Trente-neuf pour cent des aspirateurs seraient remplacés alors qu'ils fonctionnent encore.",
+      "Quarante-huit pour cent des téléviseurs seraient remplacés alors qu'ils fonctionnent encore."
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T19:45:00Z",
+      "http_status": "404",
+      "resolution": "url_dead",
+      "note": "URL ADEME testée: 404. Cette rubrique générique ne permet pas de vérifier les pourcentages attribués aux aspirateurs et téléviseurs; aucune URL de remplacement n’est inventée."
+    }
+  },
+  {
+    "id": "S-ADEME-RENOVATION-PERFORMANTE-2024",
+    "title": "Rénovation performante des logements",
+    "publisher": "ADEME",
+    "url": "https://librairie.ademe.fr/batiment/",
+    "claim_ids": [
+      "C02-008"
+    ],
+    "claims": [
+      "La rénovation, l'isolation et la modernisation du chauffage réduisent les émissions et les factures tout en améliorant le confort."
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T19:45:00Z",
+      "http_status": "404",
+      "resolution": "url_dead",
+      "note": "URL ADEME testée: 404. La référence est une rubrique générique et non une publication identifiée; aucune substitution spéculative."
+    }
+  },
+  {
+    "id": "S-ADEME-TELETRAVAIL-MOBILITE-2023",
+    "title": "Télétravail: quels effets sur les mobilités et l'environnement ?",
+    "publisher": "ADEME",
+    "url": "https://librairie.ademe.fr/mobilite-et-transport/",
+    "claim_ids": [
+      "C03-006"
+    ],
+    "claims": [
+      "Le télétravail peut réduire l'empreinte des déplacements domicile-travail."
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T19:45:00Z",
+      "http_status": "404",
+      "resolution": "url_dead",
+      "note": "URL ADEME testée: 404. Le titre ne peut pas être confirmé à partir de cette rubrique générique; aucune URL de remplacement n’est inventée."
+    }
+  },
+  {
+    "id": "S-ADEME-VITESSE-EMISSIONS-2021",
+    "title": "Impact de la vitesse sur la consommation et les émissions des véhicules",
+    "publisher": "ADEME",
+    "url": "https://librairie.ademe.fr/mobilite-et-transport/",
+    "claim_ids": [
+      "C03-005"
+    ],
+    "claims": [
+      "Abaisser à 110 km/h la vitesse maximale des véhicules thermiques sur autoroute diminuerait leurs émissions."
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T19:45:00Z",
+      "http_status": "404",
+      "resolution": "url_dead",
+      "note": "URL ADEME testée: 404. Le titre ne peut pas être confirmé à partir de cette rubrique générique; aucune URL de remplacement n’est inventée."
+    }
+  },
+  {
+    "id": "S-AFT-DEBT-HOLDERS",
+    "title": "Dette de l'État et détenteurs",
+    "publisher": "Agence France Trésor",
+    "url": "https://www.aft.gouv.fr/fr/dette-de-letat",
+    "claim_ids": [
+      "C17-011"
+    ],
+    "claims": [
+      "Accroître la part de créanciers nationaux et européens limiterait l'influence de stratégies spéculatives étrangères sur la dette française."
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T19:45:00Z",
+      "http_status": "403",
+      "resolution": "access_restricted",
+      "note": "URL Agence France Trésor testée: accès 403. La restriction technique ne prouve pas une erreur, mais la page ne soutient pas à elle seule la causalité sur l’influence de stratégies spéculatives étrangères."
+    }
+  },
+  {
+    "id": "S-AGENCE-EAU-RMC-RHONE-CLIMAT",
+    "title": "Changement climatique et ressource en eau dans le bassin Rhône-Méditerranée",
+    "publisher": "Agence de l'eau Rhône Méditerranée Corse",
+    "url": "https://www.eaurmc.fr/",
+    "claim_ids": [
+      "C09-003"
+    ],
+    "claims": [
+      "Le débit du Rhône aurait diminué de 7 à 13 % en soixante ans et pourrait encore baisser d'environ 20 % dans les trois prochaines décennies."
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T19:45:00Z",
+      "http_status": "200",
+      "resolution": "url_mismatch",
+      "note": "URL ouverte: page d’accueil de l’Agence de l’eau, pas le document intitulé « Changement climatique et ressource en eau… ». La référence reste à retrouver; aucune URL n’est reconstruite."
+    }
+  },
+  {
+    "id": "S-AGRESTE-ABATTAGES-2024",
+    "title": "Statistique annuelle des abattages contrôlés",
+    "publisher": "Agreste / Ministère de l'Agriculture",
+    "url": "https://agreste.agriculture.gouv.fr/agreste-web/disaron/Abattages%20d%27animaux%20en%20France%20m%C3%A9tropolitaine/detail/",
+    "claim_ids": [
+      "C08-001"
+    ],
+    "claims": [
+      "Environ un milliard d'animaux provenant d'élevages français auraient été abattus au cours de l'année précédente."
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T19:45:00Z",
+      "http_status": "502",
+      "resolution": "access_restricted",
+      "note": "URL Agreste testée: réponse technique 502 / ouverture web non exploitable. Aucun remplacement n’est introduit sans notice ou tableau canonique vérifié."
+    }
+  },
+  {
+    "id": "S-AGRESTE-FILIERE-BOIS",
+    "title": "Données de la filière forêt-bois",
+    "publisher": "Agreste / Ministère de l'Agriculture",
+    "url": "https://agreste.agriculture.gouv.fr/agreste-web/",
+    "claim_ids": [
+      "C07-005"
+    ],
+    "claims": [
+      "Les petites et moyennes entreprises sylvicoles rencontrent des difficultés économiques liées notamment à la concurrence internationale."
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T19:45:00Z",
+      "http_status": "502",
+      "resolution": "access_restricted",
+      "note": "URL Agreste testée: réponse technique 502 / ouverture web non exploitable. La page d’entrée ne permet de toute façon pas de vérifier l’affirmation économique précise."
+    }
+  },
+  {
+    "id": "S-AGRESTE-RA-2020-AGE",
+    "title": "Recensement agricole 2020 - âge des exploitants",
+    "publisher": "Agreste / Ministère de l'Agriculture",
+    "url": "https://agreste.agriculture.gouv.fr/agreste-web/disaron/Chd2113/detail/",
+    "claim_ids": [
+      "C10-005"
+    ],
+    "claims": [
+      "Près de la moitié des agriculteurs français ont plus de 55 ans."
+    ]
+  },
+  {
+    "id": "S-AGRESTE-STRUCTURES-2020",
+    "title": "Recensement agricole 2020 - structure des exploitations",
+    "publisher": "Agreste / Ministère de l'Agriculture",
+    "url": "https://agreste.agriculture.gouv.fr/agreste-web/",
+    "claim_ids": [
+      "C10-003"
+    ],
+    "claims": [
+      "La concentration et la financiarisation foncières peuvent évincer ou déposséder des agriculteurs."
+    ]
+  },
+  {
+    "id": "S-ANI-2023-TRAVAIL",
+    "title": "Accord national interprofessionnel relatif à l'emploi des seniors et au dialogue social",
+    "publisher": "Légifrance / partenaires sociaux",
+    "url": "https://www.legifrance.gouv.fr/",
+    "claim_ids": [
+      "C14-008"
+    ],
+    "claims": [
+      "L'accord national interprofessionnel de 2024 a intégré des enjeux liés aux conditions de travail et aux pratiques de management."
+    ]
+  },
+  {
+    "id": "S-ANSES-ALIMENTATION-2021",
+    "title": "Recommandations alimentaires, activité physique et sédentarité",
+    "publisher": "ANSES",
+    "url": "https://www.anses.fr/fr/content/les-recommandations-sur-lalimentation-lactivite-physique-et-la-sedentarite",
+    "claim_ids": [
+      "C11-007"
+    ],
+    "claims": [
+      "Une alimentation saine, davantage végétale, locale et peu transformée peut améliorer la santé et réduire l'empreinte environnementale."
+    ]
+  },
+  {
+    "id": "S-ANSES-PROSULFOCARBE",
+    "title": "Avis relatif au prosulfocarbe et à la protection des riverains",
+    "publisher": "ANSES",
+    "url": "https://www.anses.fr/fr/content/prosulfocarbe",
+    "claim_ids": [
+      "C05-002"
+    ],
+    "claims": [
+      "Les pesticides CMR et certains pesticides volatils tels que le prosulfocarbe présentent des risques élevés pour la santé humaine et la biodiversité."
+    ]
+  },
+  {
+    "id": "S-ANSES-TRAVAIL-SANTE",
+    "title": "Santé au travail et risques psychosociaux",
+    "publisher": "ANSES",
+    "url": "https://www.anses.fr/fr/themes/sante-au-travail",
+    "claim_ids": [
+      "C14-003"
+    ],
+    "claims": [
+      "Pression du rendement et perte de sens sont associées à une dégradation de la santé physique et psychologique au travail."
+    ]
+  },
+  {
+    "id": "S-BCBS-BANK-REGULATION",
+    "title": "Basel Framework",
+    "publisher": "Comité de Bâle",
+    "url": "https://www.bis.org/bcbs/basel3.htm",
+    "claim_ids": [
+      "C18-003"
+    ],
+    "claims": [
+      "Une régulation bancaire plus forte peut réduire le risque de crise et réorienter une part du financement vers l'économie réelle et la transition."
+    ]
+  },
+  {
+    "id": "S-BDF-FINANCEMENT-ECONOMIE",
+    "title": "Financement de l'économie",
+    "publisher": "Banque de France",
+    "url": "https://www.banque-france.fr/fr/publications-et-statistiques",
+    "claim_ids": [
+      "C18-001"
+    ],
+    "claims": [
+      "Le système bancaire et financier exerce un pouvoir important d'allocation qui influence les biens et projets produits, transportés ou consommés."
+    ]
+  },
+  {
+    "id": "S-BROCKWAY-REBOUND-2021",
+    "title": "Energy efficiency and economy-wide rebound effects: A review of the evidence and its implications",
+    "publisher": "Renewable and Sustainable Energy Reviews",
+    "url": "https://doi.org/10.1016/j.rser.2021.110781",
+    "claim_ids": [
+      "AV-030"
+    ],
+    "claims": [
+      "Les gains d'efficacité ou de productivité peuvent être en partie compensés par une hausse de consommation et d'impact matériel, selon un effet rebond."
+    ]
+  },
+  {
+    "id": "S-CAP-2023-2027",
+    "title": "Plan stratégique national de la PAC 2023-2027",
+    "publisher": "Ministère de l'Agriculture / Commission européenne",
+    "url": "https://agriculture.gouv.fr/pac-2023-2027-le-plan-strategique-national",
+    "claim_ids": [
+      "C12-005"
+    ],
+    "claims": [
+      "Quinze pour cent des aides agricoles seraient actuellement versées sans condition environnementale."
+    ]
+  },
+  {
+    "id": "S-CASTRO-CIRCULAR-REBOUND-2022",
+    "title": "The rebound effect of circular economy: Definitions, mechanisms and a research agenda",
+    "publisher": "Journal of Cleaner Production",
+    "url": "https://doi.org/10.1016/j.jclepro.2022.131136",
+    "claim_ids": [
+      "AV-030"
+    ],
+    "claims": [
+      "Les gains d'efficacité ou de productivité peuvent être en partie compensés par une hausse de consommation et d'impact matériel, selon un effet rebond."
+    ]
+  },
+  {
+    "id": "S-CEREMA-MOBILITE-TERRITOIRES-2024",
+    "title": "Mobilité, aménagement et services de proximité",
+    "publisher": "Cerema",
+    "url": "https://www.cerema.fr/fr/actualites/mobilites-services-proximite",
+    "claim_ids": [
+      "C03-004"
+    ],
+    "claims": [
+      "L'aménagement du territoire et le maintien de commerces et services de proximité peuvent réduire les distances parcourues."
+    ]
+  },
+  {
+    "id": "S-CNAM-ATMP-2024",
+    "title": "Rapport annuel risques professionnels",
+    "publisher": "Assurance Maladie - Risques professionnels",
+    "url": "https://assurance-maladie.ameli.fr/etudes-et-donnees/rapports-annuels-risques-professionnels",
+    "claim_ids": [
+      "C14-001"
+    ],
+    "claims": [
+      "Environ 750 personnes meurent chaque année d'un accident du travail en France, niveau présenté comme un record comparatif."
+    ]
+  },
+  {
+    "id": "S-CNNUM-TRAVAIL-PLATEFORMES-2020",
+    "title": "Travail à l'ère des plateformes — mise à jour requise",
+    "publisher": "Conseil national du numérique",
+    "url": "https://www.conseil-ia-numerique.fr/files/archive/files/uploads/2020/2020.07.29_Rapport_Travailleurs_des_plateformes_Access.pdf",
+    "claim_ids": [
+      "AV-014"
+    ],
+    "claims": [
+      "Les transformations contemporaines du capitalisme tendraient à généraliser une forme d'ubérisation et de précarisation du travail."
+    ]
+  },
+  {
+    "id": "S-CODE-CIVIL-515-14",
+    "title": "Article 515-14 du Code civil",
+    "publisher": "Légifrance",
+    "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030250342",
+    "claim_ids": [
+      "C08-002"
+    ],
+    "claims": [
+      "Les animaux vertébrés sont des êtres sensibles et de nombreux animaux présentent des capacités compatibles avec la sentience."
+    ]
+  },
+  {
+    "id": "S-COMMISSION-TAXATION-AVIATION-2025",
+    "title": "Taxation of aviation and energy taxation framework",
+    "publisher": "Commission européenne",
+    "url": "https://taxation-customs.ec.europa.eu/taxation-1/excise-duties/energy-taxation_en",
+    "claim_ids": [
+      "C03-007"
+    ],
+    "claims": [
+      "Le transport aérien bénéficie d'exonérations fiscales sectorielles que la fiscalité sur les billets pourrait compenser."
+    ]
+  },
+  {
+    "id": "S-CONSEIL-PRELEVEMENTS-OBLIGATOIRES",
+    "title": "Progressivité des prélèvements obligatoires",
+    "publisher": "Conseil des prélèvements obligatoires",
+    "url": "https://www.ccomptes.fr/fr/conseil-des-prelevements-obligatoires",
+    "claim_ids": [
+      "C17-003"
+    ],
+    "claims": [
+      "Au sommet de la distribution, certains ménages acquittent une part plus faible de leur revenu économique en prélèvements que des ménages moins aisés."
+    ]
+  },
+  {
+    "id": "S-CONSILIUM-PLATFORM-WORK-2024",
+    "title": "EU rules on platform work",
+    "publisher": "Conseil de l'Union européenne",
+    "url": "https://www.consilium.europa.eu/en/policies/platform-work-eu/",
+    "claim_ids": [
+      "AV-014"
+    ],
+    "claims": [
+      "Les transformations contemporaines du capitalisme tendraient à généraliser une forme d'ubérisation et de précarisation du travail."
+    ]
+  },
+  {
+    "id": "S-COUR-DES-COMPTES-AIDE-ALIMENTAIRE",
+    "title": "L'aide alimentaire - rapport public thématique",
+    "publisher": "Cour des comptes",
+    "url": "https://www.ccomptes.fr/fr/publications/laide-alimentaire",
+    "claim_ids": [
+      "C11-004"
+    ],
+    "claims": [
+      "Le recours à l'aide alimentaire a triplé entre 2012 et 2022."
+    ]
+  },
+  {
+    "id": "S-COUR-DES-COMPTES-PAC",
+    "title": "La politique agricole commune et la répartition des aides",
+    "publisher": "Cour des comptes européenne",
+    "url": "https://www.eca.europa.eu/fr/publications",
+    "claim_ids": [
+      "C12-003"
+    ],
+    "claims": [
+      "La valeur ajoutée et les subventions agricoles sont fortement concentrées au bénéfice d'une minorité d'acteurs."
+    ]
+  },
+  {
+    "id": "S-COURDESCOMPTES-EPR2-2025",
+    "title": "La filière EPR: enjeux industriels et financiers",
+    "publisher": "Cour des comptes",
+    "url": "https://www.ccomptes.fr/fr/publications/la-filiere-epr",
+    "claim_ids": [
+      "C01-006",
+      "C01-011"
+    ],
+    "claims": [
+      "Le nucléaire serait trop coûteux pour constituer une option énergétique pertinente.",
+      "Les programmes EPR2 et SMR seraient extrêmement coûteux."
+    ]
+  },
+  {
+    "id": "S-CRR-BANKS",
+    "title": "Capital requirements regulation",
+    "publisher": "Autorité bancaire européenne",
+    "url": "https://www.eba.europa.eu/regulation-and-policy",
+    "claim_ids": [
+      "C18-005"
+    ],
+    "claims": [
+      "Le cadre prudentiel peut imposer à certaines banques publiques des contraintes plus fortes qu'à des établissements privés, malgré leur garantie publique."
+    ]
+  },
+  {
+    "id": "S-DARES-DEUXIEME-LIGNE",
+    "title": "Les travailleurs de la deuxième ligne de la crise sanitaire",
+    "publisher": "DARES",
+    "url": "https://dares.travail-emploi.gouv.fr/",
+    "claim_ids": [
+      "C14-002"
+    ],
+    "claims": [
+      "Après 50 ans, le taux d'invalidité des travailleurs dits de deuxième ligne serait deux fois supérieur à la moyenne nationale."
+    ]
+  },
+  {
+    "id": "S-DARES-EXONERATIONS",
+    "title": "Évaluation des exonérations de cotisations sociales",
+    "publisher": "DARES",
+    "url": "https://dares.travail-emploi.gouv.fr/",
+    "claim_ids": [
+      "C17-008"
+    ],
+    "claims": [
+      "Les exonérations de cotisations au-delà de 1,6 SMIC ou sur les heures supplémentaires auraient peu ou pas d'effet positif sur l'emploi."
+    ]
+  },
+  {
+    "id": "S-DARES-SALAIRES",
+    "title": "Salaires dans le secteur privé",
+    "publisher": "DARES",
+    "url": "https://dares.travail-emploi.gouv.fr/",
+    "claim_ids": [
+      "C13-003"
+    ],
+    "claims": [
+      "Les salaires réels du secteur privé auraient stagné sur la période récente."
+    ]
+  },
+  {
+    "id": "S-DARES-TZCLD",
+    "title": "Évaluation de l'expérimentation Territoires zéro chômeur de longue durée",
+    "publisher": "DARES",
+    "url": "https://dares.travail-emploi.gouv.fr/",
+    "claim_ids": [
+      "C14-007"
+    ],
+    "claims": [
+      "L'expérimentation Territoires zéro chômeur de longue durée peut favoriser le retour à l'emploi de personnes durablement privées d'emploi."
+    ]
+  },
+  {
+    "id": "S-DGAFP-REMUNERATION",
+    "title": "Rapport annuel sur l'état de la fonction publique",
+    "publisher": "DGAFP",
+    "url": "https://www.fonction-publique.gouv.fr/",
+    "claim_ids": [
+      "C13-004",
+      "C13-007"
+    ],
+    "claims": [
+      "Le traitement réel des fonctionnaires aurait diminué sur la période récente.",
+      "Les agents publics des catégories A, B et C, notamment enseignants et chercheurs, ont subi une perte de pouvoir d'achat sur vingt ans."
+    ]
+  },
+  {
+    "id": "S-DGCCRF-RAPPORT",
+    "title": "Rapport d'activité de la DGCCRF",
+    "publisher": "Ministère de l'Économie",
+    "url": "https://www.economie.gouv.fr/dgccrf/publications",
+    "claim_ids": [
+      "C16-006"
+    ],
+    "claims": [
+      "Environ 1 000 postes auraient été supprimés à la DGCCRF au cours des quinze dernières années."
+    ]
+  },
+  {
+    "id": "S-DPMA-FLOTTE-CAPTURES",
+    "title": "Données économiques et statistiques de la pêche maritime française",
+    "publisher": "Direction des pêches maritimes et de l'aquaculture",
+    "url": "https://www.mer.gouv.fr/peche-et-aquaculture",
+    "claim_ids": [
+      "C06-004"
+    ],
+    "claims": [
+      "Trois pour cent de la flotte française, constitués de navires industriels, captureraient la moitié des poissons pêchés."
+    ]
+  },
+  {
+    "id": "S-DRIAS-REFERENCE-2024",
+    "title": "Le climat futur en France — projections de référence",
+    "publisher": "Météo-France / DRIAS",
+    "url": "https://meteofrance.fr/climat-et-changement-climatique/quel-climat-futur-en-france",
+    "claim_ids": [
+      "C04-001"
+    ],
+    "claims": [
+      "Même si l'Accord de Paris est respecté, la France atteindrait environ +2,7 °C en 2050 et +4 °C en 2100."
+    ]
+  },
+  {
+    "id": "S-EBA-MICA-STABLECOINS",
+    "title": "MiCA and asset-referenced tokens",
+    "publisher": "Autorité bancaire européenne",
+    "url": "https://www.eba.europa.eu/activities/single-rulebook/regulation-markets-crypto-assets-mica",
+    "claim_ids": [
+      "C18-008"
+    ],
+    "claims": [
+      "Exiger des réserves liquides de haute qualité pour les stablecoins réduit les risques de liquidité et de remboursement."
+    ]
+  },
+  {
+    "id": "S-EC-EU-US-TRADE",
+    "title": "EU-US trade relations",
+    "publisher": "Commission européenne",
+    "url": "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/united-states_en",
+    "claim_ids": [
+      "C20-010"
+    ],
+    "claims": [
+      "Un accord commercial entre l'Union européenne et les États-Unis a été conclu le 27 juillet 2025 et a modifié les droits de douane réciproques."
+    ]
+  },
+  {
+    "id": "S-EC-STATE-AID",
+    "title": "State aid and industrial policy",
+    "publisher": "Commission européenne",
+    "url": "https://competition-policy.ec.europa.eu/state-aid_en",
+    "claim_ids": [
+      "C20-003"
+    ],
+    "claims": [
+      "Les États-Unis et la Chine subventionnent fortement certaines industries, notamment via le foncier ou l'énergie, créant une pression concurrentielle sur l'industrie européenne."
+    ]
+  },
+  {
+    "id": "S-ECA-CAP-PAYMENTS",
+    "title": "Common Agricultural Policy direct payments",
+    "publisher": "Cour des comptes européenne",
+    "url": "https://www.eca.europa.eu/en/publications",
+    "claim_ids": [
+      "C12-006"
+    ],
+    "claims": [
+      "Des aides agricoles calculées surtout à l'hectare favorisent les grandes exploitations par rapport aux exploitations intensives en travail."
+    ]
+  },
+  {
+    "id": "S-ECB-PAYMENT-AUTONOMY",
+    "title": "European payments initiative",
+    "publisher": "Banque centrale européenne",
+    "url": "https://www.ecb.europa.eu/paym/intro/mip-online/html/index.en.html",
+    "claim_ids": [
+      "C18-007"
+    ],
+    "claims": [
+      "Des réseaux de paiement européens comme CB ou Wero réduisent la dépendance envers Visa et Mastercard."
+    ]
+  },
+  {
+    "id": "S-ECHA-CMR",
+    "title": "Substances of very high concern and CMR classification",
+    "publisher": "Agence européenne des produits chimiques",
+    "url": "https://echa.europa.eu/substances-of-very-high-concern-identification-explained",
+    "claim_ids": [
+      "C05-002"
+    ],
+    "claims": [
+      "Les pesticides CMR et certains pesticides volatils tels que le prosulfocarbe présentent des risques élevés pour la santé humaine et la biodiversité."
+    ]
+  },
+  {
+    "id": "S-EDF-CLIMATE-NUCLEAR-2023",
+    "title": "Climate change and nuclear power plants",
+    "publisher": "EDF",
+    "url": "https://www.edf.fr/en/the-edf-group/producing-a-climate-friendly-energy/nuclear-power/climate-change-and-nuclear-power-plants",
+    "claim_ids": [
+      "C01-007"
+    ],
+    "claims": [
+      "Le réchauffement climatique augmentera les risques d'indisponibilité des centrales nucléaires par chaleur et baisse des débits fluviaux, ainsi que le risque de submersion côtière."
+    ]
+  },
+  {
+    "id": "S-EU-RENOVATION-WAVE-2020",
+    "title": "A Renovation Wave for Europe",
+    "publisher": "Commission européenne",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020DC0662",
+    "claim_ids": [
+      "C02-008"
+    ],
+    "claims": [
+      "La rénovation, l'isolation et la modernisation du chauffage réduisent les émissions et les factures tout en améliorant le confort."
+    ]
+  },
+  {
+    "id": "S-FAO-AGROECOLOGY-RESILIENCE",
+    "title": "The State of Food and Agriculture 2021",
+    "publisher": "FAO",
+    "url": "https://www.fao.org/publications/sofa/2021/en/",
+    "claim_ids": [
+      "C11-006"
+    ],
+    "claims": [
+      "La diversification des productions et des territoires agricoles améliore leur résilience aux crises."
+    ]
+  },
+  {
+    "id": "S-FAO-FORESTS-2022",
+    "title": "The State of the World's Forests 2022",
+    "publisher": "FAO",
+    "url": "https://www.fao.org/documents/card/en/c/cb9360en",
+    "claim_ids": [
+      "C07-003"
+    ],
+    "claims": [
+      "L'exploitation forestière industrielle peut dégrader les écosystèmes et perturber les cycles de l'eau et des nutriments."
+    ]
+  },
+  {
+    "id": "S-FAO-SEEDS-2022",
+    "title": "The State of the World's Plant Genetic Resources",
+    "publisher": "FAO",
+    "url": "https://www.fao.org/plant-treaty/areas-of-work/plant-genetic-resources/en/",
+    "claim_ids": [
+      "C12-011"
+    ],
+    "claims": [
+      "L'accès aux semences anciennes et des licences plus équitables peuvent réduire la dépendance des agriculteurs envers de grands semenciers."
+    ]
+  },
+  {
+    "id": "S-FAO-SOFIA-2024",
+    "title": "The State of World Fisheries and Aquaculture 2024",
+    "publisher": "FAO",
+    "url": "https://www.fao.org/publications/sofia/2024/en/",
+    "claim_ids": [
+      "C06-006",
+      "C06-005",
+      "C06-007"
+    ],
+    "claims": [
+      "Quelques flottes industrielles contribuent de façon disproportionnée à la surexploitation et aux dommages causés aux écosystèmes marins.",
+      "Un seul coup de filet d'un navire-usine peut représenter quinze années de captures d'un pêcheur artisanal.",
+      "La course internationale à l'exploitation des ressources marines est aggravée par leur surexploitation industrielle."
+    ]
+  },
+  {
+    "id": "S-FAP-ETAT-MALLOGEMENT-2025",
+    "title": "L'État du mal-logement en France, 30e rapport annuel",
+    "publisher": "Fondation pour le logement des défavorisés",
+    "url": "https://www.fondationpourlelogement.fr/etat-du-mal-logement-en-france",
+    "claim_ids": [
+      "C02-001"
+    ],
+    "claims": [
+      "Plus de quatre millions de personnes sont mal logées en France, hors précarité thermique estivale ou hivernale non comptée."
+    ]
+  },
+  {
+    "id": "S-FINDLAY-OA-2025",
+    "title": "Ocean Acidification: Another Planetary Boundary Crossed",
+    "publisher": "Global Change Biology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40485607/",
+    "claim_ids": [
+      "AV-016"
+    ],
+    "claims": [
+      "Sept des neuf limites planétaires identifiées par le cadre scientifique de référence auraient été dépassées."
+    ]
+  },
+  {
+    "id": "S-GEORISQUES-INONDATION-POP",
+    "title": "Les risques d'inondation en France",
+    "publisher": "Ministère de la Transition écologique / Géorisques",
+    "url": "https://www.georisques.gouv.fr/risques/inondation",
+    "claim_ids": [
+      "C04-008"
+    ],
+    "claims": [
+      "Environ un quart de la population française vit en zone inondable."
+    ]
+  },
+  {
+    "id": "S-GILLINGHAM-REBOUND-2016",
+    "title": "The Rebound Effect and Energy Efficiency Policy",
+    "publisher": "Review of Environmental Economics and Policy",
+    "url": "https://academic.oup.com/reep/article-abstract/10/1/68/2583834",
+    "claim_ids": [
+      "AV-030"
+    ],
+    "claims": [
+      "Les gains d'efficacité ou de productivité peuvent être en partie compensés par une hausse de consommation et d'impact matériel, selon un effet rebond."
+    ]
+  },
+  {
+    "id": "S-HCC-RAPPORT-2020",
+    "title": "Rapport annuel 2020 — Redresser le cap, relancer la transition",
+    "publisher": "Haut Conseil pour le climat",
+    "url": "https://www.hautconseilclimat.fr/publications/rapport-annuel-2020/",
+    "claim_ids": [
+      "AV-019"
+    ],
+    "claims": [
+      "L'inaction climatique accumulée au cours des trente dernières années accroît les menaces auxquelles la France est exposée."
+    ]
+  },
+  {
+    "id": "S-HCC-RAPPORT-ANNUEL-2025",
+    "title": "Rapport annuel 2025: neutralité carbone et électrification",
+    "publisher": "Haut Conseil pour le climat",
+    "url": "https://www.hautconseilclimat.fr/publications/rapport-annuel-2025/",
+    "claim_ids": [
+      "C01-008"
+    ],
+    "claims": [
+      "L'électrification des usages n'avance pas assez vite pour atteindre la neutralité carbone."
+    ]
+  },
+  {
+    "id": "S-I4CE-SOUTIENS-FOSSILES-2024",
+    "title": "Les soutiens publics aux énergies fossiles en France",
+    "publisher": "Institut de l'économie pour le climat",
+    "url": "https://www.i4ce.org/publication/soutiens-publics-energies-fossiles-france/",
+    "claim_ids": [
+      "C01-009"
+    ],
+    "claims": [
+      "Certaines niches fiscales favorisent les énergies fossiles."
+    ]
+  },
+  {
+    "id": "S-IAEA-RADWASTE-2024",
+    "title": "Radioactive Waste Management",
+    "publisher": "Agence internationale de l'énergie atomique",
+    "url": "https://www.iaea.org/topics/radioactive-waste-management",
+    "claim_ids": [
+      "C01-014"
+    ],
+    "claims": [
+      "Le nucléaire serait trop dangereux pour les générations futures."
+    ]
+  },
+  {
+    "id": "S-ICES-ADVICE-TOOLS",
+    "title": "Fishing gears and impacts on seabed habitats",
+    "publisher": "Conseil international pour l'exploration de la mer",
+    "url": "https://www.ices.dk/advice/Pages/Advice-requests.aspx",
+    "claim_ids": [
+      "C06-009"
+    ],
+    "claims": [
+      "Les arts dormants ont en général un impact environnemental plus faible et une valeur ajoutée plus élevée que les engins remorqués."
+    ]
+  },
+  {
+    "id": "S-IEA-NUCLEAR-CLIMATE-2025",
+    "title": "Nuclear Power and Secure Energy Transitions",
+    "publisher": "Agence internationale de l'énergie",
+    "url": "https://www.iea.org/reports/nuclear-power-and-secure-energy-transitions",
+    "claim_ids": [
+      "C01-013"
+    ],
+    "claims": [
+      "Le nucléaire serait trop vulnérable pour constituer une option énergétique pertinente."
+    ]
+  },
+  {
+    "id": "S-IEA-SMR-2025",
+    "title": "Small Modular Reactors",
+    "publisher": "Agence internationale de l'énergie",
+    "url": "https://www.iea.org/reports/small-modular-reactors",
+    "claim_ids": [
+      "C01-011"
+    ],
+    "claims": [
+      "Les programmes EPR2 et SMR seraient extrêmement coûteux."
+    ]
+  },
+  {
+    "id": "S-IGAS-MSA",
+    "title": "Évaluation de la Mutualité sociale agricole",
+    "publisher": "Inspection générale des affaires sociales",
+    "url": "https://www.igas.gouv.fr/",
+    "claim_ids": [
+      "C12-009"
+    ],
+    "claims": [
+      "Une fusion de la Mutualité sociale agricole avec le régime général pourrait améliorer le niveau de protection sociale et sanitaire du monde agricole."
+    ]
+  },
+  {
+    "id": "S-IGF-DEPENSES-FISCALES-2023",
+    "title": "Évaluation des dépenses fiscales relatives aux énergies fossiles",
+    "publisher": "Inspection générale des finances",
+    "url": "https://www.igf.finances.gouv.fr/igf/accueil/nos-activites/rapports-de-missions.html",
+    "claim_ids": [
+      "C01-009"
+    ],
+    "claims": [
+      "Certaines niches fiscales favorisent les énergies fossiles."
+    ]
+  },
+  {
+    "id": "S-IGN-FORET-2024",
+    "title": "Les forêts françaises - inventaire forestier national",
+    "publisher": "Institut national de l'information géographique et forestière",
+    "url": "https://inventaire-forestier.ign.fr/",
+    "claim_ids": [
+      "C07-001"
+    ],
+    "claims": [
+      "La France métropolitaine compte environ 17 millions d'hectares de forêt et les outre-mer environ 9 millions, principalement en Guyane."
+    ]
+  },
+  {
+    "id": "S-ILO-FISHING-WORK",
+    "title": "Work in Fishing Convention, 2007 (No. 188) and related ILO materials",
+    "publisher": "Organisation internationale du Travail",
+    "url": "https://www.ilo.org/global/industries-and-sectors/shipping-ports-fisheries-inland-waterways/WCMS_161135/lang--en/index.htm",
+    "claim_ids": [
+      "C06-008"
+    ],
+    "claims": [
+      "Les métiers de la pêche connaissent une dégradation des conditions de travail et une précarisation économique."
+    ]
+  },
+  {
+    "id": "S-ILO-HEAT-WORK",
+    "title": "Working on a warmer planet",
+    "publisher": "Organisation internationale du Travail",
+    "url": "https://www.ilo.org/publications/working-warmer-planet-impact-heat-stress-labour-productivity-and-decent-work",
+    "claim_ids": [
+      "C14-006"
+    ],
+    "claims": [
+      "Un congé climatique réduit l'exposition professionnelle aux températures extrêmes et catastrophes."
+    ]
+  },
+  {
+    "id": "S-ILO-WESO-PLATFORMS-2021",
+    "title": "World Employment and Social Outlook 2021: The role of digital labour platforms in transforming the world of work",
+    "publisher": "Organisation internationale du Travail",
+    "url": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_771749.pdf",
+    "claim_ids": [
+      "AV-014"
+    ],
+    "claims": [
+      "Les transformations contemporaines du capitalisme tendraient à généraliser une forme d'ubérisation et de précarisation du travail."
+    ]
+  },
+  {
+    "id": "S-ILO-WORKER-BUYOUTS",
+    "title": "Worker buyouts and enterprise transfers",
+    "publisher": "Organisation internationale du Travail",
+    "url": "https://www.ilo.org/",
+    "claim_ids": [
+      "C20-009"
+    ],
+    "claims": [
+      "Un droit de préemption sur les actifs productifs peut faciliter une reprise d'activité par des collectivités et des salariés après fermeture."
+    ]
+  },
+  {
+    "id": "S-INPI-COV",
+    "title": "Certificat d'obtention végétale",
+    "publisher": "Institut national de la propriété industrielle",
+    "url": "https://www.inpi.fr/comprendre-la-propriete-intellectuelle/le-certificat-dobtention-vegetale",
+    "claim_ids": [
+      "C12-010"
+    ],
+    "claims": [
+      "Le certificat d'obtention végétale rémunère les sélectionneurs tout en prévoyant des exemptions de droits."
+    ]
+  },
+  {
+    "id": "S-INSEE-BUDGET-MENAGES",
+    "title": "Budget des ménages et dépenses contraintes",
+    "publisher": "Insee",
+    "url": "https://www.insee.fr/fr/statistiques?debut=0&theme=15",
+    "claim_ids": [
+      "C13-005"
+    ],
+    "claims": [
+      "Pour une partie des travailleurs, les revenus d'activité ne suffisent plus à couvrir convenablement logement, mobilité et soins."
+    ]
+  },
+  {
+    "id": "S-INSEE-DEFICIT",
+    "title": "Déficit public et dette publique",
+    "publisher": "Insee",
+    "url": "https://www.insee.fr/fr/statistiques?debut=0&theme=13",
+    "claim_ids": [
+      "C17-004"
+    ],
+    "claims": [
+      "Le déficit public a fortement augmenté entre 2023 et 2025 sans choc externe significatif."
+    ]
+  },
+  {
+    "id": "S-INSEE-DETTE-PIB",
+    "title": "Dette des administrations publiques",
+    "publisher": "Insee",
+    "url": "https://www.insee.fr/fr/statistiques?debut=0&theme=13",
+    "claim_ids": [
+      "C17-009"
+    ],
+    "claims": [
+      "Les baisses d'impôts accordées depuis 2017 auraient causé à elles seules une hausse de vingt points de PIB de la dette publique."
+    ]
+  },
+  {
+    "id": "S-INSEE-ECONOMIE-NUMERIQUE-2019",
+    "title": "L'économie et la société à l'ère du numérique — vue d'ensemble",
+    "publisher": "Insee",
+    "url": "https://www.insee.fr/fr/statistiques/fichier/4126596/NUM19_VE.pdf",
+    "claim_ids": [
+      "AV-014"
+    ],
+    "claims": [
+      "Les transformations contemporaines du capitalisme tendraient à généraliser une forme d'ubérisation et de précarisation du travail."
+    ]
+  },
+  {
+    "id": "S-INSEE-FINANCES-PUBLIQUES",
+    "title": "Comptes des administrations publiques",
+    "publisher": "Insee",
+    "url": "https://www.insee.fr/fr/statistiques?debut=0&theme=13",
+    "claim_ids": [
+      "C17-001"
+    ],
+    "claims": [
+      "Les politiques des deux quinquennats Macron ont dégradé les finances publiques."
+    ]
+  },
+  {
+    "id": "S-INSEE-INDICES-PRIX-LOGEMENT-2025",
+    "title": "Indice des prix des logements anciens et conditions de logement",
+    "publisher": "Insee",
+    "url": "https://www.insee.fr/fr/statistiques/serie/001515173",
+    "claim_ids": [
+      "C02-002"
+    ],
+    "claims": [
+      "La hausse des prix du logement fragilise des millions de ménages, de jeunes et de personnes précaires."
+    ]
+  },
+  {
+    "id": "S-INSEE-INEGALITES-2024",
+    "title": "Revenus et patrimoine des ménages",
+    "publisher": "Insee",
+    "url": "https://www.insee.fr/fr/statistiques?debut=0&theme=15",
+    "claim_ids": [
+      "C13-001"
+    ],
+    "claims": [
+      "Les écarts de rémunération et la concentration de la richesse produite ont augmenté."
+    ]
+  },
+  {
+    "id": "S-INSEE-LOGEMENT-2024",
+    "title": "Conditions de logement et précarité résidentielle",
+    "publisher": "Insee",
+    "url": "https://www.insee.fr/fr/statistiques?debut=0&theme=16",
+    "claim_ids": [
+      "C02-001"
+    ],
+    "claims": [
+      "Plus de quatre millions de personnes sont mal logées en France, hors précarité thermique estivale ou hivernale non comptée."
+    ]
+  },
+  {
+    "id": "S-INSEE-POUVOIR-ACHAT",
+    "title": "Pouvoir d'achat et revenu disponible des ménages",
+    "publisher": "Insee",
+    "url": "https://www.insee.fr/fr/statistiques?debut=0&theme=15",
+    "claim_ids": [
+      "C13-002"
+    ],
+    "claims": [
+      "Sous les deux quinquennats d'Emmanuel Macron, le pouvoir d'achat des classes populaires aurait baissé et celui des classes moyennes stagné."
+    ]
+  },
+  {
+    "id": "S-INSEE-TAUX-EFFORT-LOGEMENT-2024",
+    "title": "Taux d'effort en logement selon le niveau de vie",
+    "publisher": "Insee",
+    "url": "https://www.insee.fr/fr/statistiques/7761454",
+    "claim_ids": [
+      "C02-003"
+    ],
+    "claims": [
+      "Le logement peut absorber plus de 45 % du budget des ménages les plus modestes."
+    ]
+  },
+  {
+    "id": "S-INSEE-VIE-CHERE-OUTREMER",
+    "title": "Niveau des prix et consommation dans les départements d'outre-mer",
+    "publisher": "Insee",
+    "url": "https://www.insee.fr/fr/statistiques?debut=0&theme=16",
+    "claim_ids": [
+      "C11-002"
+    ],
+    "claims": [
+      "Dans les outre-mer, les aliments sont en moyenne plus chers et certains produits sont moins disponibles ou de moindre qualité qu'en Hexagone."
+    ]
+  },
+  {
+    "id": "S-IPBES-2019-SPM",
+    "title": "Summary for policymakers of the global assessment report on biodiversity and ecosystem services",
+    "publisher": "IPBES",
+    "url": "https://files.ipbes.net/ipbes-web-prod-public-files/inline/files/ipbes_global_assessment_report_summary_for_policymakers.pdf",
+    "claim_ids": [
+      "AV-001",
+      "AV-044",
+      "C01-010"
+    ],
+    "claims": [
+      "La perte de biodiversité produit déjà des conséquences perceptibles dans la vie quotidienne.",
+      "Sans règles ou incitations qui prennent en compte les coûts écologiques, les mécanismes de marché ne conservent pas spontanément la biodiversité.",
+      "Les bioénergies entrent en concurrence avec l'alimentation, la santé des sols et la biodiversité."
+    ]
+  },
+  {
+    "id": "S-IPBES-GLOBAL-2019",
+    "title": "Global Assessment Report on Biodiversity and Ecosystem Services",
+    "publisher": "IPBES",
+    "url": "https://www.ipbes.net/global-assessment",
+    "claim_ids": [
+      "C05-004",
+      "C08-005"
+    ],
+    "claims": [
+      "Les pesticides, l'artificialisation et le réchauffement climatique contribuent à la dégradation de la biodiversité et des écosystèmes.",
+      "La chasse peut avoir des effets significatifs sur la biodiversité."
+    ]
+  },
+  {
+    "id": "S-IPBES-NATURE-CONTRIBUTIONS-2019",
+    "title": "Global Assessment Report: Nature's Contributions to People",
+    "publisher": "IPBES",
+    "url": "https://www.ipbes.net/global-assessment",
+    "claim_ids": [
+      "C05-001"
+    ],
+    "claims": [
+      "Les écosystèmes fournissent des services substantiels pour l'alimentation, la qualité de l'eau et la réduction de certains risques naturels."
+    ]
+  },
+  {
+    "id": "S-IPBES-VALUES-2022",
+    "title": "Summary for Policymakers of the Methodological Assessment Report on the Diverse Values and Valuation of Nature",
+    "publisher": "IPBES",
+    "url": "https://doi.org/10.5281/zenodo.6522392",
+    "claim_ids": [
+      "AV-044"
+    ],
+    "claims": [
+      "Sans règles ou incitations qui prennent en compte les coûts écologiques, les mécanismes de marché ne conservent pas spontanément la biodiversité."
+    ]
+  },
+  {
+    "id": "S-IPCC-AR6-SYR-2023",
+    "title": "Climate Change 2023 — AR6 Synthesis Report, Summary for Policymakers",
+    "publisher": "GIEC",
+    "url": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf",
+    "claim_ids": [
+      "AV-019"
+    ],
+    "claims": [
+      "L'inaction climatique accumulée au cours des trente dernières années accroît les menaces auxquelles la France est exposée."
+    ]
+  },
+  {
+    "id": "S-IPCC-AR6-WGI-SPM-2021",
+    "title": "Climate Change 2021: The Physical Science Basis — Summary for Policymakers",
+    "publisher": "GIEC",
+    "url": "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf",
+    "claim_ids": [
+      "C04-001"
+    ],
+    "claims": [
+      "Même si l'Accord de Paris est respecté, la France atteindrait environ +2,7 °C en 2050 et +4 °C en 2100."
+    ]
+  },
+  {
+    "id": "S-IPCC-AR6-WGII-SPM-2022",
+    "title": "Climate Change 2022 — Impacts, Adaptation and Vulnerability, Summary for Policymakers",
+    "publisher": "GIEC",
+    "url": "https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_SummaryForPolicymakers.pdf",
+    "claim_ids": [
+      "C04-002",
+      "C01-013",
+      "C01-007",
+      "C04-003",
+      "C04-004"
+    ],
+    "claims": [
+      "Le changement climatique affecte déjà les conditions de vie en France.",
+      "Le nucléaire serait trop vulnérable pour constituer une option énergétique pertinente.",
+      "Le réchauffement climatique augmentera les risques d'indisponibilité des centrales nucléaires par chaleur et baisse des débits fluviaux, ainsi que le risque de submersion côtière.",
+      "Le changement climatique continuera de produire des dommages en partie irréversibles.",
+      "Les risques d'incendie, d'inondation et d'effondrement augmentent et touchent davantage les populations vulnérables."
+    ]
+  },
+  {
+    "id": "S-IPCC-AR6-WGIII-CH13",
+    "title": "Climate Change 2022: Mitigation of Climate Change — Chapter 13, National and sub-national policies and institutions",
+    "publisher": "GIEC",
+    "url": "https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter13.pdf",
+    "claim_ids": [
+      "AV-026"
+    ],
+    "claims": [
+      "Sans instruments publics qui internalisent le coût des émissions ou imposent des contraintes, les mécanismes de marché n'alignent pas spontanément les émissions sur une trajectoire protectrice du climat."
+    ]
+  },
+  {
+    "id": "S-IPCC-AR6-WGIII-CH5",
+    "title": "Climate Change 2022: Mitigation of Climate Change — Chapter 5, Demand, services and social aspects of mitigation",
+    "publisher": "GIEC",
+    "url": "https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter05.pdf",
+    "claim_ids": [
+      "AV-015"
+    ],
+    "claims": [
+      "Les infrastructures, transports, systèmes énergétiques, agricoles et industriels structurent fortement les comportements individuels et peuvent pousser au gaspillage."
+    ]
+  },
+  {
+    "id": "S-IPCC-AR6-WGIII-SPM-2022",
+    "title": "Climate Change 2022: Mitigation of Climate Change — Summary for Policymakers",
+    "publisher": "GIEC",
+    "url": "https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_SPM.pdf",
+    "claim_ids": [
+      "C01-010"
+    ],
+    "claims": [
+      "Les bioénergies entrent en concurrence avec l'alimentation, la santé des sols et la biodiversité."
+    ]
+  },
+  {
+    "id": "S-IPCC-LAND-2019",
+    "title": "Climate Change and Land",
+    "publisher": "GIEC",
+    "url": "https://www.ipcc.ch/srccl/",
+    "claim_ids": [
+      "C10-002"
+    ],
+    "claims": [
+      "L'artificialisation des terres agricoles peut réduire les capacités futures de production alimentaire."
+    ]
+  },
+  {
+    "id": "S-IPCC-SROCC-2019",
+    "title": "Special Report on the Ocean and Cryosphere in a Changing Climate",
+    "publisher": "GIEC",
+    "url": "https://www.ipcc.ch/srocc/",
+    "claim_ids": [
+      "C06-001",
+      "C06-002"
+    ],
+    "claims": [
+      "L'océan contribue fortement à la production d'oxygène, à l'alimentation et à la régulation du climat.",
+      "La dégradation de l'océan menace la sécurité alimentaire et l'habitabilité planétaire."
+    ]
+  },
+  {
+    "id": "S-IPCC-WGII-2022",
+    "title": "Climate Change 2022: Impacts, Adaptation and Vulnerability",
+    "publisher": "GIEC",
+    "url": "https://www.ipcc.ch/report/ar6/wg2/",
+    "claim_ids": [
+      "C04-007",
+      "C04-012",
+      "C07-002"
+    ],
+    "claims": [
+      "Les risques climatiques rendent déjà certains logements difficiles à vendre et menacent de les endommager ou détruire.",
+      "L'économie des territoires de montagne dépend de pratiques déjà affectées par le dérèglement climatique.",
+      "Le réchauffement climatique accroît les incendies, sécheresses et surmortalités dans les forêts françaises."
+    ]
+  },
+  {
+    "id": "S-IPCC-WGII-2022-WATER",
+    "title": "Climate Change 2022: Impacts, Adaptation and Vulnerability",
+    "publisher": "GIEC",
+    "url": "https://www.ipcc.ch/report/ar6/wg2/",
+    "claim_ids": [
+      "C09-001"
+    ],
+    "claims": [
+      "Les sécheresses et les perturbations du cycle hydrologique réduisent la disponibilité de l'eau potable."
+    ]
+  },
+  {
+    "id": "S-IPCC-WGIII-2022-BIOENERGY",
+    "title": "Climate Change 2022: Mitigation of Climate Change",
+    "publisher": "GIEC",
+    "url": "https://www.ipcc.ch/report/ar6/wg3/",
+    "claim_ids": [
+      "C07-004"
+    ],
+    "claims": [
+      "Un recours non maîtrisé au bois-énergie et aux biocarburants peut accroître la pression d'exploitation sur les forêts."
+    ]
+  },
+  {
+    "id": "S-IPCC-WGIII-2022-FOOD",
+    "title": "Climate Change 2022: Mitigation of Climate Change",
+    "publisher": "GIEC",
+    "url": "https://www.ipcc.ch/report/ar6/wg3/",
+    "claim_ids": [
+      "C11-007"
+    ],
+    "claims": [
+      "Une alimentation saine, davantage végétale, locale et peu transformée peut améliorer la santé et réduire l'empreinte environnementale."
+    ]
+  },
+  {
+    "id": "S-IPP-REFORMES-FISCALES",
+    "title": "Évaluation des réformes fiscales depuis 2017",
+    "publisher": "Institut des politiques publiques",
+    "url": "https://www.ipp.eu/",
+    "claim_ids": [
+      "C17-002"
+    ],
+    "claims": [
+      "Les gouvernements Macron ont réduit de plusieurs dizaines de milliards d'euros les impôts des ménages aisés et des grandes entreprises tout en comprimant certains services publics."
+    ]
+  },
+  {
+    "id": "S-IPSOS-SECOURS-POPULAIRE-2024",
+    "title": "Baromètre de la pauvreté et de la précarité",
+    "publisher": "Ipsos / Secours populaire français",
+    "url": "https://www.secourspopulaire.fr/barometre-de-la-pauvrete/",
+    "claim_ids": [
+      "C11-001"
+    ],
+    "claims": [
+      "Seize pour cent de la population française déclare ne pas pouvoir se nourrir suffisamment en quantité et en qualité pour des raisons financières."
+    ]
+  },
+  {
+    "id": "S-LEGIFRANCE-DEVOIR-VIGILANCE",
+    "title": "Devoir de vigilance",
+    "publisher": "Légifrance",
+    "url": "https://www.legifrance.gouv.fr/",
+    "claim_ids": [
+      "C18-004"
+    ],
+    "claims": [
+      "Le devoir de vigilance et la responsabilité civile peuvent engager des financeurs pour certains projets fossiles incompatibles avec leurs obligations."
+    ]
+  },
+  {
+    "id": "S-LOI-BIEN-VIEILLIR-2024",
+    "title": "Loi n° 2024-317 du 8 avril 2024 portant mesures pour bâtir la société du bien-vieillir et de l'autonomie",
+    "publisher": "Légifrance",
+    "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049385201",
+    "claim_ids": [
+      "C08-003"
+    ],
+    "claims": [
+      "La loi Bien vieillir de 2024 prévoit sous conditions l'accueil des animaux de compagnie des résidents en EHPAD."
+    ]
+  },
+  {
+    "id": "S-MAYORAL-INSTITUTIONS-CONFLICT-2025",
+    "title": "Rents, rules, or revolution: A survey of institutional pathways to conflict",
+    "publisher": "Economic Policy",
+    "url": "https://doi.org/10.1093/epolic/eiaf011",
+    "claim_ids": [
+      "AV-023",
+      "AV-043"
+    ],
+    "claims": [
+      "Une application égale, prévisible et légitime de lois communes contribue à prévenir la violence et à soutenir la paix civile et internationale.",
+      "L'application égale des lois communes serait, à elle seule, la condition qui garantit la paix aux échelles nationale, européenne et mondiale."
+    ]
+  },
+  {
+    "id": "S-METEOFRANCE-CLIMAT-FRANCE-2024",
+    "title": "Le climat de la France au XXIe siècle — projections et observations",
+    "publisher": "Météo-France",
+    "url": "https://meteofrance.fr/climat-et-changement-climatique/quel-climat-futur-en-france",
+    "claim_ids": [
+      "C04-002"
+    ],
+    "claims": [
+      "Le changement climatique affecte déjà les conditions de vie en France."
+    ]
+  },
+  {
+    "id": "S-OCDE-PHARMACEUTICAL",
+    "title": "Pharmaceutical expenditure",
+    "publisher": "OCDE",
+    "url": "https://www.oecd.org/en/topics/sub-issues/health-system-financing/pharmaceutical-expenditure.html",
+    "claim_ids": [
+      "C17-010"
+    ],
+    "claims": [
+      "Le coût des médicaments les plus chers, notamment certains anticancéreux, pourrait fortement augmenter dans les prochaines années."
+    ]
+  },
+  {
+    "id": "S-OECD-AGRICULTURAL-PRICES",
+    "title": "Agricultural Policy Monitoring and Evaluation",
+    "publisher": "OCDE",
+    "url": "https://www.oecd.org/en/topics/sub-issues/agricultural-policy/agricultural-policy-monitoring-and-evaluation.html",
+    "claim_ids": [
+      "C12-004"
+    ],
+    "claims": [
+      "Des prix planchers et la transparence sur les marges peuvent améliorer la part de valeur revenant aux producteurs."
+    ]
+  },
+  {
+    "id": "S-OECD-BUSINESS-REGULATION",
+    "title": "Business regulation and incentives",
+    "publisher": "OCDE",
+    "url": "https://www.oecd.org/en/topics/sub-issues/regulatory-policy.html",
+    "claim_ids": [
+      "C15-004"
+    ],
+    "claims": [
+      "Des incitations et contraintes publiques influencent substantiellement les comportements sociaux et environnementaux des entreprises."
+    ]
+  },
+  {
+    "id": "S-OECD-COMPETITION-SMES",
+    "title": "Competition and small businesses",
+    "publisher": "OCDE",
+    "url": "https://www.oecd.org/en/topics/sub-issues/competition.html",
+    "claim_ids": [
+      "C15-001"
+    ],
+    "claims": [
+      "Les règles et rapports de force économiques ne placent pas les entreprises sur un pied d'égalité et avantagent souvent les plus grandes."
+    ]
+  },
+  {
+    "id": "S-OECD-COMPETITION-SUSTAINABILITY",
+    "title": "Sustainability and competition",
+    "publisher": "OCDE",
+    "url": "https://www.oecd.org/en/topics/sub-issues/competition.html",
+    "claim_ids": [
+      "C16-003"
+    ],
+    "claims": [
+      "Les règles de concurrence peuvent pénaliser les entreprises qui investissent davantage dans la qualité de l'emploi et la durabilité."
+    ]
+  },
+  {
+    "id": "S-OECD-DEMAND-MITIGATION-2025",
+    "title": "Unlocking the potential of demand-side climate mitigation strategies",
+    "publisher": "OCDE",
+    "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/03/unlocking-the-potential-of-demand-side-climate-mitigation-strategies_194d0bae/78b3a9d0-en.pdf",
+    "claim_ids": [
+      "AV-015"
+    ],
+    "claims": [
+      "Les infrastructures, transports, systèmes énergétiques, agricoles et industriels structurent fortement les comportements individuels et peuvent pousser au gaspillage."
+    ]
+  },
+  {
+    "id": "S-OECD-EMPLOYMENT-INCENTIVES",
+    "title": "Employment incentives and wage-setting",
+    "publisher": "OCDE",
+    "url": "https://www.oecd.org/en/topics/sub-issues/employment.html",
+    "claim_ids": [
+      "C13-008"
+    ],
+    "claims": [
+      "Conditionner certaines exonérations de cotisations à des revalorisations de grilles peut inciter les employeurs à augmenter les bas salaires."
+    ]
+  },
+  {
+    "id": "S-OECD-EMPLOYMENT-PROTECTION",
+    "title": "Employment protection and bargaining power",
+    "publisher": "OCDE",
+    "url": "https://www.oecd.org/en/topics/sub-issues/employment.html",
+    "claim_ids": [
+      "C14-009"
+    ],
+    "claims": [
+      "Des droits automatiques à indemnité et chômage en cas de dégradation grave des conditions de travail renforceraient le pouvoir de négociation des salariés."
+    ]
+  },
+  {
+    "id": "S-OECD-ENVIRONMENTAL-TAXATION",
+    "title": "Environmental taxation and fertiliser use",
+    "publisher": "OCDE",
+    "url": "https://www.oecd.org/en/topics/sub-issues/agricultural-policy/agricultural-policy-monitoring-and-evaluation.html",
+    "claim_ids": [
+      "C09-005"
+    ],
+    "claims": [
+      "Augmenter de 20 % la redevance pour pollution diffuse réduirait l'usage des engrais azotés."
+    ]
+  },
+  {
+    "id": "S-OECD-GREEN-GROWTH",
+    "title": "Green growth and environmental policy",
+    "publisher": "OCDE",
+    "url": "https://www.oecd.org/en/topics/sub-issues/green-growth-and-sustainable-development.html",
+    "claim_ids": [
+      "C16-005"
+    ],
+    "claims": [
+      "Des normes environnementales, la protection des biens communs et l'encadrement du marché peuvent réorienter l'activité vers les besoins essentiels."
+    ]
+  },
+  {
+    "id": "S-OECD-LAND-VALUE-CAPTURE",
+    "title": "Land value capture and land-use policy",
+    "publisher": "OCDE",
+    "url": "https://www.oecd.org/en/topics/sub-issues/land-use.html",
+    "claim_ids": [
+      "C10-007"
+    ],
+    "claims": [
+      "Une taxe plus élevée sur les plus-values de terrains devenus constructibles peut limiter la spéculation foncière."
+    ]
+  },
+  {
+    "id": "S-OECD-SKILLS-MOBILITY",
+    "title": "Skills and labour-market mobility",
+    "publisher": "OCDE",
+    "url": "https://www.oecd.org/en/topics/sub-issues/skills.html",
+    "claim_ids": [
+      "C13-006"
+    ],
+    "claims": [
+      "L'accès à la formation et à la mobilité professionnelle peut améliorer les perspectives salariales."
+    ]
+  },
+  {
+    "id": "S-OECD-SME-POLICY",
+    "title": "SME policy and targeted support",
+    "publisher": "OCDE",
+    "url": "https://www.oecd.org/en/topics/sub-issues/smes-and-entrepreneurship.html",
+    "claim_ids": [
+      "C15-005"
+    ],
+    "claims": [
+      "Adapter les conditionnalités d'aides au secteur et à la taille peut mieux cibler le soutien vers les TPE, PME et ETI."
+    ]
+  },
+  {
+    "id": "S-OECD-SMES",
+    "title": "SME and Entrepreneurship Outlook",
+    "publisher": "OCDE",
+    "url": "https://www.oecd.org/en/topics/sub-issues/smes-and-entrepreneurship.html",
+    "claim_ids": [
+      "C15-002"
+    ],
+    "claims": [
+      "Les petites entreprises responsables rencontrent davantage de difficultés à croître dans le cadre économique actuel."
+    ]
+  },
+  {
+    "id": "S-OFB-BIODIV-VITALE",
+    "title": "Qu'est-ce que la biodiversité ?",
+    "publisher": "Office français de la biodiversité",
+    "url": "https://ofb.gouv.fr/qu-est-ce-que-la-biodiversite",
+    "claim_ids": [
+      "AV-001"
+    ],
+    "claims": [
+      "La perte de biodiversité produit déjà des conséquences perceptibles dans la vie quotidienne."
+    ]
+  },
+  {
+    "id": "S-OFB-RESTAURATION-EAU",
+    "title": "Gestion quantitative de l'eau et partage entre usages",
+    "publisher": "Office français de la biodiversité",
+    "url": "https://www.ofb.gouv.fr/",
+    "claim_ids": [
+      "C09-002"
+    ],
+    "claims": [
+      "Certains grands usages agro-industriels et ouvrages de stockage peuvent concentrer l'accès à l'eau au détriment d'autres usagers et des écosystèmes."
+    ]
+  },
+  {
+    "id": "S-ONERC-RISQUES-FRANCE-2024",
+    "title": "Indicateurs de risques climatiques en France",
+    "publisher": "Observatoire national sur les effets du réchauffement climatique",
+    "url": "https://www.ecologie.gouv.fr/politiques-publiques/observatoire-national-effets-rechauffement-climatique-onerc",
+    "claim_ids": [
+      "C04-005"
+    ],
+    "claims": [
+      "Six personnes sur dix en France sont fortement exposées aux risques climatiques."
+    ]
+  },
+  {
+    "id": "S-PAXTON-PEACE-2021",
+    "title": "Window Dressing? The Mainstreaming Strategy of the Rassemblement National in Power in French Local Government",
+    "publisher": "Government and Opposition (Cambridge University Press)",
+    "url": "https://doi.org/10.1017/gov.2020.11",
+    "claim_ids": [
+      "AV-034"
+    ],
+    "claims": [
+      "Le Rassemblement national mène une stratégie méthodique qui contribue à banaliser dans le débat public des idées réactionnaires."
+    ]
+  },
+  {
+    "id": "S-PIK-PHC-2025",
+    "title": "Planetary Health Check 2025: A Scientific Assessment of the State of the Planet",
+    "publisher": "Potsdam Institute for Climate Impact Research",
+    "url": "https://publications.pik-potsdam.de/pubman/item/item_32589_1/component/file_32845/PlanetaryHealthCheck2025.pdf",
+    "claim_ids": [
+      "AV-016"
+    ],
+    "claims": [
+      "Sept des neuf limites planétaires identifiées par le cadre scientifique de référence auraient été dépassées."
+    ]
+  },
+  {
+    "id": "S-RTE-FE2050-2021",
+    "title": "Futurs énergétiques 2050",
+    "publisher": "RTE",
+    "url": "https://www.rte-france.com/donnees-publications/etudes-prospectives/futurs-energetique-2050",
+    "claim_ids": [
+      "C01-006",
+      "C01-008"
+    ],
+    "claims": [
+      "Le nucléaire serait trop coûteux pour constituer une option énergétique pertinente.",
+      "L'électrification des usages n'avance pas assez vite pour atteindre la neutralité carbone."
+    ]
+  },
+  {
+    "id": "S-SAFFER-RAPPORT-2024",
+    "title": "Rapport sur le marché foncier rural",
+    "publisher": "Fédération nationale des SAFER",
+    "url": "https://www.safer.fr/observatoire-du-foncier-rural/",
+    "claim_ids": [
+      "C10-004"
+    ],
+    "claims": [
+      "Des firmes, banques et holdings utilisent des montages financiers à des fins de spéculation foncière."
+    ]
+  },
+  {
+    "id": "S-SANTE-PUBLIQUE-FRANCE-OBESITE",
+    "title": "Surpoids et obésité : données épidémiologiques",
+    "publisher": "Santé publique France",
+    "url": "https://www.santepubliquefrance.fr/maladies-et-traumatismes/nutrition-et-activite-physique/obesite",
+    "claim_ids": [
+      "C11-003"
+    ],
+    "claims": [
+      "La prévalence de l'obésité chez les jeunes aurait doublé en dix ans."
+    ]
+  },
+  {
+    "id": "S-SDES-EMPLOIS-ENR-2024",
+    "title": "Les emplois dans les énergies renouvelables et de récupération",
+    "publisher": "Service des données et études statistiques",
+    "url": "https://www.statistiques.developpement-durable.gouv.fr/les-emplois-dans-les-energies-renouvelables-et-de-recuperation",
+    "claim_ids": [
+      "C01-015"
+    ],
+    "claims": [
+      "Les filières renouvelables produiraient en France des retombées fiscales et d'emploi."
+    ]
+  },
+  {
+    "id": "S-SERVICEPUBLIC-BRS-2026",
+    "title": "Bail réel solidaire",
+    "publisher": "Direction de l'information légale et administrative",
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F34960",
+    "claim_ids": [
+      "C02-009"
+    ],
+    "claims": [
+      "Le bail réel solidaire dissocie le foncier du bâti et peut ainsi réduire le coût d'acquisition."
+    ]
+  },
+  {
+    "id": "S-SERVICEPUBLIC-PSLA-2026",
+    "title": "Prêt social location-accession",
+    "publisher": "Direction de l'information légale et administrative",
+    "url": "https://www.service-public.fr/particuliers/vosdroits/F16182",
+    "claim_ids": [
+      "C02-010"
+    ],
+    "claims": [
+      "Le prêt social location-accession permet d'acheter après une phase locative avec une TVA réduite."
+    ]
+  },
+  {
+    "id": "S-TERRES-EN-VILLES-RENOUVELLEMENT",
+    "title": "Renouvellement des générations agricoles et transmission des exploitations",
+    "publisher": "Ministère de l'Agriculture / Agreste",
+    "url": "https://agreste.agriculture.gouv.fr/",
+    "claim_ids": [
+      "C10-006"
+    ],
+    "claims": [
+      "Environ cinq millions d'hectares, soit un cinquième de la surface agricole, pourraient changer de main d'ici 2030."
+    ]
+  },
+  {
+    "id": "S-UN-RULE-LAW-PEACE",
+    "title": "Rule of Law and Peace and Security",
+    "publisher": "Nations unies",
+    "url": "https://www.un.org/ruleoflaw/en/rule-of-law-and-peace-and-security",
+    "claim_ids": [
+      "AV-023",
+      "AV-043"
+    ],
+    "claims": [
+      "Une application égale, prévisible et légitime de lois communes contribue à prévenir la violence et à soutenir la paix civile et internationale.",
+      "L'application égale des lois communes serait, à elle seule, la condition qui garantit la paix aux échelles nationale, européenne et mondiale."
+    ]
+  },
+  {
+    "id": "S-UNCTAD-TRADE-DEVELOPMENT",
+    "title": "Trade and Development Report",
+    "publisher": "CNUCED",
+    "url": "https://unctad.org/topic/trade-analysis/trade-and-development-report",
+    "claim_ids": [
+      "C16-002"
+    ],
+    "claims": [
+      "Les règles actuelles de concurrence et du commerce peuvent encourager court-termisme, délocalisations, rentes et surexploitation des ressources."
+    ]
+  },
+  {
+    "id": "S-UNEDIC-REFORMES-2021",
+    "title": "Réforme de l'assurance chômage",
+    "publisher": "Unédic",
+    "url": "https://www.unedic.org/indemnisation/fiches-thematiques/reforme-de-lassurance-chomage",
+    "claim_ids": [
+      "C14-005"
+    ],
+    "claims": [
+      "Les réformes du chômage des quinquennats Macron ont réduit la durée et le montant de l'indemnisation pour certaines catégories."
+    ]
+  },
+  {
+    "id": "S-UNEP-FINANCE",
+    "title": "Sustainable finance and investment gaps",
+    "publisher": "PNUE",
+    "url": "https://www.unep.org/explore-topics/finance-and-economic-transformations",
+    "claim_ids": [
+      "C16-004"
+    ],
+    "claims": [
+      "L'investissement privé est insuffisamment orienté vers les activités à forte valeur sociale et écologique."
+    ]
+  },
+  {
+    "id": "S-UNSCEAR-2020",
+    "title": "Levels and effects of radiation exposure due to the accident at the Fukushima Daiichi Nuclear Power Station",
+    "publisher": "UNSCEAR",
+    "url": "https://www.unscear.org/unscear/en/publications/2020_2021.html",
+    "claim_ids": [
+      "C01-014"
+    ],
+    "claims": [
+      "Le nucléaire serait trop dangereux pour les générations futures."
+    ]
+  },
+  {
+    "id": "S-WHO-MARKETING-CHILDREN-2023",
+    "title": "Policies to protect children from the harmful impact of food marketing",
+    "publisher": "Organisation mondiale de la santé",
+    "url": "https://www.who.int/publications/i/item/9789240075413",
+    "claim_ids": [
+      "C11-009"
+    ],
+    "claims": [
+      "Limiter la publicité pour les produits très gras, très sucrés ou mal classés nutritionnellement réduit l'exposition des enfants et peut améliorer les comportements alimentaires."
+    ]
+  },
+  {
+    "id": "S-WHO-PORTUGAL-CHILDHOOD-OBESITY",
+    "title": "Portugal Childhood Obesity Surveillance Initiative results",
+    "publisher": "Organisation mondiale de la santé, Bureau régional Europe",
+    "url": "https://www.who.int/europe/publications/i/item/WHO-EURO-2022-6590-46361-67061",
+    "claim_ids": [
+      "C11-005"
+    ],
+    "claims": [
+      "Le Portugal a réussi à inverser la tendance de l'obésité infantile."
+    ]
+  },
+  {
+    "id": "S-WOAH-CLIMATE-ANIMAL-HEALTH",
+    "title": "Climate change and animal health",
+    "publisher": "Organisation mondiale de la santé animale",
+    "url": "https://www.woah.org/en/what-we-do/global-initiatives/climate-change/",
+    "claim_ids": [
+      "C12-008"
+    ],
+    "claims": [
+      "Le changement climatique et la dégradation des écosystèmes modifient les risques d'épizooties."
+    ]
+  },
+  {
+    "id": "S-WORLDBANK-WDR-CONFLICT-2011",
+    "title": "World Development Report 2011 — Conflict, Security, and Development",
+    "publisher": "Banque mondiale",
+    "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/806531468161369474",
+    "claim_ids": [
+      "AV-023",
+      "AV-043"
+    ],
+    "claims": [
+      "Une application égale, prévisible et légitime de lois communes contribue à prévenir la violence et à soutenir la paix civile et internationale.",
+      "L'application égale des lois communes serait, à elle seule, la condition qui garantit la paix aux échelles nationale, européenne et mondiale."
+    ]
+  }
+]
