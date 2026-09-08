@@ -1,6 +1,6 @@
 {
   "schema": "fact-check-les-ecologistes-2026/latest/v1",
-  "timestamp_utc": "2026-09-08T16:00:00Z",
+  "timestamp_utc": "2026-09-08T16:25:00Z",
   "phase": "passe de nettoyage finale — en cours",
   "source_pdf_pages": 208,
   "chapters_covered": 66,
@@ -16,24 +16,24 @@
     "first_unfinished_identifier": null,
     "audit_phase_started": false,
     "primary_pass_complete": true,
-    "final_cleanup_first_identifier": "C30-002",
+    "final_cleanup_first_identifier": "C38-002",
     "final_cleanup_started_at": "2026-09-08T09:00:00Z"
   },
   "authoritative_recovery_source": {
-    "name": "final_cleanup_2026-09-08_batch_0310.json.xz.b64",
-    "version": "final-cleanup-batch-0310",
-    "created_at_utc": "2026-09-08T16:00:00Z",
-    "size_bytes": 347392,
-    "sha256": "c50290426c25e226ddb2e024511b51ab358e673beec2ac679396ef7993c36e9f",
-    "uncompressed_sha256": "6793a67d0ac135cb2a80f03985fb3aafb4d55f3b0da8af7c58825d6f831e89b9",
+    "name": "final_cleanup_2026-09-08_batch_0360.json.xz.b64",
+    "version": "final-cleanup-batch-0360",
+    "created_at_utc": "2026-09-08T16:25:00Z",
+    "size_bytes": 347522,
+    "sha256": "c9748a6a15f5136e66b64976d5eb108c112de514586b4d6bd9fae0a414f0b36d",
+    "uncompressed_sha256": "d4edd848d0ad4f5b97cfeac277112bbe6bf008b40cc812f66ee2458ac76996a8",
     "storage_encoding": "base64 text; decode before xz -dc"
   },
   "critical_files": [
     {
-      "path": "checkpoints/final_cleanup_2026-09-08_batch_0310.json.xz.b64",
+      "path": "checkpoints/final_cleanup_2026-09-08_batch_0360.json.xz.b64",
       "stored_encoding": "base64 text representing an XZ byte stream",
-      "decoded_sha256": "c50290426c25e226ddb2e024511b51ab358e673beec2ac679396ef7993c36e9f",
-      "uncompressed_sha256": "6793a67d0ac135cb2a80f03985fb3aafb4d55f3b0da8af7c58825d6f831e89b9"
+      "decoded_sha256": "c9748a6a15f5136e66b64976d5eb108c112de514586b4d6bd9fae0a414f0b36d",
+      "uncompressed_sha256": "d4edd848d0ad4f5b97cfeac277112bbe6bf008b40cc812f66ee2458ac76996a8"
     },
     {
       "path": "analysis/final_cleanup_changes.jsonl",
@@ -42,18 +42,17 @@
   ],
   "final_cleanup": {
     "status": "en cours",
-    "cleanup_completed_count": 310,
-    "cleanup_remaining_count": 254,
-    "first_cleanup_identifier": "C30-002",
+    "cleanup_completed_count": 360,
+    "cleanup_remaining_count": 204,
+    "first_cleanup_identifier": "C38-002",
     "change_log": "analysis/final_cleanup_changes.jsonl",
     "pre_cleanup_checkpoint": "checkpoints/pre_final_cleanup_2026-09-08_primary_564claims.json.xz.b64",
-    "last_checkpoint": "checkpoints/final_cleanup_2026-09-08_batch_0310.json.xz.b64",
+    "last_checkpoint": "checkpoints/final_cleanup_2026-09-08_batch_0360.json.xz.b64",
     "last_run": {
-      "timestamp_utc": "2026-09-08T16:00:00Z",
-      "range": "C23-007–C30-001",
+      "timestamp_utc": "2026-09-08T16:25:00Z",
+      "range": "C30-002–C38-001",
       "cleaned": 50,
       "url_corrections": 0,
-      "sources_replaced": 0,
       "verdict_changes": 0,
       "normalized_claim_changes": 0,
       "contexts_added": 0,
