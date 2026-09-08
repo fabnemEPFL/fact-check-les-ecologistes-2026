@@ -1,0 +1,44 @@
+name: Export source resolution state
+
+on:
+  push:
+    paths:
+      - '.github/workflows/export-source-resolution-state.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Package authoritative state
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, tarfile
+          latest = json.loads(pathlib.Path('checkpoints/latest.json').read_text())
+          auth = latest.get('authoritative_recovery_source', {}).get('name') or pathlib.Path(latest['authoritative_checkpoint']).name
+          files = [
+              'methodology/analysis_spec.md',
+              'checkpoints/latest.json',
+              f'checkpoints/{auth}',
+              'analysis/source_registry_final.json',
+              'analysis/final_cleanup_changes.jsonl',
+              'metrics/compute_log.jsonl',
+          ]
+          with tarfile.open('source-resolution-state.tar.gz', 'w:gz') as tf:
+              for f in files:
+                  tf.add(f)
+          print('\n'.join(files))
+          PY
+
+      - name: Upload state artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-resolution-state
+          path: source-resolution-state.tar.gz
+          if-no-files-found: error
