@@ -293,7 +293,7 @@
     "id": "S-BCBS-BANK-REGULATION",
     "title": "Basel Framework",
     "publisher": "Comité de Bâle",
-    "url": "https://www.bis.org/bcbs/basel3.htm",
+    "url": "https://www.bis.org/committees/bcbs/basel-framework",
     "claim_ids": [
       "C18-003"
     ],
@@ -301,10 +301,11 @@
       "Une régulation bancaire plus forte peut réduire le risque de crise et réorienter une part du financement vers l'économie réelle et la transition."
     ],
     "source_check": {
-      "checked_at_utc": "2026-09-08T20:00:00Z",
-      "http_status": "503",
-      "resolution": "access_restricted",
-      "note": "URL BRI/Comité de Bâle ouverte: 503. L’indisponibilité ne permet pas de contester la référence, mais ne vérifie pas l’effet de réorientation du financement."
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Page canonique du Basel Framework ouverte sur le site de la BRI; standards prudentiels du Comité de Bâle confirmés."
     }
   },
   {
@@ -329,7 +330,7 @@
     "id": "S-BROCKWAY-REBOUND-2021",
     "title": "Energy efficiency and economy-wide rebound effects: A review of the evidence and its implications",
     "publisher": "Renewable and Sustainable Energy Reviews",
-    "url": "https://doi.org/10.1016/j.rser.2021.110781",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1364032121000769",
     "claim_ids": [
       "AV-030"
     ],
@@ -337,10 +338,11 @@
       "Les gains d'efficacité ou de productivité peuvent être en partie compensés par une hausse de consommation et d'impact matériel, selon un effet rebond."
     ],
     "source_check": {
-      "checked_at_utc": "2026-09-08T20:00:00Z",
-      "http_status": "403",
-      "resolution": "access_restricted",
-      "note": "DOI testé: 403. Le DOI et le titre sont cohérents avec un article de revue sur les effets rebond, sans substitution d’URL."
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Article ouvert sur ScienceDirect; titre, DOI, revue, caractère open access et synthèse de 33 études sur le rebond macroéconomique confirmés."
     }
   },
   {
@@ -365,13 +367,20 @@
     "id": "S-CASTRO-CIRCULAR-REBOUND-2022",
     "title": "The rebound effect of circular economy: Definitions, mechanisms and a research agenda",
     "publisher": "Journal of Cleaner Production",
-    "url": "https://doi.org/10.1016/j.jclepro.2022.131136",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0959652622007685",
     "claim_ids": [
       "AV-030"
     ],
     "claims": [
       "Les gains d'efficacité ou de productivité peuvent être en partie compensés par une hausse de consommation et d'impact matériel, selon un effet rebond."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Article ouvert sur ScienceDirect; titre, DOI et contenu sur les mécanismes de rebond de l’économie circulaire confirmés."
+    }
   },
   {
     "id": "S-CEREMA-MOBILITE-TERRITOIRES-2024",
@@ -389,13 +398,20 @@
     "id": "S-CNAM-ATMP-2024",
     "title": "Rapport annuel risques professionnels",
     "publisher": "Assurance Maladie - Risques professionnels",
-    "url": "https://assurance-maladie.ameli.fr/etudes-et-donnees/rapports-annuels-risques-professionnels",
+    "url": "https://www.assurance-maladie.ameli.fr/etudes-et-donnees/2024-rapport-annuel-assurance-maladie-risques-professionnels",
     "claim_ids": [
       "C14-001"
     ],
     "claims": [
       "Environ 750 personnes meurent chaque année d'un accident du travail en France, niveau présenté comme un record comparatif."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Page officielle Assurance Maladie du rapport annuel 2024 ouverte; chiffres de sinistralité AT/MP et identité de la publication confirmés."
+    }
   },
   {
     "id": "S-CNNUM-TRAVAIL-PLATEFORMES-2020",
@@ -419,7 +435,14 @@
     ],
     "claims": [
       "Les animaux vertébrés sont des êtres sensibles et de nombreux animaux présentent des capacités compatibles avec la sentience."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "verified",
+      "note": "Article 515-14 du Code civil ouvert sur Légifrance; texte en vigueur et identité confirmés."
+    }
   },
   {
     "id": "S-COMMISSION-TAXATION-AVIATION-2025",
@@ -455,7 +478,14 @@
     ],
     "claims": [
       "Les transformations contemporaines du capitalisme tendraient à généraliser une forme d'ubérisation et de précarisation du travail."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "verified",
+      "note": "Page officielle du Conseil de l’UE ouverte : règles européennes sur le travail de plateforme, statut d’emploi et protection sociale confirmés."
+    }
   },
   {
     "id": "S-COUR-DES-COMPTES-AIDE-ALIMENTAIRE",
@@ -509,15 +539,22 @@
   },
   {
     "id": "S-DARES-DEUXIEME-LIGNE",
-    "title": "Les travailleurs de la deuxième ligne de la crise sanitaire",
+    "title": "Les métiers « de deuxième ligne » de la crise Covid-19 : quelles conditions de travail et d’emploi dans le secteur privé ?",
     "publisher": "DARES",
-    "url": "https://dares.travail-emploi.gouv.fr/",
+    "url": "https://dares.travail-emploi.gouv.fr/publication/covid-19-metiers-de-deuxieme-ligne",
     "claim_ids": [
       "C14-002"
     ],
     "claims": [
       "Après 50 ans, le taux d'invalidité des travailleurs dits de deuxième ligne serait deux fois supérieur à la moyenne nationale."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Publication DARES exacte retrouvée et ouverte; conditions de travail et d’emploi des métiers de deuxième ligne documentées."
+    }
   },
   {
     "id": "S-DARES-EXONERATIONS",
@@ -545,15 +582,22 @@
   },
   {
     "id": "S-DARES-TZCLD",
-    "title": "Évaluation de l'expérimentation Territoires zéro chômeur de longue durée",
+    "title": "Rapport final du comité scientifique de l’évaluation de l’expérimentation « Territoires zéro chômeur de longue durée »",
     "publisher": "DARES",
-    "url": "https://dares.travail-emploi.gouv.fr/",
+    "url": "https://dares.travail-emploi.gouv.fr/publication/rapport-final-du-comite-scientifique-de-levaluation-de-lexperimentation-territoires",
     "claim_ids": [
       "C14-007"
     ],
     "claims": [
       "L'expérimentation Territoires zéro chômeur de longue durée peut favoriser le retour à l'emploi de personnes durablement privées d'emploi."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Rapport final 2025 du comité scientifique d’évaluation de TZCLD retrouvé et ouvert sur DARES."
+    }
   },
   {
     "id": "S-DGAFP-REMUNERATION",
@@ -627,7 +671,14 @@
     ],
     "claims": [
       "Un accord commercial entre l'Union européenne et les États-Unis a été conclu le 27 juillet 2025 et a modifié les droits de douane réciproques."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "verified",
+      "note": "Page officielle de la Commission européenne sur les relations commerciales UE–États-Unis ouverte et contrôlée."
+    }
   },
   {
     "id": "S-EC-STATE-AID",
@@ -699,19 +750,33 @@
     ],
     "claims": [
       "La rénovation, l'isolation et la modernisation du chauffage réduisent les émissions et les factures tout en améliorant le confort."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "verified",
+      "note": "Document EUR-Lex CELEX 52020DC0662 ouvert : « A Renovation Wave for Europe » confirmé."
+    }
   },
   {
     "id": "S-FAO-AGROECOLOGY-RESILIENCE",
     "title": "The State of Food and Agriculture 2021",
     "publisher": "FAO",
-    "url": "https://www.fao.org/publications/sofa/2021/en/",
+    "url": "https://www.fao.org/agrifood-economics/publications/detail/en/c/1457037/",
     "claim_ids": [
       "C11-006"
     ],
     "claims": [
       "La diversification des productions et des territoires agricoles améliore leur résilience aux crises."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Publication FAO SOFA 2021 ouverte; le rapport porte explicitement sur la résilience des systèmes agroalimentaires aux chocs et stress."
+    }
   },
   {
     "id": "S-FAO-FORESTS-2022",
@@ -723,7 +788,14 @@
     ],
     "claims": [
       "L'exploitation forestière industrielle peut dégrader les écosystèmes et perturber les cycles de l'eau et des nutriments."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "verified",
+      "note": "Publication FAO « The State of the World’s Forests 2022 » retrouvée et identité confirmée."
+    }
   },
   {
     "id": "S-FAO-SEEDS-2022",
@@ -741,7 +813,7 @@
     "id": "S-FAO-SOFIA-2024",
     "title": "The State of World Fisheries and Aquaculture 2024",
     "publisher": "FAO",
-    "url": "https://www.fao.org/publications/sofia/2024/en/",
+    "url": "https://www.fao.org/publications/fao-flagship-publications/the-state-of-world-fisheries-and-aquaculture",
     "claim_ids": [
       "C06-006",
       "C06-005",
@@ -751,7 +823,14 @@
       "Quelques flottes industrielles contribuent de façon disproportionnée à la surexploitation et aux dommages causés aux écosystèmes marins.",
       "Un seul coup de filet d'un navire-usine peut représenter quinze années de captures d'un pêcheur artisanal.",
       "La course internationale à l'exploitation des ressources marines est aggravée par leur surexploitation industrielle."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Page FAO SOFIA 2024 ouverte; édition 2024 et périmètre mondial des pêches et de l’aquaculture confirmés."
+    }
   },
   {
     "id": "S-FAP-ETAT-MALLOGEMENT-2025",
@@ -775,7 +854,14 @@
     ],
     "claims": [
       "Sept des neuf limites planétaires identifiées par le cadre scientifique de référence auraient été dépassées."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "verified",
+      "note": "Notice PubMed/PMC ouverte; article 2025, DOI et résultats sur le franchissement de la limite d’acidification des océans confirmés."
+    }
   },
   {
     "id": "S-GEORISQUES-INONDATION-POP",
@@ -793,13 +879,20 @@
     "id": "S-GILLINGHAM-REBOUND-2016",
     "title": "The Rebound Effect and Energy Efficiency Policy",
     "publisher": "Review of Environmental Economics and Policy",
-    "url": "https://academic.oup.com/reep/article-abstract/10/1/68/2583834",
+    "url": "https://www.journals.uchicago.edu/doi/10.1093/reep/rev017",
     "claim_ids": [
       "AV-030"
     ],
     "claims": [
       "Les gains d'efficacité ou de productivité peuvent être en partie compensés par une hausse de consommation et d'impact matériel, selon un effet rebond."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Article de Review of Environmental Economics and Policy ouvert; définition, ampleur et limites empiriques de l’effet rebond confirmées."
+    }
   },
   {
     "id": "S-HCC-RAPPORT-2020",
@@ -811,19 +904,33 @@
     ],
     "claims": [
       "L'inaction climatique accumulée au cours des trente dernières années accroît les menaces auxquelles la France est exposée."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "verified",
+      "note": "Page officielle du Haut Conseil pour le climat ouverte : rapport annuel 2020 « Redresser le cap, relancer la transition », contenu et identité confirmés."
+    }
   },
   {
     "id": "S-HCC-RAPPORT-ANNUEL-2025",
     "title": "Rapport annuel 2025: neutralité carbone et électrification",
     "publisher": "Haut Conseil pour le climat",
-    "url": "https://www.hautconseilclimat.fr/publications/rapport-annuel-2025/",
+    "url": "https://www.hautconseilclimat.fr/publications/rapport-annuel-2025-relancer-laction-climatique-face-a-laggravation-des-impacts-et-a-laffaiblissement-du-pilotage/",
     "claim_ids": [
       "C01-008"
     ],
     "claims": [
       "L'électrification des usages n'avance pas assez vite pour atteindre la neutralité carbone."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Page officielle HCC du rapport annuel 2025 retrouvée et ouverte; identité, date et contenu confirmés."
+    }
   },
   {
     "id": "S-I4CE-SOUTIENS-FOSSILES-2024",
@@ -925,13 +1032,20 @@
     "id": "S-ILO-FISHING-WORK",
     "title": "Work in Fishing Convention, 2007 (No. 188) and related ILO materials",
     "publisher": "Organisation internationale du Travail",
-    "url": "https://www.ilo.org/global/industries-and-sectors/shipping-ports-fisheries-inland-waterways/WCMS_161135/lang--en/index.htm",
+    "url": "https://www.ilo.org/resource/c188-work-fishing-convention-2007-no-188",
     "claim_ids": [
       "C06-008"
     ],
     "claims": [
       "Les métiers de la pêche connaissent une dégradation des conditions de travail et une précarisation économique."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Convention OIT C188 et ressources associées ouvertes; conditions difficiles et dangereuses du travail dans la pêche et normes de travail décent confirmées."
+    }
   },
   {
     "id": "S-ILO-HEAT-WORK",
@@ -943,19 +1057,33 @@
     ],
     "claims": [
       "Un congé climatique réduit l'exposition professionnelle aux températures extrêmes et catastrophes."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "verified",
+      "note": "Rapport OIT « Working on a warmer planet » ouvert; stress thermique, sécurité au travail et pertes de productivité confirmés."
+    }
   },
   {
     "id": "S-ILO-WESO-PLATFORMS-2021",
     "title": "World Employment and Social Outlook 2021: The role of digital labour platforms in transforming the world of work",
     "publisher": "Organisation internationale du Travail",
-    "url": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_771749.pdf",
+    "url": "https://www.ilo.org/publications/flagship-reports/role-digital-labour-platforms-transforming-world-work",
     "claim_ids": [
       "AV-014"
     ],
     "claims": [
       "Les transformations contemporaines du capitalisme tendraient à généraliser une forme d'ubérisation et de précarisation du travail."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Page officielle OIT WESO 2021 ouverte; étude des plateformes numériques, travailleurs, modèles économiques et protection sociale confirmée."
+    }
   },
   {
     "id": "S-ILO-WORKER-BUYOUTS",
@@ -995,51 +1123,79 @@
   },
   {
     "id": "S-INSEE-DEFICIT",
-    "title": "Déficit public et dette publique",
+    "title": "En 2025, le déficit public s’élève à 5,1 % du PIB, la dette publique à 115,6 % du PIB",
     "publisher": "Insee",
-    "url": "https://www.insee.fr/fr/statistiques?debut=0&theme=13",
+    "url": "https://www.insee.fr/fr/statistiques/8956575",
     "claim_ids": [
       "C17-004"
     ],
     "claims": [
       "Le déficit public a fortement augmenté entre 2023 et 2025 sans choc externe significatif."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Publication Insee 2026 ouverte : déficit public 2025 à 5,1 % du PIB, avec séries 2023–2025 et détail recettes/dépenses."
+    }
   },
   {
     "id": "S-INSEE-DETTE-PIB",
-    "title": "Dette des administrations publiques",
+    "title": "À la fin du quatrième trimestre 2025, le ratio de dette publique s’établit à 115,6 % du PIB",
     "publisher": "Insee",
-    "url": "https://www.insee.fr/fr/statistiques?debut=0&theme=13",
+    "url": "https://www.insee.fr/fr/statistiques/8955019",
     "claim_ids": [
       "C17-009"
     ],
     "claims": [
       "Les baisses d'impôts accordées depuis 2017 auraient causé à elles seules une hausse de vingt points de PIB de la dette publique."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Publication Insee ouverte : dette publique de Maastricht fin 2025 et évolution en points de PIB confirmées."
+    }
   },
   {
     "id": "S-INSEE-ECONOMIE-NUMERIQUE-2019",
     "title": "L'économie et la société à l'ère du numérique — vue d'ensemble",
     "publisher": "Insee",
-    "url": "https://www.insee.fr/fr/statistiques/fichier/4126596/NUM19_VE.pdf",
+    "url": "https://www.insee.fr/fr/statistiques/4238635",
     "claim_ids": [
       "AV-014"
     ],
     "claims": [
       "Les transformations contemporaines du capitalisme tendraient à généraliser une forme d'ubérisation et de précarisation du travail."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Page Insee Références 2019 ouverte; ouvrage « L’économie et la société à l’ère du numérique » identifié et contenu confirmé."
+    }
   },
   {
     "id": "S-INSEE-FINANCES-PUBLIQUES",
-    "title": "Comptes des administrations publiques",
+    "title": "Le compte des administrations publiques en 2025",
     "publisher": "Insee",
-    "url": "https://www.insee.fr/fr/statistiques?debut=0&theme=13",
+    "url": "https://www.insee.fr/fr/statistiques/8997691",
     "claim_ids": [
       "C17-001"
     ],
     "claims": [
       "Les politiques des deux quinquennats Macron ont dégradé les finances publiques."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Publication Insee « Le compte des administrations publiques en 2025 » ouverte; déficit, recettes, dépenses et dette détaillés."
+    }
   },
   {
     "id": "S-INSEE-INDICES-PRIX-LOGEMENT-2025",
@@ -1117,7 +1273,7 @@
     "id": "S-IPBES-2019-SPM",
     "title": "Summary for policymakers of the global assessment report on biodiversity and ecosystem services",
     "publisher": "IPBES",
-    "url": "https://files.ipbes.net/ipbes-web-prod-public-files/inline/files/ipbes_global_assessment_report_summary_for_policymakers.pdf",
+    "url": "https://doi.org/10.5281/zenodo.3553458",
     "claim_ids": [
       "AV-001",
       "AV-044",
@@ -1127,7 +1283,14 @@
       "La perte de biodiversité produit déjà des conséquences perceptibles dans la vie quotidienne.",
       "Sans règles ou incitations qui prennent en compte les coûts écologiques, les mécanismes de marché ne conservent pas spontanément la biodiversité.",
       "Les bioénergies entrent en concurrence avec l'alimentation, la santé des sols et la biodiversité."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "verified_via_official_citation_metadata",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Identité et citation officielle du Summary for Policymakers 2019 confirmées par le guide de citation IPBES; DOI officiel 10.5281/zenodo.3553458."
+    }
   },
   {
     "id": "S-IPBES-GLOBAL-2019",
@@ -1141,7 +1304,14 @@
     "claims": [
       "Les pesticides, l'artificialisation et le réchauffement climatique contribuent à la dégradation de la biodiversité et des écosystèmes.",
       "La chasse peut avoir des effets significatifs sur la biodiversité."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "verified",
+      "note": "Rapport d’évaluation mondiale IPBES 2019 confirmé par le guide de citation officiel (DOI 10.5281/zenodo.3831673) et la page d’évaluation."
+    }
   },
   {
     "id": "S-IPBES-NATURE-CONTRIBUTIONS-2019",
@@ -1153,7 +1323,14 @@
     ],
     "claims": [
       "Les écosystèmes fournissent des services substantiels pour l'alimentation, la qualité de l'eau et la réduction de certains risques naturels."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "verified",
+      "note": "L’évaluation mondiale IPBES 2019 et ses sections sur les contributions de la nature aux populations sont confirmées par les ressources officielles IPBES."
+    }
   },
   {
     "id": "S-IPBES-VALUES-2022",
@@ -1165,37 +1342,58 @@
     ],
     "claims": [
       "Sans règles ou incitations qui prennent en compte les coûts écologiques, les mécanismes de marché ne conservent pas spontanément la biodiversité."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "verified",
+      "note": "Summary for Policymakers de l’évaluation IPBES 2022 sur les valeurs de la nature confirmé par le guide de citation officiel; DOI 10.5281/zenodo.6522392."
+    }
   },
   {
     "id": "S-IPCC-AR6-SYR-2023",
     "title": "Climate Change 2023 — AR6 Synthesis Report, Summary for Policymakers",
     "publisher": "GIEC",
-    "url": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf",
+    "url": "https://report.ipcc.ch/ar6syr/",
     "claim_ids": [
       "AV-019"
     ],
     "claims": [
       "L'inaction climatique accumulée au cours des trente dernières années accroît les menaces auxquelles la France est exposée."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Page officielle du rapport de synthèse AR6 ouverte; Summary for Policymakers et citation officielle confirmés."
+    }
   },
   {
     "id": "S-IPCC-AR6-WGI-SPM-2021",
     "title": "Climate Change 2021: The Physical Science Basis — Summary for Policymakers",
     "publisher": "GIEC",
-    "url": "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf",
+    "url": "https://www.ipcc.ch/report/ar6/wg1/",
     "claim_ids": [
       "C04-001"
     ],
     "claims": [
       "Même si l'Accord de Paris est respecté, la France atteindrait environ +2,7 °C en 2050 et +4 °C en 2100."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Page officielle AR6 Working Group I ouverte; Summary for Policymakers et périmètre scientifique confirmés."
+    }
   },
   {
     "id": "S-IPCC-AR6-WGII-SPM-2022",
     "title": "Climate Change 2022 — Impacts, Adaptation and Vulnerability, Summary for Policymakers",
     "publisher": "GIEC",
-    "url": "https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_SummaryForPolicymakers.pdf",
+    "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/summary-for-policymakers/",
     "claim_ids": [
       "C04-002",
       "C01-013",
@@ -1209,43 +1407,71 @@
       "Le réchauffement climatique augmentera les risques d'indisponibilité des centrales nucléaires par chaleur et baisse des débits fluviaux, ainsi que le risque de submersion côtière.",
       "Le changement climatique continuera de produire des dommages en partie irréversibles.",
       "Les risques d'incendie, d'inondation et d'effondrement augmentent et touchent davantage les populations vulnérables."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Page HTML officielle du Summary for Policymakers WGII ouverte; identité et contenu sur impacts, vulnérabilité et adaptation confirmés."
+    }
   },
   {
     "id": "S-IPCC-AR6-WGIII-CH13",
     "title": "Climate Change 2022: Mitigation of Climate Change — Chapter 13, National and sub-national policies and institutions",
     "publisher": "GIEC",
-    "url": "https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter13.pdf",
+    "url": "https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-13/",
     "claim_ids": [
       "AV-026"
     ],
     "claims": [
       "Sans instruments publics qui internalisent le coût des émissions ou imposent des contraintes, les mécanismes de marché n'alignent pas spontanément les émissions sur une trajectoire protectrice du climat."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Chapitre 13 WGIII ouvert sur le site du GIEC; politiques et institutions nationales/sous-nationales confirmées."
+    }
   },
   {
     "id": "S-IPCC-AR6-WGIII-CH5",
     "title": "Climate Change 2022: Mitigation of Climate Change — Chapter 5, Demand, services and social aspects of mitigation",
     "publisher": "GIEC",
-    "url": "https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter05.pdf",
+    "url": "https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-5/",
     "claim_ids": [
       "AV-015"
     ],
     "claims": [
       "Les infrastructures, transports, systèmes énergétiques, agricoles et industriels structurent fortement les comportements individuels et peuvent pousser au gaspillage."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Chapitre 5 WGIII ouvert sur le site du GIEC; interactions comportements, infrastructures et systèmes de fourniture confirmées."
+    }
   },
   {
     "id": "S-IPCC-AR6-WGIII-SPM-2022",
     "title": "Climate Change 2022: Mitigation of Climate Change — Summary for Policymakers",
     "publisher": "GIEC",
-    "url": "https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_SPM.pdf",
+    "url": "https://www.ipcc.ch/report/ar6/wg3/chapter/summary-for-policymakers/",
     "claim_ids": [
       "C01-010"
     ],
     "claims": [
       "Les bioénergies entrent en concurrence avec l'alimentation, la santé des sols et la biodiversité."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Summary for Policymakers WGIII ouvert sur le site du GIEC; identité et contenu de synthèse confirmés."
+    }
   },
   {
     "id": "S-IPCC-LAND-2019",
@@ -1257,13 +1483,20 @@
     ],
     "claims": [
       "L'artificialisation des terres agricoles peut réduire les capacités futures de production alimentaire."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "verified",
+      "note": "Page officielle « Climate Change and Land » ouverte; identité du rapport spécial et liens terre-climat-sécurité alimentaire confirmés."
+    }
   },
   {
     "id": "S-IPCC-SROCC-2019",
     "title": "Special Report on the Ocean and Cryosphere in a Changing Climate",
     "publisher": "GIEC",
-    "url": "https://www.ipcc.ch/srocc/",
+    "url": "https://www.ipcc.ch/srocc/home/",
     "claim_ids": [
       "C06-001",
       "C06-002"
@@ -1271,7 +1504,14 @@
     "claims": [
       "L'océan contribue fortement à la production d'oxygène, à l'alimentation et à la régulation du climat.",
       "La dégradation de l'océan menace la sécurité alimentaire et l'habitabilité planétaire."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Page officielle SROCC ouverte; rôle de l’océan et risques pour écosystèmes et populations confirmés."
+    }
   },
   {
     "id": "S-IPCC-WGII-2022",
@@ -1287,7 +1527,14 @@
       "Les risques climatiques rendent déjà certains logements difficiles à vendre et menacent de les endommager ou détruire.",
       "L'économie des territoires de montagne dépend de pratiques déjà affectées par le dérèglement climatique.",
       "Le réchauffement climatique accroît les incendies, sécheresses et surmortalités dans les forêts françaises."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "verified",
+      "note": "Page officielle AR6 WGII ouverte; impacts sur écosystèmes, biodiversité, communautés et adaptation confirmés."
+    }
   },
   {
     "id": "S-IPCC-WGII-2022-WATER",
@@ -1299,7 +1546,14 @@
     ],
     "claims": [
       "Les sécheresses et les perturbations du cycle hydrologique réduisent la disponibilité de l'eau potable."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "verified",
+      "note": "Rapport AR6 WGII et chapitre 4 « Water » disponibles sur la page officielle; identité et périmètre hydrologique confirmés."
+    }
   },
   {
     "id": "S-IPCC-WGIII-2022-BIOENERGY",
@@ -1311,7 +1565,14 @@
     ],
     "claims": [
       "Un recours non maîtrisé au bois-énergie et aux biocarburants peut accroître la pression d'exploitation sur les forêts."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "verified",
+      "note": "Rapport AR6 WGIII ouvert; chapitres et matériaux d’évaluation de la bioénergie disponibles sur la page officielle."
+    }
   },
   {
     "id": "S-IPCC-WGIII-2022-FOOD",
@@ -1323,7 +1584,14 @@
     ],
     "claims": [
       "Une alimentation saine, davantage végétale, locale et peu transformée peut améliorer la santé et réduire l'empreinte environnementale."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "verified",
+      "note": "Rapport AR6 WGIII ouvert; évaluation des options alimentaires et de demande disponible dans les chapitres officiels."
+    }
   },
   {
     "id": "S-IPP-REFORMES-FISCALES",
@@ -1391,13 +1659,20 @@
     "id": "S-METEOFRANCE-CLIMAT-FRANCE-2024",
     "title": "Le climat de la France au XXIe siècle — projections et observations",
     "publisher": "Météo-France",
-    "url": "https://meteofrance.fr/climat-et-changement-climatique/quel-climat-futur-en-france",
+    "url": "https://education.meteofrance.fr/changement-climatique/le-climat-futur-en-france-a-quoi-sadapter",
     "claim_ids": [
       "C04-002"
     ],
     "claims": [
       "Le changement climatique affecte déjà les conditions de vie en France."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Page Météo-France ouverte; la TRACC et les niveaux +2,7 °C en 2050 / +4 °C en 2100 ainsi que les principaux impacts sont explicitement décrits."
+    }
   },
   {
     "id": "S-OCDE-PHARMACEUTICAL",
@@ -1577,7 +1852,14 @@
     ],
     "claims": [
       "La perte de biodiversité produit déjà des conséquences perceptibles dans la vie quotidienne."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "verified",
+      "note": "Page OFB ouverte; elle confirme que la biodiversité soutient eau, alimentation, santé et autres fonctions quotidiennes essentielles."
+    }
   },
   {
     "id": "S-OFB-RESTAURATION-EAU",
@@ -1607,25 +1889,39 @@
     "id": "S-PAXTON-PEACE-2021",
     "title": "Window Dressing? The Mainstreaming Strategy of the Rassemblement National in Power in French Local Government",
     "publisher": "Government and Opposition (Cambridge University Press)",
-    "url": "https://doi.org/10.1017/gov.2020.11",
+    "url": "https://www.cambridge.org/core/journals/government-and-opposition/article/window-dressing-the-mainstreaming-strategy-of-the-rassemblement-national-in-power-in-french-local-government/6FB83150701D01617CCDAD3E7AE996E9",
     "claim_ids": [
       "AV-034"
     ],
     "claims": [
       "Le Rassemblement national mène une stratégie méthodique qui contribue à banaliser dans le débat public des idées réactionnaires."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Article Cambridge Core ouvert; identité, méthode et résultat de mainstreaming partiel du RN au niveau local confirmés."
+    }
   },
   {
     "id": "S-PIK-PHC-2025",
     "title": "Planetary Health Check 2025: A Scientific Assessment of the State of the Planet",
     "publisher": "Potsdam Institute for Climate Impact Research",
-    "url": "https://publications.pik-potsdam.de/pubman/item/item_32589_1/component/file_32845/PlanetaryHealthCheck2025.pdf",
+    "url": "https://publications.pik-potsdam.de/pubman/faces/ViewItemFullPage.jsp?itemId=item_32589_1",
     "claim_ids": [
       "AV-016"
     ],
     "claims": [
       "Sept des neuf limites planétaires identifiées par le cadre scientifique de référence auraient été dépassées."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Notice institutionnelle PIK ouverte; Planetary Health Check 2025, DOI et conclusion de sept limites planétaires franchies confirmés."
+    }
   },
   {
     "id": "S-RTE-FE2050-2021",
@@ -1639,7 +1935,14 @@
     "claims": [
       "Le nucléaire serait trop coûteux pour constituer une option énergétique pertinente.",
       "L'électrification des usages n'avance pas assez vite pour atteindre la neutralité carbone."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "verified",
+      "note": "Page canonique RTE ouverte et contrôlée : l’étude Futurs énergétiques 2050, ses scénarios et ses documents complets sont bien présents."
+    }
   },
   {
     "id": "S-SAFFER-RAPPORT-2024",
@@ -1725,7 +2028,14 @@
     "claims": [
       "Une application égale, prévisible et légitime de lois communes contribue à prévenir la violence et à soutenir la paix civile et internationale.",
       "L'application égale des lois communes serait, à elle seule, la condition qui garantit la paix aux échelles nationale, européenne et mondiale."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "verified",
+      "note": "Page officielle des Nations unies ouverte; elle relie État de droit, institutions légitimes, prévention des conflits et paix sans en faire une condition suffisante unique."
+    }
   },
   {
     "id": "S-UNCTAD-TRADE-DEVELOPMENT",
@@ -1767,37 +2077,58 @@
     "id": "S-UNSCEAR-2020",
     "title": "Levels and effects of radiation exposure due to the accident at the Fukushima Daiichi Nuclear Power Station",
     "publisher": "UNSCEAR",
-    "url": "https://www.unscear.org/unscear/en/publications/2020_2021.html",
+    "url": "https://www.unscear.org/unscear/publications/2020_2021_2.html",
     "claim_ids": [
       "C01-014"
     ],
     "claims": [
       "Le nucléaire serait trop dangereux pour les générations futures."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Page UNSCEAR 2020/2021 Volume II ouverte; l’annexe scientifique B sur Fukushima est identifiée et son périmètre confirmé."
+    }
   },
   {
     "id": "S-WHO-MARKETING-CHILDREN-2023",
     "title": "Policies to protect children from the harmful impact of food marketing",
     "publisher": "Organisation mondiale de la santé",
-    "url": "https://www.who.int/publications/i/item/9789240075413",
+    "url": "https://www.who.int/publications/i/item/9789240075412",
     "claim_ids": [
       "C11-009"
     ],
     "claims": [
       "Limiter la publicité pour les produits très gras, très sucrés ou mal classés nutritionnellement réduit l'exposition des enfants et peut améliorer les comportements alimentaires."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "Guideline OMS 2023 ouverte; l’ISBN électronique correct est 9789240075412 et la page confirme les effets nocifs du marketing alimentaire sur les enfants."
+    }
   },
   {
     "id": "S-WHO-PORTUGAL-CHILDHOOD-OBESITY",
-    "title": "Portugal Childhood Obesity Surveillance Initiative results",
+    "title": "Childhood obesity in European Region remains high: new WHO report presents latest country data",
     "publisher": "Organisation mondiale de la santé, Bureau régional Europe",
-    "url": "https://www.who.int/europe/publications/i/item/WHO-EURO-2022-6590-46361-67061",
+    "url": "https://www.who.int/europe/news/item/08-11-2022-childhood-obesity-in-european-region-remains-high--new-who-report-presents-latest-country-data",
     "claim_ids": [
       "C11-005"
     ],
     "claims": [
       "Le Portugal a réussi à inverser la tendance de l'obésité infantile."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "source_replaced",
+      "note": "Référence remplacée par la page OMS Europe 2022 qui documente explicitement la tendance à la baisse du surpoids au Portugal dans COSI."
+    }
   },
   {
     "id": "S-WOAH-CLIMATE-ANIMAL-HEALTH",
@@ -1815,7 +2146,7 @@
     "id": "S-WORLDBANK-WDR-CONFLICT-2011",
     "title": "World Development Report 2011 — Conflict, Security, and Development",
     "publisher": "Banque mondiale",
-    "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/806531468161369474",
+    "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/580871468149694586",
     "claim_ids": [
       "AV-023",
       "AV-043"
@@ -1823,6 +2154,13 @@
     "claims": [
       "Une application égale, prévisible et légitime de lois communes contribue à prévenir la violence et à soutenir la paix civile et internationale.",
       "L'application égale des lois communes serait, à elle seule, la condition qui garantit la paix aux échelles nationale, européenne et mondiale."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:30:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "resolution_action": "url_corrected",
+      "note": "WDR 2011 « Conflict, Security, and Development » retrouvé sur la Banque mondiale; rapport et aperçu confirment le rôle des institutions légitimes, sécurité, justice et emplois."
+    }
   }
 ]
