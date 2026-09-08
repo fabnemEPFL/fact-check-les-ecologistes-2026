@@ -1,0 +1,105 @@
+name: Apply source resolution batch 03
+
+on:
+  push:
+    paths:
+      - '.github/workflows/apply-source-resolution-batch03.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Apply verified source-resolution changes
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/b03
+          cat .batch03_payload/part*.b64 | base64 -d > /tmp/b03/patches.tar.gz
+          tar -xzf /tmp/b03/patches.tar.gz -C /tmp/b03
+          python3 - <<'PY'
+          import base64, hashlib, json, lzma, pathlib
+          root = pathlib.Path('.')
+          patchdir = pathlib.Path('/tmp/b03')
+          latest_path = root / 'checkpoints/latest.json'
+          latest = json.loads(latest_path.read_text())
+          sr = latest.get('source_resolution', {})
+          if sr.get('sources_unresolved_after_batch') != 137 or sr.get('claims_still_problem_non_resolved') != 129:
+              raise SystemExit(f"Refusing stale apply: current KPI is {sr.get('sources_unresolved_after_batch')}/{sr.get('claims_still_problem_non_resolved')}, expected 137/129")
+          auth_name = latest['authoritative_recovery_source']['name']
+          if auth_name != 'final_cleanup_2026-09-08_source_resolution_batch_02.json.xz.b64':
+              raise SystemExit(f'Refusing stale apply: unexpected authoritative checkpoint {auth_name}')
+
+          reg_path = root / 'analysis/source_registry_final.json'
+          registry = json.loads(reg_path.read_text())
+          source_patch_list = json.loads((patchdir/'source_patch.json').read_text())
+          source_patch = {r['id']: r for r in source_patch_list}
+          if len(source_patch) != 50:
+              raise SystemExit('Source patch does not contain exactly 50 records')
+          seen=set(); out=[]
+          for r in registry:
+              if r['id'] in source_patch:
+                  out.append(source_patch[r['id']]); seen.add(r['id'])
+              else: out.append(r)
+          if seen != set(source_patch):
+              raise SystemExit('Source patch ids do not match current registry')
+          reg_path.write_text(json.dumps(out, ensure_ascii=False, indent=2) + '\n')
+
+          old_cp_path = root / 'checkpoints' / auth_name
+          cp = json.loads(lzma.decompress(base64.b64decode(old_cp_path.read_text())).decode('utf-8'))
+          claims = {c['id']: c for c in cp['restored_claim_ledger']}
+          claim_patch = json.loads((patchdir/'claim_patch.json').read_text())
+          if len(claim_patch) != 52:
+              raise SystemExit('Claim patch does not contain exactly 52 claims')
+          for p in claim_patch:
+              if p['id'] not in claims: raise SystemExit(f"Unknown claim {p['id']}")
+              claims[p['id']].update(p['set'])
+          cp.update(json.loads((patchdir/'checkpoint_meta_patch.json').read_text()))
+
+          unresolved_claims = sum(c.get('source_check_status') == 'problème non résolu' for c in cp['restored_claim_ledger'])
+          problematic_sources = sum((r.get('source_check') or {}).get('resolution') != 'verified' for r in out)
+          if unresolved_claims != 88: raise SystemExit(f'Unexpected unresolved claim count: {unresolved_claims}')
+          if problematic_sources != 87: raise SystemExit(f'Unexpected problematic source count: {problematic_sources}')
+
+          cp_raw = (json.dumps(cp, ensure_ascii=False, separators=(',', ':')) + '\n').encode('utf-8')
+          cp_xz = lzma.compress(cp_raw, format=lzma.FORMAT_XZ)
+          new_name = 'final_cleanup_2026-09-08_source_resolution_batch_03.json.xz.b64'
+          (root/'checkpoints'/new_name).write_text(base64.b64encode(cp_xz).decode('ascii') + '\n')
+
+          cleanup_path = root/'analysis/final_cleanup_changes.jsonl'
+          compute_path = root/'metrics/compute_log.jsonl'
+          if 'source-resolution-batch-03' not in cleanup_path.read_text():
+              with cleanup_path.open('a') as f: f.write((patchdir/'cleanup_append.txt').read_text())
+          if '2026-09-08-source-resolution-batch-03' not in compute_path.read_text():
+              with compute_path.open('a') as f: f.write((patchdir/'compute_append.txt').read_text())
+
+          latest['timestamp_utc'] = '2026-09-08T20:30:00Z'
+          latest['phase'] = 'résolution des problèmes de sources — lot 3'
+          latest['authoritative_recovery_source'] = {
+              'name': new_name, 'version': 'source-resolution-batch-03',
+              'created_at_utc': '2026-09-08T20:30:00Z',
+              'sha256': hashlib.sha256(cp_xz).hexdigest(),
+              'uncompressed_sha256': hashlib.sha256(cp_raw).hexdigest(),
+              'storage_encoding': 'base64 text; decode before xz -dc'
+          }
+          latest['final_cleanup']['last_checkpoint'] = 'checkpoints/' + new_name
+          latest['source_resolution'] = {
+              'status': 'en cours', 'sources_unique_problematic_at_start': 137,
+              'sources_unique_examined_this_run': 50, 'sources_resolved_this_run': 50,
+              'sources_removed_redundant': 0, 'source_urls_corrected': 30,
+              'sources_replaced': 1, 'sources_verified_without_url_change': 19,
+              'sources_unresolved_after_batch': 87, 'claims_still_problem_non_resolved': 88,
+              'source_registry': 'analysis/source_registry_final.json'
+          }
+          latest_path.write_text(json.dumps(latest, ensure_ascii=False, indent=2) + '\n')
+          PY
+          rm -rf .batch03_payload .github/workflows/apply-source-resolution-batch03.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "fix: resolve 50 problematic sources (batch 03)"
+          git push origin HEAD:main
