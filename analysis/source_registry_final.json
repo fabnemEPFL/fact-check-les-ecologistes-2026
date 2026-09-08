@@ -191,7 +191,13 @@
     ],
     "claims": [
       "Près de la moitié des agriculteurs français ont plus de 55 ans."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:00:00Z",
+      "http_status": "502",
+      "resolution": "access_restricted",
+      "note": "URL Agreste ouverte: échec technique / réponse non exploitable; aucune conclusion de fond ni remplacement spéculatif."
+    }
   },
   {
     "id": "S-AGRESTE-STRUCTURES-2020",
@@ -203,7 +209,13 @@
     ],
     "claims": [
       "La concentration et la financiarisation foncières peuvent évincer ou déposséder des agriculteurs."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:00:00Z",
+      "http_status": "502",
+      "resolution": "access_restricted",
+      "note": "URL Agreste ouverte: 502. La porte d’entrée ne permet pas de contrôler l’affirmation précise sur la financiarisation foncière."
+    }
   },
   {
     "id": "S-ANI-2023-TRAVAIL",
@@ -215,7 +227,13 @@
     ],
     "claims": [
       "L'accord national interprofessionnel de 2024 a intégré des enjeux liés aux conditions de travail et aux pratiques de management."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:00:00Z",
+      "http_status": "200",
+      "resolution": "url_mismatch",
+      "note": "URL Légifrance ouverte: page d’accueil du service public du droit, pas l’accord national interprofessionnel de 2024 annoncé; référence à retrouver."
+    }
   },
   {
     "id": "S-ANSES-ALIMENTATION-2021",
@@ -227,7 +245,13 @@
     ],
     "claims": [
       "Une alimentation saine, davantage végétale, locale et peu transformée peut améliorer la santé et réduire l'empreinte environnementale."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:00:00Z",
+      "http_status": "blocked",
+      "resolution": "access_restricted",
+      "note": "URL ANSES testée mais non ouverte par le service web; aucune URL de remplacement n’est déduite."
+    }
   },
   {
     "id": "S-ANSES-PROSULFOCARBE",
@@ -239,7 +263,13 @@
     ],
     "claims": [
       "Les pesticides CMR et certains pesticides volatils tels que le prosulfocarbe présentent des risques élevés pour la santé humaine et la biodiversité."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:00:00Z",
+      "http_status": "blocked",
+      "resolution": "access_restricted",
+      "note": "URL ANSES testée mais non ouverte par le service web; aucune URL de remplacement n’est déduite."
+    }
   },
   {
     "id": "S-ANSES-TRAVAIL-SANTE",
@@ -251,7 +281,13 @@
     ],
     "claims": [
       "Pression du rendement et perte de sens sont associées à une dégradation de la santé physique et psychologique au travail."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:00:00Z",
+      "http_status": "blocked",
+      "resolution": "access_restricted",
+      "note": "URL ANSES testée mais non ouverte par le service web; aucune URL de remplacement n’est déduite."
+    }
   },
   {
     "id": "S-BCBS-BANK-REGULATION",
@@ -263,7 +299,13 @@
     ],
     "claims": [
       "Une régulation bancaire plus forte peut réduire le risque de crise et réorienter une part du financement vers l'économie réelle et la transition."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:00:00Z",
+      "http_status": "503",
+      "resolution": "access_restricted",
+      "note": "URL BRI/Comité de Bâle ouverte: 503. L’indisponibilité ne permet pas de contester la référence, mais ne vérifie pas l’effet de réorientation du financement."
+    }
   },
   {
     "id": "S-BDF-FINANCEMENT-ECONOMIE",
@@ -275,7 +317,13 @@
     ],
     "claims": [
       "Le système bancaire et financier exerce un pouvoir important d'allocation qui influence les biens et projets produits, transportés ou consommés."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:00:00Z",
+      "http_status": "blocked",
+      "resolution": "access_restricted",
+      "note": "URL Banque de France testée mais non ouverte par le service web; la rubrique générale ne suffit pas à vérifier l’affirmation d’allocation."
+    }
   },
   {
     "id": "S-BROCKWAY-REBOUND-2021",
@@ -287,7 +335,13 @@
     ],
     "claims": [
       "Les gains d'efficacité ou de productivité peuvent être en partie compensés par une hausse de consommation et d'impact matériel, selon un effet rebond."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:00:00Z",
+      "http_status": "403",
+      "resolution": "access_restricted",
+      "note": "DOI testé: 403. Le DOI et le titre sont cohérents avec un article de revue sur les effets rebond, sans substitution d’URL."
+    }
   },
   {
     "id": "S-CAP-2023-2027",
@@ -299,7 +353,13 @@
     ],
     "claims": [
       "Quinze pour cent des aides agricoles seraient actuellement versées sans condition environnementale."
-    ]
+    ],
+    "source_check": {
+      "checked_at_utc": "2026-09-08T20:00:00Z",
+      "http_status": "200",
+      "resolution": "verified",
+      "note": "URL ministère ouverte; le titre, le ministère et les documents du PSN PAC 2023-2027 correspondent. La page ne chiffre toutefois pas à elle seule les 15 % sans condition environnementale."
+    }
   },
   {
     "id": "S-CASTRO-CIRCULAR-REBOUND-2022",
