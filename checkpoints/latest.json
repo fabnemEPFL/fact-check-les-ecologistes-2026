@@ -1,6 +1,6 @@
 {
   "schema": "fact-check-les-ecologistes-2026/latest/v1",
-  "timestamp_utc": "2026-09-08T06:10:00Z",
+  "timestamp_utc": "2026-09-08T07:00:00Z",
   "phase": "fact-checking systématique — sources, verdicts et justifications",
   "source_pdf_pages": 208,
   "chapters_covered": 66,
@@ -8,29 +8,29 @@
     "automatic_candidates_extracted": 1466,
     "unique_claims_consolidated": 564,
     "occurrences": 568,
-    "claims_sourced": 490,
-    "claims_verified": 490,
+    "claims_sourced": 510,
+    "claims_verified": 510,
     "claims_adversarially_audited": 0
   },
   "resume": {
-    "first_unfinished_identifier": "C60-001",
+    "first_unfinished_identifier": "C62-001",
     "audit_phase_started": false
   },
   "authoritative_recovery_source": {
-    "name": "latest_2026-09-08_primary_490claims.json.xz.b64",
-    "version": "primary-490",
-    "created_at_utc": "2026-09-08T06:10:00Z",
+    "name": "latest_2026-09-08_primary_510claims.json.xz.b64",
+    "version": "primary-510",
+    "created_at_utc": "2026-09-08T07:00:00Z",
     "size_bytes": 0,
-    "sha256": "5e6edbf57aa2ad5705da1acd24e91c7db9beb7001e514c37688b5d0e8aed0c80",
-    "uncompressed_sha256": "c37de0b864958625ae0882312028f305fcdb9c32f1fe4f6ca2e956b683645e51",
+    "sha256": "0d3e6ec0873253d9abd9afaf7ecf3dfe56bea566bbebac60e5fd0f3c234c0cef",
+    "uncompressed_sha256": "12886d2b473fbfa0c3facecc0871413f2adf67c7cf1d1306d69684a41fb8fadd",
     "storage_encoding": "base64 text; decode before xz -dc"
   },
   "critical_files": [
     {
-      "path": "checkpoints/latest_2026-09-08_primary_490claims.json.xz.b64",
+      "path": "checkpoints/latest_2026-09-08_primary_510claims.json.xz.b64",
       "stored_encoding": "base64 text representing an XZ byte stream",
-      "decoded_sha256": "5e6edbf57aa2ad5705da1acd24e91c7db9beb7001e514c37688b5d0e8aed0c80",
-      "uncompressed_sha256": "c37de0b864958625ae0882312028f305fcdb9c32f1fe4f6ca2e956b683645e51"
+      "decoded_sha256": "0d3e6ec0873253d9abd9afaf7ecf3dfe56bea566bbebac60e5fd0f3c234c0cef",
+      "uncompressed_sha256": "12886d2b473fbfa0c3facecc0871413f2adf67c7cf1d1306d69684a41fb8fadd"
     }
   ],
   "known_losses_or_unrestored_items": [
