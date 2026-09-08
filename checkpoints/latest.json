@@ -1,7 +1,7 @@
 {
   "schema": "fact-check-les-ecologistes-2026/latest/v1",
-  "timestamp_utc": "2026-09-08T16:45:00Z",
-  "phase": "passe de nettoyage finale — complète",
+  "timestamp_utc": "2026-09-08T19:45:00Z",
+  "phase": "résolution des problèmes de sources — lot 1",
   "source_pdf_pages": 208,
   "chapters_covered": 66,
   "counters": {
@@ -20,12 +20,12 @@
     "final_cleanup_started_at": "2026-09-08T09:00:00Z"
   },
   "authoritative_recovery_source": {
-    "name": "final_cleanup_2026-09-08_complete.json.xz.b64",
-    "version": "final-cleanup-complete",
-    "created_at_utc": "2026-09-08T16:45:00Z",
-    "size_bytes": 347676,
-    "sha256": "f86aef47f3aee13b5ac3a43c41c180589aaa707b53d0573a96edc4ad7b9d17c7",
-    "uncompressed_sha256": "64b2aa046c427b717f08d9446a40aa9a133ec86ee309431a7d6f2fbb0168c4d1",
+    "name": "final_cleanup_2026-09-08_source_resolution_batch_01.json.xz.b64",
+    "version": "source-resolution-batch-01",
+    "created_at_utc": "2026-09-08T19:45:00Z",
+    "size_bytes": 334989,
+    "sha256": "484aad2ff4ebd4baf784e579f32d9d760931cc4ceb3438d330cabda02b2891c3",
+    "uncompressed_sha256": "b9be66861c4a6eadb4bc18651209d023fd6a4643199cf3bc700153885adcb8dc",
     "storage_encoding": "base64 text; decode before xz -dc"
   },
   "critical_files": [
@@ -47,7 +47,7 @@
     "first_cleanup_identifier": null,
     "change_log": "analysis/final_cleanup_changes.jsonl",
     "pre_cleanup_checkpoint": "checkpoints/pre_final_cleanup_2026-09-08_primary_564claims.json.xz.b64",
-    "last_checkpoint": "checkpoints/final_cleanup_2026-09-08_complete.json.xz.b64",
+    "last_checkpoint": "checkpoints/final_cleanup_2026-09-08_source_resolution_batch_01.json.xz.b64",
     "last_run": {
       "timestamp_utc": "2026-09-08T16:45:00Z",
       "range": "C38-002–fin du ledger",
@@ -58,5 +58,14 @@
       "contexts_added": 0,
       "unresolved_source_checks": 0
     }
+  },
+  "source_resolution": {
+    "status": "en cours",
+    "sources_unique_problematic_at_start": 139,
+    "sources_unique_examined_this_run": 10,
+    "sources_verified": 1,
+    "sources_unresolved_after_batch": 138,
+    "claims_still_problem_non_resolved": 129,
+    "source_registry": "analysis/source_registry_final.json"
   }
 }
