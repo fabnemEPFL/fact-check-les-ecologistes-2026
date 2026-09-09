@@ -21,11 +21,18 @@ jobs:
       - name: Apply and validate batch 05
         run: |
           python3 - <<'PY'
-          import base64, gzip, pathlib
+          import base64, gzip, pathlib, hashlib
           parts=sorted(pathlib.Path('.batch05_payload').glob('part*.b64'))
           assert len(parts)==5, parts
-          payload=''.join(p.read_text() for p in parts)
+          payload=''.join(p.read_text() for p in parts).strip()
+          # part00 was transported with a two-character duplication; repair that
+          # exact transport corruption and validate against the locally tested payload.
+          payload=payload.replace('c1XangangyuX8K','c1XgangyuX8K')
+          assert len(payload)==16068, len(payload)
+          assert hashlib.sha256(payload.encode()).hexdigest()=='85d2f2675ffcea10b110070ce80c214925952808b722993acbadc3ec6539c07c'
           src=gzip.decompress(base64.b64decode(payload))
+          assert len(src)==36013, len(src)
+          assert hashlib.sha256(src).hexdigest()=='2a4a765bfac20698e9c6e0e781c080d22586d5cf706c5a445c8d940d503a61fc'
           pathlib.Path('/tmp/apply_batch05.py').write_bytes(src)
           print('decoded script bytes', len(src))
           PY
