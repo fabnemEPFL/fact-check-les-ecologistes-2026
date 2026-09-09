@@ -1,7 +1,7 @@
 {
   "schema": "fact-check-les-ecologistes-2026/latest/v1",
-  "timestamp_utc": "2026-09-08T21:00:00Z",
-  "phase": "résolution des problèmes de sources — lot 4",
+  "timestamp_utc": "2026-09-09T06:15:00Z",
+  "phase": "résolution des problèmes de sources — terminée",
   "source_pdf_pages": 208,
   "chapters_covered": 66,
   "counters": {
@@ -20,11 +20,11 @@
     "final_cleanup_started_at": "2026-09-08T09:00:00Z"
   },
   "authoritative_recovery_source": {
-    "name": "final_cleanup_2026-09-08_source_resolution_batch_04.json.xz.b64",
-    "version": "source-resolution-batch-04",
-    "created_at_utc": "2026-09-08T21:00:00Z",
-    "sha256": "1cf4a98bbd8927a5edb15474e15ae22b2cbbd944b3ab5e79e7d25cc9928a7fb7",
-    "uncompressed_sha256": "10667c33a7cf1cccab02c2a3426b06d3009ff7533ead2b6363d194d84725ca7e",
+    "name": "final_cleanup_2026-09-09_source_resolution_batch_05.json.xz.b64",
+    "version": "source-resolution-batch-05",
+    "created_at_utc": "2026-09-09T06:15:00Z",
+    "sha256": "72850092020525dfcf020623116206634e7223d4dac6036f66d56bee3d20879c",
+    "uncompressed_sha256": "26bed15e119f17136902796994bc9c0d4c21457a016fa107f2f800415b728554",
     "storage_encoding": "base64 text; decode before xz -dc"
   },
   "critical_files": [
@@ -46,7 +46,7 @@
     "first_cleanup_identifier": null,
     "change_log": "analysis/final_cleanup_changes.jsonl",
     "pre_cleanup_checkpoint": "checkpoints/pre_final_cleanup_2026-09-08_primary_564claims.json.xz.b64",
-    "last_checkpoint": "checkpoints/final_cleanup_2026-09-08_source_resolution_batch_04.json.xz.b64",
+    "last_checkpoint": "checkpoints/final_cleanup_2026-09-09_source_resolution_batch_05.json.xz.b64",
     "last_run": {
       "timestamp_utc": "2026-09-08T16:45:00Z",
       "range": "C38-002–fin du ledger",
@@ -59,16 +59,16 @@
     }
   },
   "source_resolution": {
-    "status": "en cours",
-    "sources_unique_problematic_at_start": 87,
-    "sources_unique_examined_this_run": 50,
-    "sources_resolved_this_run": 50,
-    "sources_removed_redundant": 10,
-    "source_urls_corrected": 36,
-    "sources_replaced": 3,
-    "sources_verified_without_url_change": 1,
-    "sources_unresolved_after_batch": 37,
-    "claims_still_problem_non_resolved": 38,
+    "status": "terminé",
+    "sources_unique_problematic_at_start": 37,
+    "sources_unique_examined_this_run": 37,
+    "sources_resolved_this_run": 37,
+    "sources_removed_redundant": 2,
+    "source_urls_corrected": 25,
+    "sources_replaced": 10,
+    "sources_verified_without_url_change": 0,
+    "sources_unresolved_after_batch": 0,
+    "claims_still_problem_non_resolved": 0,
     "source_registry": "analysis/source_registry_final.json"
   }
 }
