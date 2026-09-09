@@ -1,0 +1,10 @@
+# Generated QA renders are intentionally ephemeral.
+reports/final/qa_render/
+
+# Reconstructed local copy of the split source PDF.
+source/vdef-programme-1.pdf
+
+# Python/local environment noise.
+__pycache__/
+*.py[cod]
+.venv/

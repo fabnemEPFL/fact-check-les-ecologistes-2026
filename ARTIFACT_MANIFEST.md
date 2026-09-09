@@ -1,58 +1,52 @@
-# Manifeste des artefacts — état final 2026-09-09
+# Manifeste des artefacts — état courant
 
-Ce fichier résume les artefacts autoritatifs du projet final. Les anciens checkpoints de reprise et artefacts intermédiaires sont conservés dans le dépôt pour traçabilité historique, mais ne doivent plus être utilisés comme état courant.
+Ce fichier décrit les artefacts conservés sur `main` après finalisation et nettoyage.
 
-## Source de vérité
+## Source de vérité factuelle
 
-`checkpoints/latest.json` est le pointeur machine vers l'état courant.
+- pointeur : `checkpoints/latest.json`
+- checkpoint : `checkpoints/final_coherence_2026-09-09_targeted.json.xz.b64`
+- encodage : Base64 d'un flux XZ
+- SHA-256 du JSON décompressé : `fce47f27418965733511a98e630129dc54afb574beb421f2bdfa22e23b6c0d32`
+- 564 affirmations uniques ; 568 occurrences ; 564/564 vérifiées
 
-Checkpoint factuel autoritatif final :
+Les checkpoints de progression ne sont plus nécessaires pour restaurer l'état factuel final et ont été retirés de `main`.
 
-- chemin : `checkpoints/final_coherence_2026-09-09_targeted.json.xz.b64`
-- encodage : texte Base64 représentant un flux XZ ; décoder le Base64 puis décompresser XZ
-- SHA-256 du fichier JSON décompressé : `fce47f27418965733511a98e630129dc54afb574beb421f2bdfa22e23b6c0d32`
-- 564 affirmations uniques
-- 568 occurrences
-- 564 affirmations sourcées et vérifiées
+## Analyse finale conservée
 
-## QA et statistiques finales
-
-- `analysis/statistics_final.json`
-- `analysis/statistics_final.csv`
+- `analysis/statistics_final.json` et `.csv`
 - `analysis/quality_control_final.json`
 - `analysis/anomalies_final.md`
 - `analysis/source_registry_final.json`
 - `analysis/final_cleanup_changes.jsonl`
 
-La QA finale indique `report_ready=true`, sans anomalie bloquante ni non bloquante.
+## Données amont conservées
 
-## Estimation énergétique
+`data/` conserve le texte/pages extraits, les candidats automatiques et leur triage. Les copies historiques partielles du ledger ont été supprimées : le checkpoint final les remplace comme source de vérité.
 
-- `metrics/energy_estimate.md`
-- `metrics/energy_estimate.json`
-- `scripts/estimate_energy.py`
+## Énergie
+
+- `metrics/energy_estimate.md` et `.json`
 - `metrics/compute_log.jsonl`
+- `scripts/estimate_energy.py`
 
-Estimation finale : **0,5 kWh** en valeur centrale, avec un intervalle plausible de **0,1–2 kWh** pour l'inférence IA attribuable au travail documenté. Cette valeur est une estimation et non une mesure de l'infrastructure OpenAI.
+Estimation réconciliée courante : **0,7 kWh**, plage plausible **0,1–4 kWh**. Le détail de l'écart avec l'estimation intermédiaire de 2,7 kWh est conservé dans la documentation énergétique.
 
-## Rapport final
+## Rapport
 
 - `reports/final/revue_factuelle_programme_ecologistes_2026.pdf`
 - `reports/final/revue_factuelle_programme_ecologistes_2026.md`
 - `reports/final/REPORT_MANIFEST.json`
-- `reports/final/qa_render/` : rendu PNG des pages utilisé pour la QA
-- `scripts/generate_final_report.py` : générateur et contrôles automatiques
+- `scripts/generate_final_report.py`
 
-Les valeurs exactes de taille, nombre de pages, nombre d'annotations de liens et SHA-256 du PDF publié sont inscrites dans `reports/final/REPORT_MANIFEST.json` et doivent être lues depuis le même commit/tag que le PDF.
+`reports/final/qa_render/` est dérivé, régénérable et désormais ignoré par Git.
 
-## Reproduction
+## Source
 
-La procédure de reproduction du PDF est documentée dans `REPRODUCIBILITY.md`.
+La copie exacte du programme analysé reste dans `source/` en trois fragments ; `source/README.md` documente leur concaténation et le SHA-256 attendu.
 
-Le workflow `.github/workflows/generate_final_report.yml` fournit également une reproduction automatisée sur Ubuntu/Python 3.11 : installation des dépendances, génération, contrôle des 564 IDs, contrôle des verdicts, vérification des liens et rendu de toutes les pages avec Poppler.
+## Retiré de `main`
 
-## Artefacts historiques
+Après finalisation ont été supprimés : checkpoints intermédiaires, bundles de récupération, `analysis/interim_415/`, `reports/interim_415/`, rendus PNG de QA, workflows/scripts dédiés aux rapports intermédiaires et copies partielles du ledger.
 
-Les fichiers de reprise du 6 septembre 2026 (`registre_revue_factuelle_checkpoint_recupere_v8.json.xz`, `data/ledger_restored.json.xz`, fragments du PDF source, etc.) sont conservés comme traces de récupération après interruption. Leurs compteurs historiques (562 affirmations / 566 occurrences, puis états intermédiaires ultérieurs) ne décrivent pas l'état final du projet.
-
-Pour toute utilisation ou citation de la version finale, partir de `checkpoints/latest.json`, du checkpoint autoritatif qu'il désigne et de `reports/final/REPORT_MANIFEST.json`.
+Tous restent récupérables dans l'historique Git. Les tags/releases `v1.0` et `v1.0.1` ne sont ni réécrits ni supprimés.

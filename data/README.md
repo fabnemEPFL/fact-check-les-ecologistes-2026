@@ -1,11 +1,12 @@
-# Données de reprise
+# Données structurées amont
 
-Les fichiers volumineux sont stockés en XZ, sans perte. Pour restaurer un fichier :
+Ce répertoire conserve uniquement les dérivés utiles pour auditer la sélection initiale des affirmations :
 
-```bash
-xz -dc ledger_restored.json.xz > ledger_restored.json
-```
+- `programme_text.txt.xz` : texte extrait du PDF ;
+- `pages.json.xz` : extraction structurée des 208 pages ;
+- `claim_candidates.json.xz` : 1 466 candidats automatiques ;
+- `triage_candidates.json.xz` : triage des candidats.
 
-Les SHA-256 des fichiers compressés et restaurés figurent dans `checkpoints/latest.json` et `ARTIFACT_MANIFEST.md`.
+Les anciennes copies partielles du ledger ont été retirées de `main`. Le ledger autoritatif se trouve dans le checkpoint désigné par `checkpoints/latest.json`.
 
-`ledger_restored.json` contient les 562 lignes structurées. Le checkpoint intégral contient en plus les 1 466 candidats, le triage complet, les manifestes des 208 rendus de pages et des 16 planches de contact, ainsi que les métadonnées de récupération.
+Les fichiers XZ se restaurent avec `xz -dc`.

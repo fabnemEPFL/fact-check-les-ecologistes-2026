@@ -1,6 +1,6 @@
 {
   "schema": "fact-check-les-ecologistes-2026/latest/v1",
-  "timestamp_utc": "2026-09-09T14:25:00Z",
+  "timestamp_utc": "2026-09-09T22:47:58Z",
   "phase": "rapport final généré et validé",
   "source_pdf_pages": 208,
   "chapters_covered": 66,
@@ -15,9 +15,7 @@
   "resume": {
     "first_unfinished_identifier": null,
     "audit_phase_started": false,
-    "primary_pass_complete": true,
-    "final_cleanup_first_identifier": null,
-    "final_cleanup_started_at": "2026-09-08T09:00:00Z"
+    "primary_pass_complete": true
   },
   "authoritative_recovery_source": {
     "name": "final_coherence_2026-09-09_targeted.json.xz.b64",
@@ -27,36 +25,12 @@
     "uncompressed_sha256": "fce47f27418965733511a98e630129dc54afb574beb421f2bdfa22e23b6c0d32",
     "storage_encoding": "base64 text; decode before xz -dc"
   },
-  "critical_files": [
-    {
-      "path": "checkpoints/final_cleanup_2026-09-08_complete.json.xz.b64",
-      "stored_encoding": "base64 text representing an XZ byte stream",
-      "decoded_sha256": "f86aef47f3aee13b5ac3a43c41c180589aaa707b53d0573a96edc4ad7b9d17c7",
-      "uncompressed_sha256": "64b2aa046c427b717f08d9446a40aa9a133ec86ee309431a7d6f2fbb0168c4d1"
-    },
-    {
-      "path": "analysis/final_cleanup_changes.jsonl",
-      "purpose": "append-only journal of cleanup changes"
-    }
-  ],
   "final_cleanup": {
     "status": "terminé",
     "cleanup_completed_count": 564,
     "cleanup_remaining_count": 0,
-    "first_cleanup_identifier": null,
     "change_log": "analysis/final_cleanup_changes.jsonl",
-    "pre_cleanup_checkpoint": "checkpoints/pre_final_cleanup_2026-09-08_primary_564claims.json.xz.b64",
     "last_checkpoint": "checkpoints/final_coherence_2026-09-09_targeted.json.xz.b64",
-    "last_run": {
-      "timestamp_utc": "2026-09-08T16:45:00Z",
-      "range": "C38-002–fin du ledger",
-      "cleaned": 204,
-      "url_corrections": 0,
-      "verdict_changes": 0,
-      "normalized_claim_changes": 0,
-      "contexts_added": 0,
-      "unresolved_source_checks": 0
-    },
     "coherence_pass": {
       "status": "terminé",
       "cases_examined": 46,
@@ -75,7 +49,6 @@
     "sources_removed_redundant": 2,
     "source_urls_corrected": 25,
     "sources_replaced": 10,
-    "sources_verified_without_url_change": 0,
     "sources_unresolved_after_batch": 0,
     "claims_still_problem_non_resolved": 0,
     "source_registry": "analysis/source_registry_final.json"
@@ -94,27 +67,29 @@
     ]
   },
   "energy_estimate": {
-    "status": "terminée — sanity check méthodologique",
+    "status": "terminée — réconciliation finale",
     "artifacts": [
       "metrics/energy_estimate.md",
       "metrics/energy_estimate.json",
       "scripts/estimate_energy.py"
     ],
-    "estimate_kwh_central": 0.5,
+    "estimate_kwh_central": 0.7,
     "estimate_kwh_low": 0.1,
-    "estimate_kwh_high": 2,
-    "previous_estimate_kwh": {
-      "central": 0.2,
-      "low": 0.08,
-      "high": 0.7
-    },
-    "factual_checkpoint_unchanged": "checkpoints/final_coherence_2026-09-09_targeted.json.xz.b64",
-    "completed_at_utc": "2026-09-09T14:25:00Z"
+    "estimate_kwh_high": 4,
+    "interim_415_estimate_kwh": 2.7,
+    "factual_checkpoint_unchanged": "checkpoints/final_coherence_2026-09-09_targeted.json.xz.b64"
   },
   "report_final": {
     "status": "généré et validé",
     "generated_at_utc": "2026-09-09T22:46:59.201333+00:00",
     "pdf": "reports/final/revue_factuelle_programme_ecologistes_2026.pdf",
-    "manifest": "reports/final/REPORT_MANIFEST.json"
+    "manifest": "reports/final/REPORT_MANIFEST.json",
+    "release": "v1.0.1"
+  },
+  "repository_cleanup": {
+    "completed_at_utc": "2026-09-09T22:47:58Z",
+    "intermediate_checkpoints_removed_from_main": true,
+    "historical_artifacts_available_in_git_history": true,
+    "note": "Les checkpoints de progression, rapports intermédiaires, bundles de récupération et rendus QA dérivés ne sont plus des dépendances de l'état final."
   }
 }
