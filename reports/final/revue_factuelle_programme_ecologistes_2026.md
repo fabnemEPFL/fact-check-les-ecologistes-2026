@@ -11,6 +11,18 @@ Version finale. Analyse méthodologiquement indépendante et politiquement neutr
 - Faux : 7 (1.2 %)
 - Invérifiable ou insuffisamment étayé : 48 (8.5 %)
 
+## Méthodologie
+
+Le corpus couvre 208 pages et 66 chapitres. Les affirmations à rôle argumentatif substantiel ont été normalisées, dédupliquées et vérifiées en privilégiant les sources primaires, institutionnelles et scientifiques. Une passe primaire complète, une résolution systématique des sources, un nettoyage, une passe de cohérence ciblée et une QA mécanique finale ont été réalisés. Aucun second audit contradictoire exhaustif des 564 dossiers n'a été mené.
+
+## Empreinte énergétique totale estimée de l'analyse
+
+**Consommation électrique totale estimée pour l'ensemble de l'analyse : 0,5 kWh** en valeur centrale, avec un intervalle plausible de **0,1 à 2,0 kWh**.
+
+Il s'agit d'une estimation attribuable à l'inférence IA documentée, et non d'une mesure de l'infrastructure OpenAI. Aucun comptage de tokens n'était disponible. La méthode finale reconstruit des batches agentiques et des requêtes équivalentes ; l'entraînement, la fabrication du matériel, le poste utilisateur, le réseau, GitHub et les impacts indirects sont hors périmètre principal.
+
+Méthodologie détaillée : `metrics/energy_estimate.md` et `metrics/energy_estimate.json`.
+
 ## Revue détaillée
 
 ### AV-001 - Avant-propos - p. 2
@@ -7502,3 +7514,11 @@ Version finale. Analyse méthodologiquement indépendante et politiquement neutr
 
 **Sources.**
 - [ONU Femmes — Afghanistan et Iran](https://www.unwomen.org/)
+
+## Limites
+
+La revue dépend de la sélection des affirmations à rôle argumentatif, de choix de normalisation et de la disponibilité des données. Les causalités et projections conservent une incertitude propre. Il ne s'agit pas d'une réplication indépendante complète par un second analyste.
+
+## Conclusion
+
+Cette revue décrit la conformité factuelle des affirmations retenues et leurs limites ; elle ne constitue ni une note politique globale du programme ni une recommandation d'adopter ou de rejeter ses mesures.
