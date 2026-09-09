@@ -17,9 +17,11 @@ Le corpus couvre 208 pages et 66 chapitres. Les affirmations à rôle argumentat
 
 ## Empreinte énergétique totale estimée de l'analyse
 
-**Consommation électrique totale estimée pour l'ensemble de l'analyse : 0,5 kWh** en valeur centrale, avec un intervalle plausible de **0,1 à 2,0 kWh**.
+**Consommation électrique totale estimée pour l'ensemble de l'analyse : 0,7 kWh** en valeur centrale, avec un intervalle plausible de **0,1 à 4,0 kWh**.
 
 Il s'agit d'une estimation attribuable à l'inférence IA documentée, et non d'une mesure de l'infrastructure OpenAI. Aucun comptage de tokens n'était disponible. La méthode finale reconstruit des batches agentiques et des requêtes équivalentes ; l'entraînement, la fabrication du matériel, le poste utilisateur, le réseau, GitHub et les impacts indirects sont hors périmètre principal.
+
+L’estimation intermédiaire de 2,7 kWh reposait sur l’approximation « une requête lourde par affirmation ». Elle est remplacée ici par une reconstruction plus fine des batches agentiques et des continuations autour des outils et recherches; aucun changement n’est apporté aux 564 évaluations factuelles.
 
 Méthodologie détaillée : `metrics/energy_estimate.md` et `metrics/energy_estimate.json`.
 

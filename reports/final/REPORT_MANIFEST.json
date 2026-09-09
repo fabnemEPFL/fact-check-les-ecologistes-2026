@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-09T22:44:10.601721+00:00",
+  "generated_at_utc": "2026-09-09T22:46:59.050380+00:00",
   "checkpoint_factuel_utilise": "final_coherence_2026-09-09_targeted.json.xz.b64",
   "sha256_checkpoint": "b32e9dc8654b682c79ebe57359642202f95180f1d36a8a4c246cb2983e1da584",
   "checkpoint_uncompressed_sha256": "fce47f27418965733511a98e630129dc54afb574beb421f2bdfa22e23b6c0d32",
@@ -12,21 +12,21 @@
     "Invérifiable ou insuffisamment étayé": 48
   },
   "estimation_energetique_kwh": {
-    "central": 0.5,
+    "central": 0.7,
     "low": 0.1,
-    "high": 2,
+    "high": 4,
     "section_verified": true
   },
   "pdf": {
     "name": "revue_factuelle_programme_ecologistes_2026.pdf",
-    "size_bytes": 1055829,
+    "size_bytes": 1055493,
     "pages": 219,
-    "sha256": "0e5b58f673b1619d8e7f796f24c8cd6dc5626afb4128328b7e23a768f1a54e9f",
-    "link_annotations": 767
+    "sha256": "8924c6d59324183953f9837d96428a27748b1a10bf60753b986d77d2602b48d9",
+    "link_annotations": 765
   },
   "source": {
     "name": "revue_factuelle_programme_ecologistes_2026.md",
-    "sha256": "3f81416fda45a17bba35b2c2089833771aaf625b9cfe2cda854a059aac155b37"
+    "sha256": "4fdf81cff87094d92e91bdde523541f84ba12e994f3b7ac6dcb03652fea8cff9"
   },
   "qa": {
     "ids": 564,
