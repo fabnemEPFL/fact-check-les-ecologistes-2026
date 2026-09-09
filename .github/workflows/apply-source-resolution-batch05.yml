@@ -1,0 +1,65 @@
+name: Apply source resolution batch 05
+
+on:
+  push:
+    paths:
+      - '.github/workflows/apply-source-resolution-batch05.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Apply and validate batch 05
+        run: |
+          python3 - <<'PY'
+          import base64, gzip, pathlib
+          src = gzip.decompress(base64.b64decode(pathlib.Path('.batch05_apply.py.gz.b64').read_text()))
+          pathlib.Path('/tmp/apply_batch05.py').write_bytes(src)
+          PY
+          python3 /tmp/apply_batch05.py
+          python3 - <<'PY'
+          import json, pathlib, base64, lzma, hashlib
+          latest=json.loads(pathlib.Path('checkpoints/latest.json').read_text())
+          sr=latest['source_resolution']
+          assert sr['status']=='terminé'
+          assert sr['sources_unique_problematic_at_start']==37
+          assert sr['sources_resolved_this_run']==37
+          assert sr['sources_removed_redundant']==2
+          assert sr['source_urls_corrected']==25
+          assert sr['sources_replaced']==10
+          assert sr['sources_unresolved_after_batch']==0
+          assert sr['claims_still_problem_non_resolved']==0
+          ck=pathlib.Path('checkpoints')/latest['authoritative_recovery_source']['name']
+          assert ck.exists()
+          raw=ck.read_bytes()
+          assert hashlib.sha256(raw).hexdigest()==latest['authoritative_recovery_source']['sha256']
+          uncompressed=lzma.decompress(base64.b64decode(raw))
+          assert hashlib.sha256(uncompressed).hexdigest()==latest['authoritative_recovery_source']['uncompressed_sha256']
+          ledger=json.loads(uncompressed)
+          assert len(ledger['restored_claim_ledger'])==564
+          assert ledger['source_resolution']['sources_problematic_remaining']==0
+          assert ledger['source_resolution']['claims_problem_non_resolved_remaining']==0
+          assert not [c for c in ledger['restored_claim_ledger'] if c.get('source_check_status')=='problème non résolu']
+          reg=json.loads(pathlib.Path('analysis/source_registry_final.json').read_text())
+          ok={'verified','removed_redundant','replaced','verified_identity_access_restricted'}
+          assert not [s['id'] for s in reg if s.get('source_check',{}).get('resolution') not in ok]
+          print(json.dumps(sr, ensure_ascii=False))
+          PY
+
+      - name: Commit authoritative state
+        run: |
+          rm -f .batch05_apply.py.gz.b64 .github/workflows/apply-source-resolution-batch05.yml
+          git config user.name "fabnemEPFL"
+          git config user.email "117652591+fabnemEPFL@users.noreply.github.com"
+          git add analysis/source_registry_final.json analysis/final_cleanup_changes.jsonl metrics/compute_log.jsonl checkpoints/latest.json checkpoints/final_cleanup_2026-09-09_source_resolution_batch_05.json.xz.b64 .batch05_apply.py.gz.b64 .github/workflows/apply-source-resolution-batch05.yml
+          git commit -m "fix: resolve final 37 problematic sources (batch 05)"
+          git push origin HEAD:main
