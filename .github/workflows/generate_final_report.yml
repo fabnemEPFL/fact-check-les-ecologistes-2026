@@ -21,6 +21,7 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install reportlab pypdf
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
       - run: python scripts/generate_final_report.py
       - name: Record generation state
         run: |
