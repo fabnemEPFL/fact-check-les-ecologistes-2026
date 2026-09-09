@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-09T15:37:02.132287+00:00",
+  "generated_at_utc": "2026-09-09T22:44:10.601721+00:00",
   "checkpoint_factuel_utilise": "final_coherence_2026-09-09_targeted.json.xz.b64",
   "sha256_checkpoint": "b32e9dc8654b682c79ebe57359642202f95180f1d36a8a4c246cb2983e1da584",
   "checkpoint_uncompressed_sha256": "fce47f27418965733511a98e630129dc54afb574beb421f2bdfa22e23b6c0d32",
@@ -21,7 +21,7 @@
     "name": "revue_factuelle_programme_ecologistes_2026.pdf",
     "size_bytes": 1055829,
     "pages": 219,
-    "sha256": "1250f4529fcb3efa77dcbad25403962c94a38cd9e309fd0e6229e281fdddd5e8",
+    "sha256": "0e5b58f673b1619d8e7f796f24c8cd6dc5626afb4128328b7e23a768f1a54e9f",
     "link_annotations": 767
   },
   "source": {
