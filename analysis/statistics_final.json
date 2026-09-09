@@ -1,0 +1,439 @@
+{
+  "generated_at_utc": "2026-09-09T12:42:28Z",
+  "checkpoint": "checkpoints/final_coherence_2026-09-09_targeted.json.xz.b64",
+  "checkpoint_sha256_b64": "fcd8ed6f4c0ba44e16236a2f2641aaba46e19eb48b603feaa697d620a36a8ae2",
+  "checkpoint_uncompressed_sha256": "fce47f27418965733511a98e630129dc54afb574beb421f2bdfa22e23b6c0d32",
+  "counts": {
+    "unique_claims": 564,
+    "occurrences": 568
+  },
+  "verdict_distribution": {
+    "Exact": {
+      "count": 73,
+      "percentage": 12.943262
+    },
+    "Globalement exact": {
+      "count": 255,
+      "percentage": 45.212766
+    },
+    "À nuancer": {
+      "count": 161,
+      "percentage": 28.546099
+    },
+    "Trompeur": {
+      "count": 20,
+      "percentage": 3.546099
+    },
+    "Faux": {
+      "count": 7,
+      "percentage": 1.241135
+    },
+    "Invérifiable ou insuffisamment étayé": {
+      "count": 48,
+      "percentage": 8.510638
+    }
+  },
+  "aggregates": {
+    "Exact + Globalement exact": 328,
+    "Trompeur + Faux": 27
+  },
+  "by_chapter": {
+    "Accomplir l’égalité avec tous les territoires dits d’Outre-mer": {
+      "Exact": 3,
+      "À nuancer": 2,
+      "Globalement exact": 2
+    },
+    "Adapter la France à +4 °C": {
+      "Exact": 2,
+      "Trompeur": 1,
+      "Globalement exact": 4,
+      "Invérifiable ou insuffisamment étayé": 3,
+      "À nuancer": 3
+    },
+    "Adopter une autre réforme des retraites": {
+      "Exact": 1,
+      "Trompeur": 1,
+      "À nuancer": 3,
+      "Faux": 1
+    },
+    "Adopter une nouvelle diplomatie de la paix": {
+      "À nuancer": 4,
+      "Globalement exact": 4,
+      "Exact": 2
+    },
+    "Amplifier la politique féministe": {
+      "À nuancer": 3,
+      "Invérifiable ou insuffisamment étayé": 1,
+      "Globalement exact": 2
+    },
+    "Améliorer la condition animale": {
+      "Globalement exact": 2,
+      "À nuancer": 1,
+      "Exact": 2
+    },
+    "Améliorer la prévention et le parcours de soin": {
+      "Exact": 2,
+      "Globalement exact": 5,
+      "À nuancer": 1,
+      "Invérifiable ou insuffisamment étayé": 1
+    },
+    "Apaiser par la justice du quotidien": {
+      "À nuancer": 2,
+      "Globalement exact": 2,
+      "Exact": 1
+    },
+    "Assurer des rémunérations dignes": {
+      "À nuancer": 4,
+      "Invérifiable ou insuffisamment étayé": 1,
+      "Globalement exact": 3
+    },
+    "Atteindre l’égalité entre les villes et les ruralités": {
+      "À nuancer": 1,
+      "Globalement exact": 3
+    },
+    "Avancer vers une Europe fédérale": {
+      "Globalement exact": 4,
+      "À nuancer": 3,
+      "Exact": 1
+    },
+    "Avant-propos": {
+      "Globalement exact": 15,
+      "Invérifiable ou insuffisamment étayé": 9,
+      "Exact": 8,
+      "À nuancer": 8,
+      "Faux": 2,
+      "Trompeur": 5
+    },
+    "Bifurquer vers une diplomatie féministe": {
+      "Globalement exact": 4,
+      "À nuancer": 3
+    },
+    "Bâtir une société antivalidiste": {
+      "Globalement exact": 3,
+      "Exact": 2,
+      "Invérifiable ou insuffisamment étayé": 1
+    },
+    "Changer les règles du marché": {
+      "Globalement exact": 3,
+      "À nuancer": 3
+    },
+    "Combattre la corruption": {
+      "Invérifiable ou insuffisamment étayé": 1,
+      "Globalement exact": 3,
+      "À nuancer": 1
+    },
+    "Combattre le racisme, l’islamophobie, l’antisémitisme et l’antitsiganisme": {
+      "Globalement exact": 4,
+      "À nuancer": 2
+    },
+    "Consacrer des moyens suffisants à la Justice": {
+      "Globalement exact": 2,
+      "À nuancer": 4
+    },
+    "Créer un droit à l’alimentation de qualité": {
+      "Globalement exact": 6,
+      "Invérifiable ou insuffisamment étayé": 2,
+      "À nuancer": 1
+    },
+    "Décentraliser les services publics": {
+      "Exact": 3,
+      "Globalement exact": 2,
+      "À nuancer": 2
+    },
+    "Défendre la paix au Moyen-Orient": {
+      "À nuancer": 6,
+      "Globalement exact": 2,
+      "Invérifiable ou insuffisamment étayé": 2
+    },
+    "Défendre les droits des personnes LGBTQIA+": {
+      "Globalement exact": 3,
+      "À nuancer": 1
+    },
+    "Défendre l’indépendance des médias": {
+      "Globalement exact": 4,
+      "Invérifiable ou insuffisamment étayé": 3
+    },
+    "Démocratiser la République": {
+      "Globalement exact": 5,
+      "Trompeur": 1
+    },
+    "Démocratiser l’enseignement supérieur": {
+      "Globalement exact": 3,
+      "Faux": 1,
+      "Trompeur": 1
+    },
+    "Encourager un sport inclusif et décarboné": {
+      "Exact": 2,
+      "Globalement exact": 3
+    },
+    "Faire évoluer l’armée française dans l’Europe de la défense": {
+      "Globalement exact": 7,
+      "À nuancer": 3,
+      "Exact": 1,
+      "Invérifiable ou insuffisamment étayé": 1
+    },
+    "Gagner la bataille du climat": {
+      "Invérifiable ou insuffisamment étayé": 1,
+      "À nuancer": 6,
+      "Globalement exact": 5,
+      "Trompeur": 1,
+      "Faux": 1,
+      "Exact": 1
+    },
+    "Garantir la liberté de se déplacer autrement": {
+      "Globalement exact": 5,
+      "Exact": 1,
+      "À nuancer": 1
+    },
+    "Garantir les libertés de migration": {
+      "Globalement exact": 3,
+      "À nuancer": 5,
+      "Invérifiable ou insuffisamment étayé": 1,
+      "Exact": 2
+    },
+    "Humaniser la prison": {
+      "Globalement exact": 3,
+      "À nuancer": 3,
+      "Exact": 1
+    },
+    "Introduction de la partie I": {
+      "Globalement exact": 3,
+      "Invérifiable ou insuffisamment étayé": 1,
+      "Exact": 3,
+      "À nuancer": 1
+    },
+    "Introduction de la partie II": {
+      "Invérifiable ou insuffisamment étayé": 3
+    },
+    "Introduction de la partie III": {
+      "À nuancer": 2,
+      "Globalement exact": 3
+    },
+    "Introduction de la partie IV": {
+      "Trompeur": 1,
+      "À nuancer": 1
+    },
+    "Introduction de la partie V": {
+      "Globalement exact": 3,
+      "À nuancer": 1,
+      "Trompeur": 1
+    },
+    "Introduction de la partie VI": {
+      "Globalement exact": 1
+    },
+    "Introduction de la partie VII": {
+      "À nuancer": 1,
+      "Invérifiable ou insuffisamment étayé": 1,
+      "Globalement exact": 1
+    },
+    "Introduction de la partie VIII": {
+      "À nuancer": 2,
+      "Invérifiable ou insuffisamment étayé": 1
+    },
+    "Investir dans la recherche scientifique": {
+      "Globalement exact": 5,
+      "À nuancer": 3,
+      "Invérifiable ou insuffisamment étayé": 1
+    },
+    "Lutter contre la pauvreté": {
+      "Globalement exact": 5,
+      "Trompeur": 1
+    },
+    "Lutter contre le narcotrafic": {
+      "Globalement exact": 3,
+      "Trompeur": 1,
+      "À nuancer": 3
+    },
+    "Lutter contre les terrorismes": {
+      "À nuancer": 5,
+      "Globalement exact": 3
+    },
+    "Lutter contre l’épidémie de solitude": {
+      "Globalement exact": 2,
+      "À nuancer": 3
+    },
+    "Mettre la finance au service de l’économie réelle": {
+      "Exact": 2,
+      "À nuancer": 3,
+      "Trompeur": 1,
+      "Globalement exact": 2
+    },
+    "Ouvrir la politique culturelle": {
+      "Globalement exact": 4,
+      "Exact": 1
+    },
+    "Passer à la Première République Écologique et citoyenne": {
+      "À nuancer": 4,
+      "Exact": 1,
+      "Globalement exact": 2
+    },
+    "Planifier une nouvelle industrialisation": {
+      "Exact": 2,
+      "À nuancer": 1,
+      "Globalement exact": 6,
+      "Invérifiable ou insuffisamment étayé": 1
+    },
+    "Porter une politique de coopération postcoloniale": {
+      "À nuancer": 2,
+      "Globalement exact": 6,
+      "Invérifiable ou insuffisamment étayé": 1,
+      "Exact": 1
+    },
+    "Pouvoir se loger décemment": {
+      "Globalement exact": 6,
+      "Invérifiable ou insuffisamment étayé": 1,
+      "À nuancer": 1,
+      "Exact": 2
+    },
+    "Prendre soin des océans et de ses artisans": {
+      "Exact": 1,
+      "Globalement exact": 1,
+      "Invérifiable ou insuffisamment étayé": 3,
+      "À nuancer": 4
+    },
+    "Prioriser l’économie circulaire": {
+      "Globalement exact": 7,
+      "Faux": 1,
+      "À nuancer": 4,
+      "Exact": 3
+    },
+    "Promouvoir la laïcité": {
+      "Exact": 3,
+      "Globalement exact": 2
+    },
+    "Protéger le très grand âge": {
+      "À nuancer": 3,
+      "Globalement exact": 3,
+      "Invérifiable ou insuffisamment étayé": 1
+    },
+    "Protéger les enfants en danger": {
+      "À nuancer": 1,
+      "Trompeur": 1,
+      "Globalement exact": 2
+    },
+    "Protéger nos forêts et l’économie sylvicole": {
+      "Globalement exact": 3,
+      "À nuancer": 1,
+      "Invérifiable ou insuffisamment étayé": 1,
+      "Exact": 1
+    },
+    "Protéger nos techno-diversités numériques": {
+      "Exact": 1,
+      "Globalement exact": 4,
+      "À nuancer": 2,
+      "Trompeur": 1
+    },
+    "Préserver la terre": {
+      "Globalement exact": 2,
+      "Exact": 1,
+      "À nuancer": 3,
+      "Invérifiable ou insuffisamment étayé": 1
+    },
+    "Refonder le pacte fiscal": {
+      "À nuancer": 7,
+      "Faux": 1,
+      "Exact": 1,
+      "Globalement exact": 2
+    },
+    "Refonder une police républicaine": {
+      "Globalement exact": 5
+    },
+    "Rendre accessible une offre de soin de qualité": {
+      "À nuancer": 5,
+      "Globalement exact": 4,
+      "Trompeur": 1
+    },
+    "Restaurer la biodiversité terrestre": {
+      "Globalement exact": 2,
+      "Exact": 1,
+      "À nuancer": 2
+    },
+    "Réaliser l’égalité dans les quartiers populaires": {
+      "Globalement exact": 4,
+      "À nuancer": 1
+    },
+    "Sanctuariser l’accès à l’eau potable": {
+      "Globalement exact": 2,
+      "À nuancer": 2,
+      "Invérifiable ou insuffisamment étayé": 1
+    },
+    "Sortir de la civilisation des toxiques": {
+      "Exact": 4,
+      "Globalement exact": 4
+    },
+    "Soutenir la responsabilité des entreprises": {
+      "Globalement exact": 3,
+      "À nuancer": 1,
+      "Exact": 1
+    },
+    "Soutenir la vie associative et l’engagement citoyen": {
+      "Globalement exact": 5,
+      "À nuancer": 1
+    },
+    "Soutenir l’Ukraine face à la Russie": {
+      "Exact": 4,
+      "À nuancer": 2,
+      "Globalement exact": 4
+    },
+    "Soutenir l’émancipation des jeunes": {
+      "Globalement exact": 5
+    },
+    "Soutenir toutes les familles": {
+      "Globalement exact": 4,
+      "Exact": 1,
+      "Trompeur": 1,
+      "À nuancer": 1
+    },
+    "Transformer notre modèle agricole": {
+      "À nuancer": 4,
+      "Globalement exact": 3,
+      "Invérifiable ou insuffisamment étayé": 2,
+      "Exact": 2
+    },
+    "Travailler mieux": {
+      "À nuancer": 3,
+      "Invérifiable ou insuffisamment étayé": 1,
+      "Globalement exact": 4,
+      "Exact": 1
+    },
+    "Viser la réussite de tous les élèves": {
+      "Globalement exact": 6,
+      "Exact": 1,
+      "À nuancer": 1
+    },
+    "Éradiquer les violences sexistes et sexuelles": {
+      "Globalement exact": 2,
+      "Trompeur": 1,
+      "À nuancer": 2
+    },
+    "Être solidaires face au deuil": {
+      "À nuancer": 2,
+      "Globalement exact": 1,
+      "Invérifiable ou insuffisamment étayé": 1
+    }
+  },
+  "sources": {
+    "unique_registry_entries": 139,
+    "used_unique_sources": 315,
+    "resolution_actions": {
+      "null": 2,
+      "url_corrected": 91,
+      "source_replaced": 11,
+      "removed_redundant": 12,
+      "verified": 20,
+      "replaced": 3
+    },
+    "registry_entries_corrected": 91,
+    "registry_entries_replaced": 14,
+    "registry_entries_removed_redundant": 12,
+    "latest_declared_url_corrections": 25,
+    "latest_declared_replacements": 10,
+    "latest_declared_removed_redundant": 2
+  },
+  "cleanup": {
+    "contexts_added": 0,
+    "verdict_changes_determinable": 4,
+    "coherence_cases_examined": 46,
+    "coherence_verdict_changes": 4
+  }
+}
