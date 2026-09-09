@@ -1,0 +1,59 @@
+name: Publish v1.0 final report release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/publish_v1_release.yml
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify canonical report manifest
+        run: |
+          python - <<'PY'
+          import json
+          p='reports/final/REPORT_MANIFEST.json'
+          d=json.load(open(p,encoding='utf-8'))
+          assert d['qa']['status']=='passed'
+          assert d['qa']['ids']==564
+          assert d['qa'].get('energy_section_verified') is True
+          assert d['estimation_energetique_kwh']['central']==0.5
+          assert d['estimation_energetique_kwh']['low']==0.1
+          assert d['estimation_energetique_kwh']['high']==2
+          print(d['pdf']['sha256'])
+          PY
+      - name: Prepare release notes
+        run: |
+          cat > /tmp/release-notes.md <<'EOF'
+          # Revue factuelle du programme des Écologistes 2026 — v1.0
+
+          Version finale de la revue factuelle exhaustive du programme 2026 des Écologistes.
+
+          - 564 affirmations factuelles uniques, 568 occurrences
+          - 73 Exact ; 255 Globalement exact ; 161 À nuancer ; 20 Trompeur ; 7 Faux ; 48 Invérifiable ou insuffisamment étayé
+          - QA finale : 564/564 IDs, aucune anomalie bloquante
+          - Estimation de la consommation électrique totale d'inférence IA pour l'analyse : 0,5 kWh (plage plausible 0,1–2 kWh)
+          - Checkpoint factuel : `final_coherence_2026-09-09_targeted.json.xz.b64`
+
+          Le rapport évalue la précision factuelle des affirmations retenues ; il ne constitue pas une note politique globale du programme. Une passe primaire complète, une résolution systématique des sources, un nettoyage, une passe de cohérence ciblée et une QA finale ont été réalisés ; aucun second audit contradictoire exhaustif indépendant des 564 dossiers n'a été mené.
+
+          La procédure de reproduction du PDF est documentée dans `REPRODUCIBILITY.md`. Le SHA-256 canonique du PDF et les autres métadonnées de publication figurent dans `REPORT_MANIFEST.json` joint à cette release.
+          EOF
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create v1.0 \
+            reports/final/revue_factuelle_programme_ecologistes_2026.pdf \
+            reports/final/revue_factuelle_programme_ecologistes_2026.md \
+            reports/final/REPORT_MANIFEST.json \
+            --repo "$GITHUB_REPOSITORY" \
+            --target 2a501c67f43ad91ad717d311b4f10d235beff5f7 \
+            --title "v1.0 — Revue factuelle du programme des Écologistes 2026" \
+            --notes-file /tmp/release-notes.md
