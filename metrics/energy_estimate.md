@@ -1,48 +1,39 @@
-# Estimation finale de l’énergie d’inférence IA
+# Estimation finale de l’énergie d’inférence IA — sanity check méthodologique
 
-## Résultat
+## Résultat révisé
 
-**Estimation centrale : 0,2 kWh** ; **intervalle plausible : 0,08–0,7 kWh**. Il s’agit d’une estimation attribuable aux interactions d’inférence IA documentées pour ce projet, et non d’une mesure des centres de données ou d’OpenAI.
+**Estimation centrale : 0,5 kWh ; intervalle plausible : 0,1–2 kWh.** Cette estimation est attribuable aux interactions d’inférence IA du fact-checking. Ce n’est pas une mesure de l’infrastructure OpenAI ni de ses centres de données.
 
-Rapporté aux 564 affirmations uniques, le point central représente environ **0,35 Wh par affirmation** (fourchette : 0,14–1,24 Wh). Cette division est seulement illustrative : une part notable du travail est transversale (récupération, nettoyage, sources, cohérence et QA).
+La version précédente (0,2 kWh ; 0,08–0,7 kWh) était insuffisamment explicite : son point central se rapprochait de 53 × 3,91 Wh alors que les 53 entrées du journal ne sont pas 53 appels modèle. Elles représentent un mélange de batches, de checkpoints de continuité, de nettoyages, de résolution des sources, de cohérence et de QA. Les traiter toutes comme une seule inférence lourde sous-estime les itérations; les traiter toutes comme des conversations indépendantes les surestime.
 
-## Périmètre
+## Ce que mesure réellement le journal
 
-Inclus : l’électricité d’inférence associée aux interactions de fact-checking consignées de la reprise initiale à la QA finale. Hors périmètre : entraînement des modèles, fabrication du matériel, poste utilisateur, réseau, stockage GitHub et autres impacts indirects. Les moteurs de recherche et serveurs d’outils sont discutés séparément, mais ne sont pas chiffrés faute de télémétrie.
+Directement enregistré : 53 entrées avant l’estimation, 522 affirmations marquées terminées dans les lignes qui renseignent ce champ, environ 75 appels/lots de recherche et 548 autres appels d’outils. Les tokens d’entrée/sortie/raisonnement/cache sont tous inconnus.
 
-## A. Métriques directement enregistrées
+Reconstruction : 50 **batches substantiels** (lignes avec affirmations traitées et/ou nettoyage, sources ou cohérence). Une entrée peut couvrir 5–54 affirmations; des checkpoints consécutifs peuvent segmenter une même exécution. Aucun des deux comptes n’est un nombre observé d’inférences internes.
 
-- 53 entrées dans `metrics/compute_log.jsonl` ; 564 affirmations uniques et 568 occurrences au résultat final.
-- Modèles nommés : 41 runs GPT-5 Codex et 3 runs GPT-5.6 Sol ; 9 entrées ne renseignent pas de modèle.
-- 522 affirmations « completed » sont explicitement additionnables dans les entrées qui renseignent ce champ ; ce nombre recouvre des passes différentes et n’est **pas** un nombre d’appels IA.
-- Environ 75 appels ou lots de recherche web et 548 autres appels d’outils sont consignés.
-- `input_tokens`, `output_tokens`, `reasoning_tokens` et `cached_tokens` sont tous indisponibles (`null`) : aucune métrique de token n’est inventée ni convertie.
+## Méthode A — activité agentique
 
-## B. Quantités reconstruites à partir du journal
+Les 623 interactions outils/recherche ne sont pas assimilées à 623 requêtes longues. Elles servent de proxy de continuité/itération, avec seulement une fraction convertie en tours de coordination. Les synthèses de raisonnement long sont attribuées aux 50 batches, pas aux checkpoints isolés.
 
-Les grandes phases sont : reprise et passe primaire (la majeure partie des runs et des affirmations), préparation et 9 lots de nettoyage, 5 lots de résolution des sources, passe de cohérence ciblée (46 cas), puis QA mécanique. Le journal identifie 53 unités de travail; elles sont plus proches de runs agentiques que de simples prompts, car elles incluent des recherches, des outils et des reprises.
+| Scénario | Calcul reproductible | Résultat |
+|---|---:|---:|
+| Bas | 50 × 1 × 1,5 Wh + 62 × 0,16 Wh | 0,085 kWh → **0,1 kWh** |
+| Central | 50 × 2 × 3,91 Wh + 187 × 0,31 Wh | 0,449 kWh → **0,5 kWh** |
+| Haut | 50 × 5 × 7,05 Wh + 436 × 0,60 Wh | 2,024 kWh → **2 kWh** |
 
-## C. Méthode et scénarios
+## Méthode B — contrôle par affirmations regroupées
 
-Deux ancrages indépendants sont utilisés, sans les confondre avec une mesure OpenAI.
+Cette méthode ne transforme pas 522 affirmations en 522 appels. Elle suppose respectivement 10, 4,5 et 2 affirmations par synthèse de raisonnement : 53, 116 et 261 synthèses équivalentes. À 1,5, 3,91 et 7,05 Wh, elle donne **0,08, 0,45 et 1,84 kWh**. Sa valeur centrale (0,45 kWh) converge avec la méthode A (0,449 kWh).
 
-1. **Par unité de travail.** Les 53 unités enregistrées ont été réparties entre travail factuel lourd, nettoyage/résolution, cohérence et QA. Les scénarios bas, central et haut correspondent à des services efficacement batchés, à une charge de raisonnement longue plausible, puis à une charge prudente de long contexte et d’itérations. Le résultat est respectivement **0,08, 0,2 et 0,7 kWh**.
-2. **Contrôle par requête.** Oviedo et al. estiment, sous hypothèses de service à grande échelle, 0,31 Wh médian par requête pour des modèles >200B (IQR 0,16–0,60 Wh) et 3,91 Wh lorsque le test-time compute est 15× plus long. Google rapporte 0,24 Wh pour le prompt textuel médian de Gemini Apps. Ces valeurs confirment que traiter les unités de ce projet comme de simples prompts moyens sous-estimerait probablement la charge, tandis que les assimiler systématiquement au scénario de raisonnement 15× la surestimerait.
+Le résultat final est donc l’arrondi prudent de cette convergence : **0,5 kWh**, avec une plage de **0,1–2 kWh**. La hausse est méthodologique, pas la prétention de connaître les tokens, le matériel, l’utilisation, le batching ou le PUE réels.
 
-Le point central représente environ quelques dizaines de requêtes équivalentes de raisonnement long ou plusieurs centaines de requêtes textuelles médianes. Ce rapprochement est un contrôle d’ordre de grandeur, pas une mesure de tokens ni une identité entre fournisseurs.
+## Périmètre et limites
 
-## Recherche, outils et énergie indirecte
+Inclus : inférence IA associée au travail documenté de fact-checking. Les serveurs de recherche/outils sont signalés comme activité auxiliaire mais non mesurés séparément, afin d’éviter un double compte arbitraire. Sont exclus : entraînement, fabrication du matériel, ordinateur utilisateur, réseau, stockage GitHub et impacts indirects.
 
-Les 75 recherches/lots et 548 autres appels d’outils indiquent une activité auxiliaire substantielle. Mais le journal ne donne ni temps CPU, ni volume transféré, ni infrastructure des fournisseurs : leur consommation ne peut pas être isolée ni ajoutée avec rigueur. L’estimation d’inférence peut déjà inclure une partie de l’orchestration côté fournisseur; additionner un forfait non mesuré créerait un risque de double comptage.
+## Références
 
-## Références et limites
-
-- [Oviedo et al. (2025), *Energy Use of AI Inference*](https://arxiv.org/abs/2509.20241) : modèle ascendant fondé sur débit de tokens, puissance de nœud, utilisation et PUE ; pertinent pour l’écart entre prompts usuels et raisonnement long, mais non spécifique à OpenAI.
-- [Elsworth et al. (Google, 2025)](https://services.google.com/fh/files/misc/measuring_the_environmental_impact_of_delivering_ai_at_google_scale.pdf) : méthodologie de mesure en production couvrant la pile de service ; 0,24 Wh pour le prompt textuel médian Gemini Apps, non transposable tel quel.
-- [Chung et al., *ML.ENERGY Benchmark*](https://proceedings.neurips.cc/paper_files/paper/2025/hash/73750e4e965ab29ac16a4bb38c4c1b9f-Abstract-Datasets_and_Benchmarks_Track.html) et [Niu et al., *TokenPowerBench*](https://arxiv.org/abs/2512.03024) : montrent que préremplissage, décodage, contexte, batch, parallélisme et matériel modifient fortement l’énergie.
-
-L’incertitude dominante vient de l’absence de télémétrie de tokens, de modèle/version effectif, de matériel, de batching et de PUE. L’intervalle ne prétend donc pas être une borne physique certaine.
-
-## Illustrations uniquement
-
-0,2 kWh correspond approximativement à une ampoule LED de 10 W allumée pendant 20 heures, ou à une à quelques recharges complètes de smartphone selon le téléphone et les pertes. Ces équivalences ne participent pas au calcul.
+- [Oviedo et al., *Energy Use of AI Inference*](https://arxiv.org/abs/2509.20241) : 0,31 Wh médian par requête >200B dans leurs hypothèses de service et 3,91 Wh dans leur scénario de test-time compute 15×; référence de charge, non mesure OpenAI.
+- [Elsworth et al. (Google), *Measuring the environmental impact of delivering AI at Google scale*](https://services.google.com/fh/files/misc/measuring_the_environmental_impact_of_delivering_ai_at_google_scale.pdf) : mesure en production; 0,24 Wh pour le prompt Gemini Apps médian, non transposé.
+- [Chung et al., *ML.ENERGY Benchmark*](https://proceedings.neurips.cc/paper_files/paper/2025/hash/73750e4e965ab29ac16a4bb38c4c1b9f-Abstract-Datasets_and_Benchmarks_Track.html) et [Niu et al., *TokenPowerBench*](https://arxiv.org/abs/2512.03024) : l’énergie varie fortement selon préremplissage, décodage, contexte, batch, parallélisme et matériel.
