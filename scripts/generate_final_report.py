@@ -29,6 +29,7 @@ def esc(x):
     return str("" if x is None else x).replace("&","&amp;").replace("<","&lt;").replace(">","&gt;")
 
 def txt(x):
+    if x == "À rétablir": return "Non renseigné dans le ledger final"
     if isinstance(x,list): return "; ".join(map(str,x))
     if isinstance(x,dict): return json.dumps(x,ensure_ascii=False)
     return str(x or "")
