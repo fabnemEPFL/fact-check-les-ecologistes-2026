@@ -34,6 +34,9 @@ def txt(x):
     if isinstance(x,dict): return json.dumps(x,ensure_ascii=False)
     return str(x or "")
 
+def fmt_fr(x):
+    return ("%.1f" % float(x)).replace(".", ",")
+
 def load():
     latest=json.loads((ROOT/"checkpoints/latest.json").read_text())
     ref=latest["authoritative_recovery_source"]; p=ROOT/"checkpoints"/ref["name"]
@@ -99,15 +102,41 @@ def claim(row,st):
     out.append(Paragraph("<b>Sources utilisées.</b>",st["Small"])); out += [source(s,st) for s in row.get("sources",[])]
     out.append(Spacer(1,6)); return out
 
-def write_md(latest,ref,rows,counts):
+def write_md(latest,ref,rows,counts,energy):
     lines=["# Revue factuelle du programme des Écologistes 2026","","Version finale. Analyse méthodologiquement indépendante et politiquement neutre.","","## Résultats globaux",""]
     for v in ALLOWED: lines.append("- %s : %d (%.1f %%)"%(v,counts[v],100*counts[v]/len(rows)))
-    lines += ["","## Revue détaillée",""]
+    lines += [
+        "",
+        "## Méthodologie",
+        "",
+        "Le corpus couvre 208 pages et 66 chapitres. Les affirmations à rôle argumentatif substantiel ont été normalisées, dédupliquées et vérifiées en privilégiant les sources primaires, institutionnelles et scientifiques. Une passe primaire complète, une résolution systématique des sources, un nettoyage, une passe de cohérence ciblée et une QA mécanique finale ont été réalisés. Aucun second audit contradictoire exhaustif des 564 dossiers n'a été mené.",
+        "",
+        "## Empreinte énergétique totale estimée de l'analyse",
+        "",
+        "**Consommation électrique totale estimée pour l'ensemble de l'analyse : %s kWh** en valeur centrale, avec un intervalle plausible de **%s à %s kWh**."%(fmt_fr(energy["estimate_kwh_central"]),fmt_fr(energy["estimate_kwh_low"]),fmt_fr(energy["estimate_kwh_high"])),
+        "",
+        "Il s'agit d'une estimation attribuable à l'inférence IA documentée, et non d'une mesure de l'infrastructure OpenAI. Aucun comptage de tokens n'était disponible. La méthode finale reconstruit des batches agentiques et des requêtes équivalentes ; l'entraînement, la fabrication du matériel, le poste utilisateur, le réseau, GitHub et les impacts indirects sont hors périmètre principal.",
+        "",
+        "Méthodologie détaillée : `metrics/energy_estimate.md` et `metrics/energy_estimate.json`.",
+        "",
+        "## Revue détaillée",
+        ""
+    ]
     for r in rows:
         lines += ["### %s - %s - p. %s"%(r["id"],txt(r.get("chapter_title") or r.get("chapter")),", ".join(map(str,r.get("pdf_pages") or []))),"",
         "**Citation.** "+txt(r.get("quote")),"","**Affirmation normalisée.** "+txt(r.get("normalized_claim")),"","**Verdict.** "+txt(r.get("verdict")),"","**Justification.** "+txt(r.get("justification")),"","**Sources.**"]
         for s in r.get("sources",[]): lines.append("- [%s](%s)"%(txt(s.get("title") or s.get("id") or "Source"),txt(s.get("url"))))
         lines.append("")
+    lines += [
+        "## Limites",
+        "",
+        "La revue dépend de la sélection des affirmations à rôle argumentatif, de choix de normalisation et de la disponibilité des données. Les causalités et projections conservent une incertitude propre. Il ne s'agit pas d'une réplication indépendante complète par un second analyste.",
+        "",
+        "## Conclusion",
+        "",
+        "Cette revue décrit la conformité factuelle des affirmations retenues et leurs limites ; elle ne constitue ni une note politique globale du programme ni une recommandation d'adopter ou de rejeter ses mesures.",
+        ""
+    ]
     MD.write_text("\n".join(lines),encoding="utf-8")
 
 def main():
@@ -135,11 +164,16 @@ def main():
         ch=txt(row.get("chapter_title") or row.get("chapter") or "Sans chapitre")
         if ch!=current: current=ch; S.append(Paragraph(esc(ch),st["H2"]))
         S += claim(row,st)
-    S += [PageBreak(),Paragraph("5. Limites",st["H1"]),Paragraph("Le corpus repose sur une sélection des affirmations à rôle argumentatif et sur des jugements nécessaires à la normalisation. Les données disponibles et la qualité des sources varient selon les sujets; causalités et projections conservent une incertitude propre. Cette revue n’est pas une réplication indépendante complète par un second analyste et est temporellement bornée aux connaissances disponibles à la date pertinente.",st["Body"]),Paragraph("6. Empreinte énergétique de l’analyse",st["H1"]),Paragraph("L’estimation centrale est de <b>%.1f kWh</b>, avec un intervalle plausible de <b>%.1f-%.1f kWh</b>. Il s’agit d’une estimation, non d’une mesure OpenAI: aucun comptage de tokens n’était disponible. La méthode s’appuie sur des batches agentiques / requêtes équivalentes et exclut notamment l’entraînement, la fabrication du matériel, le poste utilisateur, le réseau, GitHub et les impacts indirects. Les analogies domestiques éventuelles ne sont que des illustrations, pas une méthode de calcul."%(energy["estimate_kwh_central"],energy["estimate_kwh_low"],energy["estimate_kwh_high"]),st["Body"]),Paragraph("Références énergétiques: "+", ".join("<link href='%s' color='#1D4ED8'>%s</link>"%(esc(x["url"]),esc(x["title"])) for x in energy.get("references",[])),st["Small"]),Paragraph("7. Conclusion",st["H1"]),Paragraph("Cette revue décrit la conformité factuelle des affirmations retenues et les limites qui leur sont associées. Elle ne constitue ni une note politique du programme ni une recommandation d’adopter ou de rejeter ses mesures.",st["Body"])]
-    doc.multiBuild(S); write_md(latest,ref,rows,counts)
+    energy_total="Consommation électrique totale estimée pour l'ensemble de l'analyse : <b>%s kWh</b> en valeur centrale, avec un intervalle plausible de <b>%s à %s kWh</b>."%(fmt_fr(energy["estimate_kwh_central"]),fmt_fr(energy["estimate_kwh_low"]),fmt_fr(energy["estimate_kwh_high"]))
+    S += [PageBreak(),Paragraph("5. Limites",st["H1"]),Paragraph("Le corpus repose sur une sélection des affirmations à rôle argumentatif et sur des jugements nécessaires à la normalisation. Les données disponibles et la qualité des sources varient selon les sujets; causalités et projections conservent une incertitude propre. Cette revue n’est pas une réplication indépendante complète par un second analyste et est temporellement bornée aux connaissances disponibles à la date pertinente.",st["Body"]),Paragraph("6. Empreinte énergétique totale estimée de l’analyse",st["H1"]),Paragraph(energy_total,st["Body"]),Paragraph("Il s’agit d’une estimation attribuable aux interactions d’inférence IA documentées, et non d’une mesure de l’infrastructure OpenAI: aucun comptage de tokens n’était disponible. La méthode finale reconstruit des batches agentiques et des requêtes équivalentes. Elle exclut notamment l’entraînement, la fabrication du matériel, le poste utilisateur, le réseau, GitHub et les impacts indirects. Les analogies domestiques éventuelles ne sont que des illustrations, pas une méthode de calcul.",st["Body"]),Paragraph("Références énergétiques: "+", ".join("<link href='%s' color='#1D4ED8'>%s</link>"%(esc(x["url"]),esc(x["title"])) for x in energy.get("references",[])),st["Small"]),Paragraph("7. Conclusion",st["H1"]),Paragraph("Cette revue décrit la conformité factuelle des affirmations retenues et les limites qui leur sont associées. Elle ne constitue ni une note politique du programme ni une recommandation d’adopter ou de rejeter ses mesures.",st["Body"])]
+    doc.multiBuild(S); write_md(latest,ref,rows,counts,energy)
     reader=PdfReader(str(PDF)); text="\n".join(p.extract_text() or "" for p in reader.pages); expected={r["id"] for r in rows}; ids={i for i in expected if i in text}
     if ids!=expected: raise RuntimeError("IDs PDF incomplets: %d/%d"%(len(ids),len(expected)))
     if any((r["id"] not in text or r["verdict"] not in text) for r in rows): raise RuntimeError("contenu PDF incomplet")
+    energy_probe=("%s kWh" % fmt_fr(energy["estimate_kwh_central"]))
+    if energy_probe not in text or "Empreinte énergétique totale" not in text: raise RuntimeError("estimation énergétique totale absente du PDF")
+    md_text=MD.read_text(encoding="utf-8")
+    if energy_probe not in md_text or "Empreinte énergétique totale" not in md_text: raise RuntimeError("estimation énergétique totale absente de la source Markdown")
     if PDF.stat().st_size<100000: raise RuntimeError("PDF anormalement petit")
     links=sum(1 for p in reader.pages for a in (p.get("/Annots") or []) if a.get_object().get("/A"))
     if links==0: raise RuntimeError("liens PDF absents")
@@ -147,6 +181,6 @@ def main():
     imgs=list(render.glob("*.png"))
     if len(imgs)!=len(reader.pages) or any(p.stat().st_size<1000 for p in imgs): raise RuntimeError("rendu PDF invalide")
     sha=hashlib.sha256(PDF.read_bytes()).hexdigest()
-    manifest={"generated_at_utc":datetime.now(timezone.utc).isoformat(),"checkpoint_factuel_utilise":ref["name"],"sha256_checkpoint":hashlib.sha256(cp_path.read_bytes()).hexdigest(),"checkpoint_uncompressed_sha256":ref["uncompressed_sha256"],"statistiques_finales":{v:counts[v] for v in ALLOWED},"estimation_energetique_kwh":{"central":energy["estimate_kwh_central"],"low":energy["estimate_kwh_low"],"high":energy["estimate_kwh_high"]},"pdf":{"name":PDF.name,"size_bytes":PDF.stat().st_size,"pages":len(reader.pages),"sha256":sha,"link_annotations":links},"source":{"name":MD.name,"sha256":hashlib.sha256(MD.read_bytes()).hexdigest()},"qa":{"ids":len(ids),"rendered_pages":len(imgs),"status":"passed"}}
+    manifest={"generated_at_utc":datetime.now(timezone.utc).isoformat(),"checkpoint_factuel_utilise":ref["name"],"sha256_checkpoint":hashlib.sha256(cp_path.read_bytes()).hexdigest(),"checkpoint_uncompressed_sha256":ref["uncompressed_sha256"],"statistiques_finales":{v:counts[v] for v in ALLOWED},"estimation_energetique_kwh":{"central":energy["estimate_kwh_central"],"low":energy["estimate_kwh_low"],"high":energy["estimate_kwh_high"],"section_verified":True},"pdf":{"name":PDF.name,"size_bytes":PDF.stat().st_size,"pages":len(reader.pages),"sha256":sha,"link_annotations":links},"source":{"name":MD.name,"sha256":hashlib.sha256(MD.read_bytes()).hexdigest()},"qa":{"ids":len(ids),"rendered_pages":len(imgs),"energy_section_verified":True,"status":"passed"}}
     MANIFEST.write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding="utf-8"); print(json.dumps(manifest,ensure_ascii=False))
 if __name__=="__main__": main()
