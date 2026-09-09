@@ -43,6 +43,16 @@ jobs:
           git add reports/final checkpoints/latest.json metrics/compute_log.jsonl
           git diff --cached --quiet || git commit -m "Generate and validate final factual review report"
           git push
+      - name: Create publication v1.0.1
+        if: contains(github.event.head_commit.message, 'Reconcile energy methodology')
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.0.1
+          name: v1.0.1
+          target_commitish: main
+          body: |
+            Révision de la méthodologie d'estimation énergétique ; aucun changement aux 564 évaluations factuelles.
+          files: reports/final/revue_factuelle_programme_ecologistes_2026.pdf
       - uses: actions/upload-artifact@v4
         with:
           name: final-report-qa
