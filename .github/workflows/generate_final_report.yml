@@ -1,0 +1,53 @@
+name: Generate final factual review report
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/generate_final_report.py
+      - .github/workflows/generate_final_report.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install reportlab pypdf
+      - run: python scripts/generate_final_report.py
+      - name: Record generation state
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          p='checkpoints/latest.json'
+          d=json.load(open(p,encoding='utf-8'))
+          d['phase']='rapport final généré et validé'
+          d['report_final']={'status':'généré et validé','generated_at_utc':datetime.now(timezone.utc).isoformat(),'pdf':'reports/final/revue_factuelle_programme_ecologistes_2026.pdf','manifest':'reports/final/REPORT_MANIFEST.json'}
+          open(p,'w',encoding='utf-8').write(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
+          with open('metrics/compute_log.jsonl','a',encoding='utf-8') as f:
+              f.write(json.dumps({'timestamp_utc':datetime.now(timezone.utc).isoformat(),'phase':'génération et QA du rapport final','model':'GitHub Actions / génération déterministe','claims_completed':0,'notes':'Génération PDF depuis checkpoint final; aucune nouvelle analyse factuelle.'},ensure_ascii=False)+'\n')
+          PY
+      - name: Commit final report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/final checkpoints/latest.json metrics/compute_log.jsonl
+          git diff --cached --quiet || git commit -m "Generate and validate final factual review report"
+          git push
+      - uses: actions/upload-artifact@v4
+        with:
+          name: final-report-qa
+          path: |
+            reports/final/revue_factuelle_programme_ecologistes_2026.pdf
+            reports/final/REPORT_MANIFEST.json
+            reports/final/qa_render
+          if-no-files-found: error
+          retention-days: 7
