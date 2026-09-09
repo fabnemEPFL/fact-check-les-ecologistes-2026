@@ -1,13 +1,13 @@
 {
-  "schema": "fact-check-les-ecologistes-2026/energy-estimate/v2",
-  "generated_at_utc": "2026-09-09T14:25:00Z",
-  "revision": "Sanity check méthodologique: les entrées du journal sont des unités de travail agentiques/batches et non des inférences uniques. La v1 sous-explicitait les itérations.",
-  "estimate_kwh_central": 0.5,
+  "schema": "fact-check-les-ecologistes-2026/energy-estimate/v3",
+  "generated_at_utc": "2026-09-09T23:00:00Z",
+  "revision": "Réconciliation finale: la v1 par affirmation surestimait les synthèses lourdes indépendantes; la v2 par batches sous-explicitait les continuations après outils.",
+  "estimate_kwh_central": 0.7,
   "estimate_kwh_low": 0.1,
-  "estimate_kwh_high": 2,
+  "estimate_kwh_high": 4,
   "scope": "Électricité attribuable à l'inférence IA des interactions de fact-checking consignées jusqu'à la QA mécanique finale. Estimation, non-mesure; l'estimation elle-même est exclue de l'activité factuelle.",
   "activity_metrics": {
-    "journal_entries_before_energy_estimation": 53,
+    "journal_snapshot_entries_before_energy_estimation": 53,
     "models_named": {
       "GPT-5 Codex": 41,
       "GPT-5.6 Sol": 3
@@ -26,10 +26,30 @@
     }
   },
   "journal_interpretation": {
-    "entry_meaning": "Une entrée peut être un batch de 5–54 affirmations, un checkpoint de continuité, une passe de nettoyage/résolution des sources, une cohérence ou une QA. Elle n'est ni un appel modèle ni une conversation Work complète de façon uniforme.",
+    "entry_meaning": "Une entrée peut être un batch de 5–54 affirmations, un checkpoint de continuité, un nettoyage, une résolution des sources, une cohérence ou une QA. Ce n'est ni un appel modèle ni une conversation Work complète de façon uniforme.",
     "substantive_batches_reconstructed": 50,
-    "derivation": "Lignes avec affirmations traitées et/ou phase de nettoyage, résolution des sources ou cohérence; les checkpoints de la même séquence ne sont pas promus mécaniquement en requêtes lourdes indépendantes."
+    "continuations_after_tools": "inconnues; 623 interactions outil/recherche sont un proxy, pas une télémétrie d'appels modèle."
   },
+  "methods": [
+    {
+      "name": "A — approximation intermédiaire par affirmation",
+      "result_kwh": 2.7,
+      "calculation_wh": "415 × 4.32 × 1.5 = 2689.2",
+      "description": "Une requête très lourde par affirmation; utile comme scénario conservateur mais double-compte probablement des synthèses mutualisées."
+    },
+    {
+      "name": "B — batches agentiques, méthode précédente",
+      "result_kwh": 0.449,
+      "calculation_wh": "50 × 2 × 3.91 + 187 × 0.31 = 449.07",
+      "description": "Corrige le comptage par affirmation mais n'explicite qu'une fraction des continuations après outils."
+    },
+    {
+      "name": "C — réconciliation retenue",
+      "result_kwh": 0.703,
+      "calculation_wh": "50 × 2 × 3.91 + 312 × 1.0 = 703",
+      "description": "Deux synthèses longues par batch et une continuation de coordination plausible pour environ la moitié des 623 interactions outils/recherche. Les deux facteurs sont hypothétiques."
+    }
+  ],
   "scenarios": {
     "low": {
       "units": {
@@ -42,107 +62,61 @@
         "coordination_per_turn": 0.16
       },
       "calculation_wh": "50 × 1 × 1.5 + 62 × 0.16 = 84.92",
-      "total_kwh": 0.1,
-      "interpretation": "Service très efficace et fort regroupement; charge maintenue au-dessus d'un simple prompt médian car chaque batch est un travail factuel."
+      "total_kwh": 0.1
     },
     "central": {
       "units": {
         "substantive_batches": 50,
         "long_reasoning_equivalents_per_batch": 2,
-        "coordination_turns_equivalent": 187
+        "plausible_tool_continuations": 312
       },
       "energy_wh": {
         "long_reasoning_per_equivalent": 3.91,
-        "coordination_per_turn": 0.31
+        "continuation_per_turn": 1
       },
-      "calculation_wh": "50 × 2 × 3.91 + 187 × 0.31 = 449.07",
-      "total_kwh": 0.5,
-      "interpretation": "Deux synthèses/itérations de raisonnement long par batch en moyenne, plus une fraction prudente des interactions outils/recherche comme tours de coordination; arrondi."
+      "calculation_wh": "50 × 2 × 3.91 + 312 × 1.0 = 703",
+      "total_kwh": 0.7
     },
     "high": {
       "units": {
         "substantive_batches": 50,
         "long_reasoning_equivalents_per_batch": 5,
-        "coordination_turns_equivalent": 436
+        "plausible_tool_continuations": 623
       },
       "energy_wh": {
         "long_reasoning_per_equivalent": 7.05,
-        "coordination_per_turn": 0.6
+        "continuation_per_turn": 3.6
       },
-      "calculation_wh": "50 × 5 × 7.05 + 436 × 0.60 = 2024.1",
-      "total_kwh": 2,
-      "interpretation": "Long contexte et reprises fréquentes; borne plausible prudente, non maximum physique."
+      "calculation_wh": "50 × 5 × 7.05 + 623 × 3.6 = 4005.3",
+      "total_kwh": 4
     }
   },
-  "methods": [
-    {
-      "name": "A — reconstruction par activité/runs agentiques",
-      "result_kwh": {
-        "low": 0.1,
-        "central": 0.5,
-        "high": 2
-      },
-      "description": "Décompose 50 batches substantiels et un sous-ensemble probabiliste de 623 interactions outils/recherche en tours de coordination. Les checkpoints ne sont pas tous comptés comme requêtes lourdes distinctes."
-    },
-    {
-      "name": "B — contrôle par affirmation/batch",
-      "units": {
-        "claims_completed_logged": 522,
-        "claims_per_reasoning_synthesis": {
-          "low": 10,
-          "central": 4.5,
-          "high": 2
-        }
-      },
-      "equivalent_syntheses": {
-        "low": 53,
-        "central": 116,
-        "high": 261
-      },
-      "energy_wh_per_synthesis": {
-        "low": 1.5,
-        "central": 3.91,
-        "high": 7.05
-      },
-      "calculation_kwh": {
-        "low": 0.08,
-        "central": 0.45,
-        "high": 1.84
-      },
-      "description": "Les affirmations sont traitées en groupes; cette méthode ne les transforme pas en 522 appels indépendants. Elle converge avec A autour de 0.45–0.5 kWh au centre."
-    }
-  ],
   "assumptions": [
     "Aucune conversion de prix, crédits ou tokens en kWh.",
-    "Les 0.31 Wh et 3.91 Wh d'Oviedo et al. sont des références de charge, non des mesures OpenAI.",
-    "Les appels d'outil ne révèlent pas exactement le nombre de continuations modèle; l'estimation emploie donc des fractions de tours de coordination et une grande plage.",
+    "Les valeurs d'Oviedo et al. calibrent des charges et ne mesurent pas OpenAI.",
+    "Les outils ne révèlent pas le nombre de continuations: les 312 et 623 sont des scénarios explicites.",
     "Hors périmètre: entraînement, fabrication, poste utilisateur, réseau, GitHub et impacts indirects."
   ],
   "references": [
     {
-      "title": "Oviedo et al., Energy Use of AI Inference: Efficiency Pathways and Test-Time Compute",
+      "title": "Oviedo et al., Energy Use of AI Inference: Efficiency Pathways and Test-Time Scaling",
       "url": "https://arxiv.org/abs/2509.20241",
-      "use": "0.31 Wh médian par requête >200B et 3.91 Wh pour scénario 15× test-time compute; étude bottom-up, pas OpenAI."
+      "use": "0.31 Wh médian par requête >200B (IQR 0.16–0.60); 3.91 Wh pour scénario 15× (IQR 2.15–7.05). Étude bottom-up, pas OpenAI."
     },
     {
-      "title": "Google, Measuring the environmental impact of delivering AI at Google scale",
+      "title": "Elsworth et al., Measuring the environmental impact of delivering AI at Google scale",
       "url": "https://services.google.com/fh/files/misc/measuring_the_environmental_impact_of_delivering_ai_at_google_scale.pdf",
-      "use": "méthode de mesure en production; 0.24 Wh pour prompt Gemini Apps médian, non transposé."
+      "use": "Mesure production; 0.24 Wh pour prompt Gemini Apps médian, non transposée."
     },
     {
       "title": "Chung et al., The ML.ENERGY Benchmark",
       "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/73750e4e965ab29ac16a4bb38c4c1b9f-Abstract-Datasets_and_Benchmarks_Track.html",
-      "use": "variabilité par charge et déploiement."
-    },
-    {
-      "title": "Niu et al., TokenPowerBench",
-      "url": "https://arxiv.org/abs/2512.03024",
-      "use": "importance des phases prefill/décodage, contexte et moteur."
+      "use": "Variabilité importante selon la charge, le batch et le déploiement."
     }
   ],
   "uncertainty_notes": [
-    "Aucune télémétrie de tokens, de matériel, de PUE, de batch ni de véritables appels internes n'est disponible.",
-    "Les 50 batches et les fractions de coordination sont des reconstructions; elles sont explicites et non observées.",
-    "0.5 kWh est un arrondi de la convergence de A (0.449 kWh) et B (0.45 kWh), pas une mesure."
+    "Aucune télémétrie de tokens, matériel, PUE, batch ou appels internes.",
+    "La plage 0.1–4 kWh est une plage plausible, pas un intervalle statistique.",
+    "La borne haute englobe l'ancienne estimation de 2.7 kWh; celle-ci n'est pas retenue au centre."
   ]
 }
