@@ -1,7 +1,7 @@
 {
   "schema": "fact-check-les-ecologistes-2026/latest/v1",
-  "timestamp_utc": "2026-09-09T07:37:25Z",
-  "phase": "passe de cohérence factuelle ciblée — terminée",
+  "timestamp_utc": "2026-09-09T12:42:28Z",
+  "phase": "QA mécanique finale — terminée",
   "source_pdf_pages": 208,
   "chapters_covered": 66,
   "counters": {
@@ -79,5 +79,18 @@
     "sources_unresolved_after_batch": 0,
     "claims_still_problem_non_resolved": 0,
     "source_registry": "analysis/source_registry_final.json"
+  },
+  "qa_final": {
+    "status": "terminée",
+    "checkpoint": "checkpoints/final_coherence_2026-09-09_targeted.json.xz.b64",
+    "report_ready": true,
+    "blocking_anomalies": 0,
+    "nonblocking_anomalies": 0,
+    "artifacts": [
+      "analysis/statistics_final.json",
+      "analysis/statistics_final.csv",
+      "analysis/quality_control_final.json",
+      "analysis/anomalies_final.md"
+    ]
   }
 }
