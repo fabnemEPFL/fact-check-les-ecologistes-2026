@@ -1,0 +1,79 @@
+{
+  "schema": "fact-check-les-ecologistes-2026/energy-estimate/v1",
+  "generated_at_utc": "2026-09-09T14:00:00Z",
+  "estimate_kwh_central": 0.2,
+  "estimate_kwh_low": 0.08,
+  "estimate_kwh_high": 0.7,
+  "scope": "Électricité attribuable à l'inférence IA des interactions de fact-checking consignées dans metrics/compute_log.jsonl, de la reprise initiale à la QA mécanique finale. Estimation; non-mesure.",
+  "activity_metrics": {
+    "log_entries": 53,
+    "model_runs_recorded": 53,
+    "models": {
+      "GPT-5 Codex": {
+        "runs": 41,
+        "claims_completed_logged": 522
+      },
+      "GPT-5.6 Sol": {
+        "runs": 3
+      },
+      "model_unspecified": {
+        "runs": 9
+      }
+    },
+    "claims_unique": 564,
+    "occurrences": 568,
+    "claims_completed_sum_logged": 522,
+    "web_search_calls_or_batches_approx": 75,
+    "other_tool_calls_approx": 548,
+    "token_metrics": {
+      "input_tokens": null,
+      "output_tokens": null,
+      "reasoning_tokens": null,
+      "cached_tokens": null
+    },
+    "note": "Les totaux de claims sont des activités pouvant se recouvrir entre passes; ils ne servent pas à compter des appels modèle."
+  },
+  "methods": [
+    {
+      "name": "Scénarios par unité de travail",
+      "description": "53 entrées/runs journalisés, classés en travail factuel lourd, nettoyage/résolution des sources, cohérence et QA. Le scénario central attribue des énergies par run compatibles avec une succession de requêtes longues et de raisonnement; bas et haut encadrent respectivement une exécution efficacement servie et des charges à long contexte/raisonnement."
+    },
+    {
+      "name": "Ancrage requête",
+      "description": "Oviedo et al. estiment 0.31 Wh/query médian (IQR 0.16–0.60) pour un modèle >200B servi à grande échelle, et 3.91 Wh (IQR 2.15–7.05) lorsque le test-time compute multiplie les tokens par 15. Google mesure 0.24 Wh pour le prompt textuel médian Gemini Apps. Ces valeurs ne sont pas supposées être celles d'OpenAI; elles servent d'ordres de grandeur indépendants."
+    }
+  ],
+  "assumptions": [
+    "Les 53 entrées du journal sont des unités de travail visibles, pas nécessairement un appel modèle unique.",
+    "La charge fact-checking est plus lourde qu'un prompt textuel médian: contexte long, recherche, itérations et raisonnement; les scénarios ne convertissent pas les prix/credits/tokens absents en kWh.",
+    "Les recherches et outils ne sont pas mesurés séparément. Leur impact côté serveurs auxiliaires est signalé mais non ajouté de manière chiffrée pour éviter un double comptage arbitraire.",
+    "Périmètre: inférence IA seulement; hors entraînement, fabrication, ordinateur utilisateur, réseau, stockage GitHub et impacts indirects."
+  ],
+  "references": [
+    {
+      "title": "Oviedo et al., Energy Use of AI Inference: Efficiency Pathways and Test-Time Compute",
+      "url": "https://arxiv.org/abs/2509.20241",
+      "type": "bottom-up study; production-scale assumptions"
+    },
+    {
+      "title": "Google, Measuring the environmental impact of delivering AI at Google scale",
+      "url": "https://services.google.com/fh/files/misc/measuring_the_environmental_impact_of_delivering_ai_at_google_scale.pdf",
+      "type": "production measurement methodology"
+    },
+    {
+      "title": "Chung et al., The ML.ENERGY Benchmark",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/73750e4e965ab29ac16a4bb38c4c1b9f-Abstract-Datasets_and_Benchmarks_Track.html",
+      "type": "benchmark; shows sensitivity to workload and deployment"
+    },
+    {
+      "title": "Niu et al., TokenPowerBench",
+      "url": "https://arxiv.org/abs/2512.03024",
+      "type": "benchmark; phase-level measurement"
+    }
+  ],
+  "uncertainty_notes": [
+    "Modèles internes, matériel, utilisation, batching, PUE et volumes de tokens inconnus.",
+    "Les compteurs d'outils sont approximatifs et certains champs de phase sont incomplets.",
+    "La borne haute est volontairement prudente mais non une majoration garantie."
+  ]
+}
