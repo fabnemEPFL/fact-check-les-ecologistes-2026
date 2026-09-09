@@ -1,7 +1,7 @@
 {
   "schema": "fact-check-les-ecologistes-2026/latest/v1",
   "timestamp_utc": "2026-09-09T14:25:00Z",
-  "phase": "QA mécanique finale et estimation énergétique — sanity check terminé",
+  "phase": "rapport final généré et validé",
   "source_pdf_pages": 208,
   "chapters_covered": 66,
   "counters": {
@@ -110,5 +110,11 @@
     },
     "factual_checkpoint_unchanged": "checkpoints/final_coherence_2026-09-09_targeted.json.xz.b64",
     "completed_at_utc": "2026-09-09T14:25:00Z"
+  },
+  "report_final": {
+    "status": "généré et validé",
+    "generated_at_utc": "2026-09-09T14:09:20.747792+00:00",
+    "pdf": "reports/final/revue_factuelle_programme_ecologistes_2026.pdf",
+    "manifest": "reports/final/REPORT_MANIFEST.json"
   }
 }
