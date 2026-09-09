@@ -1,79 +1,148 @@
 {
-  "schema": "fact-check-les-ecologistes-2026/energy-estimate/v1",
-  "generated_at_utc": "2026-09-09T14:00:00Z",
-  "estimate_kwh_central": 0.2,
-  "estimate_kwh_low": 0.08,
-  "estimate_kwh_high": 0.7,
-  "scope": "Électricité attribuable à l'inférence IA des interactions de fact-checking consignées dans metrics/compute_log.jsonl, de la reprise initiale à la QA mécanique finale. Estimation; non-mesure.",
+  "schema": "fact-check-les-ecologistes-2026/energy-estimate/v2",
+  "generated_at_utc": "2026-09-09T14:25:00Z",
+  "revision": "Sanity check méthodologique: les entrées du journal sont des unités de travail agentiques/batches et non des inférences uniques. La v1 sous-explicitait les itérations.",
+  "estimate_kwh_central": 0.5,
+  "estimate_kwh_low": 0.1,
+  "estimate_kwh_high": 2,
+  "scope": "Électricité attribuable à l'inférence IA des interactions de fact-checking consignées jusqu'à la QA mécanique finale. Estimation, non-mesure; l'estimation elle-même est exclue de l'activité factuelle.",
   "activity_metrics": {
-    "log_entries": 53,
-    "model_runs_recorded": 53,
-    "models": {
-      "GPT-5 Codex": {
-        "runs": 41,
-        "claims_completed_logged": 522
-      },
-      "GPT-5.6 Sol": {
-        "runs": 3
-      },
-      "model_unspecified": {
-        "runs": 9
-      }
+    "journal_entries_before_energy_estimation": 53,
+    "models_named": {
+      "GPT-5 Codex": 41,
+      "GPT-5.6 Sol": 3
     },
-    "claims_unique": 564,
-    "occurrences": 568,
-    "claims_completed_sum_logged": 522,
+    "model_unspecified_entries": 9,
+    "claims_unique_final": 564,
+    "claims_completed_logged": 522,
     "web_search_calls_or_batches_approx": 75,
     "other_tool_calls_approx": 548,
+    "tool_or_search_interactions_approx": 623,
     "token_metrics": {
       "input_tokens": null,
       "output_tokens": null,
       "reasoning_tokens": null,
       "cached_tokens": null
+    }
+  },
+  "journal_interpretation": {
+    "entry_meaning": "Une entrée peut être un batch de 5–54 affirmations, un checkpoint de continuité, une passe de nettoyage/résolution des sources, une cohérence ou une QA. Elle n'est ni un appel modèle ni une conversation Work complète de façon uniforme.",
+    "substantive_batches_reconstructed": 50,
+    "derivation": "Lignes avec affirmations traitées et/ou phase de nettoyage, résolution des sources ou cohérence; les checkpoints de la même séquence ne sont pas promus mécaniquement en requêtes lourdes indépendantes."
+  },
+  "scenarios": {
+    "low": {
+      "units": {
+        "substantive_batches": 50,
+        "long_reasoning_equivalents_per_batch": 1,
+        "coordination_turns_equivalent": 62
+      },
+      "energy_wh": {
+        "long_reasoning_per_equivalent": 1.5,
+        "coordination_per_turn": 0.16
+      },
+      "calculation_wh": "50 × 1 × 1.5 + 62 × 0.16 = 84.92",
+      "total_kwh": 0.1,
+      "interpretation": "Service très efficace et fort regroupement; charge maintenue au-dessus d'un simple prompt médian car chaque batch est un travail factuel."
     },
-    "note": "Les totaux de claims sont des activités pouvant se recouvrir entre passes; ils ne servent pas à compter des appels modèle."
+    "central": {
+      "units": {
+        "substantive_batches": 50,
+        "long_reasoning_equivalents_per_batch": 2,
+        "coordination_turns_equivalent": 187
+      },
+      "energy_wh": {
+        "long_reasoning_per_equivalent": 3.91,
+        "coordination_per_turn": 0.31
+      },
+      "calculation_wh": "50 × 2 × 3.91 + 187 × 0.31 = 449.07",
+      "total_kwh": 0.5,
+      "interpretation": "Deux synthèses/itérations de raisonnement long par batch en moyenne, plus une fraction prudente des interactions outils/recherche comme tours de coordination; arrondi."
+    },
+    "high": {
+      "units": {
+        "substantive_batches": 50,
+        "long_reasoning_equivalents_per_batch": 5,
+        "coordination_turns_equivalent": 436
+      },
+      "energy_wh": {
+        "long_reasoning_per_equivalent": 7.05,
+        "coordination_per_turn": 0.6
+      },
+      "calculation_wh": "50 × 5 × 7.05 + 436 × 0.60 = 2024.1",
+      "total_kwh": 2,
+      "interpretation": "Long contexte et reprises fréquentes; borne plausible prudente, non maximum physique."
+    }
   },
   "methods": [
     {
-      "name": "Scénarios par unité de travail",
-      "description": "53 entrées/runs journalisés, classés en travail factuel lourd, nettoyage/résolution des sources, cohérence et QA. Le scénario central attribue des énergies par run compatibles avec une succession de requêtes longues et de raisonnement; bas et haut encadrent respectivement une exécution efficacement servie et des charges à long contexte/raisonnement."
+      "name": "A — reconstruction par activité/runs agentiques",
+      "result_kwh": {
+        "low": 0.1,
+        "central": 0.5,
+        "high": 2
+      },
+      "description": "Décompose 50 batches substantiels et un sous-ensemble probabiliste de 623 interactions outils/recherche en tours de coordination. Les checkpoints ne sont pas tous comptés comme requêtes lourdes distinctes."
     },
     {
-      "name": "Ancrage requête",
-      "description": "Oviedo et al. estiment 0.31 Wh/query médian (IQR 0.16–0.60) pour un modèle >200B servi à grande échelle, et 3.91 Wh (IQR 2.15–7.05) lorsque le test-time compute multiplie les tokens par 15. Google mesure 0.24 Wh pour le prompt textuel médian Gemini Apps. Ces valeurs ne sont pas supposées être celles d'OpenAI; elles servent d'ordres de grandeur indépendants."
+      "name": "B — contrôle par affirmation/batch",
+      "units": {
+        "claims_completed_logged": 522,
+        "claims_per_reasoning_synthesis": {
+          "low": 10,
+          "central": 4.5,
+          "high": 2
+        }
+      },
+      "equivalent_syntheses": {
+        "low": 53,
+        "central": 116,
+        "high": 261
+      },
+      "energy_wh_per_synthesis": {
+        "low": 1.5,
+        "central": 3.91,
+        "high": 7.05
+      },
+      "calculation_kwh": {
+        "low": 0.08,
+        "central": 0.45,
+        "high": 1.84
+      },
+      "description": "Les affirmations sont traitées en groupes; cette méthode ne les transforme pas en 522 appels indépendants. Elle converge avec A autour de 0.45–0.5 kWh au centre."
     }
   ],
   "assumptions": [
-    "Les 53 entrées du journal sont des unités de travail visibles, pas nécessairement un appel modèle unique.",
-    "La charge fact-checking est plus lourde qu'un prompt textuel médian: contexte long, recherche, itérations et raisonnement; les scénarios ne convertissent pas les prix/credits/tokens absents en kWh.",
-    "Les recherches et outils ne sont pas mesurés séparément. Leur impact côté serveurs auxiliaires est signalé mais non ajouté de manière chiffrée pour éviter un double comptage arbitraire.",
-    "Périmètre: inférence IA seulement; hors entraînement, fabrication, ordinateur utilisateur, réseau, stockage GitHub et impacts indirects."
+    "Aucune conversion de prix, crédits ou tokens en kWh.",
+    "Les 0.31 Wh et 3.91 Wh d'Oviedo et al. sont des références de charge, non des mesures OpenAI.",
+    "Les appels d'outil ne révèlent pas exactement le nombre de continuations modèle; l'estimation emploie donc des fractions de tours de coordination et une grande plage.",
+    "Hors périmètre: entraînement, fabrication, poste utilisateur, réseau, GitHub et impacts indirects."
   ],
   "references": [
     {
       "title": "Oviedo et al., Energy Use of AI Inference: Efficiency Pathways and Test-Time Compute",
       "url": "https://arxiv.org/abs/2509.20241",
-      "type": "bottom-up study; production-scale assumptions"
+      "use": "0.31 Wh médian par requête >200B et 3.91 Wh pour scénario 15× test-time compute; étude bottom-up, pas OpenAI."
     },
     {
       "title": "Google, Measuring the environmental impact of delivering AI at Google scale",
       "url": "https://services.google.com/fh/files/misc/measuring_the_environmental_impact_of_delivering_ai_at_google_scale.pdf",
-      "type": "production measurement methodology"
+      "use": "méthode de mesure en production; 0.24 Wh pour prompt Gemini Apps médian, non transposé."
     },
     {
       "title": "Chung et al., The ML.ENERGY Benchmark",
       "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/73750e4e965ab29ac16a4bb38c4c1b9f-Abstract-Datasets_and_Benchmarks_Track.html",
-      "type": "benchmark; shows sensitivity to workload and deployment"
+      "use": "variabilité par charge et déploiement."
     },
     {
       "title": "Niu et al., TokenPowerBench",
       "url": "https://arxiv.org/abs/2512.03024",
-      "type": "benchmark; phase-level measurement"
+      "use": "importance des phases prefill/décodage, contexte et moteur."
     }
   ],
   "uncertainty_notes": [
-    "Modèles internes, matériel, utilisation, batching, PUE et volumes de tokens inconnus.",
-    "Les compteurs d'outils sont approximatifs et certains champs de phase sont incomplets.",
-    "La borne haute est volontairement prudente mais non une majoration garantie."
+    "Aucune télémétrie de tokens, de matériel, de PUE, de batch ni de véritables appels internes n'est disponible.",
+    "Les 50 batches et les fractions de coordination sont des reconstructions; elles sont explicites et non observées.",
+    "0.5 kWh est un arrondi de la convergence de A (0.449 kWh) et B (0.45 kWh), pas une mesure."
   ]
 }
