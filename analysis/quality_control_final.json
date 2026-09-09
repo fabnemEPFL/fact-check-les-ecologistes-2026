@@ -1,0 +1,149 @@
+{
+  "timestamp_utc": "2026-09-09T12:42:28Z",
+  "checkpoint_analysed": "checkpoints/final_coherence_2026-09-09_targeted.json.xz.b64",
+  "hashes": {
+    "checkpoint_b64_sha256": "fcd8ed6f4c0ba44e16236a2f2641aaba46e19eb48b603feaa697d620a36a8ae2",
+    "checkpoint_uncompressed_sha256": "fce47f27418965733511a98e630129dc54afb574beb421f2bdfa22e23b6c0d32"
+  },
+  "expected": {
+    "unique_claims": 564,
+    "occurrences": 568,
+    "cleanup_completed": 564
+  },
+  "observed": {
+    "unique_claims": 564,
+    "occurrences": 568,
+    "cleanup_completed": 564
+  },
+  "checks": {
+    "unique_claim_count": {
+      "ok": true,
+      "observed": 564,
+      "expected": 564
+    },
+    "duplicate_ids": {
+      "ok": true,
+      "observed": [],
+      "expected": []
+    },
+    "occurrence_count": {
+      "ok": true,
+      "observed": 568,
+      "expected": 568
+    },
+    "all_verdicts_present": {
+      "ok": true,
+      "observed": 0,
+      "expected": 0,
+      "detail": []
+    },
+    "verdict_taxonomy": {
+      "ok": true,
+      "observed": [],
+      "expected": [],
+      "detail": []
+    },
+    "nonempty_justifications": {
+      "ok": true,
+      "observed": 0,
+      "expected": 0,
+      "detail": []
+    },
+    "essential_provenance": {
+      "ok": true,
+      "observed": 0,
+      "expected": 0,
+      "detail": []
+    },
+    "cleanup_completed": {
+      "ok": true,
+      "observed": 564,
+      "expected": 564
+    },
+    "source_check_pending": {
+      "ok": true,
+      "observed": 0,
+      "expected": 0
+    },
+    "source_check_unresolved": {
+      "ok": true,
+      "observed": 0,
+      "expected": 0
+    },
+    "sanity_check_pending": {
+      "ok": true,
+      "observed": 0,
+      "expected": 0
+    },
+    "used_sources_traceable": {
+      "ok": true,
+      "observed": 0,
+      "expected": 0,
+      "detail": []
+    },
+    "source_urls_nonempty": {
+      "ok": true,
+      "observed": 0,
+      "expected": 0,
+      "detail": []
+    },
+    "source_urls_syntax": {
+      "ok": true,
+      "observed": 0,
+      "expected": 0,
+      "detail": []
+    },
+    "duplicate_source_same_claim": {
+      "ok": true,
+      "observed": 0,
+      "expected": 0,
+      "detail": []
+    },
+    "registry_unresolved": {
+      "ok": true,
+      "observed": 0,
+      "expected": 0,
+      "detail": {
+        "null": 2,
+        "url_corrected": 91,
+        "source_replaced": 11,
+        "removed_redundant": 12,
+        "verified": 20,
+        "replaced": 3
+      }
+    },
+    "context_needed_implies_context": {
+      "ok": true,
+      "observed": 0,
+      "expected": 0,
+      "detail": []
+    },
+    "context_not_abnormally_long": {
+      "ok": true,
+      "observed": 0,
+      "expected": 0,
+      "detail": []
+    },
+    "pages_in_pdf_range": {
+      "ok": true,
+      "observed": 0,
+      "expected": 0,
+      "detail": []
+    },
+    "chapters_in_range": {
+      "ok": true,
+      "observed": 0,
+      "expected": 0,
+      "detail": []
+    },
+    "occurrence_pages_consistent": {
+      "ok": true,
+      "observed": 0,
+      "expected": 0,
+      "detail": []
+    }
+  },
+  "blocking_anomalies": [],
+  "nonblocking_anomalies": [],
+  "report_ready": true
+}
