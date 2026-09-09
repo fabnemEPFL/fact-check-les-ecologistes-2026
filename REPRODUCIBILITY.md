@@ -69,7 +69,7 @@ Le générateur doit terminer sans exception et le manifeste doit indiquer :
 - estimation énergétique reprise depuis `metrics/energy_estimate.json` ;
 - nombre de pages et SHA-256 du PDF nouvellement généré.
 
-Le rapport final doit explicitement contenir la **consommation électrique totale estimée pour l'ensemble de l'analyse** : 0,5 kWh en valeur centrale, avec une plage plausible de 0,1 à 2 kWh pour l'état final actuel.
+Le rapport final doit explicitement contenir la **consommation électrique totale estimée pour l'ensemble de l'analyse** : 0,7 kWh en valeur centrale, avec une plage plausible de 0,1 à 4 kWh. Cette valeur remplace l’approximation intermédiaire de 2,7 kWh, qui assimilait chaque affirmation à une requête lourde indépendante pour l'état final actuel.
 
 ## Vérification d'une version publiée
 
