@@ -1,7 +1,7 @@
 {
   "schema": "fact-check-les-ecologistes-2026/latest/v1",
-  "timestamp_utc": "2026-09-09T14:00:00Z",
-  "phase": "QA mécanique finale et estimation énergétique — terminées",
+  "timestamp_utc": "2026-09-09T14:25:00Z",
+  "phase": "QA mécanique finale et estimation énergétique — sanity check terminé",
   "source_pdf_pages": 208,
   "chapters_covered": 66,
   "counters": {
@@ -94,15 +94,21 @@
     ]
   },
   "energy_estimate": {
-    "status": "terminée",
+    "status": "terminée — sanity check méthodologique",
     "artifacts": [
       "metrics/energy_estimate.md",
-      "metrics/energy_estimate.json"
+      "metrics/energy_estimate.json",
+      "scripts/estimate_energy.py"
     ],
-    "estimate_kwh_central": 0.2,
-    "estimate_kwh_low": 0.08,
-    "estimate_kwh_high": 0.7,
+    "estimate_kwh_central": 0.5,
+    "estimate_kwh_low": 0.1,
+    "estimate_kwh_high": 2,
+    "previous_estimate_kwh": {
+      "central": 0.2,
+      "low": 0.08,
+      "high": 0.7
+    },
     "factual_checkpoint_unchanged": "checkpoints/final_coherence_2026-09-09_targeted.json.xz.b64",
-    "completed_at_utc": "2026-09-09T14:00:00Z"
+    "completed_at_utc": "2026-09-09T14:25:00Z"
   }
 }
