@@ -34,7 +34,7 @@ Le checkpoint factuel autoritatif est désigné par `checkpoints/latest.json`. �
 - Source Markdown : `reports/final/revue_factuelle_programme_ecologistes_2026.md`
 - Manifeste de publication : `reports/final/REPORT_MANIFEST.json`
 
-Le rapport reprend les **564 affirmations** et leurs sources finales. Il inclut aussi l'estimation de la **consommation électrique totale attribuable à l'inférence IA pour l'ensemble de l'analyse** : valeur centrale **0,5 kWh**, intervalle plausible **0,1–2 kWh**. Il s'agit d'une estimation, pas d'une mesure de l'infrastructure OpenAI.
+Le rapport reprend les **564 affirmations** et leurs sources finales. Il inclut aussi l'estimation de la **consommation électrique totale attribuable à l'inférence IA pour l'ensemble de l'analyse** : valeur centrale **0,7 kWh**, intervalle plausible **0,1–4 kWh**. Il s'agit d'une estimation, pas d'une mesure de l'infrastructure OpenAI. Elle remplace l’approximation intermédiaire de 2,7 kWh (« une requête lourde par affirmation ») par une reconstruction des batches et des continuations agentiques.
 
 ## Reproduire le PDF
 
